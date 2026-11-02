@@ -1,0 +1,601 @@
+serie_id,cod,tipo,sexo,anio,muertes,modelo,prediccion
+0,201,Estómago,Femenino,2022,12,Línea base (prom. 3 años),8.666666666666666
+0,201,Estómago,Femenino,2023,12,Línea base (prom. 3 años),10.333333333333334
+0,201,Estómago,Femenino,2024,11,Línea base (prom. 3 años),12.0
+0,201,Estómago,Femenino,2025,9,Línea base (prom. 3 años),11.666666666666666
+1,201,Estómago,Masculino,2022,13,Línea base (prom. 3 años),11.0
+1,201,Estómago,Masculino,2023,14,Línea base (prom. 3 años),12.333333333333334
+1,201,Estómago,Masculino,2024,10,Línea base (prom. 3 años),13.333333333333334
+1,201,Estómago,Masculino,2025,16,Línea base (prom. 3 años),12.333333333333334
+2,202,Colon y recto,Femenino,2022,9,Línea base (prom. 3 años),9.333333333333334
+2,202,Colon y recto,Femenino,2023,3,Línea base (prom. 3 años),10.333333333333334
+2,202,Colon y recto,Femenino,2024,6,Línea base (prom. 3 años),7.333333333333333
+2,202,Colon y recto,Femenino,2025,13,Línea base (prom. 3 años),6.0
+3,202,Colon y recto,Masculino,2022,7,Línea base (prom. 3 años),5.0
+3,202,Colon y recto,Masculino,2023,9,Línea base (prom. 3 años),5.666666666666667
+3,202,Colon y recto,Masculino,2024,5,Línea base (prom. 3 años),7.0
+3,202,Colon y recto,Masculino,2025,9,Línea base (prom. 3 años),7.0
+4,203,Otros digestivos,Femenino,2022,9,Línea base (prom. 3 años),13.0
+4,203,Otros digestivos,Femenino,2023,16,Línea base (prom. 3 años),14.0
+4,203,Otros digestivos,Femenino,2024,19,Línea base (prom. 3 años),12.666666666666666
+4,203,Otros digestivos,Femenino,2025,11,Línea base (prom. 3 años),14.666666666666666
+5,203,Otros digestivos,Masculino,2022,13,Línea base (prom. 3 años),16.666666666666668
+5,203,Otros digestivos,Masculino,2023,10,Línea base (prom. 3 años),16.666666666666668
+5,203,Otros digestivos,Masculino,2024,15,Línea base (prom. 3 años),14.0
+5,203,Otros digestivos,Masculino,2025,10,Línea base (prom. 3 años),12.666666666666666
+6,204,"Tráquea, bronquios y pulmón",Femenino,2022,2,Línea base (prom. 3 años),3.333333333333333
+6,204,"Tráquea, bronquios y pulmón",Femenino,2023,3,Línea base (prom. 3 años),3.6666666666666665
+6,204,"Tráquea, bronquios y pulmón",Femenino,2024,11,Línea base (prom. 3 años),2.6666666666666665
+6,204,"Tráquea, bronquios y pulmón",Femenino,2025,4,Línea base (prom. 3 años),5.333333333333333
+7,204,"Tráquea, bronquios y pulmón",Masculino,2022,8,Línea base (prom. 3 años),2.6666666666666665
+7,204,"Tráquea, bronquios y pulmón",Masculino,2023,3,Línea base (prom. 3 años),5.0
+7,204,"Tráquea, bronquios y pulmón",Masculino,2024,9,Línea base (prom. 3 años),4.333333333333333
+7,204,"Tráquea, bronquios y pulmón",Masculino,2025,13,Línea base (prom. 3 años),6.666666666666667
+8,205,Otros respiratorios,Femenino,2022,0,Línea base (prom. 3 años),0.6666666666666666
+8,205,Otros respiratorios,Femenino,2023,0,Línea base (prom. 3 años),0.3333333333333333
+8,205,Otros respiratorios,Femenino,2024,0,Línea base (prom. 3 años),0.3333333333333333
+8,205,Otros respiratorios,Femenino,2025,1,Línea base (prom. 3 años),0.0
+9,205,Otros respiratorios,Masculino,2022,1,Línea base (prom. 3 años),1.0
+9,205,Otros respiratorios,Masculino,2023,1,Línea base (prom. 3 años),1.3333333333333333
+9,205,Otros respiratorios,Masculino,2024,1,Línea base (prom. 3 años),1.0
+9,205,Otros respiratorios,Masculino,2025,1,Línea base (prom. 3 años),1.0
+10,206,Mama (mujer),Femenino,2022,9,Línea base (prom. 3 años),10.333333333333334
+10,206,Mama (mujer),Femenino,2023,9,Línea base (prom. 3 años),11.333333333333334
+10,206,Mama (mujer),Femenino,2024,9,Línea base (prom. 3 años),9.333333333333334
+10,206,Mama (mujer),Femenino,2025,6,Línea base (prom. 3 años),9.0
+11,207,Cuello uterino,Femenino,2022,6,Línea base (prom. 3 años),4.666666666666667
+11,207,Cuello uterino,Femenino,2023,8,Línea base (prom. 3 años),5.333333333333333
+11,207,Cuello uterino,Femenino,2024,5,Línea base (prom. 3 años),6.0
+11,207,Cuello uterino,Femenino,2025,4,Línea base (prom. 3 años),6.333333333333333
+12,208,Cuerpo del útero,Femenino,2022,4,Línea base (prom. 3 años),1.6666666666666667
+12,208,Cuerpo del útero,Femenino,2023,0,Línea base (prom. 3 años),2.6666666666666665
+12,208,Cuerpo del útero,Femenino,2024,2,Línea base (prom. 3 años),2.333333333333333
+12,208,Cuerpo del útero,Femenino,2025,2,Línea base (prom. 3 años),2.0
+13,209,Útero no especificado,Femenino,2022,5,Línea base (prom. 3 años),0.3333333333333333
+13,209,Útero no especificado,Femenino,2023,1,Línea base (prom. 3 años),2.0
+13,209,Útero no especificado,Femenino,2024,1,Línea base (prom. 3 años),2.333333333333333
+13,209,Útero no especificado,Femenino,2025,1,Línea base (prom. 3 años),2.333333333333333
+14,210,Próstata,Masculino,2022,11,Línea base (prom. 3 años),11.666666666666666
+14,210,Próstata,Masculino,2023,15,Línea base (prom. 3 años),11.0
+14,210,Próstata,Masculino,2024,15,Línea base (prom. 3 años),14.333333333333334
+14,210,Próstata,Masculino,2025,16,Línea base (prom. 3 años),13.666666666666666
+15,211,Otros genitourinarios,Femenino,2022,11,Línea base (prom. 3 años),8.666666666666666
+15,211,Otros genitourinarios,Femenino,2023,4,Línea base (prom. 3 años),9.333333333333334
+15,211,Otros genitourinarios,Femenino,2024,7,Línea base (prom. 3 años),8.333333333333334
+15,211,Otros genitourinarios,Femenino,2025,8,Línea base (prom. 3 años),7.333333333333333
+16,211,Otros genitourinarios,Masculino,2022,1,Línea base (prom. 3 años),3.333333333333333
+16,211,Otros genitourinarios,Masculino,2023,4,Línea base (prom. 3 años),2.6666666666666665
+16,211,Otros genitourinarios,Masculino,2024,5,Línea base (prom. 3 años),2.333333333333333
+16,211,Otros genitourinarios,Masculino,2025,6,Línea base (prom. 3 años),3.333333333333333
+17,212,Leucemia,Femenino,2022,3,Línea base (prom. 3 años),2.333333333333333
+17,212,Leucemia,Femenino,2023,6,Línea base (prom. 3 años),2.0
+17,212,Leucemia,Femenino,2024,3,Línea base (prom. 3 años),3.6666666666666665
+17,212,Leucemia,Femenino,2025,1,Línea base (prom. 3 años),4.0
+18,212,Leucemia,Masculino,2022,5,Línea base (prom. 3 años),3.0
+18,212,Leucemia,Masculino,2023,0,Línea base (prom. 3 años),3.333333333333333
+18,212,Leucemia,Masculino,2024,4,Línea base (prom. 3 años),2.0
+18,212,Leucemia,Masculino,2025,4,Línea base (prom. 3 años),3.0
+19,213,Linfático y hematopoyético,Femenino,2022,1,Línea base (prom. 3 años),3.333333333333333
+19,213,Linfático y hematopoyético,Femenino,2023,1,Línea base (prom. 3 años),3.0
+19,213,Linfático y hematopoyético,Femenino,2024,5,Línea base (prom. 3 años),1.6666666666666667
+19,213,Linfático y hematopoyético,Femenino,2025,6,Línea base (prom. 3 años),2.333333333333333
+20,213,Linfático y hematopoyético,Masculino,2022,3,Línea base (prom. 3 años),2.6666666666666665
+20,213,Linfático y hematopoyético,Masculino,2023,6,Línea base (prom. 3 años),2.6666666666666665
+20,213,Linfático y hematopoyético,Masculino,2024,4,Línea base (prom. 3 años),3.333333333333333
+20,213,Linfático y hematopoyético,Masculino,2025,3,Línea base (prom. 3 años),4.333333333333333
+21,214,Otras localizaciones,Femenino,2022,16,Línea base (prom. 3 años),10.666666666666666
+21,214,Otras localizaciones,Femenino,2023,9,Línea base (prom. 3 años),12.0
+21,214,Otras localizaciones,Femenino,2024,11,Línea base (prom. 3 años),12.0
+21,214,Otras localizaciones,Femenino,2025,21,Línea base (prom. 3 años),12.0
+22,214,Otras localizaciones,Masculino,2022,5,Línea base (prom. 3 años),9.0
+22,214,Otras localizaciones,Masculino,2023,12,Línea base (prom. 3 años),8.0
+22,214,Otras localizaciones,Masculino,2024,8,Línea base (prom. 3 años),7.333333333333333
+22,214,Otras localizaciones,Masculino,2025,11,Línea base (prom. 3 años),8.333333333333334
+23,215,In situ / benignos / incierto,Femenino,2022,3,Línea base (prom. 3 años),4.333333333333333
+23,215,In situ / benignos / incierto,Femenino,2023,7,Línea base (prom. 3 años),3.6666666666666665
+23,215,In situ / benignos / incierto,Femenino,2024,3,Línea base (prom. 3 años),4.666666666666667
+23,215,In situ / benignos / incierto,Femenino,2025,8,Línea base (prom. 3 años),4.333333333333333
+24,215,In situ / benignos / incierto,Masculino,2022,3,Línea base (prom. 3 años),1.3333333333333333
+24,215,In situ / benignos / incierto,Masculino,2023,3,Línea base (prom. 3 años),2.333333333333333
+24,215,In situ / benignos / incierto,Masculino,2024,5,Línea base (prom. 3 años),2.6666666666666665
+24,215,In situ / benignos / incierto,Masculino,2025,3,Línea base (prom. 3 años),3.6666666666666665
+0,201,Estómago,Femenino,2022,12,Poisson,12.336556005587394
+0,201,Estómago,Femenino,2023,12,Poisson,12.798597725078569
+0,201,Estómago,Femenino,2024,11,Poisson,13.053614751927336
+0,201,Estómago,Femenino,2025,9,Poisson,13.144840032700198
+1,201,Estómago,Masculino,2022,13,Poisson,13.46170283280921
+1,201,Estómago,Masculino,2023,14,Poisson,12.952726310621776
+1,201,Estómago,Masculino,2024,10,Poisson,13.229102193649236
+1,201,Estómago,Masculino,2025,16,Poisson,13.286638955503133
+2,202,Colon y recto,Femenino,2022,9,Poisson,8.21291685326494
+2,202,Colon y recto,Femenino,2023,3,Poisson,7.313438648982566
+2,202,Colon y recto,Femenino,2024,6,Poisson,6.7120689592751805
+2,202,Colon y recto,Femenino,2025,13,Poisson,5.738299613302746
+3,202,Colon y recto,Masculino,2022,7,Poisson,6.400597861097436
+3,202,Colon y recto,Masculino,2023,9,Poisson,6.0670944144549175
+3,202,Colon y recto,Masculino,2024,5,Poisson,6.699408445228905
+3,202,Colon y recto,Masculino,2025,9,Poisson,6.888033188338441
+4,203,Otros digestivos,Femenino,2022,9,Poisson,16.07004980311221
+4,203,Otros digestivos,Femenino,2023,16,Poisson,13.350466389767703
+4,203,Otros digestivos,Femenino,2024,19,Poisson,12.992022014470285
+4,203,Otros digestivos,Femenino,2025,11,Poisson,15.046409731938546
+5,203,Otros digestivos,Masculino,2022,13,Poisson,16.036614122098705
+5,203,Otros digestivos,Masculino,2023,10,Poisson,14.653498864709787
+5,203,Otros digestivos,Masculino,2024,15,Poisson,13.404095472754356
+5,203,Otros digestivos,Masculino,2025,10,Poisson,13.178291872407186
+6,204,"Tráquea, bronquios y pulmón",Femenino,2022,2,Poisson,5.2323707256185585
+6,204,"Tráquea, bronquios y pulmón",Femenino,2023,3,Poisson,4.217729216249272
+6,204,"Tráquea, bronquios y pulmón",Femenino,2024,11,Poisson,4.062086177643108
+6,204,"Tráquea, bronquios y pulmón",Femenino,2025,4,Poisson,4.800119422028328
+7,204,"Tráquea, bronquios y pulmón",Masculino,2022,8,Poisson,4.8481521118673845
+7,204,"Tráquea, bronquios y pulmón",Masculino,2023,3,Poisson,4.23326155033708
+7,204,"Tráquea, bronquios y pulmón",Masculino,2024,9,Poisson,5.149014668355671
+7,204,"Tráquea, bronquios y pulmón",Masculino,2025,13,Poisson,4.717108461503721
+8,205,Otros respiratorios,Femenino,2022,0,Poisson,0.795272971544097
+8,205,Otros respiratorios,Femenino,2023,0,Poisson,0.8112805837960939
+8,205,Otros respiratorios,Femenino,2024,0,Poisson,0.7052660277669686
+8,205,Otros respiratorios,Femenino,2025,1,Poisson,0.7085237750313494
+9,205,Otros respiratorios,Masculino,2022,1,Poisson,1.002841154952293
+9,205,Otros respiratorios,Masculino,2023,1,Poisson,0.8563374643925358
+9,205,Otros respiratorios,Masculino,2024,1,Poisson,0.8634739578471124
+9,205,Otros respiratorios,Masculino,2025,1,Poisson,0.8752106900894782
+10,206,Mama (mujer),Femenino,2022,9,Poisson,11.989337843600042
+10,206,Mama (mujer),Femenino,2023,9,Poisson,10.19633907951123
+10,206,Mama (mujer),Femenino,2024,9,Poisson,10.058194962295797
+10,206,Mama (mujer),Femenino,2025,6,Poisson,10.182452514996523
+11,207,Cuello uterino,Femenino,2022,6,Poisson,5.635064800628745
+11,207,Cuello uterino,Femenino,2023,8,Poisson,4.977606630788124
+11,207,Cuello uterino,Femenino,2024,5,Poisson,5.548380467920839
+11,207,Cuello uterino,Femenino,2025,4,Poisson,5.795630186947687
+12,208,Cuerpo del útero,Femenino,2022,4,Poisson,1.8976237602568506
+12,208,Cuerpo del útero,Femenino,2023,0,Poisson,2.104867401702981
+12,208,Cuerpo del útero,Femenino,2024,2,Poisson,1.988741631776143
+12,208,Cuerpo del útero,Femenino,2025,2,Poisson,1.5165353053216177
+13,209,Útero no especificado,Femenino,2022,5,Poisson,0.706619183552937
+13,209,Útero no especificado,Femenino,2023,1,Poisson,0.8418798186369275
+13,209,Útero no especificado,Femenino,2024,1,Poisson,1.0181688050083082
+13,209,Útero no especificado,Femenino,2025,1,Poisson,0.8090875151096057
+14,210,Próstata,Masculino,2022,11,Poisson,11.029741271480528
+14,210,Próstata,Masculino,2023,15,Poisson,12.64240555958342
+14,210,Próstata,Masculino,2024,15,Poisson,12.099069647402285
+14,210,Próstata,Masculino,2025,16,Poisson,13.050718727148416
+15,211,Otros genitourinarios,Femenino,2022,11,Poisson,6.11495809749345
+15,211,Otros genitourinarios,Femenino,2023,4,Poisson,6.126369206022425
+15,211,Otros genitourinarios,Femenino,2024,7,Poisson,5.92442423244993
+15,211,Otros genitourinarios,Femenino,2025,8,Poisson,5.088210641675782
+16,211,Otros genitourinarios,Masculino,2022,1,Poisson,4.996869475260826
+16,211,Otros genitourinarios,Masculino,2023,4,Poisson,3.8246368598656186
+16,211,Otros genitourinarios,Masculino,2024,5,Poisson,3.7655142544207405
+16,211,Otros genitourinarios,Masculino,2025,6,Poisson,4.776923044384119
+17,212,Leucemia,Femenino,2022,3,Poisson,2.9201573633544515
+17,212,Leucemia,Femenino,2023,6,Poisson,3.008337409430275
+17,212,Leucemia,Femenino,2024,3,Poisson,3.432218271689728
+17,212,Leucemia,Femenino,2025,1,Poisson,3.803180172307379
+18,212,Leucemia,Masculino,2022,5,Poisson,3.443881608790806
+18,212,Leucemia,Masculino,2023,0,Poisson,2.813948859896249
+18,212,Leucemia,Masculino,2024,4,Poisson,3.150178275895169
+18,212,Leucemia,Masculino,2025,4,Poisson,2.426883923886625
+19,213,Linfático y hematopoyético,Femenino,2022,1,Poisson,3.7209469303543745
+19,213,Linfático y hematopoyético,Femenino,2023,1,Poisson,2.986919476447807
+19,213,Linfático y hematopoyético,Femenino,2024,5,Poisson,2.560262057939798
+19,213,Linfático y hematopoyético,Femenino,2025,6,Poisson,2.8135206400395782
+20,213,Linfático y hematopoyético,Masculino,2022,3,Poisson,3.3257261380626226
+20,213,Linfático y hematopoyético,Masculino,2023,6,Poisson,2.63643575039627
+20,213,Linfático y hematopoyético,Masculino,2024,4,Poisson,3.2521199356706325
+20,213,Linfático y hematopoyético,Masculino,2025,3,Poisson,3.689026754175166
+21,214,Otras localizaciones,Femenino,2022,16,Poisson,11.784787253223366
+21,214,Otras localizaciones,Femenino,2023,9,Poisson,11.676849436490642
+21,214,Otras localizaciones,Femenino,2024,11,Poisson,12.326315431850453
+21,214,Otras localizaciones,Femenino,2025,21,Poisson,11.248644526854344
+22,214,Otras localizaciones,Masculino,2022,5,Poisson,11.987364192309343
+22,214,Otras localizaciones,Masculino,2023,12,Poisson,9.013086879136829
+22,214,Otras localizaciones,Masculino,2024,8,Poisson,9.617325325526359
+22,214,Otras localizaciones,Masculino,2025,11,Poisson,11.338750987951435
+23,215,In situ / benignos / incierto,Femenino,2022,3,Poisson,4.347412066178021
+23,215,In situ / benignos / incierto,Femenino,2023,7,Poisson,3.9432823233049907
+23,215,In situ / benignos / incierto,Femenino,2024,3,Poisson,4.014163228807358
+23,215,In situ / benignos / incierto,Femenino,2025,8,Poisson,4.509982416355504
+24,215,In situ / benignos / incierto,Masculino,2022,3,Poisson,3.555590488407181
+24,215,In situ / benignos / incierto,Masculino,2023,3,Poisson,3.4181642214499384
+24,215,In situ / benignos / incierto,Masculino,2024,5,Poisson,3.706247753911863
+24,215,In situ / benignos / incierto,Masculino,2025,3,Poisson,3.8974557068982474
+0,201,Estómago,Femenino,2022,12,Binomial negativa,13.22297263309605
+0,201,Estómago,Femenino,2023,12,Binomial negativa,13.842957011420134
+0,201,Estómago,Femenino,2024,11,Binomial negativa,13.714840780119422
+0,201,Estómago,Femenino,2025,9,Binomial negativa,13.87273474375145
+1,201,Estómago,Masculino,2022,13,Binomial negativa,13.861163224233916
+1,201,Estómago,Masculino,2023,14,Binomial negativa,13.442990112470234
+1,201,Estómago,Masculino,2024,10,Binomial negativa,13.608021216315594
+1,201,Estómago,Masculino,2025,16,Binomial negativa,13.768259907990876
+2,202,Colon y recto,Femenino,2022,9,Binomial negativa,7.693449501145153
+2,202,Colon y recto,Femenino,2023,3,Binomial negativa,6.795838937725777
+2,202,Colon y recto,Femenino,2024,6,Binomial negativa,6.472956798081483
+2,202,Colon y recto,Femenino,2025,13,Binomial negativa,5.681041242790426
+3,202,Colon y recto,Masculino,2022,7,Binomial negativa,6.227853128414622
+3,202,Colon y recto,Masculino,2023,9,Binomial negativa,6.0131299597199845
+3,202,Colon y recto,Masculino,2024,5,Binomial negativa,6.563085576341742
+3,202,Colon y recto,Masculino,2025,9,Binomial negativa,6.667562342309027
+4,203,Otros digestivos,Femenino,2022,9,Binomial negativa,15.969708304780323
+4,203,Otros digestivos,Femenino,2023,16,Binomial negativa,12.922985985452975
+4,203,Otros digestivos,Femenino,2024,19,Binomial negativa,12.937149990973948
+4,203,Otros digestivos,Femenino,2025,11,Binomial negativa,15.040158734866406
+5,203,Otros digestivos,Masculino,2022,13,Binomial negativa,14.997582992132092
+5,203,Otros digestivos,Masculino,2023,10,Binomial negativa,13.857846130265102
+5,203,Otros digestivos,Masculino,2024,15,Binomial negativa,12.884792245570809
+5,203,Otros digestivos,Masculino,2025,10,Binomial negativa,12.994902561138884
+6,204,"Tráquea, bronquios y pulmón",Femenino,2022,2,Binomial negativa,5.564772764777285
+6,204,"Tráquea, bronquios y pulmón",Femenino,2023,3,Binomial negativa,4.342538128922453
+6,204,"Tráquea, bronquios y pulmón",Femenino,2024,11,Binomial negativa,4.362608614539899
+6,204,"Tráquea, bronquios y pulmón",Femenino,2025,4,Binomial negativa,5.092071236176277
+7,204,"Tráquea, bronquios y pulmón",Masculino,2022,8,Binomial negativa,5.159691119209297
+7,204,"Tráquea, bronquios y pulmón",Masculino,2023,3,Binomial negativa,4.290273120833558
+7,204,"Tráquea, bronquios y pulmón",Masculino,2024,9,Binomial negativa,5.379160227446233
+7,204,"Tráquea, bronquios y pulmón",Masculino,2025,13,Binomial negativa,4.626390180793774
+8,205,Otros respiratorios,Femenino,2022,0,Binomial negativa,0.7535797526824111
+8,205,Otros respiratorios,Femenino,2023,0,Binomial negativa,0.8187710547019517
+8,205,Otros respiratorios,Femenino,2024,0,Binomial negativa,0.6976389104088142
+8,205,Otros respiratorios,Femenino,2025,1,Binomial negativa,0.7353195916659174
+9,205,Otros respiratorios,Masculino,2022,1,Binomial negativa,0.9491734145655926
+9,205,Otros respiratorios,Masculino,2023,1,Binomial negativa,0.7835908682448915
+9,205,Otros respiratorios,Masculino,2024,1,Binomial negativa,0.813529237205353
+9,205,Otros respiratorios,Masculino,2025,1,Binomial negativa,0.8268159551414564
+10,206,Mama (mujer),Femenino,2022,9,Binomial negativa,11.660887639212273
+10,206,Mama (mujer),Femenino,2023,9,Binomial negativa,9.770504926453121
+10,206,Mama (mujer),Femenino,2024,9,Binomial negativa,9.934466459530151
+10,206,Mama (mujer),Femenino,2025,6,Binomial negativa,10.14738477524378
+11,207,Cuello uterino,Femenino,2022,6,Binomial negativa,5.558702497988961
+11,207,Cuello uterino,Femenino,2023,8,Binomial negativa,4.941127909416761
+11,207,Cuello uterino,Femenino,2024,5,Binomial negativa,5.5527906521396915
+11,207,Cuello uterino,Femenino,2025,4,Binomial negativa,5.69434968104488
+12,208,Cuerpo del útero,Femenino,2022,4,Binomial negativa,1.829785918843201
+12,208,Cuerpo del útero,Femenino,2023,0,Binomial negativa,2.0242106931994566
+12,208,Cuerpo del útero,Femenino,2024,2,Binomial negativa,1.8859598917081704
+12,208,Cuerpo del útero,Femenino,2025,2,Binomial negativa,1.4612941995567297
+13,209,Útero no especificado,Femenino,2022,5,Binomial negativa,0.671642760108702
+13,209,Útero no especificado,Femenino,2023,1,Binomial negativa,0.7826595152310916
+13,209,Útero no especificado,Femenino,2024,1,Binomial negativa,0.8969398534413662
+13,209,Útero no especificado,Femenino,2025,1,Binomial negativa,0.6893542179641777
+14,210,Próstata,Masculino,2022,11,Binomial negativa,10.832028407323733
+14,210,Próstata,Masculino,2023,15,Binomial negativa,13.098439933174639
+14,210,Próstata,Masculino,2024,15,Binomial negativa,11.778119841746367
+14,210,Próstata,Masculino,2025,16,Binomial negativa,12.959149387329141
+15,211,Otros genitourinarios,Femenino,2022,11,Binomial negativa,5.526387252234524
+15,211,Otros genitourinarios,Femenino,2023,4,Binomial negativa,5.6889444036946415
+15,211,Otros genitourinarios,Femenino,2024,7,Binomial negativa,5.493533030262279
+15,211,Otros genitourinarios,Femenino,2025,8,Binomial negativa,4.789448784559181
+16,211,Otros genitourinarios,Masculino,2022,1,Binomial negativa,4.92858452232019
+16,211,Otros genitourinarios,Masculino,2023,4,Binomial negativa,3.8868854675757563
+16,211,Otros genitourinarios,Masculino,2024,5,Binomial negativa,3.98600773366575
+16,211,Otros genitourinarios,Masculino,2025,6,Binomial negativa,5.033168746059222
+17,212,Leucemia,Femenino,2022,3,Binomial negativa,2.960675078427579
+17,212,Leucemia,Femenino,2023,6,Binomial negativa,3.2553172748387644
+17,212,Leucemia,Femenino,2024,3,Binomial negativa,3.548383853721807
+17,212,Leucemia,Femenino,2025,1,Binomial negativa,3.8470222139661274
+18,212,Leucemia,Masculino,2022,5,Binomial negativa,3.3834414709945535
+18,212,Leucemia,Masculino,2023,0,Binomial negativa,2.849168711711455
+18,212,Leucemia,Masculino,2024,4,Binomial negativa,3.409893970278216
+18,212,Leucemia,Masculino,2025,4,Binomial negativa,2.507096675945306
+19,213,Linfático y hematopoyético,Femenino,2022,1,Binomial negativa,3.6747672811043404
+19,213,Linfático y hematopoyético,Femenino,2023,1,Binomial negativa,2.9740268880723244
+19,213,Linfático y hematopoyético,Femenino,2024,5,Binomial negativa,2.6845468038532596
+19,213,Linfático y hematopoyético,Femenino,2025,6,Binomial negativa,3.02030350324809
+20,213,Linfático y hematopoyético,Masculino,2022,3,Binomial negativa,3.2577507700898365
+20,213,Linfático y hematopoyético,Masculino,2023,6,Binomial negativa,2.646856837141233
+20,213,Linfático y hematopoyético,Masculino,2024,4,Binomial negativa,3.3562645540657874
+20,213,Linfático y hematopoyético,Masculino,2025,3,Binomial negativa,3.609584686893812
+21,214,Otras localizaciones,Femenino,2022,16,Binomial negativa,11.640315935491152
+21,214,Otras localizaciones,Femenino,2023,9,Binomial negativa,11.864682018926539
+21,214,Otras localizaciones,Femenino,2024,11,Binomial negativa,12.415913630136728
+21,214,Otras localizaciones,Femenino,2025,21,Binomial negativa,11.252785738889077
+22,214,Otras localizaciones,Masculino,2022,5,Binomial negativa,12.02607992679425
+22,214,Otras localizaciones,Masculino,2023,12,Binomial negativa,9.236302998956136
+22,214,Otras localizaciones,Masculino,2024,8,Binomial negativa,10.312749233366015
+22,214,Otras localizaciones,Masculino,2025,11,Binomial negativa,11.986711167416741
+23,215,In situ / benignos / incierto,Femenino,2022,3,Binomial negativa,4.190409691705995
+23,215,In situ / benignos / incierto,Femenino,2023,7,Binomial negativa,3.962803959652875
+23,215,In situ / benignos / incierto,Femenino,2024,3,Binomial negativa,4.011950118848263
+23,215,In situ / benignos / incierto,Femenino,2025,8,Binomial negativa,4.553671066356731
+24,215,In situ / benignos / incierto,Masculino,2022,3,Binomial negativa,3.9199545858227625
+24,215,In situ / benignos / incierto,Masculino,2023,3,Binomial negativa,3.5726081810044548
+24,215,In situ / benignos / incierto,Masculino,2024,5,Binomial negativa,3.8480242430182208
+24,215,In situ / benignos / incierto,Masculino,2025,3,Binomial negativa,3.946109539635763
+0,201,Estómago,Femenino,2022,12,Random Forest,9.503850408850418
+0,201,Estómago,Femenino,2023,12,Random Forest,11.114210761460766
+0,201,Estómago,Femenino,2024,11,Random Forest,10.823558145558149
+0,201,Estómago,Femenino,2025,9,Random Forest,11.078651700151699
+1,201,Estómago,Masculino,2022,13,Random Forest,13.09656175306176
+1,201,Estómago,Masculino,2023,14,Random Forest,15.278557609057604
+1,201,Estómago,Masculino,2024,10,Random Forest,14.580129879379877
+1,201,Estómago,Masculino,2025,16,Random Forest,14.85990056240056
+2,202,Colon y recto,Femenino,2022,9,Random Forest,11.180708643208645
+2,202,Colon y recto,Femenino,2023,3,Random Forest,10.362027250527253
+2,202,Colon y recto,Femenino,2024,6,Random Forest,9.852261904761908
+2,202,Colon y recto,Femenino,2025,13,Random Forest,6.587051636816343
+3,202,Colon y recto,Masculino,2022,7,Random Forest,6.251598549598549
+3,202,Colon y recto,Masculino,2023,9,Random Forest,6.0915569430569425
+3,202,Colon y recto,Masculino,2024,5,Random Forest,9.822111471861472
+3,202,Colon y recto,Masculino,2025,9,Random Forest,10.002314935064941
+4,203,Otros digestivos,Femenino,2022,9,Random Forest,12.602075341325344
+4,203,Otros digestivos,Femenino,2023,16,Random Forest,13.129421180671185
+4,203,Otros digestivos,Femenino,2024,19,Random Forest,10.851372368372376
+4,203,Otros digestivos,Femenino,2025,11,Random Forest,11.84740206090206
+5,203,Otros digestivos,Masculino,2022,13,Random Forest,14.846288489288485
+5,203,Otros digestivos,Masculino,2023,10,Random Forest,14.620812419062423
+5,203,Otros digestivos,Masculino,2024,15,Random Forest,14.902491832241834
+5,203,Otros digestivos,Masculino,2025,10,Random Forest,10.788599400599407
+6,204,"Tráquea, bronquios y pulmón",Femenino,2022,2,Random Forest,3.838557720057721
+6,204,"Tráquea, bronquios y pulmón",Femenino,2023,3,Random Forest,4.826434583934586
+6,204,"Tráquea, bronquios y pulmón",Femenino,2024,11,Random Forest,3.1324243534243523
+6,204,"Tráquea, bronquios y pulmón",Femenino,2025,4,Random Forest,5.435311808561809
+7,204,"Tráquea, bronquios y pulmón",Masculino,2022,8,Random Forest,3.109088134088135
+7,204,"Tráquea, bronquios y pulmón",Masculino,2023,3,Random Forest,5.950750666000666
+7,204,"Tráquea, bronquios y pulmón",Masculino,2024,9,Random Forest,3.6676884689384717
+7,204,"Tráquea, bronquios y pulmón",Masculino,2025,13,Random Forest,9.150706999971709
+8,205,Otros respiratorios,Femenino,2022,0,Random Forest,0.523590909090909
+8,205,Otros respiratorios,Femenino,2023,0,Random Forest,1.0372325914825913
+8,205,Otros respiratorios,Femenino,2024,0,Random Forest,0.520682484182484
+8,205,Otros respiratorios,Femenino,2025,1,Random Forest,0.6699290894290891
+9,205,Otros respiratorios,Masculino,2022,1,Random Forest,1.1373265068265068
+9,205,Otros respiratorios,Masculino,2023,1,Random Forest,1.577290283790285
+9,205,Otros respiratorios,Masculino,2024,1,Random Forest,0.9613664021164025
+9,205,Otros respiratorios,Masculino,2025,1,Random Forest,0.9613664021164025
+10,206,Mama (mujer),Femenino,2022,9,Random Forest,12.878683732933737
+10,206,Mama (mujer),Femenino,2023,9,Random Forest,10.55758766233766
+10,206,Mama (mujer),Femenino,2024,9,Random Forest,10.269712602212607
+10,206,Mama (mujer),Femenino,2025,6,Random Forest,10.481370129870133
+11,207,Cuello uterino,Femenino,2022,6,Random Forest,4.04749458874459
+11,207,Cuello uterino,Femenino,2023,8,Random Forest,4.724226190476191
+11,207,Cuello uterino,Femenino,2024,5,Random Forest,5.2176671971819015
+11,207,Cuello uterino,Femenino,2025,4,Random Forest,8.493332661347369
+12,208,Cuerpo del útero,Femenino,2022,4,Random Forest,1.8569494949494958
+12,208,Cuerpo del útero,Femenino,2023,0,Random Forest,3.118164252414252
+12,208,Cuerpo del útero,Femenino,2024,2,Random Forest,2.166159571909571
+12,208,Cuerpo del útero,Femenino,2025,2,Random Forest,1.6723277555777567
+13,209,Útero no especificado,Femenino,2022,5,Random Forest,0.6043266178266173
+13,209,Útero no especificado,Femenino,2023,1,Random Forest,2.422839105339106
+13,209,Útero no especificado,Femenino,2024,1,Random Forest,2.072957422207422
+13,209,Útero no especificado,Femenino,2025,1,Random Forest,2.304279461279461
+14,210,Próstata,Masculino,2022,11,Random Forest,9.493287999038
+14,210,Próstata,Masculino,2023,15,Random Forest,13.771965571465573
+14,210,Próstata,Masculino,2024,15,Random Forest,11.998879259629266
+14,210,Próstata,Masculino,2025,16,Random Forest,13.524447506197511
+15,211,Otros genitourinarios,Femenino,2022,11,Random Forest,9.75122667147668
+15,211,Otros genitourinarios,Femenino,2023,4,Random Forest,10.865714424464427
+15,211,Otros genitourinarios,Femenino,2024,7,Random Forest,10.947399100899105
+15,211,Otros genitourinarios,Femenino,2025,8,Random Forest,9.496255679505682
+16,211,Otros genitourinarios,Masculino,2022,1,Random Forest,2.7286540311540333
+16,211,Otros genitourinarios,Masculino,2023,4,Random Forest,3.908104497354494
+16,211,Otros genitourinarios,Masculino,2024,5,Random Forest,2.772373247123248
+16,211,Otros genitourinarios,Masculino,2025,6,Random Forest,2.979175491175493
+17,212,Leucemia,Femenino,2022,3,Random Forest,2.518393051393051
+17,212,Leucemia,Femenino,2023,6,Random Forest,2.8470597180597172
+17,212,Leucemia,Femenino,2024,3,Random Forest,2.825552382802383
+17,212,Leucemia,Femenino,2025,1,Random Forest,3.1819518352018368
+18,212,Leucemia,Masculino,2022,5,Random Forest,2.769242664742666
+18,212,Leucemia,Masculino,2023,0,Random Forest,2.570698819698822
+18,212,Leucemia,Masculino,2024,4,Random Forest,2.439320466570465
+18,212,Leucemia,Masculino,2025,4,Random Forest,3.125113784363785
+19,213,Linfático y hematopoyético,Femenino,2022,1,Random Forest,2.5255176120176133
+19,213,Linfático y hematopoyético,Femenino,2023,1,Random Forest,3.886728234728232
+19,213,Linfático y hematopoyético,Femenino,2024,5,Random Forest,2.541419793169793
+19,213,Linfático y hematopoyético,Femenino,2025,6,Random Forest,2.8787307507307505
+20,213,Linfático y hematopoyético,Masculino,2022,3,Random Forest,2.746867965367966
+20,213,Linfático y hematopoyético,Masculino,2023,6,Random Forest,2.7242076719576724
+20,213,Linfático y hematopoyético,Masculino,2024,4,Random Forest,2.9433432215932216
+20,213,Linfático y hematopoyético,Masculino,2025,3,Random Forest,2.6635554353054376
+21,214,Otras localizaciones,Femenino,2022,16,Random Forest,9.836704619454625
+21,214,Otras localizaciones,Femenino,2023,9,Random Forest,10.800244533244534
+21,214,Otras localizaciones,Femenino,2024,11,Random Forest,12.324908434158434
+21,214,Otras localizaciones,Femenino,2025,21,Random Forest,11.24814605764606
+22,214,Otras localizaciones,Masculino,2022,5,Random Forest,13.387401089651085
+22,214,Otras localizaciones,Masculino,2023,12,Random Forest,8.663408369408373
+22,214,Otras localizaciones,Masculino,2024,8,Random Forest,9.476090095090093
+22,214,Otras localizaciones,Masculino,2025,11,Random Forest,11.58835545010545
+23,215,In situ / benignos / incierto,Femenino,2022,3,Random Forest,3.459227152477151
+23,215,In situ / benignos / incierto,Femenino,2023,7,Random Forest,2.750143458393459
+23,215,In situ / benignos / incierto,Femenino,2024,3,Random Forest,3.7460222462722474
+23,215,In situ / benignos / incierto,Femenino,2025,8,Random Forest,3.1309495874495896
+24,215,In situ / benignos / incierto,Masculino,2022,3,Random Forest,3.3811962019461994
+24,215,In situ / benignos / incierto,Masculino,2023,3,Random Forest,2.63366192141192
+24,215,In situ / benignos / incierto,Masculino,2024,5,Random Forest,2.9079096829096827
+24,215,In situ / benignos / incierto,Masculino,2025,3,Random Forest,2.4067057757057757
+0,201,Estómago,Femenino,2022,12,XGBoost,9.879036903381348
+0,201,Estómago,Femenino,2023,12,XGBoost,11.26473617553711
+0,201,Estómago,Femenino,2024,11,XGBoost,11.437495231628418
+0,201,Estómago,Femenino,2025,9,XGBoost,11.437495231628418
+1,201,Estómago,Masculino,2022,13,XGBoost,12.135357856750488
+1,201,Estómago,Masculino,2023,14,XGBoost,14.3140287399292
+1,201,Estómago,Masculino,2024,10,XGBoost,14.287213325500488
+1,201,Estómago,Masculino,2025,16,XGBoost,14.3140287399292
+2,202,Colon y recto,Femenino,2022,9,XGBoost,10.989866256713867
+2,202,Colon y recto,Femenino,2023,3,XGBoost,10.952198028564453
+2,202,Colon y recto,Femenino,2024,6,XGBoost,9.578514099121094
+2,202,Colon y recto,Femenino,2025,13,XGBoost,6.8303985595703125
+3,202,Colon y recto,Masculino,2022,7,XGBoost,6.081542015075684
+3,202,Colon y recto,Masculino,2023,9,XGBoost,6.424912452697754
+3,202,Colon y recto,Masculino,2024,5,XGBoost,9.041159629821777
+3,202,Colon y recto,Masculino,2025,9,XGBoost,9.450197219848633
+4,203,Otros digestivos,Femenino,2022,9,XGBoost,12.753414154052734
+4,203,Otros digestivos,Femenino,2023,16,XGBoost,15.120733261108398
+4,203,Otros digestivos,Femenino,2024,19,XGBoost,12.026373863220215
+4,203,Otros digestivos,Femenino,2025,11,XGBoost,12.430922508239746
+5,203,Otros digestivos,Masculino,2022,13,XGBoost,16.522716522216797
+5,203,Otros digestivos,Masculino,2023,10,XGBoost,16.581796646118164
+5,203,Otros digestivos,Masculino,2024,15,XGBoost,16.6427001953125
+5,203,Otros digestivos,Masculino,2025,10,XGBoost,12.118440628051758
+6,204,"Tráquea, bronquios y pulmón",Femenino,2022,2,XGBoost,4.28440523147583
+6,204,"Tráquea, bronquios y pulmón",Femenino,2023,3,XGBoost,4.275571346282959
+6,204,"Tráquea, bronquios y pulmón",Femenino,2024,11,XGBoost,3.2315359115600586
+6,204,"Tráquea, bronquios y pulmón",Femenino,2025,4,XGBoost,5.251038074493408
+7,204,"Tráquea, bronquios y pulmón",Masculino,2022,8,XGBoost,3.2591300010681152
+7,204,"Tráquea, bronquios y pulmón",Masculino,2023,3,XGBoost,5.0742387771606445
+7,204,"Tráquea, bronquios y pulmón",Masculino,2024,9,XGBoost,4.184159755706787
+7,204,"Tráquea, bronquios y pulmón",Masculino,2025,13,XGBoost,7.282531261444092
+8,205,Otros respiratorios,Femenino,2022,0,XGBoost,0.5683210492134094
+8,205,Otros respiratorios,Femenino,2023,0,XGBoost,1.0482802391052246
+8,205,Otros respiratorios,Femenino,2024,0,XGBoost,0.4938359558582306
+8,205,Otros respiratorios,Femenino,2025,1,XGBoost,0.7988436818122864
+9,205,Otros respiratorios,Masculino,2022,1,XGBoost,1.21669340133667
+9,205,Otros respiratorios,Masculino,2023,1,XGBoost,2.085555076599121
+9,205,Otros respiratorios,Masculino,2024,1,XGBoost,1.1854000091552734
+9,205,Otros respiratorios,Masculino,2025,1,XGBoost,1.1854000091552734
+10,206,Mama (mujer),Femenino,2022,9,XGBoost,11.841615676879883
+10,206,Mama (mujer),Femenino,2023,9,XGBoost,9.86660385131836
+10,206,Mama (mujer),Femenino,2024,9,XGBoost,9.815132141113281
+10,206,Mama (mujer),Femenino,2025,6,XGBoost,9.815132141113281
+11,207,Cuello uterino,Femenino,2022,6,XGBoost,4.3513102531433105
+11,207,Cuello uterino,Femenino,2023,8,XGBoost,4.917540550231934
+11,207,Cuello uterino,Femenino,2024,5,XGBoost,5.884195327758789
+11,207,Cuello uterino,Femenino,2025,4,XGBoost,7.998537063598633
+12,208,Cuerpo del útero,Femenino,2022,4,XGBoost,2.197204828262329
+12,208,Cuerpo del útero,Femenino,2023,0,XGBoost,3.1293129920959473
+12,208,Cuerpo del útero,Femenino,2024,2,XGBoost,1.8375998735427856
+12,208,Cuerpo del útero,Femenino,2025,2,XGBoost,1.7387752532958984
+13,209,Útero no especificado,Femenino,2022,5,XGBoost,0.704926609992981
+13,209,Útero no especificado,Femenino,2023,1,XGBoost,2.655484676361084
+13,209,Útero no especificado,Femenino,2024,1,XGBoost,2.344573974609375
+13,209,Útero no especificado,Femenino,2025,1,XGBoost,2.5849525928497314
+14,210,Próstata,Masculino,2022,11,XGBoost,8.030049324035645
+14,210,Próstata,Masculino,2023,15,XGBoost,12.817782402038574
+14,210,Próstata,Masculino,2024,15,XGBoost,12.917903900146484
+14,210,Próstata,Masculino,2025,16,XGBoost,12.658390998840332
+15,211,Otros genitourinarios,Femenino,2022,11,XGBoost,9.196145057678223
+15,211,Otros genitourinarios,Femenino,2023,4,XGBoost,9.939205169677734
+15,211,Otros genitourinarios,Femenino,2024,7,XGBoost,9.551560401916504
+15,211,Otros genitourinarios,Femenino,2025,8,XGBoost,7.668600559234619
+16,211,Otros genitourinarios,Masculino,2022,1,XGBoost,3.613159656524658
+16,211,Otros genitourinarios,Masculino,2023,4,XGBoost,4.075334548950195
+16,211,Otros genitourinarios,Masculino,2024,5,XGBoost,2.7252683639526367
+16,211,Otros genitourinarios,Masculino,2025,6,XGBoost,3.613159656524658
+17,212,Leucemia,Femenino,2022,3,XGBoost,2.7021946907043457
+17,212,Leucemia,Femenino,2023,6,XGBoost,2.679539203643799
+17,212,Leucemia,Femenino,2024,3,XGBoost,3.616652250289917
+17,212,Leucemia,Femenino,2025,1,XGBoost,3.8553895950317383
+18,212,Leucemia,Masculino,2022,5,XGBoost,3.6031978130340576
+18,212,Leucemia,Masculino,2023,0,XGBoost,3.3929643630981445
+18,212,Leucemia,Masculino,2024,4,XGBoost,2.3547022342681885
+18,212,Leucemia,Masculino,2025,4,XGBoost,3.282886266708374
+19,213,Linfático y hematopoyético,Femenino,2022,1,XGBoost,3.3929643630981445
+19,213,Linfático y hematopoyético,Femenino,2023,1,XGBoost,3.871492385864258
+19,213,Linfático y hematopoyético,Femenino,2024,5,XGBoost,2.5137410163879395
+19,213,Linfático y hematopoyético,Femenino,2025,6,XGBoost,2.7021946907043457
+20,213,Linfático y hematopoyético,Masculino,2022,3,XGBoost,3.420989751815796
+20,213,Linfático y hematopoyético,Masculino,2023,6,XGBoost,3.2729651927948
+20,213,Linfático y hematopoyético,Masculino,2024,4,XGBoost,3.4334604740142822
+20,213,Linfático y hematopoyético,Masculino,2025,3,XGBoost,3.8553895950317383
+21,214,Otras localizaciones,Femenino,2022,16,XGBoost,10.041128158569336
+21,214,Otras localizaciones,Femenino,2023,9,XGBoost,10.683538436889648
+21,214,Otras localizaciones,Femenino,2024,11,XGBoost,11.780003547668457
+21,214,Otras localizaciones,Femenino,2025,21,XGBoost,11.872658729553223
+22,214,Otras localizaciones,Masculino,2022,5,XGBoost,11.767817497253418
+22,214,Otras localizaciones,Masculino,2023,12,XGBoost,6.206144332885742
+22,214,Otras localizaciones,Masculino,2024,8,XGBoost,7.2133564949035645
+22,214,Otras localizaciones,Masculino,2025,11,XGBoost,10.779152870178223
+23,215,In situ / benignos / incierto,Femenino,2022,3,XGBoost,3.7043819427490234
+23,215,In situ / benignos / incierto,Femenino,2023,7,XGBoost,3.3929643630981445
+23,215,In situ / benignos / incierto,Femenino,2024,3,XGBoost,3.8256795406341553
+23,215,In situ / benignos / incierto,Femenino,2025,8,XGBoost,3.7651822566986084
+24,215,In situ / benignos / incierto,Masculino,2022,3,XGBoost,3.677253007888794
+24,215,In situ / benignos / incierto,Masculino,2023,3,XGBoost,2.7252683639526367
+24,215,In situ / benignos / incierto,Masculino,2024,5,XGBoost,3.2729651927948
+24,215,In situ / benignos / incierto,Masculino,2025,3,XGBoost,3.3929643630981445
+0,201,Estómago,Femenino,2022,12,LSTM,10.102521896362305
+0,201,Estómago,Femenino,2023,12,LSTM,11.768349647521973
+0,201,Estómago,Femenino,2024,11,LSTM,9.21725845336914
+0,201,Estómago,Femenino,2025,9,LSTM,9.383328437805176
+1,201,Estómago,Masculino,2022,13,LSTM,15.452168464660645
+1,201,Estómago,Masculino,2023,14,LSTM,16.059961318969727
+1,201,Estómago,Masculino,2024,10,LSTM,12.570524215698242
+1,201,Estómago,Masculino,2025,16,LSTM,13.14152717590332
+2,202,Colon y recto,Femenino,2022,9,LSTM,8.921341896057129
+2,202,Colon y recto,Femenino,2023,3,LSTM,8.670248985290527
+2,202,Colon y recto,Femenino,2024,6,LSTM,7.658568382263184
+2,202,Colon y recto,Femenino,2025,13,LSTM,5.803325176239014
+3,202,Colon y recto,Masculino,2022,7,LSTM,5.077197074890137
+3,202,Colon y recto,Masculino,2023,9,LSTM,6.039458751678467
+3,202,Colon y recto,Masculino,2024,5,LSTM,5.557833671569824
+3,202,Colon y recto,Masculino,2025,9,LSTM,5.598877906799316
+4,203,Otros digestivos,Femenino,2022,9,LSTM,16.356685638427734
+4,203,Otros digestivos,Femenino,2023,16,LSTM,15.23206615447998
+4,203,Otros digestivos,Femenino,2024,19,LSTM,10.557533264160156
+4,203,Otros digestivos,Femenino,2025,11,LSTM,12.130556106567383
+5,203,Otros digestivos,Masculino,2022,13,LSTM,15.21770191192627
+5,203,Otros digestivos,Masculino,2023,10,LSTM,15.95069408416748
+5,203,Otros digestivos,Masculino,2024,15,LSTM,11.41313362121582
+5,203,Otros digestivos,Masculino,2025,10,LSTM,10.942909240722656
+6,204,"Tráquea, bronquios y pulmón",Femenino,2022,2,LSTM,4.1711320877075195
+6,204,"Tráquea, bronquios y pulmón",Femenino,2023,3,LSTM,3.619260311126709
+6,204,"Tráquea, bronquios y pulmón",Femenino,2024,11,LSTM,3.1314244270324707
+6,204,"Tráquea, bronquios y pulmón",Femenino,2025,4,LSTM,4.311569690704346
+7,204,"Tráquea, bronquios y pulmón",Masculino,2022,8,LSTM,4.054596900939941
+7,204,"Tráquea, bronquios y pulmón",Masculino,2023,3,LSTM,5.1688618659973145
+7,204,"Tráquea, bronquios y pulmón",Masculino,2024,9,LSTM,5.366566181182861
+7,204,"Tráquea, bronquios y pulmón",Masculino,2025,13,LSTM,4.596617221832275
+8,205,Otros respiratorios,Femenino,2022,0,LSTM,0.6848653554916382
+8,205,Otros respiratorios,Femenino,2023,0,LSTM,0.691290557384491
+8,205,Otros respiratorios,Femenino,2024,0,LSTM,0.5734695792198181
+8,205,Otros respiratorios,Femenino,2025,1,LSTM,0.5506559610366821
+9,205,Otros respiratorios,Masculino,2022,1,LSTM,1.368210792541504
+9,205,Otros respiratorios,Masculino,2023,1,LSTM,1.0776677131652832
+9,205,Otros respiratorios,Masculino,2024,1,LSTM,1.0273702144622803
+9,205,Otros respiratorios,Masculino,2025,1,LSTM,1.0253064632415771
+10,206,Mama (mujer),Femenino,2022,9,LSTM,12.492155075073242
+10,206,Mama (mujer),Femenino,2023,9,LSTM,11.386331558227539
+10,206,Mama (mujer),Femenino,2024,9,LSTM,8.744120597839355
+10,206,Mama (mujer),Femenino,2025,6,LSTM,8.6547269821167
+11,207,Cuello uterino,Femenino,2022,6,LSTM,4.514564514160156
+11,207,Cuello uterino,Femenino,2023,8,LSTM,5.049838066101074
+11,207,Cuello uterino,Femenino,2024,5,LSTM,4.949886322021484
+11,207,Cuello uterino,Femenino,2025,4,LSTM,4.825589179992676
+12,208,Cuerpo del útero,Femenino,2022,4,LSTM,1.5829601287841797
+12,208,Cuerpo del útero,Femenino,2023,0,LSTM,2.3756580352783203
+12,208,Cuerpo del útero,Femenino,2024,2,LSTM,1.7659361362457275
+12,208,Cuerpo del útero,Femenino,2025,2,LSTM,1.7154327630996704
+13,209,Útero no especificado,Femenino,2022,5,LSTM,0.8312327265739441
+13,209,Útero no especificado,Femenino,2023,1,LSTM,1.4408493041992188
+13,209,Útero no especificado,Femenino,2024,1,LSTM,1.3789645433425903
+13,209,Útero no especificado,Femenino,2025,1,LSTM,1.2209255695343018
+14,210,Próstata,Masculino,2022,11,LSTM,10.417262077331543
+14,210,Próstata,Masculino,2023,15,LSTM,14.29582405090332
+14,210,Próstata,Masculino,2024,15,LSTM,9.787908554077148
+14,210,Próstata,Masculino,2025,16,LSTM,10.721323013305664
+15,211,Otros genitourinarios,Femenino,2022,11,LSTM,6.881256103515625
+15,211,Otros genitourinarios,Femenino,2023,4,LSTM,7.654999732971191
+15,211,Otros genitourinarios,Femenino,2024,7,LSTM,6.9014892578125
+15,211,Otros genitourinarios,Femenino,2025,8,LSTM,5.363198280334473
+16,211,Otros genitourinarios,Masculino,2022,1,LSTM,2.858964443206787
+16,211,Otros genitourinarios,Masculino,2023,4,LSTM,2.6282005310058594
+16,211,Otros genitourinarios,Masculino,2024,5,LSTM,2.728705644607544
+16,211,Otros genitourinarios,Masculino,2025,6,LSTM,3.6269516944885254
+17,212,Leucemia,Femenino,2022,3,LSTM,1.8913354873657227
+17,212,Leucemia,Femenino,2023,6,LSTM,2.2890067100524902
+17,212,Leucemia,Femenino,2024,3,LSTM,3.088031768798828
+17,212,Leucemia,Femenino,2025,1,LSTM,3.046675205230713
+18,212,Leucemia,Masculino,2022,5,LSTM,2.710575580596924
+18,212,Leucemia,Masculino,2023,0,LSTM,3.2795238494873047
+18,212,Leucemia,Masculino,2024,4,LSTM,2.6856319904327393
+18,212,Leucemia,Masculino,2025,4,LSTM,3.3569576740264893
+19,213,Linfático y hematopoyético,Femenino,2022,1,LSTM,2.8709444999694824
+19,213,Linfático y hematopoyético,Femenino,2023,1,LSTM,2.682370901107788
+19,213,Linfático y hematopoyético,Femenino,2024,5,LSTM,1.873138427734375
+19,213,Linfático y hematopoyético,Femenino,2025,6,LSTM,2.8723206520080566
+20,213,Linfático y hematopoyético,Masculino,2022,3,LSTM,2.376633882522583
+20,213,Linfático y hematopoyético,Masculino,2023,6,LSTM,2.6173837184906006
+20,213,Linfático y hematopoyético,Masculino,2024,4,LSTM,3.6152725219726562
+20,213,Linfático y hematopoyético,Masculino,2025,3,LSTM,3.522857666015625
+21,214,Otras localizaciones,Femenino,2022,16,LSTM,12.621160507202148
+21,214,Otras localizaciones,Femenino,2023,9,LSTM,13.001986503601074
+21,214,Otras localizaciones,Femenino,2024,11,LSTM,11.505075454711914
+21,214,Otras localizaciones,Femenino,2025,21,LSTM,10.255038261413574
+22,214,Otras localizaciones,Masculino,2022,5,LSTM,12.496110916137695
+22,214,Otras localizaciones,Masculino,2023,12,LSTM,9.916906356811523
+22,214,Otras localizaciones,Masculino,2024,8,LSTM,8.310600280761719
+22,214,Otras localizaciones,Masculino,2025,11,LSTM,8.920435905456543
+23,215,In situ / benignos / incierto,Femenino,2022,3,LSTM,4.0417962074279785
+23,215,In situ / benignos / incierto,Femenino,2023,7,LSTM,4.263834476470947
+23,215,In situ / benignos / incierto,Femenino,2024,3,LSTM,4.607505798339844
+23,215,In situ / benignos / incierto,Femenino,2025,8,LSTM,4.604659080505371
+24,215,In situ / benignos / incierto,Masculino,2022,3,LSTM,2.4288206100463867
+24,215,In situ / benignos / incierto,Masculino,2023,3,LSTM,2.3296098709106445
+24,215,In situ / benignos / incierto,Masculino,2024,5,LSTM,2.6399550437927246
+24,215,In situ / benignos / incierto,Masculino,2025,3,LSTM,2.884589672088623

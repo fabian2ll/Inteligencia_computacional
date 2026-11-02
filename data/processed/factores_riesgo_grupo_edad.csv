@@ -1,0 +1,43 @@
+grupo_edad,indicador,porcentaje,numerador,denominador
+JUVENTUD (18 a 28 años),Porcentaje con Delgadez,5.03,135.0,2681
+JUVENTUD (18 a 28 años),Porcentaje con peso Normal,60.35,1618.0,2681
+JUVENTUD (18 a 28 años),Porcentaje con Sobrepeso,25.58,686.0,2681
+JUVENTUD (18 a 28 años),Porcentaje con Obesidad Grado I,6.93,186.0,2681
+JUVENTUD (18 a 28 años),Porcentaje con Obesidad Grado II,1.86,50.0,2681
+JUVENTUD (18 a 28 años),Porcentaje con Obesidad Grado III,0.22,6.0,2681
+JUVENTUD (18 a 28 años),Porcentaje con actividad física periódica (150 minutos/semana),39.91,1260.0,3157
+JUVENTUD (18 a 28 años),Porcentaje que fuman,5.38,170.0,3157
+JUVENTUD (18 a 28 años),"Porcentaje con antecedentes de diabetes por padres, hermanos, hijos.",13.17,416.0,3157
+JUVENTUD (18 a 28 años),Porcentaje que han presentado valores de azúcar altos,1.42,45.0,3157
+JUVENTUD (18 a 28 años),Porcentaje con colesterol alto,1.8,57.0,3157
+JUVENTUD (18 a 28 años),Porcentaje con consumo de bebidas alcohólicas,12.25,387.0,3157
+ADULTEZ (29 a 59 años),Porcentaje con Delgadez,1.35,115.0,8482
+ADULTEZ (29 a 59 años),Porcentaje con peso Normal,37.67,3196.0,8482
+ADULTEZ (29 a 59 años),Porcentaje con Sobrepeso,40.99,3477.0,8482
+ADULTEZ (29 a 59 años),Porcentaje con Obesidad Grado I,15.2,1290.0,8482
+ADULTEZ (29 a 59 años),Porcentaje con Obesidad Grado II,3.67,312.0,8482
+ADULTEZ (29 a 59 años),Porcentaje con Obesidad Grado III,1.08,92.0,8482
+ADULTEZ (29 a 59 años),Porcentaje con actividad física periódica (150 minutos/semana),37.22,3544.0,9520
+ADULTEZ (29 a 59 años),Porcentaje que fuman,4.67,445.0,9520
+ADULTEZ (29 a 59 años),"Porcentaje con antecedentes de diabetes por padres, hermanos, hijos.",19.02,18.11,9520
+ADULTEZ (29 a 59 años),Porcentaje que han presentado valores de azúcar altos,3.89,371.0,9520
+ADULTEZ (29 a 59 años),Porcentaje con colesterol alto,6.75,643.0,9520
+ADULTEZ (29 a 59 años),Porcentaje con consumo de bebidas alcohólicas,14.29,1361.0,9520
+VEJEZ (60 y más años),Porcentaje con Delgadez,2.13,137.0,6420
+VEJEZ (60 y más años),Porcentaje con peso Normal,41.51,2665.0,6420
+VEJEZ (60 y más años),Porcentaje con Sobrepeso,40.23,2583.0,6420
+VEJEZ (60 y más años),Porcentaje con Obesidad Grado I,12.88,827.0,6420
+VEJEZ (60 y más años),Porcentaje con Obesidad Grado II,2.64,170.0,6420
+VEJEZ (60 y más años),Porcentaje con Obesidad Grado III,0.59,38.0,6420
+VEJEZ (60 y más años),Porcentaje con actividad física periódica (150 minutos/semana),39.27,2651.0,6749
+VEJEZ (60 y más años),Porcentaje que fuman,3.28,222.0,6749
+VEJEZ (60 y más años),"Porcentaje con antecedentes de diabetes por padres, hermanos, hijos.",19.91,1344.0,6749
+VEJEZ (60 y más años),Porcentaje que han presentado valores de azúcar altos,9.66,652.0,6749
+VEJEZ (60 y más años),Porcentaje con colesterol alto,10.34,698.0,6749
+VEJEZ (60 y más años),Porcentaje con consumo de bebidas alcohólicas,7.7,520.0,6749
+VEJEZ (60 y más años),Porc. con citología - 60 a 65 años (último año),80.32,996.0,1240
+VEJEZ (60 y más años),Porc. con exámen físico de seno - 60 a 69 años (último año),72.03,1517.0,2106
+VEJEZ (60 y más años),Porc. con mamografía - 60 a 69 años (últimos 2 años),69.13,1456.0,2106
+VEJEZ (60 y más años),Porc. con tamizaje para cáncer de colón (últimos 2 años),40.76,1959.0,4806
+VEJEZ (60 y más años),Porc. con tamizaje para cáncer próstata - PSA (últimos 5 años),53.54,1066.0,1991
+VEJEZ (60 y más años),Porc. con tamizaje para cáncer próstata - Tacto Rectal (últimos 5 años),37.82,753.0,1991
