@@ -1,0 +1,26 @@
+﻿tipo,sexo,muertes_prom_anual,MAE_base,MAE_Poisson,mejora_%
+Otras localizaciones,Femenino,14.25,4.583,4.492,1.983
+Próstata,Masculino,14.25,1.917,2.059,-7.446
+Otros digestivos,Femenino,13.75,4.0,4.943,-23.587
+Estómago,Masculino,13.25,2.667,1.863,30.143
+Otros digestivos,Masculino,12.0,3.5,3.116,10.969
+Estómago,Femenino,11.0,2.167,1.833,15.381
+Otras localizaciones,Masculino,9.0,2.833,2.983,-5.268
+Mama (mujer),Femenino,8.25,1.75,2.357,-34.662
+"Tráquea, bronquios y pulmón",Masculino,8.25,4.583,4.13,9.896
+Colon y recto,Femenino,7.75,4.0,3.269,18.286
+Colon y recto,Masculino,7.5,2.333,1.836,21.318
+Otros genitourinarios,Femenino,7.5,2.417,2.75,-13.78
+Cuello uterino,Femenino,5.75,1.833,1.433,21.845
+In situ / benignos / incierto,Femenino,5.25,2.5,2.227,10.917
+"Tráquea, bronquios y pulmón",Femenino,5.0,2.917,3.047,-4.47
+Linfático y hematopoyético,Masculino,4.0,1.417,1.282,9.538
+Otros genitourinarios,Masculino,4.0,2.25,1.657,26.336
+In situ / benignos / incierto,Masculino,3.5,1.333,0.791,40.657
+Leucemia,Femenino,3.25,2.083,1.577,24.317
+Linfático y hematopoyético,Femenino,3.25,2.833,2.584,8.817
+Leucemia,Masculino,3.25,2.083,1.698,18.484
+Cuerpo del útero,Femenino,2.0,1.333,1.175,11.838
+Útero no especificado,Femenino,2.0,2.083,1.165,44.073
+Otros respiratorios,Masculino,1.0,0.083,0.102,-22.346
+Otros respiratorios,Femenino,0.25,0.583,0.651,-11.57

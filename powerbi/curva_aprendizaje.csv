@@ -1,0 +1,31 @@
+﻿k_anios,filas_entrenamiento,modelo,MAE,RMSE
+4,100,Poisson,3.3142,4.432
+4,100,Binomial negativa,3.9037,5.1147
+4,100,Random Forest,2.5428,3.4052
+4,100,XGBoost,2.8116,3.7583
+4,100,LSTM,2.6541,3.7188
+6,150,Poisson,2.9032,3.96
+6,150,Binomial negativa,2.8189,3.8822
+6,150,Random Forest,2.4511,3.2636
+6,150,XGBoost,2.5119,3.3582
+6,150,LSTM,2.55,3.3803
+8,200,Poisson,2.5776,3.6099
+8,200,Binomial negativa,2.6469,3.6905
+8,200,Random Forest,2.4546,3.2652
+8,200,XGBoost,2.4303,3.2476
+8,200,LSTM,2.3874,3.2117
+10,250,Poisson,2.2619,3.0927
+10,250,Binomial negativa,2.2483,3.1128
+10,250,Random Forest,2.4029,3.1995
+10,250,XGBoost,2.3861,3.1648
+10,250,LSTM,2.3545,3.2007
+12,300,Poisson,2.2046,3.0217
+12,300,Binomial negativa,2.2011,3.0935
+12,300,Random Forest,2.3393,3.144
+12,300,XGBoost,2.3302,3.0779
+12,300,LSTM,2.2666,3.0885
+14,350,Poisson,2.2008,2.949
+14,350,Binomial negativa,2.2309,2.9565
+14,350,Random Forest,2.3668,3.1604
+14,350,XGBoost,2.3554,3.0918
+14,350,LSTM,2.225,3.0597

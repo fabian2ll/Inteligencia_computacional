@@ -300,104 +300,104 @@ serie_id,cod,tipo,sexo,anio,muertes,modelo,prediccion
 24,215,In situ / benignos / incierto,Masculino,2024,5,Binomial negativa,3.8480242430182208
 24,215,In situ / benignos / incierto,Masculino,2025,3,Binomial negativa,3.946109539635763
 0,201,Estómago,Femenino,2022,12,Random Forest,9.503850408850418
-0,201,Estómago,Femenino,2023,12,Random Forest,11.114210761460766
-0,201,Estómago,Femenino,2024,11,Random Forest,10.823558145558149
-0,201,Estómago,Femenino,2025,9,Random Forest,11.078651700151699
-1,201,Estómago,Masculino,2022,13,Random Forest,13.09656175306176
-1,201,Estómago,Masculino,2023,14,Random Forest,15.278557609057604
+0,201,Estómago,Femenino,2023,12,Random Forest,11.114210761460768
+0,201,Estómago,Femenino,2024,11,Random Forest,10.823558145558145
+0,201,Estómago,Femenino,2025,9,Random Forest,11.078651700151697
+1,201,Estómago,Masculino,2022,13,Random Forest,13.096561753061758
+1,201,Estómago,Masculino,2023,14,Random Forest,15.27855760905761
 1,201,Estómago,Masculino,2024,10,Random Forest,14.580129879379877
 1,201,Estómago,Masculino,2025,16,Random Forest,14.85990056240056
 2,202,Colon y recto,Femenino,2022,9,Random Forest,11.180708643208645
-2,202,Colon y recto,Femenino,2023,3,Random Forest,10.362027250527253
-2,202,Colon y recto,Femenino,2024,6,Random Forest,9.852261904761908
+2,202,Colon y recto,Femenino,2023,3,Random Forest,10.362027250527255
+2,202,Colon y recto,Femenino,2024,6,Random Forest,9.852261904761912
 2,202,Colon y recto,Femenino,2025,13,Random Forest,6.587051636816343
-3,202,Colon y recto,Masculino,2022,7,Random Forest,6.251598549598549
+3,202,Colon y recto,Masculino,2022,7,Random Forest,6.251598549598548
 3,202,Colon y recto,Masculino,2023,9,Random Forest,6.0915569430569425
 3,202,Colon y recto,Masculino,2024,5,Random Forest,9.822111471861472
 3,202,Colon y recto,Masculino,2025,9,Random Forest,10.002314935064941
-4,203,Otros digestivos,Femenino,2022,9,Random Forest,12.602075341325344
+4,203,Otros digestivos,Femenino,2022,9,Random Forest,12.602075341325339
 4,203,Otros digestivos,Femenino,2023,16,Random Forest,13.129421180671185
 4,203,Otros digestivos,Femenino,2024,19,Random Forest,10.851372368372376
-4,203,Otros digestivos,Femenino,2025,11,Random Forest,11.84740206090206
+4,203,Otros digestivos,Femenino,2025,11,Random Forest,11.847402060902061
 5,203,Otros digestivos,Masculino,2022,13,Random Forest,14.846288489288485
-5,203,Otros digestivos,Masculino,2023,10,Random Forest,14.620812419062423
-5,203,Otros digestivos,Masculino,2024,15,Random Forest,14.902491832241834
+5,203,Otros digestivos,Masculino,2023,10,Random Forest,14.62081241906242
+5,203,Otros digestivos,Masculino,2024,15,Random Forest,14.90249183224183
 5,203,Otros digestivos,Masculino,2025,10,Random Forest,10.788599400599407
 6,204,"Tráquea, bronquios y pulmón",Femenino,2022,2,Random Forest,3.838557720057721
 6,204,"Tráquea, bronquios y pulmón",Femenino,2023,3,Random Forest,4.826434583934586
-6,204,"Tráquea, bronquios y pulmón",Femenino,2024,11,Random Forest,3.1324243534243523
-6,204,"Tráquea, bronquios y pulmón",Femenino,2025,4,Random Forest,5.435311808561809
-7,204,"Tráquea, bronquios y pulmón",Masculino,2022,8,Random Forest,3.109088134088135
-7,204,"Tráquea, bronquios y pulmón",Masculino,2023,3,Random Forest,5.950750666000666
-7,204,"Tráquea, bronquios y pulmón",Masculino,2024,9,Random Forest,3.6676884689384717
-7,204,"Tráquea, bronquios y pulmón",Masculino,2025,13,Random Forest,9.150706999971709
+6,204,"Tráquea, bronquios y pulmón",Femenino,2024,11,Random Forest,3.1324243534243537
+6,204,"Tráquea, bronquios y pulmón",Femenino,2025,4,Random Forest,5.435311808561808
+7,204,"Tráquea, bronquios y pulmón",Masculino,2022,8,Random Forest,3.1090881340881356
+7,204,"Tráquea, bronquios y pulmón",Masculino,2023,3,Random Forest,5.950750666000668
+7,204,"Tráquea, bronquios y pulmón",Masculino,2024,9,Random Forest,3.667688468938471
+7,204,"Tráquea, bronquios y pulmón",Masculino,2025,13,Random Forest,9.150706999971705
 8,205,Otros respiratorios,Femenino,2022,0,Random Forest,0.523590909090909
-8,205,Otros respiratorios,Femenino,2023,0,Random Forest,1.0372325914825913
+8,205,Otros respiratorios,Femenino,2023,0,Random Forest,1.0372325914825915
 8,205,Otros respiratorios,Femenino,2024,0,Random Forest,0.520682484182484
-8,205,Otros respiratorios,Femenino,2025,1,Random Forest,0.6699290894290891
-9,205,Otros respiratorios,Masculino,2022,1,Random Forest,1.1373265068265068
+8,205,Otros respiratorios,Femenino,2025,1,Random Forest,0.6699290894290892
+9,205,Otros respiratorios,Masculino,2022,1,Random Forest,1.137326506826507
 9,205,Otros respiratorios,Masculino,2023,1,Random Forest,1.577290283790285
-9,205,Otros respiratorios,Masculino,2024,1,Random Forest,0.9613664021164025
-9,205,Otros respiratorios,Masculino,2025,1,Random Forest,0.9613664021164025
-10,206,Mama (mujer),Femenino,2022,9,Random Forest,12.878683732933737
-10,206,Mama (mujer),Femenino,2023,9,Random Forest,10.55758766233766
-10,206,Mama (mujer),Femenino,2024,9,Random Forest,10.269712602212607
-10,206,Mama (mujer),Femenino,2025,6,Random Forest,10.481370129870133
+9,205,Otros respiratorios,Masculino,2024,1,Random Forest,0.9613664021164023
+9,205,Otros respiratorios,Masculino,2025,1,Random Forest,0.9613664021164023
+10,206,Mama (mujer),Femenino,2022,9,Random Forest,12.878683732933734
+10,206,Mama (mujer),Femenino,2023,9,Random Forest,10.557587662337662
+10,206,Mama (mujer),Femenino,2024,9,Random Forest,10.269712602212612
+10,206,Mama (mujer),Femenino,2025,6,Random Forest,10.481370129870136
 11,207,Cuello uterino,Femenino,2022,6,Random Forest,4.04749458874459
-11,207,Cuello uterino,Femenino,2023,8,Random Forest,4.724226190476191
+11,207,Cuello uterino,Femenino,2023,8,Random Forest,4.724226190476189
 11,207,Cuello uterino,Femenino,2024,5,Random Forest,5.2176671971819015
-11,207,Cuello uterino,Femenino,2025,4,Random Forest,8.493332661347369
+11,207,Cuello uterino,Femenino,2025,4,Random Forest,8.493332661347367
 12,208,Cuerpo del útero,Femenino,2022,4,Random Forest,1.8569494949494958
 12,208,Cuerpo del útero,Femenino,2023,0,Random Forest,3.118164252414252
 12,208,Cuerpo del útero,Femenino,2024,2,Random Forest,2.166159571909571
 12,208,Cuerpo del útero,Femenino,2025,2,Random Forest,1.6723277555777567
 13,209,Útero no especificado,Femenino,2022,5,Random Forest,0.6043266178266173
-13,209,Útero no especificado,Femenino,2023,1,Random Forest,2.422839105339106
+13,209,Útero no especificado,Femenino,2023,1,Random Forest,2.4228391053391056
 13,209,Útero no especificado,Femenino,2024,1,Random Forest,2.072957422207422
 13,209,Útero no especificado,Femenino,2025,1,Random Forest,2.304279461279461
 14,210,Próstata,Masculino,2022,11,Random Forest,9.493287999038
 14,210,Próstata,Masculino,2023,15,Random Forest,13.771965571465573
-14,210,Próstata,Masculino,2024,15,Random Forest,11.998879259629266
+14,210,Próstata,Masculino,2024,15,Random Forest,11.99887925962927
 14,210,Próstata,Masculino,2025,16,Random Forest,13.524447506197511
-15,211,Otros genitourinarios,Femenino,2022,11,Random Forest,9.75122667147668
-15,211,Otros genitourinarios,Femenino,2023,4,Random Forest,10.865714424464427
-15,211,Otros genitourinarios,Femenino,2024,7,Random Forest,10.947399100899105
+15,211,Otros genitourinarios,Femenino,2022,11,Random Forest,9.751226671476683
+15,211,Otros genitourinarios,Femenino,2023,4,Random Forest,10.865714424464432
+15,211,Otros genitourinarios,Femenino,2024,7,Random Forest,10.947399100899107
 15,211,Otros genitourinarios,Femenino,2025,8,Random Forest,9.496255679505682
 16,211,Otros genitourinarios,Masculino,2022,1,Random Forest,2.7286540311540333
-16,211,Otros genitourinarios,Masculino,2023,4,Random Forest,3.908104497354494
+16,211,Otros genitourinarios,Masculino,2023,4,Random Forest,3.908104497354495
 16,211,Otros genitourinarios,Masculino,2024,5,Random Forest,2.772373247123248
-16,211,Otros genitourinarios,Masculino,2025,6,Random Forest,2.979175491175493
+16,211,Otros genitourinarios,Masculino,2025,6,Random Forest,2.9791754911754937
 17,212,Leucemia,Femenino,2022,3,Random Forest,2.518393051393051
 17,212,Leucemia,Femenino,2023,6,Random Forest,2.8470597180597172
 17,212,Leucemia,Femenino,2024,3,Random Forest,2.825552382802383
 17,212,Leucemia,Femenino,2025,1,Random Forest,3.1819518352018368
 18,212,Leucemia,Masculino,2022,5,Random Forest,2.769242664742666
 18,212,Leucemia,Masculino,2023,0,Random Forest,2.570698819698822
-18,212,Leucemia,Masculino,2024,4,Random Forest,2.439320466570465
-18,212,Leucemia,Masculino,2025,4,Random Forest,3.125113784363785
-19,213,Linfático y hematopoyético,Femenino,2022,1,Random Forest,2.5255176120176133
-19,213,Linfático y hematopoyético,Femenino,2023,1,Random Forest,3.886728234728232
+18,212,Leucemia,Masculino,2024,4,Random Forest,2.4393204665704653
+18,212,Leucemia,Masculino,2025,4,Random Forest,3.1251137843637857
+19,213,Linfático y hematopoyético,Femenino,2022,1,Random Forest,2.525517612017613
+19,213,Linfático y hematopoyético,Femenino,2023,1,Random Forest,3.8867282347282335
 19,213,Linfático y hematopoyético,Femenino,2024,5,Random Forest,2.541419793169793
 19,213,Linfático y hematopoyético,Femenino,2025,6,Random Forest,2.8787307507307505
 20,213,Linfático y hematopoyético,Masculino,2022,3,Random Forest,2.746867965367966
-20,213,Linfático y hematopoyético,Masculino,2023,6,Random Forest,2.7242076719576724
+20,213,Linfático y hematopoyético,Masculino,2023,6,Random Forest,2.724207671957673
 20,213,Linfático y hematopoyético,Masculino,2024,4,Random Forest,2.9433432215932216
 20,213,Linfático y hematopoyético,Masculino,2025,3,Random Forest,2.6635554353054376
-21,214,Otras localizaciones,Femenino,2022,16,Random Forest,9.836704619454625
-21,214,Otras localizaciones,Femenino,2023,9,Random Forest,10.800244533244534
-21,214,Otras localizaciones,Femenino,2024,11,Random Forest,12.324908434158434
-21,214,Otras localizaciones,Femenino,2025,21,Random Forest,11.24814605764606
+21,214,Otras localizaciones,Femenino,2022,16,Random Forest,9.836704619454627
+21,214,Otras localizaciones,Femenino,2023,9,Random Forest,10.800244533244536
+21,214,Otras localizaciones,Femenino,2024,11,Random Forest,12.324908434158433
+21,214,Otras localizaciones,Femenino,2025,21,Random Forest,11.248146057646062
 22,214,Otras localizaciones,Masculino,2022,5,Random Forest,13.387401089651085
 22,214,Otras localizaciones,Masculino,2023,12,Random Forest,8.663408369408373
 22,214,Otras localizaciones,Masculino,2024,8,Random Forest,9.476090095090093
-22,214,Otras localizaciones,Masculino,2025,11,Random Forest,11.58835545010545
+22,214,Otras localizaciones,Masculino,2025,11,Random Forest,11.588355450105452
 23,215,In situ / benignos / incierto,Femenino,2022,3,Random Forest,3.459227152477151
-23,215,In situ / benignos / incierto,Femenino,2023,7,Random Forest,2.750143458393459
+23,215,In situ / benignos / incierto,Femenino,2023,7,Random Forest,2.75014345839346
 23,215,In situ / benignos / incierto,Femenino,2024,3,Random Forest,3.7460222462722474
 23,215,In situ / benignos / incierto,Femenino,2025,8,Random Forest,3.1309495874495896
 24,215,In situ / benignos / incierto,Masculino,2022,3,Random Forest,3.3811962019461994
-24,215,In situ / benignos / incierto,Masculino,2023,3,Random Forest,2.63366192141192
-24,215,In situ / benignos / incierto,Masculino,2024,5,Random Forest,2.9079096829096827
+24,215,In situ / benignos / incierto,Masculino,2023,3,Random Forest,2.6336619214119206
+24,215,In situ / benignos / incierto,Masculino,2024,5,Random Forest,2.907909682909683
 24,215,In situ / benignos / incierto,Masculino,2025,3,Random Forest,2.4067057757057757
 0,201,Estómago,Femenino,2022,12,XGBoost,9.879036903381348
 0,201,Estómago,Femenino,2023,12,XGBoost,11.26473617553711
