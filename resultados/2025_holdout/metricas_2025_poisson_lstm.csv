@@ -1,0 +1,3 @@
+modelo,anio_real,anio_entrenamiento_desde,anio_entrenamiento_hasta,observaciones_prueba,total_real,total_predicho,MAE,RMSE,precision_global_pct
+Poisson,2025,2008,2024,25,189,167.281,2.556364085068146,3.5592273874175744,66.18566025042134
+LSTM,2025,2008,2024,25,189,147.343,2.46045108795166,3.4622772189273876,67.4543506884701

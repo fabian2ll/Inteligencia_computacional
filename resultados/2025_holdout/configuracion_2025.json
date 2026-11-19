@@ -1,0 +1,28 @@
+{
+  "semilla": 42,
+  "periodo_entrenamiento": [
+    2008,
+    2024
+  ],
+  "anio_prueba": 2025,
+  "numero_series": 25,
+  "observaciones_entrenamiento": 425,
+  "observaciones_prueba": 25,
+  "poisson_alpha": 0.001,
+  "lstm": {
+    "hidden": 16,
+    "wd": 0.01,
+    "epocas": 300,
+    "mae_cv": 2.0669079508100237,
+    "mae_folds": [
+      1.9309555292129517,
+      1.8213531970977783,
+      2.764111042022705,
+      1.953553318977356,
+      1.891535997390747,
+      2.262871026992798,
+      1.84397554397583
+    ]
+  },
+  "nota_precision": "precision_global_pct = 100 * (1 - suma(|real - predicho|) / suma(real)). Puede ser negativa si el error supera el total real."
+}
