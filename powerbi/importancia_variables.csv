@@ -1,0 +1,54 @@
+﻿modelo,metodo,variable,valor,valor_abs
+Poisson,Coeficiente (escala log),Tipo: Útero no especificado (vs Estómago),-1.9889,1.9889
+Poisson,Coeficiente (escala log),Edad 65+ (vs 0-14),1.8752,1.8752
+Poisson,Coeficiente (escala log),Tipo: Otros respiratorios (vs Estómago),-1.6599,1.6599
+Poisson,Coeficiente (escala log),Edad 45-64 (vs 0-14),1.4883,1.4883
+Poisson,Coeficiente (escala log),Tipo: Cuerpo del útero (vs Estómago),-1.1665,1.1665
+Poisson,Coeficiente (escala log),Edad 15-44 (vs 0-14),0.6984,0.6984
+Poisson,Coeficiente (escala log),Tipo: Linfático y hematopoyético (vs Estómago),-0.6333,0.6333
+Poisson,Coeficiente (escala log),Tipo: Leucemia (vs Estómago),-0.5741,0.5741
+Poisson,Coeficiente (escala log),Tipo: In situ / benignos / incierto (vs Estómago),-0.554,0.554
+Poisson,Coeficiente (escala log),"Tipo: Tráquea, bronquios y pulmón (vs Estómago)",-0.4989,0.4989
+Poisson,Coeficiente (escala log),Tipo: Cuello uterino (vs Estómago),-0.425,0.425
+Poisson,Coeficiente (escala log),Tipo: Otros genitourinarios (vs Estómago),-0.3947,0.3947
+Poisson,Coeficiente (escala log),Muertes 2 años antes (log),0.2147,0.2147
+Poisson,Coeficiente (escala log),Tipo: Colon y recto (vs Estómago),-0.2067,0.2067
+Poisson,Coeficiente (escala log),Muertes 1 año antes (log),0.1414,0.1414
+Poisson,Coeficiente (escala log),Año atípico 2020-2022,0.1294,0.1294
+Poisson,Coeficiente (escala log),Muertes 3 años antes (log),0.1149,0.1149
+Poisson,Coeficiente (escala log),Tipo: Otros digestivos (vs Estómago),0.1022,0.1022
+Poisson,Coeficiente (escala log),Tipo: Mama (mujer) (vs Estómago),0.089,0.089
+Poisson,Coeficiente (escala log),Tipo: Próstata (vs Estómago),0.0165,0.0165
+Poisson,Coeficiente (escala log),Sexo masculino,-0.0151,0.0151
+Poisson,Coeficiente (escala log),Tipo: Otras localizaciones (vs Estómago),0.0012,0.0012
+Poisson,Coeficiente (escala log),Tendencia (año),0.0002,0.0002
+XGBoost,SHAP medio absoluto,Promedio 3 años,0.6769,0.6769
+XGBoost,SHAP medio absoluto,Grupo de edad,0.2914,0.2914
+XGBoost,SHAP medio absoluto,Muertes 2 años antes,0.0975,0.0975
+XGBoost,SHAP medio absoluto,Tipo de cáncer,0.0562,0.0562
+XGBoost,SHAP medio absoluto,Tendencia (año),0.0271,0.0271
+XGBoost,SHAP medio absoluto,Muertes 3 años antes,0.0245,0.0245
+XGBoost,SHAP medio absoluto,Muertes 1 año antes,0.0199,0.0199
+XGBoost,SHAP medio absoluto,Sexo masculino,0.0098,0.0098
+XGBoost,SHAP medio absoluto,Año atípico,0.0,0.0
+XGBoost,Permutación (aumento del MAE),Promedio 3 años,0.6974,0.6974
+XGBoost,Permutación (aumento del MAE),Grupo de edad,0.1483,0.1483
+XGBoost,Permutación (aumento del MAE),Muertes 2 años antes,0.0228,0.0228
+XGBoost,Permutación (aumento del MAE),Tipo de cáncer,0.0014,0.0014
+XGBoost,Permutación (aumento del MAE),Tendencia (año),0.0,0.0
+XGBoost,Permutación (aumento del MAE),Muertes 3 años antes,0.0032,0.0032
+XGBoost,Permutación (aumento del MAE),Muertes 1 año antes,-0.0002,0.0002
+XGBoost,Permutación (aumento del MAE),Sexo masculino,0.0011,0.0011
+XGBoost,Permutación (aumento del MAE),Año atípico,0.0,0.0
+Random Forest,Permutación (aumento del MAE),Promedio 3 años,0.5042,0.5042
+Random Forest,Permutación (aumento del MAE),Grupo de edad,0.0806,0.0806
+Random Forest,Permutación (aumento del MAE),Muertes 2 años antes,0.0586,0.0586
+Random Forest,Permutación (aumento del MAE),Tipo de cáncer,0.0243,0.0243
+Random Forest,Permutación (aumento del MAE),Tendencia (año),0.0,0.0
+Random Forest,Permutación (aumento del MAE),Muertes 3 años antes,0.0544,0.0544
+Random Forest,Permutación (aumento del MAE),Muertes 1 año antes,0.0694,0.0694
+Random Forest,Permutación (aumento del MAE),Sexo masculino,0.0105,0.0105
+Random Forest,Permutación (aumento del MAE),Año atípico,0.0003,0.0003
+LSTM,Permutación (aumento del MAE),Serie (tipo x sexo),0.5626,0.5626
+LSTM,Permutación (aumento del MAE),Muertes de los 3 años previos,0.3341,0.3341
+LSTM,Permutación (aumento del MAE),Indicador de año atípico,-0.0391,0.0391

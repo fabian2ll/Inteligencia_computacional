@@ -1,0 +1,1477 @@
+serie_id,cod,tipo,sexo,grupo_edad,anio,muertes,lag1,lag2,lag3,mm3,anio_idx,atipico_covid,sexo_masc,edad_idx,conjunto
+0,201,Estómago,Femenino,15-44,2008,0,,,,,0,0,0,1,sin_rezagos
+0,201,Estómago,Femenino,15-44,2009,1,0.0,,,,1,0,0,1,sin_rezagos
+0,201,Estómago,Femenino,15-44,2010,1,1.0,0.0,,,2,0,0,1,sin_rezagos
+0,201,Estómago,Femenino,15-44,2011,0,1.0,1.0,0.0,0.6666666666666666,3,0,0,1,train
+0,201,Estómago,Femenino,15-44,2012,0,0.0,1.0,1.0,0.6666666666666666,4,0,0,1,train
+0,201,Estómago,Femenino,15-44,2013,1,0.0,0.0,1.0,0.3333333333333333,5,0,0,1,train
+0,201,Estómago,Femenino,15-44,2014,1,1.0,0.0,0.0,0.3333333333333333,6,0,0,1,train
+0,201,Estómago,Femenino,15-44,2015,1,1.0,1.0,0.0,0.6666666666666666,7,0,0,1,train
+0,201,Estómago,Femenino,15-44,2016,2,1.0,1.0,1.0,1.0,8,0,0,1,train
+0,201,Estómago,Femenino,15-44,2017,1,2.0,1.0,1.0,1.3333333333333333,9,0,0,1,train
+0,201,Estómago,Femenino,15-44,2018,2,1.0,2.0,1.0,1.3333333333333333,10,0,0,1,train
+0,201,Estómago,Femenino,15-44,2019,1,2.0,1.0,2.0,1.6666666666666667,11,0,0,1,train
+0,201,Estómago,Femenino,15-44,2020,0,1.0,2.0,1.0,1.3333333333333333,12,1,0,1,train
+0,201,Estómago,Femenino,15-44,2021,2,0.0,1.0,2.0,1.0,13,1,0,1,train
+0,201,Estómago,Femenino,15-44,2022,3,2.0,0.0,1.0,1.0,14,1,0,1,test
+0,201,Estómago,Femenino,15-44,2023,0,3.0,2.0,0.0,1.6666666666666667,15,0,0,1,test
+0,201,Estómago,Femenino,15-44,2024,1,0.0,3.0,2.0,1.6666666666666667,16,0,0,1,test
+0,201,Estómago,Femenino,15-44,2025,2,1.0,0.0,3.0,1.3333333333333333,17,0,0,1,test
+1,201,Estómago,Femenino,45-64,2008,1,,,,,0,0,0,2,sin_rezagos
+1,201,Estómago,Femenino,45-64,2009,4,1.0,,,,1,0,0,2,sin_rezagos
+1,201,Estómago,Femenino,45-64,2010,1,4.0,1.0,,,2,0,0,2,sin_rezagos
+1,201,Estómago,Femenino,45-64,2011,1,1.0,4.0,1.0,2.0,3,0,0,2,train
+1,201,Estómago,Femenino,45-64,2012,2,1.0,1.0,4.0,2.0,4,0,0,2,train
+1,201,Estómago,Femenino,45-64,2013,1,2.0,1.0,1.0,1.3333333333333333,5,0,0,2,train
+1,201,Estómago,Femenino,45-64,2014,2,1.0,2.0,1.0,1.3333333333333333,6,0,0,2,train
+1,201,Estómago,Femenino,45-64,2015,5,2.0,1.0,2.0,1.6666666666666667,7,0,0,2,train
+1,201,Estómago,Femenino,45-64,2016,1,5.0,2.0,1.0,2.6666666666666665,8,0,0,2,train
+1,201,Estómago,Femenino,45-64,2017,3,1.0,5.0,2.0,2.6666666666666665,9,0,0,2,train
+1,201,Estómago,Femenino,45-64,2018,1,3.0,1.0,5.0,3.0,10,0,0,2,train
+1,201,Estómago,Femenino,45-64,2019,1,1.0,3.0,1.0,1.6666666666666667,11,0,0,2,train
+1,201,Estómago,Femenino,45-64,2020,4,1.0,1.0,3.0,1.6666666666666667,12,1,0,2,train
+1,201,Estómago,Femenino,45-64,2021,3,4.0,1.0,1.0,2.0,13,1,0,2,train
+1,201,Estómago,Femenino,45-64,2022,4,3.0,4.0,1.0,2.6666666666666665,14,1,0,2,test
+1,201,Estómago,Femenino,45-64,2023,2,4.0,3.0,4.0,3.6666666666666665,15,0,0,2,test
+1,201,Estómago,Femenino,45-64,2024,1,2.0,4.0,3.0,3.0,16,0,0,2,test
+1,201,Estómago,Femenino,45-64,2025,1,1.0,2.0,4.0,2.3333333333333335,17,0,0,2,test
+2,201,Estómago,Femenino,65+,2008,8,,,,,0,0,0,3,sin_rezagos
+2,201,Estómago,Femenino,65+,2009,11,8.0,,,,1,0,0,3,sin_rezagos
+2,201,Estómago,Femenino,65+,2010,8,11.0,8.0,,,2,0,0,3,sin_rezagos
+2,201,Estómago,Femenino,65+,2011,7,8.0,11.0,8.0,9.0,3,0,0,3,train
+2,201,Estómago,Femenino,65+,2012,9,7.0,8.0,11.0,8.666666666666666,4,0,0,3,train
+2,201,Estómago,Femenino,65+,2013,5,9.0,7.0,8.0,8.0,5,0,0,3,train
+2,201,Estómago,Femenino,65+,2014,4,5.0,9.0,7.0,7.0,6,0,0,3,train
+2,201,Estómago,Femenino,65+,2015,4,4.0,5.0,9.0,6.0,7,0,0,3,train
+2,201,Estómago,Femenino,65+,2016,3,4.0,4.0,5.0,4.333333333333333,8,0,0,3,train
+2,201,Estómago,Femenino,65+,2017,1,3.0,4.0,4.0,3.6666666666666665,9,0,0,3,train
+2,201,Estómago,Femenino,65+,2018,10,1.0,3.0,4.0,2.6666666666666665,10,0,0,3,train
+2,201,Estómago,Femenino,65+,2019,5,10.0,1.0,3.0,4.666666666666667,11,0,0,3,train
+2,201,Estómago,Femenino,65+,2020,3,5.0,10.0,1.0,5.333333333333333,12,1,0,3,train
+2,201,Estómago,Femenino,65+,2021,7,3.0,5.0,10.0,6.0,13,1,0,3,train
+2,201,Estómago,Femenino,65+,2022,5,7.0,3.0,5.0,5.0,14,1,0,3,test
+2,201,Estómago,Femenino,65+,2023,10,5.0,7.0,3.0,5.0,15,0,0,3,test
+2,201,Estómago,Femenino,65+,2024,9,10.0,5.0,7.0,7.333333333333333,16,0,0,3,test
+2,201,Estómago,Femenino,65+,2025,6,9.0,10.0,5.0,8.0,17,0,0,3,test
+3,201,Estómago,Masculino,15-44,2008,0,,,,,0,0,1,1,sin_rezagos
+3,201,Estómago,Masculino,15-44,2009,0,0.0,,,,1,0,1,1,sin_rezagos
+3,201,Estómago,Masculino,15-44,2010,1,0.0,0.0,,,2,0,1,1,sin_rezagos
+3,201,Estómago,Masculino,15-44,2011,0,1.0,0.0,0.0,0.3333333333333333,3,0,1,1,train
+3,201,Estómago,Masculino,15-44,2012,0,0.0,1.0,0.0,0.3333333333333333,4,0,1,1,train
+3,201,Estómago,Masculino,15-44,2013,1,0.0,0.0,1.0,0.3333333333333333,5,0,1,1,train
+3,201,Estómago,Masculino,15-44,2014,0,1.0,0.0,0.0,0.3333333333333333,6,0,1,1,train
+3,201,Estómago,Masculino,15-44,2015,0,0.0,1.0,0.0,0.3333333333333333,7,0,1,1,train
+3,201,Estómago,Masculino,15-44,2016,2,0.0,0.0,1.0,0.3333333333333333,8,0,1,1,train
+3,201,Estómago,Masculino,15-44,2017,1,2.0,0.0,0.0,0.6666666666666666,9,0,1,1,train
+3,201,Estómago,Masculino,15-44,2018,2,1.0,2.0,0.0,1.0,10,0,1,1,train
+3,201,Estómago,Masculino,15-44,2019,0,2.0,1.0,2.0,1.6666666666666667,11,0,1,1,train
+3,201,Estómago,Masculino,15-44,2020,1,0.0,2.0,1.0,1.0,12,1,1,1,train
+3,201,Estómago,Masculino,15-44,2021,0,1.0,0.0,2.0,1.0,13,1,1,1,train
+3,201,Estómago,Masculino,15-44,2022,4,0.0,1.0,0.0,0.3333333333333333,14,1,1,1,test
+3,201,Estómago,Masculino,15-44,2023,2,4.0,0.0,1.0,1.6666666666666667,15,0,1,1,test
+3,201,Estómago,Masculino,15-44,2024,0,2.0,4.0,0.0,2.0,16,0,1,1,test
+3,201,Estómago,Masculino,15-44,2025,0,0.0,2.0,4.0,2.0,17,0,1,1,test
+4,201,Estómago,Masculino,45-64,2008,2,,,,,0,0,1,2,sin_rezagos
+4,201,Estómago,Masculino,45-64,2009,6,2.0,,,,1,0,1,2,sin_rezagos
+4,201,Estómago,Masculino,45-64,2010,8,6.0,2.0,,,2,0,1,2,sin_rezagos
+4,201,Estómago,Masculino,45-64,2011,6,8.0,6.0,2.0,5.333333333333333,3,0,1,2,train
+4,201,Estómago,Masculino,45-64,2012,6,6.0,8.0,6.0,6.666666666666667,4,0,1,2,train
+4,201,Estómago,Masculino,45-64,2013,7,6.0,6.0,8.0,6.666666666666667,5,0,1,2,train
+4,201,Estómago,Masculino,45-64,2014,3,7.0,6.0,6.0,6.333333333333333,6,0,1,2,train
+4,201,Estómago,Masculino,45-64,2015,4,3.0,7.0,6.0,5.333333333333333,7,0,1,2,train
+4,201,Estómago,Masculino,45-64,2016,4,4.0,3.0,7.0,4.666666666666667,8,0,1,2,train
+4,201,Estómago,Masculino,45-64,2017,4,4.0,4.0,3.0,3.6666666666666665,9,0,1,2,train
+4,201,Estómago,Masculino,45-64,2018,7,4.0,4.0,4.0,4.0,10,0,1,2,train
+4,201,Estómago,Masculino,45-64,2019,3,7.0,4.0,4.0,5.0,11,0,1,2,train
+4,201,Estómago,Masculino,45-64,2020,4,3.0,7.0,4.0,4.666666666666667,12,1,1,2,train
+4,201,Estómago,Masculino,45-64,2021,5,4.0,3.0,7.0,4.666666666666667,13,1,1,2,train
+4,201,Estómago,Masculino,45-64,2022,5,5.0,4.0,3.0,4.0,14,1,1,2,test
+4,201,Estómago,Masculino,45-64,2023,5,5.0,5.0,4.0,4.666666666666667,15,0,1,2,test
+4,201,Estómago,Masculino,45-64,2024,1,5.0,5.0,5.0,5.0,16,0,1,2,test
+4,201,Estómago,Masculino,45-64,2025,5,1.0,5.0,5.0,3.6666666666666665,17,0,1,2,test
+5,201,Estómago,Masculino,65+,2008,11,,,,,0,0,1,3,sin_rezagos
+5,201,Estómago,Masculino,65+,2009,8,11.0,,,,1,0,1,3,sin_rezagos
+5,201,Estómago,Masculino,65+,2010,10,8.0,11.0,,,2,0,1,3,sin_rezagos
+5,201,Estómago,Masculino,65+,2011,8,10.0,8.0,11.0,9.666666666666666,3,0,1,3,train
+5,201,Estómago,Masculino,65+,2012,8,8.0,10.0,8.0,8.666666666666666,4,0,1,3,train
+5,201,Estómago,Masculino,65+,2013,7,8.0,8.0,10.0,8.666666666666666,5,0,1,3,train
+5,201,Estómago,Masculino,65+,2014,8,7.0,8.0,8.0,7.666666666666667,6,0,1,3,train
+5,201,Estómago,Masculino,65+,2015,7,8.0,7.0,8.0,7.666666666666667,7,0,1,3,train
+5,201,Estómago,Masculino,65+,2016,12,7.0,8.0,7.0,7.333333333333333,8,0,1,3,train
+5,201,Estómago,Masculino,65+,2017,5,12.0,7.0,8.0,9.0,9,0,1,3,train
+5,201,Estómago,Masculino,65+,2018,12,5.0,12.0,7.0,8.0,10,0,1,3,train
+5,201,Estómago,Masculino,65+,2019,6,12.0,5.0,12.0,9.666666666666666,11,0,1,3,train
+5,201,Estómago,Masculino,65+,2020,6,6.0,12.0,5.0,7.666666666666667,12,1,1,3,train
+5,201,Estómago,Masculino,65+,2021,8,6.0,6.0,12.0,8.0,13,1,1,3,train
+5,201,Estómago,Masculino,65+,2022,4,8.0,6.0,6.0,6.666666666666667,14,1,1,3,test
+5,201,Estómago,Masculino,65+,2023,7,4.0,8.0,6.0,6.0,15,0,1,3,test
+5,201,Estómago,Masculino,65+,2024,9,7.0,4.0,8.0,6.333333333333333,16,0,1,3,test
+5,201,Estómago,Masculino,65+,2025,11,9.0,7.0,4.0,6.666666666666667,17,0,1,3,test
+6,202,Colon y recto,Femenino,15-44,2008,0,,,,,0,0,0,1,sin_rezagos
+6,202,Colon y recto,Femenino,15-44,2009,1,0.0,,,,1,0,0,1,sin_rezagos
+6,202,Colon y recto,Femenino,15-44,2010,0,1.0,0.0,,,2,0,0,1,sin_rezagos
+6,202,Colon y recto,Femenino,15-44,2011,0,0.0,1.0,0.0,0.3333333333333333,3,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2012,1,0.0,0.0,1.0,0.3333333333333333,4,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2013,0,1.0,0.0,0.0,0.3333333333333333,5,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2014,0,0.0,1.0,0.0,0.3333333333333333,6,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2015,0,0.0,0.0,1.0,0.3333333333333333,7,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2016,0,0.0,0.0,0.0,0.0,8,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2017,0,0.0,0.0,0.0,0.0,9,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2018,0,0.0,0.0,0.0,0.0,10,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2019,0,0.0,0.0,0.0,0.0,11,0,0,1,train
+6,202,Colon y recto,Femenino,15-44,2020,1,0.0,0.0,0.0,0.0,12,1,0,1,train
+6,202,Colon y recto,Femenino,15-44,2021,1,1.0,0.0,0.0,0.3333333333333333,13,1,0,1,train
+6,202,Colon y recto,Femenino,15-44,2022,0,1.0,1.0,0.0,0.6666666666666666,14,1,0,1,test
+6,202,Colon y recto,Femenino,15-44,2023,0,0.0,1.0,1.0,0.6666666666666666,15,0,0,1,test
+6,202,Colon y recto,Femenino,15-44,2024,0,0.0,0.0,1.0,0.3333333333333333,16,0,0,1,test
+6,202,Colon y recto,Femenino,15-44,2025,0,0.0,0.0,0.0,0.0,17,0,0,1,test
+7,202,Colon y recto,Femenino,45-64,2008,0,,,,,0,0,0,2,sin_rezagos
+7,202,Colon y recto,Femenino,45-64,2009,2,0.0,,,,1,0,0,2,sin_rezagos
+7,202,Colon y recto,Femenino,45-64,2010,1,2.0,0.0,,,2,0,0,2,sin_rezagos
+7,202,Colon y recto,Femenino,45-64,2011,1,1.0,2.0,0.0,1.0,3,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2012,3,1.0,1.0,2.0,1.3333333333333333,4,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2013,0,3.0,1.0,1.0,1.6666666666666667,5,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2014,2,0.0,3.0,1.0,1.3333333333333333,6,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2015,1,2.0,0.0,3.0,1.6666666666666667,7,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2016,2,1.0,2.0,0.0,1.0,8,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2017,1,2.0,1.0,2.0,1.6666666666666667,9,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2018,1,1.0,2.0,1.0,1.3333333333333333,10,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2019,4,1.0,1.0,2.0,1.3333333333333333,11,0,0,2,train
+7,202,Colon y recto,Femenino,45-64,2020,4,4.0,1.0,1.0,2.0,12,1,0,2,train
+7,202,Colon y recto,Femenino,45-64,2021,4,4.0,4.0,1.0,3.0,13,1,0,2,train
+7,202,Colon y recto,Femenino,45-64,2022,0,4.0,4.0,4.0,4.0,14,1,0,2,test
+7,202,Colon y recto,Femenino,45-64,2023,0,0.0,4.0,4.0,2.6666666666666665,15,0,0,2,test
+7,202,Colon y recto,Femenino,45-64,2024,2,0.0,0.0,4.0,1.3333333333333333,16,0,0,2,test
+7,202,Colon y recto,Femenino,45-64,2025,4,2.0,0.0,0.0,0.6666666666666666,17,0,0,2,test
+8,202,Colon y recto,Femenino,65+,2008,3,,,,,0,0,0,3,sin_rezagos
+8,202,Colon y recto,Femenino,65+,2009,1,3.0,,,,1,0,0,3,sin_rezagos
+8,202,Colon y recto,Femenino,65+,2010,2,1.0,3.0,,,2,0,0,3,sin_rezagos
+8,202,Colon y recto,Femenino,65+,2011,6,2.0,1.0,3.0,2.0,3,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2012,2,6.0,2.0,1.0,3.0,4,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2013,1,2.0,6.0,2.0,3.3333333333333335,5,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2014,8,1.0,2.0,6.0,3.0,6,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2015,5,8.0,1.0,2.0,3.6666666666666665,7,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2016,5,5.0,8.0,1.0,4.666666666666667,8,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2017,4,5.0,5.0,8.0,6.0,9,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2018,3,4.0,5.0,5.0,4.666666666666667,10,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2019,2,3.0,4.0,5.0,4.0,11,0,0,3,train
+8,202,Colon y recto,Femenino,65+,2020,7,2.0,3.0,4.0,3.0,12,1,0,3,train
+8,202,Colon y recto,Femenino,65+,2021,5,7.0,2.0,3.0,4.0,13,1,0,3,train
+8,202,Colon y recto,Femenino,65+,2022,9,5.0,7.0,2.0,4.666666666666667,14,1,0,3,test
+8,202,Colon y recto,Femenino,65+,2023,3,9.0,5.0,7.0,7.0,15,0,0,3,test
+8,202,Colon y recto,Femenino,65+,2024,4,3.0,9.0,5.0,5.666666666666667,16,0,0,3,test
+8,202,Colon y recto,Femenino,65+,2025,9,4.0,3.0,9.0,5.333333333333333,17,0,0,3,test
+9,202,Colon y recto,Masculino,15-44,2008,0,,,,,0,0,1,1,sin_rezagos
+9,202,Colon y recto,Masculino,15-44,2009,0,0.0,,,,1,0,1,1,sin_rezagos
+9,202,Colon y recto,Masculino,15-44,2010,0,0.0,0.0,,,2,0,1,1,sin_rezagos
+9,202,Colon y recto,Masculino,15-44,2011,1,0.0,0.0,0.0,0.0,3,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2012,0,1.0,0.0,0.0,0.3333333333333333,4,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2013,0,0.0,1.0,0.0,0.3333333333333333,5,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2014,1,0.0,0.0,1.0,0.3333333333333333,6,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2015,0,1.0,0.0,0.0,0.3333333333333333,7,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2016,0,0.0,1.0,0.0,0.3333333333333333,8,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2017,0,0.0,0.0,1.0,0.3333333333333333,9,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2018,1,0.0,0.0,0.0,0.0,10,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2019,0,1.0,0.0,0.0,0.3333333333333333,11,0,1,1,train
+9,202,Colon y recto,Masculino,15-44,2020,1,0.0,1.0,0.0,0.3333333333333333,12,1,1,1,train
+9,202,Colon y recto,Masculino,15-44,2021,1,1.0,0.0,1.0,0.6666666666666666,13,1,1,1,train
+9,202,Colon y recto,Masculino,15-44,2022,0,1.0,1.0,0.0,0.6666666666666666,14,1,1,1,test
+9,202,Colon y recto,Masculino,15-44,2023,0,0.0,1.0,1.0,0.6666666666666666,15,0,1,1,test
+9,202,Colon y recto,Masculino,15-44,2024,2,0.0,0.0,1.0,0.3333333333333333,16,0,1,1,test
+9,202,Colon y recto,Masculino,15-44,2025,0,2.0,0.0,0.0,0.6666666666666666,17,0,1,1,test
+10,202,Colon y recto,Masculino,45-64,2008,0,,,,,0,0,1,2,sin_rezagos
+10,202,Colon y recto,Masculino,45-64,2009,2,0.0,,,,1,0,1,2,sin_rezagos
+10,202,Colon y recto,Masculino,45-64,2010,0,2.0,0.0,,,2,0,1,2,sin_rezagos
+10,202,Colon y recto,Masculino,45-64,2011,1,0.0,2.0,0.0,0.6666666666666666,3,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2012,3,1.0,0.0,2.0,1.0,4,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2013,3,3.0,1.0,0.0,1.3333333333333333,5,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2014,1,3.0,3.0,1.0,2.3333333333333335,6,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2015,1,1.0,3.0,3.0,2.3333333333333335,7,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2016,2,1.0,1.0,3.0,1.6666666666666667,8,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2017,2,2.0,1.0,1.0,1.3333333333333333,9,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2018,0,2.0,2.0,1.0,1.6666666666666667,10,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2019,1,0.0,2.0,2.0,1.3333333333333333,11,0,1,2,train
+10,202,Colon y recto,Masculino,45-64,2020,1,1.0,0.0,2.0,1.0,12,1,1,2,train
+10,202,Colon y recto,Masculino,45-64,2021,0,1.0,1.0,0.0,0.6666666666666666,13,1,1,2,train
+10,202,Colon y recto,Masculino,45-64,2022,3,0.0,1.0,1.0,0.6666666666666666,14,1,1,2,test
+10,202,Colon y recto,Masculino,45-64,2023,3,3.0,0.0,1.0,1.3333333333333333,15,0,1,2,test
+10,202,Colon y recto,Masculino,45-64,2024,1,3.0,3.0,0.0,2.0,16,0,1,2,test
+10,202,Colon y recto,Masculino,45-64,2025,2,1.0,3.0,3.0,2.3333333333333335,17,0,1,2,test
+11,202,Colon y recto,Masculino,65+,2008,2,,,,,0,0,1,3,sin_rezagos
+11,202,Colon y recto,Masculino,65+,2009,0,2.0,,,,1,0,1,3,sin_rezagos
+11,202,Colon y recto,Masculino,65+,2010,3,0.0,2.0,,,2,0,1,3,sin_rezagos
+11,202,Colon y recto,Masculino,65+,2011,1,3.0,0.0,2.0,1.6666666666666667,3,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2012,1,1.0,3.0,0.0,1.3333333333333333,4,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2013,4,1.0,1.0,3.0,1.6666666666666667,5,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2014,3,4.0,1.0,1.0,2.0,6,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2015,4,3.0,4.0,1.0,2.6666666666666665,7,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2016,4,4.0,3.0,4.0,3.6666666666666665,8,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2017,5,4.0,4.0,3.0,3.6666666666666665,9,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2018,3,5.0,4.0,4.0,4.333333333333333,10,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2019,4,3.0,5.0,4.0,4.0,11,0,1,3,train
+11,202,Colon y recto,Masculino,65+,2020,3,4.0,3.0,5.0,4.0,12,1,1,3,train
+11,202,Colon y recto,Masculino,65+,2021,4,3.0,4.0,3.0,3.3333333333333335,13,1,1,3,train
+11,202,Colon y recto,Masculino,65+,2022,4,4.0,3.0,4.0,3.6666666666666665,14,1,1,3,test
+11,202,Colon y recto,Masculino,65+,2023,6,4.0,4.0,3.0,3.6666666666666665,15,0,1,3,test
+11,202,Colon y recto,Masculino,65+,2024,2,6.0,4.0,4.0,4.666666666666667,16,0,1,3,test
+11,202,Colon y recto,Masculino,65+,2025,7,2.0,6.0,4.0,4.0,17,0,1,3,test
+12,203,Otros digestivos,Femenino,15-44,2008,1,,,,,0,0,0,1,sin_rezagos
+12,203,Otros digestivos,Femenino,15-44,2009,2,1.0,,,,1,0,0,1,sin_rezagos
+12,203,Otros digestivos,Femenino,15-44,2010,0,2.0,1.0,,,2,0,0,1,sin_rezagos
+12,203,Otros digestivos,Femenino,15-44,2011,0,0.0,2.0,1.0,1.0,3,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2012,1,0.0,0.0,2.0,0.6666666666666666,4,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2013,0,1.0,0.0,0.0,0.3333333333333333,5,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2014,0,0.0,1.0,0.0,0.3333333333333333,6,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2015,0,0.0,0.0,1.0,0.3333333333333333,7,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2016,0,0.0,0.0,0.0,0.0,8,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2017,1,0.0,0.0,0.0,0.0,9,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2018,0,1.0,0.0,0.0,0.3333333333333333,10,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2019,0,0.0,1.0,0.0,0.3333333333333333,11,0,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2020,2,0.0,0.0,1.0,0.3333333333333333,12,1,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2021,0,2.0,0.0,0.0,0.6666666666666666,13,1,0,1,train
+12,203,Otros digestivos,Femenino,15-44,2022,0,0.0,2.0,0.0,0.6666666666666666,14,1,0,1,test
+12,203,Otros digestivos,Femenino,15-44,2023,1,0.0,0.0,2.0,0.6666666666666666,15,0,0,1,test
+12,203,Otros digestivos,Femenino,15-44,2024,1,1.0,0.0,0.0,0.3333333333333333,16,0,0,1,test
+12,203,Otros digestivos,Femenino,15-44,2025,1,1.0,1.0,0.0,0.6666666666666666,17,0,0,1,test
+13,203,Otros digestivos,Femenino,45-64,2008,3,,,,,0,0,0,2,sin_rezagos
+13,203,Otros digestivos,Femenino,45-64,2009,2,3.0,,,,1,0,0,2,sin_rezagos
+13,203,Otros digestivos,Femenino,45-64,2010,0,2.0,3.0,,,2,0,0,2,sin_rezagos
+13,203,Otros digestivos,Femenino,45-64,2011,0,0.0,2.0,3.0,1.6666666666666667,3,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2012,1,0.0,0.0,2.0,0.6666666666666666,4,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2013,2,1.0,0.0,0.0,0.3333333333333333,5,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2014,3,2.0,1.0,0.0,1.0,6,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2015,7,3.0,2.0,1.0,2.0,7,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2016,1,7.0,3.0,2.0,4.0,8,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2017,2,1.0,7.0,3.0,3.6666666666666665,9,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2018,3,2.0,1.0,7.0,3.3333333333333335,10,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2019,2,3.0,2.0,1.0,2.0,11,0,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2020,6,2.0,3.0,2.0,2.3333333333333335,12,1,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2021,2,6.0,2.0,3.0,3.6666666666666665,13,1,0,2,train
+13,203,Otros digestivos,Femenino,45-64,2022,3,2.0,6.0,2.0,3.3333333333333335,14,1,0,2,test
+13,203,Otros digestivos,Femenino,45-64,2023,7,3.0,2.0,6.0,3.6666666666666665,15,0,0,2,test
+13,203,Otros digestivos,Femenino,45-64,2024,5,7.0,3.0,2.0,4.0,16,0,0,2,test
+13,203,Otros digestivos,Femenino,45-64,2025,2,5.0,7.0,3.0,5.0,17,0,0,2,test
+14,203,Otros digestivos,Femenino,65+,2008,6,,,,,0,0,0,3,sin_rezagos
+14,203,Otros digestivos,Femenino,65+,2009,10,6.0,,,,1,0,0,3,sin_rezagos
+14,203,Otros digestivos,Femenino,65+,2010,10,10.0,6.0,,,2,0,0,3,sin_rezagos
+14,203,Otros digestivos,Femenino,65+,2011,5,10.0,10.0,6.0,8.666666666666666,3,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2012,1,5.0,10.0,10.0,8.333333333333334,4,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2013,6,1.0,5.0,10.0,5.333333333333333,5,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2014,12,6.0,1.0,5.0,4.0,6,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2015,10,12.0,6.0,1.0,6.333333333333333,7,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2016,10,10.0,12.0,6.0,9.333333333333334,8,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2017,9,10.0,10.0,12.0,10.666666666666666,9,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2018,10,9.0,10.0,10.0,9.666666666666666,10,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2019,4,10.0,9.0,10.0,9.666666666666666,11,0,0,3,train
+14,203,Otros digestivos,Femenino,65+,2020,12,4.0,10.0,9.0,7.666666666666667,12,1,0,3,train
+14,203,Otros digestivos,Femenino,65+,2021,11,12.0,4.0,10.0,8.666666666666666,13,1,0,3,train
+14,203,Otros digestivos,Femenino,65+,2022,6,11.0,12.0,4.0,9.0,14,1,0,3,test
+14,203,Otros digestivos,Femenino,65+,2023,8,6.0,11.0,12.0,9.666666666666666,15,0,0,3,test
+14,203,Otros digestivos,Femenino,65+,2024,13,8.0,6.0,11.0,8.333333333333334,16,0,0,3,test
+14,203,Otros digestivos,Femenino,65+,2025,8,13.0,8.0,6.0,9.0,17,0,0,3,test
+15,203,Otros digestivos,Masculino,15-44,2008,1,,,,,0,0,1,1,sin_rezagos
+15,203,Otros digestivos,Masculino,15-44,2009,0,1.0,,,,1,0,1,1,sin_rezagos
+15,203,Otros digestivos,Masculino,15-44,2010,0,0.0,1.0,,,2,0,1,1,sin_rezagos
+15,203,Otros digestivos,Masculino,15-44,2011,1,0.0,0.0,1.0,0.3333333333333333,3,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2012,1,1.0,0.0,0.0,0.3333333333333333,4,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2013,0,1.0,1.0,0.0,0.6666666666666666,5,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2014,0,0.0,1.0,1.0,0.6666666666666666,6,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2015,0,0.0,0.0,1.0,0.3333333333333333,7,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2016,0,0.0,0.0,0.0,0.0,8,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2017,0,0.0,0.0,0.0,0.0,9,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2018,0,0.0,0.0,0.0,0.0,10,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2019,2,0.0,0.0,0.0,0.0,11,0,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2020,0,2.0,0.0,0.0,0.6666666666666666,12,1,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2021,2,0.0,2.0,0.0,0.6666666666666666,13,1,1,1,train
+15,203,Otros digestivos,Masculino,15-44,2022,1,2.0,0.0,2.0,1.3333333333333333,14,1,1,1,test
+15,203,Otros digestivos,Masculino,15-44,2023,0,1.0,2.0,0.0,1.0,15,0,1,1,test
+15,203,Otros digestivos,Masculino,15-44,2024,0,0.0,1.0,2.0,1.0,16,0,1,1,test
+15,203,Otros digestivos,Masculino,15-44,2025,2,0.0,0.0,1.0,0.3333333333333333,17,0,1,1,test
+16,203,Otros digestivos,Masculino,45-64,2008,3,,,,,0,0,1,2,sin_rezagos
+16,203,Otros digestivos,Masculino,45-64,2009,1,3.0,,,,1,0,1,2,sin_rezagos
+16,203,Otros digestivos,Masculino,45-64,2010,1,1.0,3.0,,,2,0,1,2,sin_rezagos
+16,203,Otros digestivos,Masculino,45-64,2011,3,1.0,1.0,3.0,1.6666666666666667,3,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2012,2,3.0,1.0,1.0,1.6666666666666667,4,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2013,2,2.0,3.0,1.0,2.0,5,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2014,6,2.0,2.0,3.0,2.3333333333333335,6,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2015,2,6.0,2.0,2.0,3.3333333333333335,7,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2016,5,2.0,6.0,2.0,3.3333333333333335,8,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2017,3,5.0,2.0,6.0,4.333333333333333,9,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2018,3,3.0,5.0,2.0,3.3333333333333335,10,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2019,3,3.0,3.0,5.0,3.6666666666666665,11,0,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2020,3,3.0,3.0,3.0,3.0,12,1,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2021,6,3.0,3.0,3.0,3.0,13,1,1,2,train
+16,203,Otros digestivos,Masculino,45-64,2022,2,6.0,3.0,3.0,4.0,14,1,1,2,test
+16,203,Otros digestivos,Masculino,45-64,2023,5,2.0,6.0,3.0,3.6666666666666665,15,0,1,2,test
+16,203,Otros digestivos,Masculino,45-64,2024,5,5.0,2.0,6.0,4.333333333333333,16,0,1,2,test
+16,203,Otros digestivos,Masculino,45-64,2025,1,5.0,5.0,2.0,4.0,17,0,1,2,test
+17,203,Otros digestivos,Masculino,65+,2008,6,,,,,0,0,1,3,sin_rezagos
+17,203,Otros digestivos,Masculino,65+,2009,5,6.0,,,,1,0,1,3,sin_rezagos
+17,203,Otros digestivos,Masculino,65+,2010,8,5.0,6.0,,,2,0,1,3,sin_rezagos
+17,203,Otros digestivos,Masculino,65+,2011,4,8.0,5.0,6.0,6.333333333333333,3,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2012,5,4.0,8.0,5.0,5.666666666666667,4,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2013,2,5.0,4.0,8.0,5.666666666666667,5,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2014,9,2.0,5.0,4.0,3.6666666666666665,6,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2015,7,9.0,2.0,5.0,5.333333333333333,7,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2016,11,7.0,9.0,2.0,6.0,8,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2017,5,11.0,7.0,9.0,9.0,9,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2018,8,5.0,11.0,7.0,7.666666666666667,10,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2019,8,8.0,5.0,11.0,8.0,11,0,1,3,train
+17,203,Otros digestivos,Masculino,65+,2020,15,8.0,8.0,5.0,7.0,12,1,1,3,train
+17,203,Otros digestivos,Masculino,65+,2021,11,15.0,8.0,8.0,10.333333333333334,13,1,1,3,train
+17,203,Otros digestivos,Masculino,65+,2022,10,11.0,15.0,8.0,11.333333333333334,14,1,1,3,test
+17,203,Otros digestivos,Masculino,65+,2023,5,10.0,11.0,15.0,12.0,15,0,1,3,test
+17,203,Otros digestivos,Masculino,65+,2024,10,5.0,10.0,11.0,8.666666666666666,16,0,1,3,test
+17,203,Otros digestivos,Masculino,65+,2025,7,10.0,5.0,10.0,8.333333333333334,17,0,1,3,test
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2008,1,,,,,0,0,0,2,sin_rezagos
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2009,0,1.0,,,,1,0,0,2,sin_rezagos
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2010,2,0.0,1.0,,,2,0,0,2,sin_rezagos
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2011,3,2.0,0.0,1.0,1.0,3,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2012,1,3.0,2.0,0.0,1.6666666666666667,4,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2013,2,1.0,3.0,2.0,2.0,5,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2014,1,2.0,1.0,3.0,2.0,6,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2015,1,1.0,2.0,1.0,1.3333333333333333,7,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2016,1,1.0,1.0,2.0,1.3333333333333333,8,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2017,0,1.0,1.0,1.0,1.0,9,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2018,2,0.0,1.0,1.0,0.6666666666666666,10,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2019,0,2.0,0.0,1.0,1.0,11,0,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2020,1,0.0,2.0,0.0,0.6666666666666666,12,1,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2021,2,1.0,0.0,2.0,1.0,13,1,0,2,train
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2022,1,2.0,1.0,0.0,1.0,14,1,0,2,test
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2023,0,1.0,2.0,1.0,1.3333333333333333,15,0,0,2,test
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2024,2,0.0,1.0,2.0,1.0,16,0,0,2,test
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2025,0,2.0,0.0,1.0,1.0,17,0,0,2,test
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2008,3,,,,,0,0,0,3,sin_rezagos
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2009,5,3.0,,,,1,0,0,3,sin_rezagos
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2010,1,5.0,3.0,,,2,0,0,3,sin_rezagos
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2011,1,1.0,5.0,3.0,3.0,3,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2012,1,1.0,1.0,5.0,2.3333333333333335,4,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2013,1,1.0,1.0,1.0,1.0,5,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2014,2,1.0,1.0,1.0,1.0,6,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2015,1,2.0,1.0,1.0,1.3333333333333333,7,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2016,1,1.0,2.0,1.0,1.3333333333333333,8,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2017,5,1.0,1.0,2.0,1.3333333333333333,9,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2018,4,5.0,1.0,1.0,2.3333333333333335,10,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2019,1,4.0,5.0,1.0,3.3333333333333335,11,0,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2020,5,1.0,4.0,5.0,3.3333333333333335,12,1,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2021,1,5.0,1.0,4.0,3.3333333333333335,13,1,0,3,train
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2022,1,1.0,5.0,1.0,2.3333333333333335,14,1,0,3,test
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2023,3,1.0,1.0,5.0,2.3333333333333335,15,0,0,3,test
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2024,9,3.0,1.0,1.0,1.6666666666666667,16,0,0,3,test
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+,2025,5,9.0,3.0,1.0,4.333333333333333,17,0,0,3,test
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2008,0,,,,,0,0,1,1,sin_rezagos
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2009,1,0.0,,,,1,0,1,1,sin_rezagos
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2010,0,1.0,0.0,,,2,0,1,1,sin_rezagos
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2011,2,0.0,1.0,0.0,0.3333333333333333,3,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2012,0,2.0,0.0,1.0,1.0,4,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2013,3,0.0,2.0,0.0,0.6666666666666666,5,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2014,0,3.0,0.0,2.0,1.6666666666666667,6,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2015,2,0.0,3.0,0.0,1.0,7,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2016,0,2.0,0.0,3.0,1.6666666666666667,8,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2017,0,0.0,2.0,0.0,0.6666666666666666,9,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2018,0,0.0,0.0,2.0,0.6666666666666666,10,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2019,0,0.0,0.0,0.0,0.0,11,0,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2020,0,0.0,0.0,0.0,0.0,12,1,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2021,0,0.0,0.0,0.0,0.0,13,1,1,1,train
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2022,1,0.0,0.0,0.0,0.0,14,1,1,1,test
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2023,0,1.0,0.0,0.0,0.3333333333333333,15,0,1,1,test
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2024,0,0.0,1.0,0.0,0.3333333333333333,16,0,1,1,test
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2025,2,0.0,0.0,1.0,0.3333333333333333,17,0,1,1,test
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2008,0,,,,,0,0,1,2,sin_rezagos
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2009,3,0.0,,,,1,0,1,2,sin_rezagos
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2010,2,3.0,0.0,,,2,0,1,2,sin_rezagos
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2011,1,2.0,3.0,0.0,1.6666666666666667,3,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2012,0,1.0,2.0,3.0,2.0,4,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2013,0,0.0,1.0,2.0,1.0,5,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2014,0,0.0,0.0,1.0,0.3333333333333333,6,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2015,1,0.0,0.0,0.0,0.0,7,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2016,1,1.0,0.0,0.0,0.3333333333333333,8,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2017,1,1.0,1.0,0.0,0.6666666666666666,9,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2018,0,1.0,1.0,1.0,1.0,10,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2019,0,0.0,1.0,1.0,0.6666666666666666,11,0,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2020,2,0.0,0.0,1.0,0.3333333333333333,12,1,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2021,1,2.0,0.0,0.0,0.6666666666666666,13,1,1,2,train
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2022,1,1.0,2.0,0.0,1.0,14,1,1,2,test
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2023,2,1.0,1.0,2.0,1.3333333333333333,15,0,1,2,test
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2024,4,2.0,1.0,1.0,1.3333333333333333,16,0,1,2,test
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2025,4,4.0,2.0,1.0,2.3333333333333335,17,0,1,2,test
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2008,2,,,,,0,0,1,3,sin_rezagos
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2009,5,2.0,,,,1,0,1,3,sin_rezagos
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2010,4,5.0,2.0,,,2,0,1,3,sin_rezagos
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2011,6,4.0,5.0,2.0,3.6666666666666665,3,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2012,5,6.0,4.0,5.0,5.0,4,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2013,0,5.0,6.0,4.0,5.0,5,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2014,1,0.0,5.0,6.0,3.6666666666666665,6,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2015,5,1.0,0.0,5.0,2.0,7,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2016,3,5.0,1.0,0.0,2.0,8,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2017,4,3.0,5.0,1.0,3.0,9,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2018,3,4.0,3.0,5.0,4.0,10,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2019,1,3.0,4.0,3.0,3.3333333333333335,11,0,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2020,3,1.0,3.0,4.0,2.6666666666666665,12,1,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2021,1,3.0,1.0,3.0,2.3333333333333335,13,1,1,3,train
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2022,6,1.0,3.0,1.0,1.6666666666666667,14,1,1,3,test
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2023,1,6.0,1.0,3.0,3.3333333333333335,15,0,1,3,test
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2024,5,1.0,6.0,1.0,2.6666666666666665,16,0,1,3,test
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+,2025,7,5.0,1.0,6.0,4.0,17,0,1,3,test
+23,205,Otros respiratorios,Femenino,45-64,2008,0,,,,,0,0,0,2,sin_rezagos
+23,205,Otros respiratorios,Femenino,45-64,2009,0,0.0,,,,1,0,0,2,sin_rezagos
+23,205,Otros respiratorios,Femenino,45-64,2010,0,0.0,0.0,,,2,0,0,2,sin_rezagos
+23,205,Otros respiratorios,Femenino,45-64,2011,0,0.0,0.0,0.0,0.0,3,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2012,0,0.0,0.0,0.0,0.0,4,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2013,0,0.0,0.0,0.0,0.0,5,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2014,1,0.0,0.0,0.0,0.0,6,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2015,0,1.0,0.0,0.0,0.3333333333333333,7,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2016,0,0.0,1.0,0.0,0.3333333333333333,8,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2017,0,0.0,0.0,1.0,0.3333333333333333,9,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2018,0,0.0,0.0,0.0,0.0,10,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2019,1,0.0,0.0,0.0,0.0,11,0,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2020,0,1.0,0.0,0.0,0.3333333333333333,12,1,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2021,1,0.0,1.0,0.0,0.3333333333333333,13,1,0,2,train
+23,205,Otros respiratorios,Femenino,45-64,2022,0,1.0,0.0,1.0,0.6666666666666666,14,1,0,2,test
+23,205,Otros respiratorios,Femenino,45-64,2023,0,0.0,1.0,0.0,0.3333333333333333,15,0,0,2,test
+23,205,Otros respiratorios,Femenino,45-64,2024,0,0.0,0.0,1.0,0.3333333333333333,16,0,0,2,test
+23,205,Otros respiratorios,Femenino,45-64,2025,0,0.0,0.0,0.0,0.0,17,0,0,2,test
+24,205,Otros respiratorios,Femenino,65+,2008,0,,,,,0,0,0,3,sin_rezagos
+24,205,Otros respiratorios,Femenino,65+,2009,2,0.0,,,,1,0,0,3,sin_rezagos
+24,205,Otros respiratorios,Femenino,65+,2010,0,2.0,0.0,,,2,0,0,3,sin_rezagos
+24,205,Otros respiratorios,Femenino,65+,2011,0,0.0,2.0,0.0,0.6666666666666666,3,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2012,0,0.0,0.0,2.0,0.6666666666666666,4,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2013,0,0.0,0.0,0.0,0.0,5,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2014,0,0.0,0.0,0.0,0.0,6,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2015,0,0.0,0.0,0.0,0.0,7,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2016,0,0.0,0.0,0.0,0.0,8,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2017,0,0.0,0.0,0.0,0.0,9,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2018,0,0.0,0.0,0.0,0.0,10,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2019,0,0.0,0.0,0.0,0.0,11,0,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2020,0,0.0,0.0,0.0,0.0,12,1,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2021,0,0.0,0.0,0.0,0.0,13,1,0,3,train
+24,205,Otros respiratorios,Femenino,65+,2022,0,0.0,0.0,0.0,0.0,14,1,0,3,test
+24,205,Otros respiratorios,Femenino,65+,2023,0,0.0,0.0,0.0,0.0,15,0,0,3,test
+24,205,Otros respiratorios,Femenino,65+,2024,0,0.0,0.0,0.0,0.0,16,0,0,3,test
+24,205,Otros respiratorios,Femenino,65+,2025,1,0.0,0.0,0.0,0.0,17,0,0,3,test
+25,205,Otros respiratorios,Masculino,0-14,2008,0,,,,,0,0,1,0,sin_rezagos
+25,205,Otros respiratorios,Masculino,0-14,2009,0,0.0,,,,1,0,1,0,sin_rezagos
+25,205,Otros respiratorios,Masculino,0-14,2010,0,0.0,0.0,,,2,0,1,0,sin_rezagos
+25,205,Otros respiratorios,Masculino,0-14,2011,1,0.0,0.0,0.0,0.0,3,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2012,0,1.0,0.0,0.0,0.3333333333333333,4,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2013,0,0.0,1.0,0.0,0.3333333333333333,5,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2014,0,0.0,0.0,1.0,0.3333333333333333,6,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2015,0,0.0,0.0,0.0,0.0,7,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2016,0,0.0,0.0,0.0,0.0,8,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2017,0,0.0,0.0,0.0,0.0,9,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2018,0,0.0,0.0,0.0,0.0,10,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2019,0,0.0,0.0,0.0,0.0,11,0,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2020,0,0.0,0.0,0.0,0.0,12,1,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2021,0,0.0,0.0,0.0,0.0,13,1,1,0,train
+25,205,Otros respiratorios,Masculino,0-14,2022,0,0.0,0.0,0.0,0.0,14,1,1,0,test
+25,205,Otros respiratorios,Masculino,0-14,2023,0,0.0,0.0,0.0,0.0,15,0,1,0,test
+25,205,Otros respiratorios,Masculino,0-14,2024,0,0.0,0.0,0.0,0.0,16,0,1,0,test
+25,205,Otros respiratorios,Masculino,0-14,2025,0,0.0,0.0,0.0,0.0,17,0,1,0,test
+26,205,Otros respiratorios,Masculino,15-44,2008,0,,,,,0,0,1,1,sin_rezagos
+26,205,Otros respiratorios,Masculino,15-44,2009,0,0.0,,,,1,0,1,1,sin_rezagos
+26,205,Otros respiratorios,Masculino,15-44,2010,0,0.0,0.0,,,2,0,1,1,sin_rezagos
+26,205,Otros respiratorios,Masculino,15-44,2011,0,0.0,0.0,0.0,0.0,3,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2012,0,0.0,0.0,0.0,0.0,4,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2013,1,0.0,0.0,0.0,0.0,5,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2014,0,1.0,0.0,0.0,0.3333333333333333,6,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2015,0,0.0,1.0,0.0,0.3333333333333333,7,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2016,0,0.0,0.0,1.0,0.3333333333333333,8,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2017,0,0.0,0.0,0.0,0.0,9,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2018,1,0.0,0.0,0.0,0.0,10,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2019,0,1.0,0.0,0.0,0.3333333333333333,11,0,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2020,0,0.0,1.0,0.0,0.3333333333333333,12,1,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2021,0,0.0,0.0,1.0,0.3333333333333333,13,1,1,1,train
+26,205,Otros respiratorios,Masculino,15-44,2022,0,0.0,0.0,0.0,0.0,14,1,1,1,test
+26,205,Otros respiratorios,Masculino,15-44,2023,0,0.0,0.0,0.0,0.0,15,0,1,1,test
+26,205,Otros respiratorios,Masculino,15-44,2024,0,0.0,0.0,0.0,0.0,16,0,1,1,test
+26,205,Otros respiratorios,Masculino,15-44,2025,0,0.0,0.0,0.0,0.0,17,0,1,1,test
+27,205,Otros respiratorios,Masculino,45-64,2008,0,,,,,0,0,1,2,sin_rezagos
+27,205,Otros respiratorios,Masculino,45-64,2009,0,0.0,,,,1,0,1,2,sin_rezagos
+27,205,Otros respiratorios,Masculino,45-64,2010,0,0.0,0.0,,,2,0,1,2,sin_rezagos
+27,205,Otros respiratorios,Masculino,45-64,2011,2,0.0,0.0,0.0,0.0,3,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2012,0,2.0,0.0,0.0,0.6666666666666666,4,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2013,0,0.0,2.0,0.0,0.6666666666666666,5,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2014,0,0.0,0.0,2.0,0.6666666666666666,6,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2015,1,0.0,0.0,0.0,0.0,7,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2016,0,1.0,0.0,0.0,0.3333333333333333,8,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2017,0,0.0,1.0,0.0,0.3333333333333333,9,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2018,0,0.0,0.0,1.0,0.3333333333333333,10,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2019,0,0.0,0.0,0.0,0.0,11,0,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2020,1,0.0,0.0,0.0,0.0,12,1,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2021,0,1.0,0.0,0.0,0.3333333333333333,13,1,1,2,train
+27,205,Otros respiratorios,Masculino,45-64,2022,0,0.0,1.0,0.0,0.3333333333333333,14,1,1,2,test
+27,205,Otros respiratorios,Masculino,45-64,2023,0,0.0,0.0,1.0,0.3333333333333333,15,0,1,2,test
+27,205,Otros respiratorios,Masculino,45-64,2024,0,0.0,0.0,0.0,0.0,16,0,1,2,test
+27,205,Otros respiratorios,Masculino,45-64,2025,0,0.0,0.0,0.0,0.0,17,0,1,2,test
+28,205,Otros respiratorios,Masculino,65+,2008,0,,,,,0,0,1,3,sin_rezagos
+28,205,Otros respiratorios,Masculino,65+,2009,1,0.0,,,,1,0,1,3,sin_rezagos
+28,205,Otros respiratorios,Masculino,65+,2010,0,1.0,0.0,,,2,0,1,3,sin_rezagos
+28,205,Otros respiratorios,Masculino,65+,2011,1,0.0,1.0,0.0,0.3333333333333333,3,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2012,0,1.0,0.0,1.0,0.6666666666666666,4,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2013,1,0.0,1.0,0.0,0.3333333333333333,5,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2014,1,1.0,0.0,1.0,0.6666666666666666,6,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2015,0,1.0,1.0,0.0,0.6666666666666666,7,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2016,1,0.0,1.0,1.0,0.6666666666666666,8,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2017,0,1.0,0.0,1.0,0.6666666666666666,9,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2018,0,0.0,1.0,0.0,0.3333333333333333,10,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2019,0,0.0,0.0,1.0,0.3333333333333333,11,0,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2020,1,0.0,0.0,0.0,0.0,12,1,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2021,1,1.0,0.0,0.0,0.3333333333333333,13,1,1,3,train
+28,205,Otros respiratorios,Masculino,65+,2022,1,1.0,1.0,0.0,0.6666666666666666,14,1,1,3,test
+28,205,Otros respiratorios,Masculino,65+,2023,1,1.0,1.0,1.0,1.0,15,0,1,3,test
+28,205,Otros respiratorios,Masculino,65+,2024,1,1.0,1.0,1.0,1.0,16,0,1,3,test
+28,205,Otros respiratorios,Masculino,65+,2025,1,1.0,1.0,1.0,1.0,17,0,1,3,test
+29,206,Mama (mujer),Femenino,15-44,2008,2,,,,,0,0,0,1,sin_rezagos
+29,206,Mama (mujer),Femenino,15-44,2009,1,2.0,,,,1,0,0,1,sin_rezagos
+29,206,Mama (mujer),Femenino,15-44,2010,1,1.0,2.0,,,2,0,0,1,sin_rezagos
+29,206,Mama (mujer),Femenino,15-44,2011,2,1.0,1.0,2.0,1.3333333333333333,3,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2012,1,2.0,1.0,1.0,1.3333333333333333,4,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2013,1,1.0,2.0,1.0,1.3333333333333333,5,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2014,0,1.0,1.0,2.0,1.3333333333333333,6,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2015,0,0.0,1.0,1.0,0.6666666666666666,7,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2016,1,0.0,0.0,1.0,0.3333333333333333,8,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2017,0,1.0,0.0,0.0,0.3333333333333333,9,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2018,5,0.0,1.0,0.0,0.3333333333333333,10,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2019,0,5.0,0.0,1.0,2.0,11,0,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2020,3,0.0,5.0,0.0,1.6666666666666667,12,1,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2021,0,3.0,0.0,5.0,2.6666666666666665,13,1,0,1,train
+29,206,Mama (mujer),Femenino,15-44,2022,1,0.0,3.0,0.0,1.0,14,1,0,1,test
+29,206,Mama (mujer),Femenino,15-44,2023,0,1.0,0.0,3.0,1.3333333333333333,15,0,0,1,test
+29,206,Mama (mujer),Femenino,15-44,2024,1,0.0,1.0,0.0,0.3333333333333333,16,0,0,1,test
+29,206,Mama (mujer),Femenino,15-44,2025,1,1.0,0.0,1.0,0.6666666666666666,17,0,0,1,test
+30,206,Mama (mujer),Femenino,45-64,2008,3,,,,,0,0,0,2,sin_rezagos
+30,206,Mama (mujer),Femenino,45-64,2009,3,3.0,,,,1,0,0,2,sin_rezagos
+30,206,Mama (mujer),Femenino,45-64,2010,3,3.0,3.0,,,2,0,0,2,sin_rezagos
+30,206,Mama (mujer),Femenino,45-64,2011,3,3.0,3.0,3.0,3.0,3,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2012,2,3.0,3.0,3.0,3.0,4,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2013,5,2.0,3.0,3.0,2.6666666666666665,5,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2014,6,5.0,2.0,3.0,3.3333333333333335,6,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2015,2,6.0,5.0,2.0,4.333333333333333,7,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2016,6,2.0,6.0,5.0,4.333333333333333,8,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2017,5,6.0,2.0,6.0,4.666666666666667,9,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2018,6,5.0,6.0,2.0,4.333333333333333,10,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2019,4,6.0,5.0,6.0,5.666666666666667,11,0,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2020,5,4.0,6.0,5.0,5.0,12,1,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2021,3,5.0,4.0,6.0,5.0,13,1,0,2,train
+30,206,Mama (mujer),Femenino,45-64,2022,6,3.0,5.0,4.0,4.0,14,1,0,2,test
+30,206,Mama (mujer),Femenino,45-64,2023,6,6.0,3.0,5.0,4.666666666666667,15,0,0,2,test
+30,206,Mama (mujer),Femenino,45-64,2024,2,6.0,6.0,3.0,5.0,16,0,0,2,test
+30,206,Mama (mujer),Femenino,45-64,2025,3,2.0,6.0,6.0,4.666666666666667,17,0,0,2,test
+31,206,Mama (mujer),Femenino,65+,2008,0,,,,,0,0,0,3,sin_rezagos
+31,206,Mama (mujer),Femenino,65+,2009,1,0.0,,,,1,0,0,3,sin_rezagos
+31,206,Mama (mujer),Femenino,65+,2010,1,1.0,0.0,,,2,0,0,3,sin_rezagos
+31,206,Mama (mujer),Femenino,65+,2011,1,1.0,1.0,0.0,0.6666666666666666,3,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2012,1,1.0,1.0,1.0,1.0,4,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2013,3,1.0,1.0,1.0,1.0,5,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2014,1,3.0,1.0,1.0,1.6666666666666667,6,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2015,4,1.0,3.0,1.0,1.6666666666666667,7,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2016,8,4.0,1.0,3.0,2.6666666666666665,8,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2017,7,8.0,4.0,1.0,4.333333333333333,9,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2018,4,7.0,8.0,4.0,6.333333333333333,10,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2019,2,4.0,7.0,8.0,6.333333333333333,11,0,0,3,train
+31,206,Mama (mujer),Femenino,65+,2020,7,2.0,4.0,7.0,4.333333333333333,12,1,0,3,train
+31,206,Mama (mujer),Femenino,65+,2021,7,7.0,2.0,4.0,4.333333333333333,13,1,0,3,train
+31,206,Mama (mujer),Femenino,65+,2022,2,7.0,7.0,2.0,5.333333333333333,14,1,0,3,test
+31,206,Mama (mujer),Femenino,65+,2023,3,2.0,7.0,7.0,5.333333333333333,15,0,0,3,test
+31,206,Mama (mujer),Femenino,65+,2024,6,3.0,2.0,7.0,4.0,16,0,0,3,test
+31,206,Mama (mujer),Femenino,65+,2025,2,6.0,3.0,2.0,3.6666666666666665,17,0,0,3,test
+32,207,Cuello uterino,Femenino,15-44,2008,0,,,,,0,0,0,1,sin_rezagos
+32,207,Cuello uterino,Femenino,15-44,2009,1,0.0,,,,1,0,0,1,sin_rezagos
+32,207,Cuello uterino,Femenino,15-44,2010,1,1.0,0.0,,,2,0,0,1,sin_rezagos
+32,207,Cuello uterino,Femenino,15-44,2011,0,1.0,1.0,0.0,0.6666666666666666,3,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2012,0,0.0,1.0,1.0,0.6666666666666666,4,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2013,1,0.0,0.0,1.0,0.3333333333333333,5,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2014,3,1.0,0.0,0.0,0.3333333333333333,6,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2015,0,3.0,1.0,0.0,1.3333333333333333,7,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2016,1,0.0,3.0,1.0,1.3333333333333333,8,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2017,1,1.0,0.0,3.0,1.3333333333333333,9,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2018,1,1.0,1.0,0.0,0.6666666666666666,10,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2019,0,1.0,1.0,1.0,1.0,11,0,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2020,1,0.0,1.0,1.0,0.6666666666666666,12,1,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2021,0,1.0,0.0,1.0,0.6666666666666666,13,1,0,1,train
+32,207,Cuello uterino,Femenino,15-44,2022,1,0.0,1.0,0.0,0.3333333333333333,14,1,0,1,test
+32,207,Cuello uterino,Femenino,15-44,2023,2,1.0,0.0,1.0,0.6666666666666666,15,0,0,1,test
+32,207,Cuello uterino,Femenino,15-44,2024,2,2.0,1.0,0.0,1.0,16,0,0,1,test
+32,207,Cuello uterino,Femenino,15-44,2025,1,2.0,2.0,1.0,1.6666666666666667,17,0,0,1,test
+33,207,Cuello uterino,Femenino,45-64,2008,0,,,,,0,0,0,2,sin_rezagos
+33,207,Cuello uterino,Femenino,45-64,2009,2,0.0,,,,1,0,0,2,sin_rezagos
+33,207,Cuello uterino,Femenino,45-64,2010,6,2.0,0.0,,,2,0,0,2,sin_rezagos
+33,207,Cuello uterino,Femenino,45-64,2011,3,6.0,2.0,0.0,2.6666666666666665,3,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2012,0,3.0,6.0,2.0,3.6666666666666665,4,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2013,2,0.0,3.0,6.0,3.0,5,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2014,4,2.0,0.0,3.0,1.6666666666666667,6,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2015,0,4.0,2.0,0.0,2.0,7,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2016,2,0.0,4.0,2.0,2.0,8,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2017,1,2.0,0.0,4.0,2.0,9,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2018,1,1.0,2.0,0.0,1.0,10,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2019,2,1.0,1.0,2.0,1.3333333333333333,11,0,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2020,3,2.0,1.0,1.0,1.3333333333333333,12,1,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2021,2,3.0,2.0,1.0,2.0,13,1,0,2,train
+33,207,Cuello uterino,Femenino,45-64,2022,2,2.0,3.0,2.0,2.3333333333333335,14,1,0,2,test
+33,207,Cuello uterino,Femenino,45-64,2023,2,2.0,2.0,3.0,2.3333333333333335,15,0,0,2,test
+33,207,Cuello uterino,Femenino,45-64,2024,1,2.0,2.0,2.0,2.0,16,0,0,2,test
+33,207,Cuello uterino,Femenino,45-64,2025,2,1.0,2.0,2.0,1.6666666666666667,17,0,0,2,test
+34,207,Cuello uterino,Femenino,65+,2008,2,,,,,0,0,0,3,sin_rezagos
+34,207,Cuello uterino,Femenino,65+,2009,2,2.0,,,,1,0,0,3,sin_rezagos
+34,207,Cuello uterino,Femenino,65+,2010,0,2.0,2.0,,,2,0,0,3,sin_rezagos
+34,207,Cuello uterino,Femenino,65+,2011,2,0.0,2.0,2.0,1.3333333333333333,3,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2012,1,2.0,0.0,2.0,1.3333333333333333,4,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2013,2,1.0,2.0,0.0,1.0,5,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2014,1,2.0,1.0,2.0,1.6666666666666667,6,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2015,0,1.0,2.0,1.0,1.3333333333333333,7,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2016,0,0.0,1.0,2.0,1.0,8,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2017,1,0.0,0.0,1.0,0.3333333333333333,9,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2018,3,1.0,0.0,0.0,0.3333333333333333,10,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2019,2,3.0,1.0,0.0,1.3333333333333333,11,0,0,3,train
+34,207,Cuello uterino,Femenino,65+,2020,2,2.0,3.0,1.0,2.0,12,1,0,3,train
+34,207,Cuello uterino,Femenino,65+,2021,2,2.0,2.0,3.0,2.3333333333333335,13,1,0,3,train
+34,207,Cuello uterino,Femenino,65+,2022,3,2.0,2.0,2.0,2.0,14,1,0,3,test
+34,207,Cuello uterino,Femenino,65+,2023,4,3.0,2.0,2.0,2.3333333333333335,15,0,0,3,test
+34,207,Cuello uterino,Femenino,65+,2024,2,4.0,3.0,2.0,3.0,16,0,0,3,test
+34,207,Cuello uterino,Femenino,65+,2025,1,2.0,4.0,3.0,3.0,17,0,0,3,test
+35,208,Cuerpo del útero,Femenino,15-44,2008,0,,,,,0,0,0,1,sin_rezagos
+35,208,Cuerpo del útero,Femenino,15-44,2009,1,0.0,,,,1,0,0,1,sin_rezagos
+35,208,Cuerpo del útero,Femenino,15-44,2010,0,1.0,0.0,,,2,0,0,1,sin_rezagos
+35,208,Cuerpo del útero,Femenino,15-44,2011,0,0.0,1.0,0.0,0.3333333333333333,3,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2012,0,0.0,0.0,1.0,0.3333333333333333,4,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2013,0,0.0,0.0,0.0,0.0,5,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2014,0,0.0,0.0,0.0,0.0,6,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2015,0,0.0,0.0,0.0,0.0,7,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2016,0,0.0,0.0,0.0,0.0,8,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2017,0,0.0,0.0,0.0,0.0,9,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2018,0,0.0,0.0,0.0,0.0,10,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2019,0,0.0,0.0,0.0,0.0,11,0,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2020,0,0.0,0.0,0.0,0.0,12,1,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2021,1,0.0,0.0,0.0,0.0,13,1,0,1,train
+35,208,Cuerpo del útero,Femenino,15-44,2022,0,1.0,0.0,0.0,0.3333333333333333,14,1,0,1,test
+35,208,Cuerpo del útero,Femenino,15-44,2023,0,0.0,1.0,0.0,0.3333333333333333,15,0,0,1,test
+35,208,Cuerpo del útero,Femenino,15-44,2024,0,0.0,0.0,1.0,0.3333333333333333,16,0,0,1,test
+35,208,Cuerpo del útero,Femenino,15-44,2025,1,0.0,0.0,0.0,0.0,17,0,0,1,test
+36,208,Cuerpo del útero,Femenino,45-64,2008,1,,,,,0,0,0,2,sin_rezagos
+36,208,Cuerpo del útero,Femenino,45-64,2009,0,1.0,,,,1,0,0,2,sin_rezagos
+36,208,Cuerpo del útero,Femenino,45-64,2010,2,0.0,1.0,,,2,0,0,2,sin_rezagos
+36,208,Cuerpo del útero,Femenino,45-64,2011,0,2.0,0.0,1.0,1.0,3,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2012,1,0.0,2.0,0.0,0.6666666666666666,4,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2013,0,1.0,0.0,2.0,1.0,5,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2014,1,0.0,1.0,0.0,0.3333333333333333,6,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2015,0,1.0,0.0,1.0,0.6666666666666666,7,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2016,2,0.0,1.0,0.0,0.3333333333333333,8,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2017,0,2.0,0.0,1.0,1.0,9,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2018,1,0.0,2.0,0.0,0.6666666666666666,10,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2019,0,1.0,0.0,2.0,1.0,11,0,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2020,0,0.0,1.0,0.0,0.3333333333333333,12,1,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2021,2,0.0,0.0,1.0,0.3333333333333333,13,1,0,2,train
+36,208,Cuerpo del útero,Femenino,45-64,2022,1,2.0,0.0,0.0,0.6666666666666666,14,1,0,2,test
+36,208,Cuerpo del útero,Femenino,45-64,2023,0,1.0,2.0,0.0,1.0,15,0,0,2,test
+36,208,Cuerpo del útero,Femenino,45-64,2024,2,0.0,1.0,2.0,1.0,16,0,0,2,test
+36,208,Cuerpo del útero,Femenino,45-64,2025,1,2.0,0.0,1.0,1.0,17,0,0,2,test
+37,208,Cuerpo del útero,Femenino,65+,2008,0,,,,,0,0,0,3,sin_rezagos
+37,208,Cuerpo del útero,Femenino,65+,2009,1,0.0,,,,1,0,0,3,sin_rezagos
+37,208,Cuerpo del útero,Femenino,65+,2010,0,1.0,0.0,,,2,0,0,3,sin_rezagos
+37,208,Cuerpo del útero,Femenino,65+,2011,0,0.0,1.0,0.0,0.3333333333333333,3,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2012,0,0.0,0.0,1.0,0.3333333333333333,4,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2013,0,0.0,0.0,0.0,0.0,5,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2014,2,0.0,0.0,0.0,0.0,6,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2015,1,2.0,0.0,0.0,0.6666666666666666,7,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2016,1,1.0,2.0,0.0,1.0,8,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2017,1,1.0,1.0,2.0,1.3333333333333333,9,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2018,1,1.0,1.0,1.0,1.0,10,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2019,1,1.0,1.0,1.0,1.0,11,0,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2020,1,1.0,1.0,1.0,1.0,12,1,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2021,0,1.0,1.0,1.0,1.0,13,1,0,3,train
+37,208,Cuerpo del útero,Femenino,65+,2022,3,0.0,1.0,1.0,0.6666666666666666,14,1,0,3,test
+37,208,Cuerpo del útero,Femenino,65+,2023,0,3.0,0.0,1.0,1.3333333333333333,15,0,0,3,test
+37,208,Cuerpo del útero,Femenino,65+,2024,0,0.0,3.0,0.0,1.0,16,0,0,3,test
+37,208,Cuerpo del útero,Femenino,65+,2025,0,0.0,0.0,3.0,1.0,17,0,0,3,test
+38,209,Útero no especificado,Femenino,15-44,2008,0,,,,,0,0,0,1,sin_rezagos
+38,209,Útero no especificado,Femenino,15-44,2009,0,0.0,,,,1,0,0,1,sin_rezagos
+38,209,Útero no especificado,Femenino,15-44,2010,0,0.0,0.0,,,2,0,0,1,sin_rezagos
+38,209,Útero no especificado,Femenino,15-44,2011,0,0.0,0.0,0.0,0.0,3,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2012,0,0.0,0.0,0.0,0.0,4,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2013,0,0.0,0.0,0.0,0.0,5,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2014,0,0.0,0.0,0.0,0.0,6,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2015,0,0.0,0.0,0.0,0.0,7,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2016,0,0.0,0.0,0.0,0.0,8,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2017,0,0.0,0.0,0.0,0.0,9,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2018,1,0.0,0.0,0.0,0.0,10,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2019,0,1.0,0.0,0.0,0.3333333333333333,11,0,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2020,0,0.0,1.0,0.0,0.3333333333333333,12,1,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2021,0,0.0,0.0,1.0,0.3333333333333333,13,1,0,1,train
+38,209,Útero no especificado,Femenino,15-44,2022,0,0.0,0.0,0.0,0.0,14,1,0,1,test
+38,209,Útero no especificado,Femenino,15-44,2023,0,0.0,0.0,0.0,0.0,15,0,0,1,test
+38,209,Útero no especificado,Femenino,15-44,2024,0,0.0,0.0,0.0,0.0,16,0,0,1,test
+38,209,Útero no especificado,Femenino,15-44,2025,0,0.0,0.0,0.0,0.0,17,0,0,1,test
+39,209,Útero no especificado,Femenino,45-64,2008,0,,,,,0,0,0,2,sin_rezagos
+39,209,Útero no especificado,Femenino,45-64,2009,0,0.0,,,,1,0,0,2,sin_rezagos
+39,209,Útero no especificado,Femenino,45-64,2010,1,0.0,0.0,,,2,0,0,2,sin_rezagos
+39,209,Útero no especificado,Femenino,45-64,2011,1,1.0,0.0,0.0,0.3333333333333333,3,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2012,0,1.0,1.0,0.0,0.6666666666666666,4,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2013,0,0.0,1.0,1.0,0.6666666666666666,5,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2014,0,0.0,0.0,1.0,0.3333333333333333,6,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2015,0,0.0,0.0,0.0,0.0,7,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2016,0,0.0,0.0,0.0,0.0,8,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2017,0,0.0,0.0,0.0,0.0,9,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2018,0,0.0,0.0,0.0,0.0,10,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2019,0,0.0,0.0,0.0,0.0,11,0,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2020,0,0.0,0.0,0.0,0.0,12,1,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2021,1,0.0,0.0,0.0,0.0,13,1,0,2,train
+39,209,Útero no especificado,Femenino,45-64,2022,1,1.0,0.0,0.0,0.3333333333333333,14,1,0,2,test
+39,209,Útero no especificado,Femenino,45-64,2023,0,1.0,1.0,0.0,0.6666666666666666,15,0,0,2,test
+39,209,Útero no especificado,Femenino,45-64,2024,0,0.0,1.0,1.0,0.6666666666666666,16,0,0,2,test
+39,209,Útero no especificado,Femenino,45-64,2025,0,0.0,0.0,1.0,0.3333333333333333,17,0,0,2,test
+40,209,Útero no especificado,Femenino,65+,2008,0,,,,,0,0,0,3,sin_rezagos
+40,209,Útero no especificado,Femenino,65+,2009,0,0.0,,,,1,0,0,3,sin_rezagos
+40,209,Útero no especificado,Femenino,65+,2010,1,0.0,0.0,,,2,0,0,3,sin_rezagos
+40,209,Útero no especificado,Femenino,65+,2011,2,1.0,0.0,0.0,0.3333333333333333,3,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2012,1,2.0,1.0,0.0,1.0,4,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2013,0,1.0,2.0,1.0,1.3333333333333333,5,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2014,0,0.0,1.0,2.0,1.0,6,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2015,0,0.0,0.0,1.0,0.3333333333333333,7,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2016,0,0.0,0.0,0.0,0.0,8,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2017,0,0.0,0.0,0.0,0.0,9,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2018,0,0.0,0.0,0.0,0.0,10,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2019,0,0.0,0.0,0.0,0.0,11,0,0,3,train
+40,209,Útero no especificado,Femenino,65+,2020,0,0.0,0.0,0.0,0.0,12,1,0,3,train
+40,209,Útero no especificado,Femenino,65+,2021,0,0.0,0.0,0.0,0.0,13,1,0,3,train
+40,209,Útero no especificado,Femenino,65+,2022,4,0.0,0.0,0.0,0.0,14,1,0,3,test
+40,209,Útero no especificado,Femenino,65+,2023,1,4.0,0.0,0.0,1.3333333333333333,15,0,0,3,test
+40,209,Útero no especificado,Femenino,65+,2024,1,1.0,4.0,0.0,1.6666666666666667,16,0,0,3,test
+40,209,Útero no especificado,Femenino,65+,2025,1,1.0,1.0,4.0,2.0,17,0,0,3,test
+41,210,Próstata,Masculino,15-44,2008,0,,,,,0,0,1,1,sin_rezagos
+41,210,Próstata,Masculino,15-44,2009,0,0.0,,,,1,0,1,1,sin_rezagos
+41,210,Próstata,Masculino,15-44,2010,0,0.0,0.0,,,2,0,1,1,sin_rezagos
+41,210,Próstata,Masculino,15-44,2011,0,0.0,0.0,0.0,0.0,3,0,1,1,train
+41,210,Próstata,Masculino,15-44,2012,0,0.0,0.0,0.0,0.0,4,0,1,1,train
+41,210,Próstata,Masculino,15-44,2013,0,0.0,0.0,0.0,0.0,5,0,1,1,train
+41,210,Próstata,Masculino,15-44,2014,0,0.0,0.0,0.0,0.0,6,0,1,1,train
+41,210,Próstata,Masculino,15-44,2015,0,0.0,0.0,0.0,0.0,7,0,1,1,train
+41,210,Próstata,Masculino,15-44,2016,0,0.0,0.0,0.0,0.0,8,0,1,1,train
+41,210,Próstata,Masculino,15-44,2017,0,0.0,0.0,0.0,0.0,9,0,1,1,train
+41,210,Próstata,Masculino,15-44,2018,0,0.0,0.0,0.0,0.0,10,0,1,1,train
+41,210,Próstata,Masculino,15-44,2019,0,0.0,0.0,0.0,0.0,11,0,1,1,train
+41,210,Próstata,Masculino,15-44,2020,0,0.0,0.0,0.0,0.0,12,1,1,1,train
+41,210,Próstata,Masculino,15-44,2021,1,0.0,0.0,0.0,0.0,13,1,1,1,train
+41,210,Próstata,Masculino,15-44,2022,0,1.0,0.0,0.0,0.3333333333333333,14,1,1,1,test
+41,210,Próstata,Masculino,15-44,2023,0,0.0,1.0,0.0,0.3333333333333333,15,0,1,1,test
+41,210,Próstata,Masculino,15-44,2024,0,0.0,0.0,1.0,0.3333333333333333,16,0,1,1,test
+41,210,Próstata,Masculino,15-44,2025,0,0.0,0.0,0.0,0.0,17,0,1,1,test
+42,210,Próstata,Masculino,45-64,2008,0,,,,,0,0,1,2,sin_rezagos
+42,210,Próstata,Masculino,45-64,2009,1,0.0,,,,1,0,1,2,sin_rezagos
+42,210,Próstata,Masculino,45-64,2010,0,1.0,0.0,,,2,0,1,2,sin_rezagos
+42,210,Próstata,Masculino,45-64,2011,0,0.0,1.0,0.0,0.3333333333333333,3,0,1,2,train
+42,210,Próstata,Masculino,45-64,2012,0,0.0,0.0,1.0,0.3333333333333333,4,0,1,2,train
+42,210,Próstata,Masculino,45-64,2013,1,0.0,0.0,0.0,0.0,5,0,1,2,train
+42,210,Próstata,Masculino,45-64,2014,0,1.0,0.0,0.0,0.3333333333333333,6,0,1,2,train
+42,210,Próstata,Masculino,45-64,2015,0,0.0,1.0,0.0,0.3333333333333333,7,0,1,2,train
+42,210,Próstata,Masculino,45-64,2016,0,0.0,0.0,1.0,0.3333333333333333,8,0,1,2,train
+42,210,Próstata,Masculino,45-64,2017,0,0.0,0.0,0.0,0.0,9,0,1,2,train
+42,210,Próstata,Masculino,45-64,2018,1,0.0,0.0,0.0,0.0,10,0,1,2,train
+42,210,Próstata,Masculino,45-64,2019,1,1.0,0.0,0.0,0.3333333333333333,11,0,1,2,train
+42,210,Próstata,Masculino,45-64,2020,0,1.0,1.0,0.0,0.6666666666666666,12,1,1,2,train
+42,210,Próstata,Masculino,45-64,2021,0,0.0,1.0,1.0,0.6666666666666666,13,1,1,2,train
+42,210,Próstata,Masculino,45-64,2022,1,0.0,0.0,1.0,0.3333333333333333,14,1,1,2,test
+42,210,Próstata,Masculino,45-64,2023,1,1.0,0.0,0.0,0.3333333333333333,15,0,1,2,test
+42,210,Próstata,Masculino,45-64,2024,0,1.0,1.0,0.0,0.6666666666666666,16,0,1,2,test
+42,210,Próstata,Masculino,45-64,2025,0,0.0,1.0,1.0,0.6666666666666666,17,0,1,2,test
+43,210,Próstata,Masculino,65+,2008,9,,,,,0,0,1,3,sin_rezagos
+43,210,Próstata,Masculino,65+,2009,10,9.0,,,,1,0,1,3,sin_rezagos
+43,210,Próstata,Masculino,65+,2010,7,10.0,9.0,,,2,0,1,3,sin_rezagos
+43,210,Próstata,Masculino,65+,2011,9,7.0,10.0,9.0,8.666666666666666,3,0,1,3,train
+43,210,Próstata,Masculino,65+,2012,8,9.0,7.0,10.0,8.666666666666666,4,0,1,3,train
+43,210,Próstata,Masculino,65+,2013,8,8.0,9.0,7.0,8.0,5,0,1,3,train
+43,210,Próstata,Masculino,65+,2014,10,8.0,8.0,9.0,8.333333333333334,6,0,1,3,train
+43,210,Próstata,Masculino,65+,2015,13,10.0,8.0,8.0,8.666666666666666,7,0,1,3,train
+43,210,Próstata,Masculino,65+,2016,10,13.0,10.0,8.0,10.333333333333334,8,0,1,3,train
+43,210,Próstata,Masculino,65+,2017,13,10.0,13.0,10.0,11.0,9,0,1,3,train
+43,210,Próstata,Masculino,65+,2018,6,13.0,10.0,13.0,12.0,10,0,1,3,train
+43,210,Próstata,Masculino,65+,2019,12,6.0,13.0,10.0,9.666666666666666,11,0,1,3,train
+43,210,Próstata,Masculino,65+,2020,5,12.0,6.0,13.0,10.333333333333334,12,1,1,3,train
+43,210,Próstata,Masculino,65+,2021,16,5.0,12.0,6.0,7.666666666666667,13,1,1,3,train
+43,210,Próstata,Masculino,65+,2022,10,16.0,5.0,12.0,11.0,14,1,1,3,test
+43,210,Próstata,Masculino,65+,2023,14,10.0,16.0,5.0,10.333333333333334,15,0,1,3,test
+43,210,Próstata,Masculino,65+,2024,15,14.0,10.0,16.0,13.333333333333334,16,0,1,3,test
+43,210,Próstata,Masculino,65+,2025,16,15.0,14.0,10.0,13.0,17,0,1,3,test
+44,211,Otros genitourinarios,Femenino,0-14,2008,0,,,,,0,0,0,0,sin_rezagos
+44,211,Otros genitourinarios,Femenino,0-14,2009,1,0.0,,,,1,0,0,0,sin_rezagos
+44,211,Otros genitourinarios,Femenino,0-14,2010,0,1.0,0.0,,,2,0,0,0,sin_rezagos
+44,211,Otros genitourinarios,Femenino,0-14,2011,1,0.0,1.0,0.0,0.3333333333333333,3,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2012,0,1.0,0.0,1.0,0.6666666666666666,4,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2013,0,0.0,1.0,0.0,0.3333333333333333,5,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2014,0,0.0,0.0,1.0,0.3333333333333333,6,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2015,0,0.0,0.0,0.0,0.0,7,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2016,0,0.0,0.0,0.0,0.0,8,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2017,0,0.0,0.0,0.0,0.0,9,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2018,0,0.0,0.0,0.0,0.0,10,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2019,0,0.0,0.0,0.0,0.0,11,0,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2020,0,0.0,0.0,0.0,0.0,12,1,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2021,0,0.0,0.0,0.0,0.0,13,1,0,0,train
+44,211,Otros genitourinarios,Femenino,0-14,2022,1,0.0,0.0,0.0,0.0,14,1,0,0,test
+44,211,Otros genitourinarios,Femenino,0-14,2023,0,1.0,0.0,0.0,0.3333333333333333,15,0,0,0,test
+44,211,Otros genitourinarios,Femenino,0-14,2024,0,0.0,1.0,0.0,0.3333333333333333,16,0,0,0,test
+44,211,Otros genitourinarios,Femenino,0-14,2025,0,0.0,0.0,1.0,0.3333333333333333,17,0,0,0,test
+45,211,Otros genitourinarios,Femenino,15-44,2008,1,,,,,0,0,0,1,sin_rezagos
+45,211,Otros genitourinarios,Femenino,15-44,2009,1,1.0,,,,1,0,0,1,sin_rezagos
+45,211,Otros genitourinarios,Femenino,15-44,2010,0,1.0,1.0,,,2,0,0,1,sin_rezagos
+45,211,Otros genitourinarios,Femenino,15-44,2011,0,0.0,1.0,1.0,0.6666666666666666,3,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2012,1,0.0,0.0,1.0,0.3333333333333333,4,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2013,0,1.0,0.0,0.0,0.3333333333333333,5,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2014,1,0.0,1.0,0.0,0.3333333333333333,6,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2015,0,1.0,0.0,1.0,0.6666666666666666,7,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2016,2,0.0,1.0,0.0,0.3333333333333333,8,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2017,1,2.0,0.0,1.0,1.0,9,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2018,0,1.0,2.0,0.0,1.0,10,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2019,0,0.0,1.0,2.0,1.0,11,0,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2020,0,0.0,0.0,1.0,0.3333333333333333,12,1,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2021,0,0.0,0.0,0.0,0.0,13,1,0,1,train
+45,211,Otros genitourinarios,Femenino,15-44,2022,1,0.0,0.0,0.0,0.0,14,1,0,1,test
+45,211,Otros genitourinarios,Femenino,15-44,2023,1,1.0,0.0,0.0,0.3333333333333333,15,0,0,1,test
+45,211,Otros genitourinarios,Femenino,15-44,2024,2,1.0,1.0,0.0,0.6666666666666666,16,0,0,1,test
+45,211,Otros genitourinarios,Femenino,15-44,2025,0,2.0,1.0,1.0,1.3333333333333333,17,0,0,1,test
+46,211,Otros genitourinarios,Femenino,45-64,2008,2,,,,,0,0,0,2,sin_rezagos
+46,211,Otros genitourinarios,Femenino,45-64,2009,0,2.0,,,,1,0,0,2,sin_rezagos
+46,211,Otros genitourinarios,Femenino,45-64,2010,2,0.0,2.0,,,2,0,0,2,sin_rezagos
+46,211,Otros genitourinarios,Femenino,45-64,2011,0,2.0,0.0,2.0,1.3333333333333333,3,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2012,2,0.0,2.0,0.0,0.6666666666666666,4,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2013,3,2.0,0.0,2.0,1.3333333333333333,5,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2014,0,3.0,2.0,0.0,1.6666666666666667,6,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2015,3,0.0,3.0,2.0,1.6666666666666667,7,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2016,1,3.0,0.0,3.0,2.0,8,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2017,1,1.0,3.0,0.0,1.3333333333333333,9,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2018,0,1.0,1.0,3.0,1.6666666666666667,10,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2019,3,0.0,1.0,1.0,0.6666666666666666,11,0,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2020,3,3.0,0.0,1.0,1.3333333333333333,12,1,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2021,3,3.0,3.0,0.0,2.0,13,1,0,2,train
+46,211,Otros genitourinarios,Femenino,45-64,2022,1,3.0,3.0,3.0,3.0,14,1,0,2,test
+46,211,Otros genitourinarios,Femenino,45-64,2023,0,1.0,3.0,3.0,2.3333333333333335,15,0,0,2,test
+46,211,Otros genitourinarios,Femenino,45-64,2024,2,0.0,1.0,3.0,1.3333333333333333,16,0,0,2,test
+46,211,Otros genitourinarios,Femenino,45-64,2025,4,2.0,0.0,1.0,1.0,17,0,0,2,test
+47,211,Otros genitourinarios,Femenino,65+,2008,3,,,,,0,0,0,3,sin_rezagos
+47,211,Otros genitourinarios,Femenino,65+,2009,0,3.0,,,,1,0,0,3,sin_rezagos
+47,211,Otros genitourinarios,Femenino,65+,2010,4,0.0,3.0,,,2,0,0,3,sin_rezagos
+47,211,Otros genitourinarios,Femenino,65+,2011,2,4.0,0.0,3.0,2.3333333333333335,3,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2012,3,2.0,4.0,0.0,2.0,4,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2013,2,3.0,2.0,4.0,3.0,5,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2014,2,2.0,3.0,2.0,2.3333333333333335,6,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2015,0,2.0,2.0,3.0,2.3333333333333335,7,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2016,5,0.0,2.0,2.0,1.3333333333333333,8,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2017,1,5.0,0.0,2.0,2.3333333333333335,9,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2018,3,1.0,5.0,0.0,2.0,10,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2019,6,3.0,1.0,5.0,3.0,11,0,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2020,4,6.0,3.0,1.0,3.3333333333333335,12,1,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2021,7,4.0,6.0,3.0,4.333333333333333,13,1,0,3,train
+47,211,Otros genitourinarios,Femenino,65+,2022,8,7.0,4.0,6.0,5.666666666666667,14,1,0,3,test
+47,211,Otros genitourinarios,Femenino,65+,2023,3,8.0,7.0,4.0,6.333333333333333,15,0,0,3,test
+47,211,Otros genitourinarios,Femenino,65+,2024,3,3.0,8.0,7.0,6.0,16,0,0,3,test
+47,211,Otros genitourinarios,Femenino,65+,2025,4,3.0,3.0,8.0,4.666666666666667,17,0,0,3,test
+48,211,Otros genitourinarios,Masculino,0-14,2008,0,,,,,0,0,1,0,sin_rezagos
+48,211,Otros genitourinarios,Masculino,0-14,2009,0,0.0,,,,1,0,1,0,sin_rezagos
+48,211,Otros genitourinarios,Masculino,0-14,2010,0,0.0,0.0,,,2,0,1,0,sin_rezagos
+48,211,Otros genitourinarios,Masculino,0-14,2011,0,0.0,0.0,0.0,0.0,3,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2012,0,0.0,0.0,0.0,0.0,4,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2013,1,0.0,0.0,0.0,0.0,5,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2014,0,1.0,0.0,0.0,0.3333333333333333,6,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2015,0,0.0,1.0,0.0,0.3333333333333333,7,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2016,0,0.0,0.0,1.0,0.3333333333333333,8,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2017,0,0.0,0.0,0.0,0.0,9,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2018,0,0.0,0.0,0.0,0.0,10,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2019,0,0.0,0.0,0.0,0.0,11,0,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2020,0,0.0,0.0,0.0,0.0,12,1,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2021,0,0.0,0.0,0.0,0.0,13,1,1,0,train
+48,211,Otros genitourinarios,Masculino,0-14,2022,0,0.0,0.0,0.0,0.0,14,1,1,0,test
+48,211,Otros genitourinarios,Masculino,0-14,2023,0,0.0,0.0,0.0,0.0,15,0,1,0,test
+48,211,Otros genitourinarios,Masculino,0-14,2024,0,0.0,0.0,0.0,0.0,16,0,1,0,test
+48,211,Otros genitourinarios,Masculino,0-14,2025,0,0.0,0.0,0.0,0.0,17,0,1,0,test
+49,211,Otros genitourinarios,Masculino,15-44,2008,1,,,,,0,0,1,1,sin_rezagos
+49,211,Otros genitourinarios,Masculino,15-44,2009,1,1.0,,,,1,0,1,1,sin_rezagos
+49,211,Otros genitourinarios,Masculino,15-44,2010,0,1.0,1.0,,,2,0,1,1,sin_rezagos
+49,211,Otros genitourinarios,Masculino,15-44,2011,1,0.0,1.0,1.0,0.6666666666666666,3,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2012,2,1.0,0.0,1.0,0.6666666666666666,4,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2013,1,2.0,1.0,0.0,1.0,5,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2014,0,1.0,2.0,1.0,1.3333333333333333,6,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2015,0,0.0,1.0,2.0,1.0,7,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2016,1,0.0,0.0,1.0,0.3333333333333333,8,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2017,0,1.0,0.0,0.0,0.3333333333333333,9,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2018,1,0.0,1.0,0.0,0.3333333333333333,10,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2019,3,1.0,0.0,1.0,0.6666666666666666,11,0,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2020,0,3.0,1.0,0.0,1.3333333333333333,12,1,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2021,0,0.0,3.0,1.0,1.3333333333333333,13,1,1,1,train
+49,211,Otros genitourinarios,Masculino,15-44,2022,0,0.0,0.0,3.0,1.0,14,1,1,1,test
+49,211,Otros genitourinarios,Masculino,15-44,2023,1,0.0,0.0,0.0,0.0,15,0,1,1,test
+49,211,Otros genitourinarios,Masculino,15-44,2024,0,1.0,0.0,0.0,0.3333333333333333,16,0,1,1,test
+49,211,Otros genitourinarios,Masculino,15-44,2025,2,0.0,1.0,0.0,0.3333333333333333,17,0,1,1,test
+50,211,Otros genitourinarios,Masculino,45-64,2008,0,,,,,0,0,1,2,sin_rezagos
+50,211,Otros genitourinarios,Masculino,45-64,2009,0,0.0,,,,1,0,1,2,sin_rezagos
+50,211,Otros genitourinarios,Masculino,45-64,2010,4,0.0,0.0,,,2,0,1,2,sin_rezagos
+50,211,Otros genitourinarios,Masculino,45-64,2011,1,4.0,0.0,0.0,1.3333333333333333,3,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2012,1,1.0,4.0,0.0,1.6666666666666667,4,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2013,0,1.0,1.0,4.0,2.0,5,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2014,0,0.0,1.0,1.0,0.6666666666666666,6,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2015,2,0.0,0.0,1.0,0.3333333333333333,7,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2016,0,2.0,0.0,0.0,0.6666666666666666,8,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2017,0,0.0,2.0,0.0,0.6666666666666666,9,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2018,1,0.0,0.0,2.0,0.6666666666666666,10,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2019,0,1.0,0.0,0.0,0.3333333333333333,11,0,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2020,1,0.0,1.0,0.0,0.3333333333333333,12,1,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2021,0,1.0,0.0,1.0,0.6666666666666666,13,1,1,2,train
+50,211,Otros genitourinarios,Masculino,45-64,2022,0,0.0,1.0,0.0,0.3333333333333333,14,1,1,2,test
+50,211,Otros genitourinarios,Masculino,45-64,2023,0,0.0,0.0,1.0,0.3333333333333333,15,0,1,2,test
+50,211,Otros genitourinarios,Masculino,45-64,2024,0,0.0,0.0,0.0,0.0,16,0,1,2,test
+50,211,Otros genitourinarios,Masculino,45-64,2025,2,0.0,0.0,0.0,0.0,17,0,1,2,test
+51,211,Otros genitourinarios,Masculino,65+,2008,1,,,,,0,0,1,3,sin_rezagos
+51,211,Otros genitourinarios,Masculino,65+,2009,1,1.0,,,,1,0,1,3,sin_rezagos
+51,211,Otros genitourinarios,Masculino,65+,2010,0,1.0,1.0,,,2,0,1,3,sin_rezagos
+51,211,Otros genitourinarios,Masculino,65+,2011,0,0.0,1.0,1.0,0.6666666666666666,3,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2012,2,0.0,0.0,1.0,0.3333333333333333,4,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2013,0,2.0,0.0,0.0,0.6666666666666666,5,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2014,2,0.0,2.0,0.0,0.6666666666666666,6,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2015,1,2.0,0.0,2.0,1.3333333333333333,7,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2016,2,1.0,2.0,0.0,1.0,8,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2017,2,2.0,1.0,2.0,1.6666666666666667,9,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2018,1,2.0,2.0,1.0,1.6666666666666667,10,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2019,0,1.0,2.0,2.0,1.6666666666666667,11,0,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2020,4,0.0,1.0,2.0,1.0,12,1,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2021,2,4.0,0.0,1.0,1.6666666666666667,13,1,1,3,train
+51,211,Otros genitourinarios,Masculino,65+,2022,1,2.0,4.0,0.0,2.0,14,1,1,3,test
+51,211,Otros genitourinarios,Masculino,65+,2023,3,1.0,2.0,4.0,2.3333333333333335,15,0,1,3,test
+51,211,Otros genitourinarios,Masculino,65+,2024,5,3.0,1.0,2.0,2.0,16,0,1,3,test
+51,211,Otros genitourinarios,Masculino,65+,2025,2,5.0,3.0,1.0,3.0,17,0,1,3,test
+52,212,Leucemia,Femenino,0-14,2008,0,,,,,0,0,0,0,sin_rezagos
+52,212,Leucemia,Femenino,0-14,2009,0,0.0,,,,1,0,0,0,sin_rezagos
+52,212,Leucemia,Femenino,0-14,2010,1,0.0,0.0,,,2,0,0,0,sin_rezagos
+52,212,Leucemia,Femenino,0-14,2011,1,1.0,0.0,0.0,0.3333333333333333,3,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2012,1,1.0,1.0,0.0,0.6666666666666666,4,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2013,1,1.0,1.0,1.0,1.0,5,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2014,0,1.0,1.0,1.0,1.0,6,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2015,0,0.0,1.0,1.0,0.6666666666666666,7,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2016,0,0.0,0.0,1.0,0.3333333333333333,8,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2017,0,0.0,0.0,0.0,0.0,9,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2018,0,0.0,0.0,0.0,0.0,10,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2019,0,0.0,0.0,0.0,0.0,11,0,0,0,train
+52,212,Leucemia,Femenino,0-14,2020,0,0.0,0.0,0.0,0.0,12,1,0,0,train
+52,212,Leucemia,Femenino,0-14,2021,0,0.0,0.0,0.0,0.0,13,1,0,0,train
+52,212,Leucemia,Femenino,0-14,2022,0,0.0,0.0,0.0,0.0,14,1,0,0,test
+52,212,Leucemia,Femenino,0-14,2023,0,0.0,0.0,0.0,0.0,15,0,0,0,test
+52,212,Leucemia,Femenino,0-14,2024,0,0.0,0.0,0.0,0.0,16,0,0,0,test
+52,212,Leucemia,Femenino,0-14,2025,0,0.0,0.0,0.0,0.0,17,0,0,0,test
+53,212,Leucemia,Femenino,15-44,2008,0,,,,,0,0,0,1,sin_rezagos
+53,212,Leucemia,Femenino,15-44,2009,0,0.0,,,,1,0,0,1,sin_rezagos
+53,212,Leucemia,Femenino,15-44,2010,0,0.0,0.0,,,2,0,0,1,sin_rezagos
+53,212,Leucemia,Femenino,15-44,2011,0,0.0,0.0,0.0,0.0,3,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2012,0,0.0,0.0,0.0,0.0,4,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2013,0,0.0,0.0,0.0,0.0,5,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2014,1,0.0,0.0,0.0,0.0,6,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2015,0,1.0,0.0,0.0,0.3333333333333333,7,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2016,1,0.0,1.0,0.0,0.3333333333333333,8,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2017,0,1.0,0.0,1.0,0.6666666666666666,9,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2018,1,0.0,1.0,0.0,0.3333333333333333,10,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2019,0,1.0,0.0,1.0,0.6666666666666666,11,0,0,1,train
+53,212,Leucemia,Femenino,15-44,2020,1,0.0,1.0,0.0,0.3333333333333333,12,1,0,1,train
+53,212,Leucemia,Femenino,15-44,2021,0,1.0,0.0,1.0,0.6666666666666666,13,1,0,1,train
+53,212,Leucemia,Femenino,15-44,2022,1,0.0,1.0,0.0,0.3333333333333333,14,1,0,1,test
+53,212,Leucemia,Femenino,15-44,2023,3,1.0,0.0,1.0,0.6666666666666666,15,0,0,1,test
+53,212,Leucemia,Femenino,15-44,2024,0,3.0,1.0,0.0,1.3333333333333333,16,0,0,1,test
+53,212,Leucemia,Femenino,15-44,2025,1,0.0,3.0,1.0,1.3333333333333333,17,0,0,1,test
+54,212,Leucemia,Femenino,45-64,2008,0,,,,,0,0,0,2,sin_rezagos
+54,212,Leucemia,Femenino,45-64,2009,0,0.0,,,,1,0,0,2,sin_rezagos
+54,212,Leucemia,Femenino,45-64,2010,0,0.0,0.0,,,2,0,0,2,sin_rezagos
+54,212,Leucemia,Femenino,45-64,2011,0,0.0,0.0,0.0,0.0,3,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2012,3,0.0,0.0,0.0,0.0,4,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2013,1,3.0,0.0,0.0,1.0,5,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2014,0,1.0,3.0,0.0,1.3333333333333333,6,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2015,1,0.0,1.0,3.0,1.3333333333333333,7,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2016,0,1.0,0.0,1.0,0.6666666666666666,8,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2017,0,0.0,1.0,0.0,0.3333333333333333,9,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2018,1,0.0,0.0,1.0,0.3333333333333333,10,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2019,1,1.0,0.0,0.0,0.3333333333333333,11,0,0,2,train
+54,212,Leucemia,Femenino,45-64,2020,0,1.0,1.0,0.0,0.6666666666666666,12,1,0,2,train
+54,212,Leucemia,Femenino,45-64,2021,1,0.0,1.0,1.0,0.6666666666666666,13,1,0,2,train
+54,212,Leucemia,Femenino,45-64,2022,1,1.0,0.0,1.0,0.6666666666666666,14,1,0,2,test
+54,212,Leucemia,Femenino,45-64,2023,0,1.0,1.0,0.0,0.6666666666666666,15,0,0,2,test
+54,212,Leucemia,Femenino,45-64,2024,1,0.0,1.0,1.0,0.6666666666666666,16,0,0,2,test
+54,212,Leucemia,Femenino,45-64,2025,0,1.0,0.0,1.0,0.6666666666666666,17,0,0,2,test
+55,212,Leucemia,Femenino,65+,2008,1,,,,,0,0,0,3,sin_rezagos
+55,212,Leucemia,Femenino,65+,2009,0,1.0,,,,1,0,0,3,sin_rezagos
+55,212,Leucemia,Femenino,65+,2010,1,0.0,1.0,,,2,0,0,3,sin_rezagos
+55,212,Leucemia,Femenino,65+,2011,1,1.0,0.0,1.0,0.6666666666666666,3,0,0,3,train
+55,212,Leucemia,Femenino,65+,2012,2,1.0,1.0,0.0,0.6666666666666666,4,0,0,3,train
+55,212,Leucemia,Femenino,65+,2013,1,2.0,1.0,1.0,1.3333333333333333,5,0,0,3,train
+55,212,Leucemia,Femenino,65+,2014,1,1.0,2.0,1.0,1.3333333333333333,6,0,0,3,train
+55,212,Leucemia,Femenino,65+,2015,2,1.0,1.0,2.0,1.3333333333333333,7,0,0,3,train
+55,212,Leucemia,Femenino,65+,2016,1,2.0,1.0,1.0,1.3333333333333333,8,0,0,3,train
+55,212,Leucemia,Femenino,65+,2017,3,1.0,2.0,1.0,1.3333333333333333,9,0,0,3,train
+55,212,Leucemia,Femenino,65+,2018,1,3.0,1.0,2.0,2.0,10,0,0,3,train
+55,212,Leucemia,Femenino,65+,2019,3,1.0,3.0,1.0,1.6666666666666667,11,0,0,3,train
+55,212,Leucemia,Femenino,65+,2020,0,3.0,1.0,3.0,2.3333333333333335,12,1,0,3,train
+55,212,Leucemia,Femenino,65+,2021,1,0.0,3.0,1.0,1.3333333333333333,13,1,0,3,train
+55,212,Leucemia,Femenino,65+,2022,1,1.0,0.0,3.0,1.3333333333333333,14,1,0,3,test
+55,212,Leucemia,Femenino,65+,2023,3,1.0,1.0,0.0,0.6666666666666666,15,0,0,3,test
+55,212,Leucemia,Femenino,65+,2024,2,3.0,1.0,1.0,1.6666666666666667,16,0,0,3,test
+55,212,Leucemia,Femenino,65+,2025,1,2.0,3.0,1.0,2.0,17,0,0,3,test
+56,212,Leucemia,Masculino,0-14,2008,0,,,,,0,0,1,0,sin_rezagos
+56,212,Leucemia,Masculino,0-14,2009,0,0.0,,,,1,0,1,0,sin_rezagos
+56,212,Leucemia,Masculino,0-14,2010,0,0.0,0.0,,,2,0,1,0,sin_rezagos
+56,212,Leucemia,Masculino,0-14,2011,2,0.0,0.0,0.0,0.0,3,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2012,2,2.0,0.0,0.0,0.6666666666666666,4,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2013,0,2.0,2.0,0.0,1.3333333333333333,5,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2014,0,0.0,2.0,2.0,1.3333333333333333,6,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2015,2,0.0,0.0,2.0,0.6666666666666666,7,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2016,1,2.0,0.0,0.0,0.6666666666666666,8,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2017,0,1.0,2.0,0.0,1.0,9,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2018,0,0.0,1.0,2.0,1.0,10,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2019,0,0.0,0.0,1.0,0.3333333333333333,11,0,1,0,train
+56,212,Leucemia,Masculino,0-14,2020,1,0.0,0.0,0.0,0.0,12,1,1,0,train
+56,212,Leucemia,Masculino,0-14,2021,0,1.0,0.0,0.0,0.3333333333333333,13,1,1,0,train
+56,212,Leucemia,Masculino,0-14,2022,0,0.0,1.0,0.0,0.3333333333333333,14,1,1,0,test
+56,212,Leucemia,Masculino,0-14,2023,0,0.0,0.0,1.0,0.3333333333333333,15,0,1,0,test
+56,212,Leucemia,Masculino,0-14,2024,0,0.0,0.0,0.0,0.0,16,0,1,0,test
+56,212,Leucemia,Masculino,0-14,2025,0,0.0,0.0,0.0,0.0,17,0,1,0,test
+57,212,Leucemia,Masculino,15-44,2008,1,,,,,0,0,1,1,sin_rezagos
+57,212,Leucemia,Masculino,15-44,2009,1,1.0,,,,1,0,1,1,sin_rezagos
+57,212,Leucemia,Masculino,15-44,2010,0,1.0,1.0,,,2,0,1,1,sin_rezagos
+57,212,Leucemia,Masculino,15-44,2011,1,0.0,1.0,1.0,0.6666666666666666,3,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2012,0,1.0,0.0,1.0,0.6666666666666666,4,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2013,2,0.0,1.0,0.0,0.3333333333333333,5,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2014,2,2.0,0.0,1.0,1.0,6,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2015,1,2.0,2.0,0.0,1.3333333333333333,7,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2016,1,1.0,2.0,2.0,1.6666666666666667,8,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2017,2,1.0,1.0,2.0,1.3333333333333333,9,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2018,1,2.0,1.0,1.0,1.3333333333333333,10,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2019,0,1.0,2.0,1.0,1.3333333333333333,11,0,1,1,train
+57,212,Leucemia,Masculino,15-44,2020,2,0.0,1.0,2.0,1.0,12,1,1,1,train
+57,212,Leucemia,Masculino,15-44,2021,0,2.0,0.0,1.0,1.0,13,1,1,1,train
+57,212,Leucemia,Masculino,15-44,2022,2,0.0,2.0,0.0,0.6666666666666666,14,1,1,1,test
+57,212,Leucemia,Masculino,15-44,2023,0,2.0,0.0,2.0,1.3333333333333333,15,0,1,1,test
+57,212,Leucemia,Masculino,15-44,2024,0,0.0,2.0,0.0,0.6666666666666666,16,0,1,1,test
+57,212,Leucemia,Masculino,15-44,2025,2,0.0,0.0,2.0,0.6666666666666666,17,0,1,1,test
+58,212,Leucemia,Masculino,45-64,2008,0,,,,,0,0,1,2,sin_rezagos
+58,212,Leucemia,Masculino,45-64,2009,0,0.0,,,,1,0,1,2,sin_rezagos
+58,212,Leucemia,Masculino,45-64,2010,0,0.0,0.0,,,2,0,1,2,sin_rezagos
+58,212,Leucemia,Masculino,45-64,2011,0,0.0,0.0,0.0,0.0,3,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2012,1,0.0,0.0,0.0,0.0,4,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2013,0,1.0,0.0,0.0,0.3333333333333333,5,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2014,1,0.0,1.0,0.0,0.3333333333333333,6,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2015,1,1.0,0.0,1.0,0.6666666666666666,7,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2016,0,1.0,1.0,0.0,0.6666666666666666,8,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2017,0,0.0,1.0,1.0,0.6666666666666666,9,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2018,0,0.0,0.0,1.0,0.3333333333333333,10,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2019,0,0.0,0.0,0.0,0.0,11,0,1,2,train
+58,212,Leucemia,Masculino,45-64,2020,1,0.0,0.0,0.0,0.0,12,1,1,2,train
+58,212,Leucemia,Masculino,45-64,2021,0,1.0,0.0,0.0,0.3333333333333333,13,1,1,2,train
+58,212,Leucemia,Masculino,45-64,2022,2,0.0,1.0,0.0,0.3333333333333333,14,1,1,2,test
+58,212,Leucemia,Masculino,45-64,2023,0,2.0,0.0,1.0,1.0,15,0,1,2,test
+58,212,Leucemia,Masculino,45-64,2024,2,0.0,2.0,0.0,0.6666666666666666,16,0,1,2,test
+58,212,Leucemia,Masculino,45-64,2025,0,2.0,0.0,2.0,1.3333333333333333,17,0,1,2,test
+59,212,Leucemia,Masculino,65+,2008,0,,,,,0,0,1,3,sin_rezagos
+59,212,Leucemia,Masculino,65+,2009,2,0.0,,,,1,0,1,3,sin_rezagos
+59,212,Leucemia,Masculino,65+,2010,2,2.0,0.0,,,2,0,1,3,sin_rezagos
+59,212,Leucemia,Masculino,65+,2011,2,2.0,2.0,0.0,1.3333333333333333,3,0,1,3,train
+59,212,Leucemia,Masculino,65+,2012,0,2.0,2.0,2.0,2.0,4,0,1,3,train
+59,212,Leucemia,Masculino,65+,2013,0,0.0,2.0,2.0,1.3333333333333333,5,0,1,3,train
+59,212,Leucemia,Masculino,65+,2014,0,0.0,0.0,2.0,0.6666666666666666,6,0,1,3,train
+59,212,Leucemia,Masculino,65+,2015,3,0.0,0.0,0.0,0.0,7,0,1,3,train
+59,212,Leucemia,Masculino,65+,2016,2,3.0,0.0,0.0,1.0,8,0,1,3,train
+59,212,Leucemia,Masculino,65+,2017,2,2.0,3.0,0.0,1.6666666666666667,9,0,1,3,train
+59,212,Leucemia,Masculino,65+,2018,2,2.0,2.0,3.0,2.3333333333333335,10,0,1,3,train
+59,212,Leucemia,Masculino,65+,2019,4,2.0,2.0,2.0,2.0,11,0,1,3,train
+59,212,Leucemia,Masculino,65+,2020,0,4.0,2.0,2.0,2.6666666666666665,12,1,1,3,train
+59,212,Leucemia,Masculino,65+,2021,1,0.0,4.0,2.0,2.0,13,1,1,3,train
+59,212,Leucemia,Masculino,65+,2022,1,1.0,0.0,4.0,1.6666666666666667,14,1,1,3,test
+59,212,Leucemia,Masculino,65+,2023,0,1.0,1.0,0.0,0.6666666666666666,15,0,1,3,test
+59,212,Leucemia,Masculino,65+,2024,2,0.0,1.0,1.0,0.6666666666666666,16,0,1,3,test
+59,212,Leucemia,Masculino,65+,2025,2,2.0,0.0,1.0,1.0,17,0,1,3,test
+60,213,Linfático y hematopoyético,Femenino,0-14,2008,0,,,,,0,0,0,0,sin_rezagos
+60,213,Linfático y hematopoyético,Femenino,0-14,2009,0,0.0,,,,1,0,0,0,sin_rezagos
+60,213,Linfático y hematopoyético,Femenino,0-14,2010,0,0.0,0.0,,,2,0,0,0,sin_rezagos
+60,213,Linfático y hematopoyético,Femenino,0-14,2011,0,0.0,0.0,0.0,0.0,3,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2012,0,0.0,0.0,0.0,0.0,4,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2013,0,0.0,0.0,0.0,0.0,5,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2014,1,0.0,0.0,0.0,0.0,6,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2015,0,1.0,0.0,0.0,0.3333333333333333,7,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2016,0,0.0,1.0,0.0,0.3333333333333333,8,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2017,0,0.0,0.0,1.0,0.3333333333333333,9,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2018,0,0.0,0.0,0.0,0.0,10,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2019,0,0.0,0.0,0.0,0.0,11,0,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2020,0,0.0,0.0,0.0,0.0,12,1,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2021,0,0.0,0.0,0.0,0.0,13,1,0,0,train
+60,213,Linfático y hematopoyético,Femenino,0-14,2022,0,0.0,0.0,0.0,0.0,14,1,0,0,test
+60,213,Linfático y hematopoyético,Femenino,0-14,2023,0,0.0,0.0,0.0,0.0,15,0,0,0,test
+60,213,Linfático y hematopoyético,Femenino,0-14,2024,0,0.0,0.0,0.0,0.0,16,0,0,0,test
+60,213,Linfático y hematopoyético,Femenino,0-14,2025,0,0.0,0.0,0.0,0.0,17,0,0,0,test
+61,213,Linfático y hematopoyético,Femenino,45-64,2008,1,,,,,0,0,0,2,sin_rezagos
+61,213,Linfático y hematopoyético,Femenino,45-64,2009,2,1.0,,,,1,0,0,2,sin_rezagos
+61,213,Linfático y hematopoyético,Femenino,45-64,2010,0,2.0,1.0,,,2,0,0,2,sin_rezagos
+61,213,Linfático y hematopoyético,Femenino,45-64,2011,2,0.0,2.0,1.0,1.0,3,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2012,1,2.0,0.0,2.0,1.3333333333333333,4,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2013,1,1.0,2.0,0.0,1.0,5,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2014,0,1.0,1.0,2.0,1.3333333333333333,6,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2015,0,0.0,1.0,1.0,0.6666666666666666,7,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2016,1,0.0,0.0,1.0,0.3333333333333333,8,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2017,1,1.0,0.0,0.0,0.3333333333333333,9,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2018,2,1.0,1.0,0.0,0.6666666666666666,10,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2019,1,2.0,1.0,1.0,1.3333333333333333,11,0,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2020,3,1.0,2.0,1.0,1.3333333333333333,12,1,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2021,0,3.0,1.0,2.0,2.0,13,1,0,2,train
+61,213,Linfático y hematopoyético,Femenino,45-64,2022,0,0.0,3.0,1.0,1.3333333333333333,14,1,0,2,test
+61,213,Linfático y hematopoyético,Femenino,45-64,2023,0,0.0,0.0,3.0,1.0,15,0,0,2,test
+61,213,Linfático y hematopoyético,Femenino,45-64,2024,2,0.0,0.0,0.0,0.0,16,0,0,2,test
+61,213,Linfático y hematopoyético,Femenino,45-64,2025,0,2.0,0.0,0.0,0.6666666666666666,17,0,0,2,test
+62,213,Linfático y hematopoyético,Femenino,65+,2008,1,,,,,0,0,0,3,sin_rezagos
+62,213,Linfático y hematopoyético,Femenino,65+,2009,1,1.0,,,,1,0,0,3,sin_rezagos
+62,213,Linfático y hematopoyético,Femenino,65+,2010,2,1.0,1.0,,,2,0,0,3,sin_rezagos
+62,213,Linfático y hematopoyético,Femenino,65+,2011,0,2.0,1.0,1.0,1.3333333333333333,3,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2012,0,0.0,2.0,1.0,1.0,4,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2013,1,0.0,0.0,2.0,0.6666666666666666,5,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2014,2,1.0,0.0,0.0,0.3333333333333333,6,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2015,1,2.0,1.0,0.0,1.0,7,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2016,0,1.0,2.0,1.0,1.3333333333333333,8,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2017,4,0.0,1.0,2.0,1.0,9,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2018,1,4.0,0.0,1.0,1.6666666666666667,10,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2019,1,1.0,4.0,0.0,1.6666666666666667,11,0,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2020,2,1.0,1.0,4.0,2.0,12,1,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2021,3,2.0,1.0,1.0,1.3333333333333333,13,1,0,3,train
+62,213,Linfático y hematopoyético,Femenino,65+,2022,1,3.0,2.0,1.0,2.0,14,1,0,3,test
+62,213,Linfático y hematopoyético,Femenino,65+,2023,1,1.0,3.0,2.0,2.0,15,0,0,3,test
+62,213,Linfático y hematopoyético,Femenino,65+,2024,3,1.0,1.0,3.0,1.6666666666666667,16,0,0,3,test
+62,213,Linfático y hematopoyético,Femenino,65+,2025,6,3.0,1.0,1.0,1.6666666666666667,17,0,0,3,test
+63,213,Linfático y hematopoyético,Masculino,15-44,2008,0,,,,,0,0,1,1,sin_rezagos
+63,213,Linfático y hematopoyético,Masculino,15-44,2009,0,0.0,,,,1,0,1,1,sin_rezagos
+63,213,Linfático y hematopoyético,Masculino,15-44,2010,0,0.0,0.0,,,2,0,1,1,sin_rezagos
+63,213,Linfático y hematopoyético,Masculino,15-44,2011,0,0.0,0.0,0.0,0.0,3,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2012,0,0.0,0.0,0.0,0.0,4,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2013,0,0.0,0.0,0.0,0.0,5,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2014,0,0.0,0.0,0.0,0.0,6,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2015,0,0.0,0.0,0.0,0.0,7,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2016,1,0.0,0.0,0.0,0.0,8,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2017,0,1.0,0.0,0.0,0.3333333333333333,9,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2018,1,0.0,1.0,0.0,0.3333333333333333,10,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2019,0,1.0,0.0,1.0,0.6666666666666666,11,0,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2020,0,0.0,1.0,0.0,0.3333333333333333,12,1,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2021,0,0.0,0.0,1.0,0.3333333333333333,13,1,1,1,train
+63,213,Linfático y hematopoyético,Masculino,15-44,2022,1,0.0,0.0,0.0,0.0,14,1,1,1,test
+63,213,Linfático y hematopoyético,Masculino,15-44,2023,2,1.0,0.0,0.0,0.3333333333333333,15,0,1,1,test
+63,213,Linfático y hematopoyético,Masculino,15-44,2024,0,2.0,1.0,0.0,1.0,16,0,1,1,test
+63,213,Linfático y hematopoyético,Masculino,15-44,2025,1,0.0,2.0,1.0,1.0,17,0,1,1,test
+64,213,Linfático y hematopoyético,Masculino,45-64,2008,2,,,,,0,0,1,2,sin_rezagos
+64,213,Linfático y hematopoyético,Masculino,45-64,2009,1,2.0,,,,1,0,1,2,sin_rezagos
+64,213,Linfático y hematopoyético,Masculino,45-64,2010,0,1.0,2.0,,,2,0,1,2,sin_rezagos
+64,213,Linfático y hematopoyético,Masculino,45-64,2011,1,0.0,1.0,2.0,1.0,3,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2012,0,1.0,0.0,1.0,0.6666666666666666,4,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2013,4,0.0,1.0,0.0,0.3333333333333333,5,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2014,1,4.0,0.0,1.0,1.6666666666666667,6,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2015,3,1.0,4.0,0.0,1.6666666666666667,7,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2016,0,3.0,1.0,4.0,2.6666666666666665,8,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2017,0,0.0,3.0,1.0,1.3333333333333333,9,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2018,1,0.0,0.0,3.0,1.0,10,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2019,1,1.0,0.0,0.0,0.3333333333333333,11,0,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2020,2,1.0,1.0,0.0,0.6666666666666666,12,1,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2021,1,2.0,1.0,1.0,1.3333333333333333,13,1,1,2,train
+64,213,Linfático y hematopoyético,Masculino,45-64,2022,0,1.0,2.0,1.0,1.3333333333333333,14,1,1,2,test
+64,213,Linfático y hematopoyético,Masculino,45-64,2023,2,0.0,1.0,2.0,1.0,15,0,1,2,test
+64,213,Linfático y hematopoyético,Masculino,45-64,2024,0,2.0,0.0,1.0,1.0,16,0,1,2,test
+64,213,Linfático y hematopoyético,Masculino,45-64,2025,0,0.0,2.0,0.0,0.6666666666666666,17,0,1,2,test
+65,213,Linfático y hematopoyético,Masculino,65+,2008,0,,,,,0,0,1,3,sin_rezagos
+65,213,Linfático y hematopoyético,Masculino,65+,2009,1,0.0,,,,1,0,1,3,sin_rezagos
+65,213,Linfático y hematopoyético,Masculino,65+,2010,1,1.0,0.0,,,2,0,1,3,sin_rezagos
+65,213,Linfático y hematopoyético,Masculino,65+,2011,0,1.0,1.0,0.0,0.6666666666666666,3,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2012,2,0.0,1.0,1.0,0.6666666666666666,4,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2013,0,2.0,0.0,1.0,1.0,5,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2014,6,0.0,2.0,0.0,0.6666666666666666,6,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2015,2,6.0,0.0,2.0,2.6666666666666665,7,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2016,1,2.0,6.0,0.0,2.6666666666666665,8,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2017,1,1.0,2.0,6.0,3.0,9,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2018,2,1.0,1.0,2.0,1.3333333333333333,10,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2019,2,2.0,1.0,1.0,1.3333333333333333,11,0,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2020,2,2.0,2.0,1.0,1.6666666666666667,12,1,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2021,0,2.0,2.0,2.0,2.0,13,1,1,3,train
+65,213,Linfático y hematopoyético,Masculino,65+,2022,2,0.0,2.0,2.0,1.3333333333333333,14,1,1,3,test
+65,213,Linfático y hematopoyético,Masculino,65+,2023,2,2.0,0.0,2.0,1.3333333333333333,15,0,1,3,test
+65,213,Linfático y hematopoyético,Masculino,65+,2024,4,2.0,2.0,0.0,1.3333333333333333,16,0,1,3,test
+65,213,Linfático y hematopoyético,Masculino,65+,2025,2,4.0,2.0,2.0,2.6666666666666665,17,0,1,3,test
+66,214,Otras localizaciones,Femenino,0-14,2008,0,,,,,0,0,0,0,sin_rezagos
+66,214,Otras localizaciones,Femenino,0-14,2009,1,0.0,,,,1,0,0,0,sin_rezagos
+66,214,Otras localizaciones,Femenino,0-14,2010,0,1.0,0.0,,,2,0,0,0,sin_rezagos
+66,214,Otras localizaciones,Femenino,0-14,2011,0,0.0,1.0,0.0,0.3333333333333333,3,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2012,0,0.0,0.0,1.0,0.3333333333333333,4,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2013,0,0.0,0.0,0.0,0.0,5,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2014,0,0.0,0.0,0.0,0.0,6,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2015,0,0.0,0.0,0.0,0.0,7,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2016,0,0.0,0.0,0.0,0.0,8,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2017,0,0.0,0.0,0.0,0.0,9,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2018,0,0.0,0.0,0.0,0.0,10,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2019,0,0.0,0.0,0.0,0.0,11,0,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2020,0,0.0,0.0,0.0,0.0,12,1,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2021,0,0.0,0.0,0.0,0.0,13,1,0,0,train
+66,214,Otras localizaciones,Femenino,0-14,2022,0,0.0,0.0,0.0,0.0,14,1,0,0,test
+66,214,Otras localizaciones,Femenino,0-14,2023,0,0.0,0.0,0.0,0.0,15,0,0,0,test
+66,214,Otras localizaciones,Femenino,0-14,2024,0,0.0,0.0,0.0,0.0,16,0,0,0,test
+66,214,Otras localizaciones,Femenino,0-14,2025,2,0.0,0.0,0.0,0.0,17,0,0,0,test
+67,214,Otras localizaciones,Femenino,15-44,2008,0,,,,,0,0,0,1,sin_rezagos
+67,214,Otras localizaciones,Femenino,15-44,2009,2,0.0,,,,1,0,0,1,sin_rezagos
+67,214,Otras localizaciones,Femenino,15-44,2010,0,2.0,0.0,,,2,0,0,1,sin_rezagos
+67,214,Otras localizaciones,Femenino,15-44,2011,1,0.0,2.0,0.0,0.6666666666666666,3,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2012,1,1.0,0.0,2.0,1.0,4,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2013,2,1.0,1.0,0.0,0.6666666666666666,5,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2014,0,2.0,1.0,1.0,1.3333333333333333,6,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2015,0,0.0,2.0,1.0,1.0,7,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2016,2,0.0,0.0,2.0,0.6666666666666666,8,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2017,1,2.0,0.0,0.0,0.6666666666666666,9,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2018,2,1.0,2.0,0.0,1.0,10,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2019,0,2.0,1.0,2.0,1.6666666666666667,11,0,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2020,0,0.0,2.0,1.0,1.0,12,1,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2021,1,0.0,0.0,2.0,0.6666666666666666,13,1,0,1,train
+67,214,Otras localizaciones,Femenino,15-44,2022,0,1.0,0.0,0.0,0.3333333333333333,14,1,0,1,test
+67,214,Otras localizaciones,Femenino,15-44,2023,0,0.0,1.0,0.0,0.3333333333333333,15,0,0,1,test
+67,214,Otras localizaciones,Femenino,15-44,2024,0,0.0,0.0,1.0,0.3333333333333333,16,0,0,1,test
+67,214,Otras localizaciones,Femenino,15-44,2025,3,0.0,0.0,0.0,0.0,17,0,0,1,test
+68,214,Otras localizaciones,Femenino,45-64,2008,2,,,,,0,0,0,2,sin_rezagos
+68,214,Otras localizaciones,Femenino,45-64,2009,1,2.0,,,,1,0,0,2,sin_rezagos
+68,214,Otras localizaciones,Femenino,45-64,2010,3,1.0,2.0,,,2,0,0,2,sin_rezagos
+68,214,Otras localizaciones,Femenino,45-64,2011,2,3.0,1.0,2.0,2.0,3,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2012,3,2.0,3.0,1.0,2.0,4,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2013,2,3.0,2.0,3.0,2.6666666666666665,5,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2014,4,2.0,3.0,2.0,2.3333333333333335,6,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2015,0,4.0,2.0,3.0,3.0,7,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2016,4,0.0,4.0,2.0,2.0,8,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2017,6,4.0,0.0,4.0,2.6666666666666665,9,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2018,2,6.0,4.0,0.0,3.3333333333333335,10,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2019,2,2.0,6.0,4.0,4.0,11,0,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2020,1,2.0,2.0,6.0,3.3333333333333335,12,1,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2021,2,1.0,2.0,2.0,1.6666666666666667,13,1,0,2,train
+68,214,Otras localizaciones,Femenino,45-64,2022,8,2.0,1.0,2.0,1.6666666666666667,14,1,0,2,test
+68,214,Otras localizaciones,Femenino,45-64,2023,3,8.0,2.0,1.0,3.6666666666666665,15,0,0,2,test
+68,214,Otras localizaciones,Femenino,45-64,2024,2,3.0,8.0,2.0,4.333333333333333,16,0,0,2,test
+68,214,Otras localizaciones,Femenino,45-64,2025,6,2.0,3.0,8.0,4.333333333333333,17,0,0,2,test
+69,214,Otras localizaciones,Femenino,65+,2008,3,,,,,0,0,0,3,sin_rezagos
+69,214,Otras localizaciones,Femenino,65+,2009,6,3.0,,,,1,0,0,3,sin_rezagos
+69,214,Otras localizaciones,Femenino,65+,2010,7,6.0,3.0,,,2,0,0,3,sin_rezagos
+69,214,Otras localizaciones,Femenino,65+,2011,5,7.0,6.0,3.0,5.333333333333333,3,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2012,11,5.0,7.0,6.0,6.0,4,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2013,12,11.0,5.0,7.0,7.666666666666667,5,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2014,7,12.0,11.0,5.0,9.333333333333334,6,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2015,7,7.0,12.0,11.0,10.0,7,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2016,9,7.0,7.0,12.0,8.666666666666666,8,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2017,6,9.0,7.0,7.0,7.666666666666667,9,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2018,8,6.0,9.0,7.0,7.333333333333333,10,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2019,10,8.0,6.0,9.0,7.666666666666667,11,0,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2020,8,10.0,8.0,6.0,8.0,12,1,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2021,8,8.0,10.0,8.0,8.666666666666666,13,1,0,3,train
+69,214,Otras localizaciones,Femenino,65+,2022,8,8.0,8.0,10.0,8.666666666666666,14,1,0,3,test
+69,214,Otras localizaciones,Femenino,65+,2023,6,8.0,8.0,8.0,8.0,15,0,0,3,test
+69,214,Otras localizaciones,Femenino,65+,2024,9,6.0,8.0,8.0,7.333333333333333,16,0,0,3,test
+69,214,Otras localizaciones,Femenino,65+,2025,10,9.0,6.0,8.0,7.666666666666667,17,0,0,3,test
+70,214,Otras localizaciones,Masculino,0-14,2008,0,,,,,0,0,1,0,sin_rezagos
+70,214,Otras localizaciones,Masculino,0-14,2009,0,0.0,,,,1,0,1,0,sin_rezagos
+70,214,Otras localizaciones,Masculino,0-14,2010,0,0.0,0.0,,,2,0,1,0,sin_rezagos
+70,214,Otras localizaciones,Masculino,0-14,2011,1,0.0,0.0,0.0,0.0,3,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2012,0,1.0,0.0,0.0,0.3333333333333333,4,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2013,1,0.0,1.0,0.0,0.3333333333333333,5,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2014,0,1.0,0.0,1.0,0.6666666666666666,6,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2015,0,0.0,1.0,0.0,0.3333333333333333,7,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2016,1,0.0,0.0,1.0,0.3333333333333333,8,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2017,0,1.0,0.0,0.0,0.3333333333333333,9,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2018,1,0.0,1.0,0.0,0.3333333333333333,10,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2019,0,1.0,0.0,1.0,0.6666666666666666,11,0,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2020,0,0.0,1.0,0.0,0.3333333333333333,12,1,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2021,0,0.0,0.0,1.0,0.3333333333333333,13,1,1,0,train
+70,214,Otras localizaciones,Masculino,0-14,2022,0,0.0,0.0,0.0,0.0,14,1,1,0,test
+70,214,Otras localizaciones,Masculino,0-14,2023,0,0.0,0.0,0.0,0.0,15,0,1,0,test
+70,214,Otras localizaciones,Masculino,0-14,2024,0,0.0,0.0,0.0,0.0,16,0,1,0,test
+70,214,Otras localizaciones,Masculino,0-14,2025,0,0.0,0.0,0.0,0.0,17,0,1,0,test
+71,214,Otras localizaciones,Masculino,15-44,2008,2,,,,,0,0,1,1,sin_rezagos
+71,214,Otras localizaciones,Masculino,15-44,2009,1,2.0,,,,1,0,1,1,sin_rezagos
+71,214,Otras localizaciones,Masculino,15-44,2010,0,1.0,2.0,,,2,0,1,1,sin_rezagos
+71,214,Otras localizaciones,Masculino,15-44,2011,1,0.0,1.0,2.0,1.0,3,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2012,0,1.0,0.0,1.0,0.6666666666666666,4,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2013,0,0.0,1.0,0.0,0.3333333333333333,5,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2014,0,0.0,0.0,1.0,0.3333333333333333,6,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2015,0,0.0,0.0,0.0,0.0,7,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2016,2,0.0,0.0,0.0,0.0,8,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2017,0,2.0,0.0,0.0,0.6666666666666666,9,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2018,0,0.0,2.0,0.0,0.6666666666666666,10,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2019,1,0.0,0.0,2.0,0.6666666666666666,11,0,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2020,2,1.0,0.0,0.0,0.3333333333333333,12,1,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2021,0,2.0,1.0,0.0,1.0,13,1,1,1,train
+71,214,Otras localizaciones,Masculino,15-44,2022,0,0.0,2.0,1.0,1.0,14,1,1,1,test
+71,214,Otras localizaciones,Masculino,15-44,2023,3,0.0,0.0,2.0,0.6666666666666666,15,0,1,1,test
+71,214,Otras localizaciones,Masculino,15-44,2024,1,3.0,0.0,0.0,1.0,16,0,1,1,test
+71,214,Otras localizaciones,Masculino,15-44,2025,1,1.0,3.0,0.0,1.3333333333333333,17,0,1,1,test
+72,214,Otras localizaciones,Masculino,45-64,2008,2,,,,,0,0,1,2,sin_rezagos
+72,214,Otras localizaciones,Masculino,45-64,2009,4,2.0,,,,1,0,1,2,sin_rezagos
+72,214,Otras localizaciones,Masculino,45-64,2010,1,4.0,2.0,,,2,0,1,2,sin_rezagos
+72,214,Otras localizaciones,Masculino,45-64,2011,4,1.0,4.0,2.0,2.3333333333333335,3,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2012,5,4.0,1.0,4.0,3.0,4,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2013,0,5.0,4.0,1.0,3.3333333333333335,5,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2014,4,0.0,5.0,4.0,3.0,6,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2015,2,4.0,0.0,5.0,3.0,7,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2016,4,2.0,4.0,0.0,2.0,8,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2017,2,4.0,2.0,4.0,3.3333333333333335,9,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2018,4,2.0,4.0,2.0,2.6666666666666665,10,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2019,3,4.0,2.0,4.0,3.3333333333333335,11,0,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2020,4,3.0,4.0,2.0,3.0,12,1,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2021,0,4.0,3.0,4.0,3.6666666666666665,13,1,1,2,train
+72,214,Otras localizaciones,Masculino,45-64,2022,0,0.0,4.0,3.0,2.3333333333333335,14,1,1,2,test
+72,214,Otras localizaciones,Masculino,45-64,2023,4,0.0,0.0,4.0,1.3333333333333333,15,0,1,2,test
+72,214,Otras localizaciones,Masculino,45-64,2024,1,4.0,0.0,0.0,1.3333333333333333,16,0,1,2,test
+72,214,Otras localizaciones,Masculino,45-64,2025,2,1.0,4.0,0.0,1.6666666666666667,17,0,1,2,test
+73,214,Otras localizaciones,Masculino,65+,2008,7,,,,,0,0,1,3,sin_rezagos
+73,214,Otras localizaciones,Masculino,65+,2009,0,7.0,,,,1,0,1,3,sin_rezagos
+73,214,Otras localizaciones,Masculino,65+,2010,5,0.0,7.0,,,2,0,1,3,sin_rezagos
+73,214,Otras localizaciones,Masculino,65+,2011,2,5.0,0.0,7.0,4.0,3,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2012,4,2.0,5.0,0.0,2.3333333333333335,4,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2013,6,4.0,2.0,5.0,3.6666666666666665,5,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2014,8,6.0,4.0,2.0,4.0,6,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2015,3,8.0,6.0,4.0,6.0,7,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2016,3,3.0,8.0,6.0,5.666666666666667,8,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2017,4,3.0,3.0,8.0,4.666666666666667,9,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2018,6,4.0,3.0,3.0,3.3333333333333335,10,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2019,4,6.0,4.0,3.0,4.333333333333333,11,0,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2020,8,4.0,6.0,4.0,4.666666666666667,12,1,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2021,5,8.0,4.0,6.0,6.0,13,1,1,3,train
+73,214,Otras localizaciones,Masculino,65+,2022,5,5.0,8.0,4.0,5.666666666666667,14,1,1,3,test
+73,214,Otras localizaciones,Masculino,65+,2023,5,5.0,5.0,8.0,6.0,15,0,1,3,test
+73,214,Otras localizaciones,Masculino,65+,2024,6,5.0,5.0,5.0,5.0,16,0,1,3,test
+73,214,Otras localizaciones,Masculino,65+,2025,8,6.0,5.0,5.0,5.333333333333333,17,0,1,3,test
+74,215,In situ / benignos / incierto,Femenino,0-14,2008,0,,,,,0,0,0,0,sin_rezagos
+74,215,In situ / benignos / incierto,Femenino,0-14,2009,0,0.0,,,,1,0,0,0,sin_rezagos
+74,215,In situ / benignos / incierto,Femenino,0-14,2010,0,0.0,0.0,,,2,0,0,0,sin_rezagos
+74,215,In situ / benignos / incierto,Femenino,0-14,2011,0,0.0,0.0,0.0,0.0,3,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2012,0,0.0,0.0,0.0,0.0,4,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2013,0,0.0,0.0,0.0,0.0,5,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2014,0,0.0,0.0,0.0,0.0,6,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2015,0,0.0,0.0,0.0,0.0,7,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2016,0,0.0,0.0,0.0,0.0,8,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2017,0,0.0,0.0,0.0,0.0,9,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2018,1,0.0,0.0,0.0,0.0,10,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2019,0,1.0,0.0,0.0,0.3333333333333333,11,0,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2020,0,0.0,1.0,0.0,0.3333333333333333,12,1,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2021,0,0.0,0.0,1.0,0.3333333333333333,13,1,0,0,train
+74,215,In situ / benignos / incierto,Femenino,0-14,2022,0,0.0,0.0,0.0,0.0,14,1,0,0,test
+74,215,In situ / benignos / incierto,Femenino,0-14,2023,1,0.0,0.0,0.0,0.0,15,0,0,0,test
+74,215,In situ / benignos / incierto,Femenino,0-14,2024,0,1.0,0.0,0.0,0.3333333333333333,16,0,0,0,test
+74,215,In situ / benignos / incierto,Femenino,0-14,2025,0,0.0,1.0,0.0,0.3333333333333333,17,0,0,0,test
+75,215,In situ / benignos / incierto,Femenino,15-44,2008,0,,,,,0,0,0,1,sin_rezagos
+75,215,In situ / benignos / incierto,Femenino,15-44,2009,0,0.0,,,,1,0,0,1,sin_rezagos
+75,215,In situ / benignos / incierto,Femenino,15-44,2010,1,0.0,0.0,,,2,0,0,1,sin_rezagos
+75,215,In situ / benignos / incierto,Femenino,15-44,2011,0,1.0,0.0,0.0,0.3333333333333333,3,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2012,1,0.0,1.0,0.0,0.3333333333333333,4,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2013,0,1.0,0.0,1.0,0.6666666666666666,5,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2014,0,0.0,1.0,0.0,0.3333333333333333,6,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2015,0,0.0,0.0,1.0,0.3333333333333333,7,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2016,0,0.0,0.0,0.0,0.0,8,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2017,2,0.0,0.0,0.0,0.0,9,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2018,0,2.0,0.0,0.0,0.6666666666666666,10,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2019,0,0.0,2.0,0.0,0.6666666666666666,11,0,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2020,1,0.0,0.0,2.0,0.6666666666666666,12,1,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2021,0,1.0,0.0,0.0,0.3333333333333333,13,1,0,1,train
+75,215,In situ / benignos / incierto,Femenino,15-44,2022,0,0.0,1.0,0.0,0.3333333333333333,14,1,0,1,test
+75,215,In situ / benignos / incierto,Femenino,15-44,2023,0,0.0,0.0,1.0,0.3333333333333333,15,0,0,1,test
+75,215,In situ / benignos / incierto,Femenino,15-44,2024,0,0.0,0.0,0.0,0.0,16,0,0,1,test
+75,215,In situ / benignos / incierto,Femenino,15-44,2025,0,0.0,0.0,0.0,0.0,17,0,0,1,test
+76,215,In situ / benignos / incierto,Femenino,45-64,2008,0,,,,,0,0,0,2,sin_rezagos
+76,215,In situ / benignos / incierto,Femenino,45-64,2009,1,0.0,,,,1,0,0,2,sin_rezagos
+76,215,In situ / benignos / incierto,Femenino,45-64,2010,1,1.0,0.0,,,2,0,0,2,sin_rezagos
+76,215,In situ / benignos / incierto,Femenino,45-64,2011,1,1.0,1.0,0.0,0.6666666666666666,3,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2012,3,1.0,1.0,1.0,1.0,4,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2013,1,3.0,1.0,1.0,1.6666666666666667,5,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2014,2,1.0,3.0,1.0,1.6666666666666667,6,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2015,0,2.0,1.0,3.0,2.0,7,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2016,4,0.0,2.0,1.0,1.0,8,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2017,2,4.0,0.0,2.0,2.0,9,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2018,1,2.0,4.0,0.0,2.0,10,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2019,0,1.0,2.0,4.0,2.3333333333333335,11,0,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2020,0,0.0,1.0,2.0,1.0,12,1,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2021,2,0.0,0.0,1.0,0.3333333333333333,13,1,0,2,train
+76,215,In situ / benignos / incierto,Femenino,45-64,2022,1,2.0,0.0,0.0,0.6666666666666666,14,1,0,2,test
+76,215,In situ / benignos / incierto,Femenino,45-64,2023,3,1.0,2.0,0.0,1.0,15,0,0,2,test
+76,215,In situ / benignos / incierto,Femenino,45-64,2024,1,3.0,1.0,2.0,2.0,16,0,0,2,test
+76,215,In situ / benignos / incierto,Femenino,45-64,2025,3,1.0,3.0,1.0,1.6666666666666667,17,0,0,2,test
+77,215,In situ / benignos / incierto,Femenino,65+,2008,1,,,,,0,0,0,3,sin_rezagos
+77,215,In situ / benignos / incierto,Femenino,65+,2009,3,1.0,,,,1,0,0,3,sin_rezagos
+77,215,In situ / benignos / incierto,Femenino,65+,2010,1,3.0,1.0,,,2,0,0,3,sin_rezagos
+77,215,In situ / benignos / incierto,Femenino,65+,2011,0,1.0,3.0,1.0,1.6666666666666667,3,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2012,2,0.0,1.0,3.0,1.3333333333333333,4,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2013,1,2.0,0.0,1.0,1.0,5,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2014,4,1.0,2.0,0.0,1.0,6,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2015,6,4.0,1.0,2.0,2.3333333333333335,7,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2016,2,6.0,4.0,1.0,3.6666666666666665,8,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2017,1,2.0,6.0,4.0,4.0,9,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2018,5,1.0,2.0,6.0,3.0,10,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2019,5,5.0,1.0,2.0,2.6666666666666665,11,0,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2020,3,5.0,5.0,1.0,3.6666666666666665,12,1,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2021,2,3.0,5.0,5.0,4.333333333333333,13,1,0,3,train
+77,215,In situ / benignos / incierto,Femenino,65+,2022,2,2.0,3.0,5.0,3.3333333333333335,14,1,0,3,test
+77,215,In situ / benignos / incierto,Femenino,65+,2023,3,2.0,2.0,3.0,2.3333333333333335,15,0,0,3,test
+77,215,In situ / benignos / incierto,Femenino,65+,2024,2,3.0,2.0,2.0,2.3333333333333335,16,0,0,3,test
+77,215,In situ / benignos / incierto,Femenino,65+,2025,4,2.0,3.0,2.0,2.3333333333333335,17,0,0,3,test
+78,215,In situ / benignos / incierto,Masculino,0-14,2008,0,,,,,0,0,1,0,sin_rezagos
+78,215,In situ / benignos / incierto,Masculino,0-14,2009,0,0.0,,,,1,0,1,0,sin_rezagos
+78,215,In situ / benignos / incierto,Masculino,0-14,2010,0,0.0,0.0,,,2,0,1,0,sin_rezagos
+78,215,In situ / benignos / incierto,Masculino,0-14,2011,0,0.0,0.0,0.0,0.0,3,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2012,0,0.0,0.0,0.0,0.0,4,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2013,0,0.0,0.0,0.0,0.0,5,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2014,0,0.0,0.0,0.0,0.0,6,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2015,0,0.0,0.0,0.0,0.0,7,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2016,1,0.0,0.0,0.0,0.0,8,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2017,0,1.0,0.0,0.0,0.3333333333333333,9,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2018,0,0.0,1.0,0.0,0.3333333333333333,10,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2019,0,0.0,0.0,1.0,0.3333333333333333,11,0,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2020,0,0.0,0.0,0.0,0.0,12,1,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2021,0,0.0,0.0,0.0,0.0,13,1,1,0,train
+78,215,In situ / benignos / incierto,Masculino,0-14,2022,1,0.0,0.0,0.0,0.0,14,1,1,0,test
+78,215,In situ / benignos / incierto,Masculino,0-14,2023,0,1.0,0.0,0.0,0.3333333333333333,15,0,1,0,test
+78,215,In situ / benignos / incierto,Masculino,0-14,2024,0,0.0,1.0,0.0,0.3333333333333333,16,0,1,0,test
+78,215,In situ / benignos / incierto,Masculino,0-14,2025,0,0.0,0.0,1.0,0.3333333333333333,17,0,1,0,test
+79,215,In situ / benignos / incierto,Masculino,15-44,2008,0,,,,,0,0,1,1,sin_rezagos
+79,215,In situ / benignos / incierto,Masculino,15-44,2009,0,0.0,,,,1,0,1,1,sin_rezagos
+79,215,In situ / benignos / incierto,Masculino,15-44,2010,0,0.0,0.0,,,2,0,1,1,sin_rezagos
+79,215,In situ / benignos / incierto,Masculino,15-44,2011,0,0.0,0.0,0.0,0.0,3,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2012,0,0.0,0.0,0.0,0.0,4,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2013,0,0.0,0.0,0.0,0.0,5,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2014,0,0.0,0.0,0.0,0.0,6,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2015,1,0.0,0.0,0.0,0.0,7,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2016,0,1.0,0.0,0.0,0.3333333333333333,8,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2017,1,0.0,1.0,0.0,0.3333333333333333,9,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2018,0,1.0,0.0,1.0,0.6666666666666666,10,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2019,0,0.0,1.0,0.0,0.3333333333333333,11,0,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2020,1,0.0,0.0,1.0,0.3333333333333333,12,1,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2021,0,1.0,0.0,0.0,0.3333333333333333,13,1,1,1,train
+79,215,In situ / benignos / incierto,Masculino,15-44,2022,0,0.0,1.0,0.0,0.3333333333333333,14,1,1,1,test
+79,215,In situ / benignos / incierto,Masculino,15-44,2023,0,0.0,0.0,1.0,0.3333333333333333,15,0,1,1,test
+79,215,In situ / benignos / incierto,Masculino,15-44,2024,1,0.0,0.0,0.0,0.0,16,0,1,1,test
+79,215,In situ / benignos / incierto,Masculino,15-44,2025,0,1.0,0.0,0.0,0.3333333333333333,17,0,1,1,test
+80,215,In situ / benignos / incierto,Masculino,45-64,2008,0,,,,,0,0,1,2,sin_rezagos
+80,215,In situ / benignos / incierto,Masculino,45-64,2009,0,0.0,,,,1,0,1,2,sin_rezagos
+80,215,In situ / benignos / incierto,Masculino,45-64,2010,0,0.0,0.0,,,2,0,1,2,sin_rezagos
+80,215,In situ / benignos / incierto,Masculino,45-64,2011,1,0.0,0.0,0.0,0.0,3,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2012,1,1.0,0.0,0.0,0.3333333333333333,4,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2013,4,1.0,1.0,0.0,0.6666666666666666,5,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2014,0,4.0,1.0,1.0,2.0,6,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2015,1,0.0,4.0,1.0,1.6666666666666667,7,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2016,1,1.0,0.0,4.0,1.6666666666666667,8,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2017,1,1.0,1.0,0.0,0.6666666666666666,9,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2018,0,1.0,1.0,1.0,1.0,10,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2019,0,0.0,1.0,1.0,0.6666666666666666,11,0,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2020,1,0.0,0.0,1.0,0.3333333333333333,12,1,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2021,1,1.0,0.0,0.0,0.3333333333333333,13,1,1,2,train
+80,215,In situ / benignos / incierto,Masculino,45-64,2022,0,1.0,1.0,0.0,0.6666666666666666,14,1,1,2,test
+80,215,In situ / benignos / incierto,Masculino,45-64,2023,2,0.0,1.0,1.0,0.6666666666666666,15,0,1,2,test
+80,215,In situ / benignos / incierto,Masculino,45-64,2024,2,2.0,0.0,1.0,1.0,16,0,1,2,test
+80,215,In situ / benignos / incierto,Masculino,45-64,2025,1,2.0,2.0,0.0,1.3333333333333333,17,0,1,2,test
+81,215,In situ / benignos / incierto,Masculino,65+,2008,2,,,,,0,0,1,3,sin_rezagos
+81,215,In situ / benignos / incierto,Masculino,65+,2009,1,2.0,,,,1,0,1,3,sin_rezagos
+81,215,In situ / benignos / incierto,Masculino,65+,2010,4,1.0,2.0,,,2,0,1,3,sin_rezagos
+81,215,In situ / benignos / incierto,Masculino,65+,2011,1,4.0,1.0,2.0,2.3333333333333335,3,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2012,0,1.0,4.0,1.0,2.0,4,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2013,1,0.0,1.0,4.0,1.6666666666666667,5,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2014,3,1.0,0.0,1.0,0.6666666666666666,6,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2015,4,3.0,1.0,0.0,1.3333333333333333,7,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2016,2,4.0,3.0,1.0,2.6666666666666665,8,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2017,0,2.0,4.0,3.0,3.0,9,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2018,1,0.0,2.0,4.0,2.0,10,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2019,0,1.0,0.0,2.0,1.0,11,0,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2020,0,0.0,1.0,0.0,0.3333333333333333,12,1,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2021,1,0.0,0.0,1.0,0.3333333333333333,13,1,1,3,train
+81,215,In situ / benignos / incierto,Masculino,65+,2022,2,1.0,0.0,0.0,0.3333333333333333,14,1,1,3,test
+81,215,In situ / benignos / incierto,Masculino,65+,2023,1,2.0,1.0,0.0,1.0,15,0,1,3,test
+81,215,In situ / benignos / incierto,Masculino,65+,2024,2,1.0,2.0,1.0,1.3333333333333333,16,0,1,3,test
+81,215,In situ / benignos / incierto,Masculino,65+,2025,3,2.0,1.0,2.0,1.6666666666666667,17,0,1,3,test

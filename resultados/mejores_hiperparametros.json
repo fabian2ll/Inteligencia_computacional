@@ -1,0 +1,25 @@
+{
+ "Poisson": {
+  "alpha": 0.0001
+ },
+ "Binomial negativa": {
+  "disp": 0.25
+ },
+ "Random Forest": {
+  "max_depth": null,
+  "max_features": 0.5,
+  "min_samples_leaf": 5
+ },
+ "XGBoost": {
+  "subsample": 0.7,
+  "n_estimators": 400,
+  "min_child_weight": 3,
+  "max_depth": 2,
+  "learning_rate": 0.03
+ },
+ "LSTM": {
+  "epocas": 300,
+  "hidden": 16,
+  "wd": 0.0001
+ }
+}

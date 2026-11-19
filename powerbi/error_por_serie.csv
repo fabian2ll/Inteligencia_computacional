@@ -1,0 +1,83 @@
+﻿tipo,sexo,grupo_edad,muertes_prom_anual,MAE_base,MAE_Poisson,mejora_%
+Próstata,Masculino,65+,13.75,2.333,4.285,-83.645
+Otros digestivos,Femenino,65+,8.75,2.583,2.737,-5.963
+Otras localizaciones,Femenino,65+,8.25,1.667,1.769,-6.158
+Otros digestivos,Masculino,65+,8.0,2.75,2.318,15.694
+Estómago,Masculino,65+,7.75,2.667,2.869,-7.57
+Estómago,Femenino,65+,7.5,2.167,2.275,-4.99
+Colon y recto,Femenino,65+,6.25,3.417,2.98,12.787
+Otras localizaciones,Masculino,65+,6.0,1.333,1.404,-5.278
+Otras localizaciones,Femenino,45-64,4.75,2.75,2.508,8.791
+Colon y recto,Masculino,65+,4.75,2.083,1.92,7.826
+"Tráquea, bronquios y pulmón",Masculino,65+,4.75,3.0,3.017,-0.575
+"Tráquea, bronquios y pulmón",Femenino,65+,4.5,2.5,2.962,-18.481
+Otros genitourinarios,Femenino,65+,4.5,2.333,1.69,27.557
+Otros digestivos,Femenino,45-64,4.25,1.917,2.123,-10.777
+Mama (mujer),Femenino,45-64,4.25,2.0,1.766,11.687
+Estómago,Masculino,45-64,4.0,1.667,1.78,-6.78
+Mama (mujer),Femenino,65+,3.25,2.333,3.211,-37.613
+Otros digestivos,Masculino,45-64,3.25,1.75,1.939,-10.824
+Otros genitourinarios,Masculino,65+,2.75,1.417,1.456,-2.805
+In situ / benignos / incierto,Femenino,65+,2.75,1.0,0.911,8.877
+"Tráquea, bronquios y pulmón",Masculino,45-64,2.75,1.25,1.582,-26.526
+Linfático y hematopoyético,Femenino,65+,2.75,1.917,1.944,-1.42
+Cuello uterino,Femenino,65+,2.5,1.417,1.137,19.748
+Linfático y hematopoyético,Masculino,65+,2.5,1.167,0.845,27.534
+Colon y recto,Masculino,45-64,2.25,1.333,1.021,23.404
+In situ / benignos / incierto,Masculino,65+,2.0,0.917,0.651,29.024
+Estómago,Femenino,45-64,2.0,1.583,1.375,13.154
+In situ / benignos / incierto,Femenino,45-64,2.0,1.167,0.977,16.242
+Útero no especificado,Femenino,65+,1.75,1.5,1.374,8.413
+Cuello uterino,Femenino,45-64,1.75,0.5,0.359,28.176
+Leucemia,Femenino,65+,1.75,1.0,0.879,12.115
+Otras localizaciones,Masculino,45-64,1.75,1.417,1.509,-6.539
+Otros genitourinarios,Femenino,45-64,1.75,2.0,1.671,16.472
+Colon y recto,Femenino,45-64,1.5,2.667,2.195,17.679
+Estómago,Femenino,15-44,1.5,1.25,1.09,12.811
+Estómago,Masculino,15-44,1.5,2.0,1.618,19.088
+Cuello uterino,Femenino,15-44,1.5,0.917,0.951,-3.741
+Leucemia,Femenino,15-44,1.25,1.167,1.037,11.114
+In situ / benignos / incierto,Masculino,45-64,1.25,0.833,0.846,-1.567
+Leucemia,Masculino,65+,1.25,0.917,0.833,9.158
+Otras localizaciones,Masculino,15-44,1.25,0.917,0.916,0.039
+Cuerpo del útero,Femenino,45-64,1.0,0.583,0.749,-28.351
+Otros respiratorios,Masculino,65+,1.0,0.083,0.473,-467.804
+Leucemia,Masculino,45-64,1.0,1.333,1.012,24.069
+Otros genitourinarios,Femenino,15-44,1.0,1.083,0.817,24.618
+Leucemia,Masculino,15-44,1.0,1.167,1.007,13.677
+Linfático y hematopoyético,Masculino,15-44,1.0,0.917,0.834,8.968
+Otros digestivos,Femenino,15-44,0.75,0.5,0.421,15.718
+Otros digestivos,Masculino,15-44,0.75,1.0,0.792,20.838
+Cuerpo del útero,Femenino,65+,0.75,1.417,1.119,21.032
+Otras localizaciones,Femenino,15-44,0.75,1.0,1.114,-11.362
+Mama (mujer),Femenino,15-44,0.75,0.583,0.346,40.616
+"Tráquea, bronquios y pulmón",Femenino,45-64,0.75,0.833,0.879,-5.44
+"Tráquea, bronquios y pulmón",Masculino,15-44,0.75,0.833,0.76,8.826
+Otros genitourinarios,Masculino,15-44,0.75,1.0,0.781,21.939
+Linfático y hematopoyético,Femenino,45-64,0.5,1.25,1.047,16.217
+Colon y recto,Masculino,15-44,0.5,0.917,0.84,8.339
+Leucemia,Femenino,45-64,0.5,0.5,0.476,4.882
+Próstata,Masculino,45-64,0.5,0.667,1.072,-60.803
+Otros genitourinarios,Masculino,45-64,0.5,0.667,1.004,-50.668
+Linfático y hematopoyético,Masculino,45-64,0.5,1.0,1.026,-2.555
+Otras localizaciones,Femenino,0-14,0.5,0.5,0.646,-29.164
+Útero no especificado,Femenino,45-64,0.25,0.583,0.357,38.736
+Cuerpo del útero,Femenino,15-44,0.25,0.5,0.363,27.378
+In situ / benignos / incierto,Femenino,0-14,0.25,0.417,0.348,16.381
+In situ / benignos / incierto,Masculino,15-44,0.25,0.5,0.457,8.699
+Otros genitourinarios,Femenino,0-14,0.25,0.5,0.358,28.371
+In situ / benignos / incierto,Masculino,0-14,0.25,0.5,0.341,31.832
+Otros respiratorios,Femenino,65+,0.25,0.25,0.431,-72.257
+Colon y recto,Femenino,15-44,0.0,0.417,0.568,-36.285
+In situ / benignos / incierto,Femenino,15-44,0.0,0.167,0.356,-113.4
+Linfático y hematopoyético,Femenino,0-14,0.0,0.0,0.15,
+Leucemia,Femenino,0-14,0.0,0.0,0.159,
+Leucemia,Masculino,0-14,0.0,0.167,0.171,-2.468
+Otras localizaciones,Masculino,0-14,0.0,0.0,0.278,
+Otros genitourinarios,Masculino,0-14,0.0,0.0,0.187,
+Otros respiratorios,Femenino,45-64,0.0,0.333,0.276,17.271
+Otros respiratorios,Masculino,45-64,0.0,0.167,0.255,-53.247
+Próstata,Masculino,15-44,0.0,0.25,0.638,-155.197
+Otros respiratorios,Masculino,0-14,0.0,0.0,0.053,
+Otros respiratorios,Masculino,15-44,0.0,0.0,0.106,
+Útero no especificado,Femenino,15-44,0.0,0.0,0.078,

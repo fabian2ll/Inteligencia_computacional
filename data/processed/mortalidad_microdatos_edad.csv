@@ -1,0 +1,847 @@
+anio,cod,tipo,sexo,grupo_edad,muertes
+2008,201,Estómago,Femenino,45-64,1
+2008,201,Estómago,Femenino,65+,8
+2008,201,Estómago,Masculino,45-64,2
+2008,201,Estómago,Masculino,65+,11
+2008,202,Colon y recto,Femenino,65+,3
+2008,202,Colon y recto,Masculino,65+,2
+2008,203,Otros digestivos,Femenino,15-44,1
+2008,203,Otros digestivos,Femenino,45-64,3
+2008,203,Otros digestivos,Femenino,65+,6
+2008,203,Otros digestivos,Masculino,15-44,1
+2008,203,Otros digestivos,Masculino,45-64,3
+2008,203,Otros digestivos,Masculino,65+,6
+2008,204,"Tráquea, bronquios y pulmón",Femenino,45-64,1
+2008,204,"Tráquea, bronquios y pulmón",Femenino,65+,3
+2008,204,"Tráquea, bronquios y pulmón",Masculino,65+,2
+2008,206,Mama (mujer),Femenino,15-44,2
+2008,206,Mama (mujer),Femenino,45-64,3
+2008,207,Cuello uterino,Femenino,65+,2
+2008,208,Cuerpo del útero,Femenino,45-64,1
+2008,210,Próstata,Masculino,65+,9
+2008,211,Otros genitourinarios,Femenino,15-44,1
+2008,211,Otros genitourinarios,Femenino,45-64,2
+2008,211,Otros genitourinarios,Femenino,65+,3
+2008,211,Otros genitourinarios,Masculino,15-44,1
+2008,211,Otros genitourinarios,Masculino,65+,1
+2008,212,Leucemia,Femenino,65+,1
+2008,212,Leucemia,Masculino,15-44,1
+2008,213,Linfático y hematopoyético,Femenino,45-64,1
+2008,213,Linfático y hematopoyético,Femenino,65+,1
+2008,213,Linfático y hematopoyético,Masculino,45-64,2
+2008,214,Otras localizaciones,Femenino,45-64,2
+2008,214,Otras localizaciones,Femenino,65+,3
+2008,214,Otras localizaciones,Masculino,15-44,2
+2008,214,Otras localizaciones,Masculino,45-64,2
+2008,214,Otras localizaciones,Masculino,65+,7
+2008,215,In situ / benignos / incierto,Femenino,65+,1
+2008,215,In situ / benignos / incierto,Masculino,65+,2
+2009,201,Estómago,Femenino,15-44,1
+2009,201,Estómago,Femenino,45-64,4
+2009,201,Estómago,Femenino,65+,11
+2009,201,Estómago,Masculino,45-64,6
+2009,201,Estómago,Masculino,65+,8
+2009,202,Colon y recto,Femenino,15-44,1
+2009,202,Colon y recto,Femenino,45-64,2
+2009,202,Colon y recto,Femenino,65+,1
+2009,202,Colon y recto,Masculino,45-64,2
+2009,203,Otros digestivos,Femenino,15-44,2
+2009,203,Otros digestivos,Femenino,45-64,2
+2009,203,Otros digestivos,Femenino,65+,10
+2009,203,Otros digestivos,Masculino,45-64,1
+2009,203,Otros digestivos,Masculino,65+,5
+2009,204,"Tráquea, bronquios y pulmón",Femenino,65+,5
+2009,204,"Tráquea, bronquios y pulmón",Masculino,15-44,1
+2009,204,"Tráquea, bronquios y pulmón",Masculino,45-64,3
+2009,204,"Tráquea, bronquios y pulmón",Masculino,65+,5
+2009,205,Otros respiratorios,Femenino,65+,2
+2009,205,Otros respiratorios,Masculino,65+,1
+2009,206,Mama (mujer),Femenino,15-44,1
+2009,206,Mama (mujer),Femenino,45-64,3
+2009,206,Mama (mujer),Femenino,65+,1
+2009,207,Cuello uterino,Femenino,15-44,1
+2009,207,Cuello uterino,Femenino,45-64,2
+2009,207,Cuello uterino,Femenino,65+,2
+2009,208,Cuerpo del útero,Femenino,15-44,1
+2009,208,Cuerpo del útero,Femenino,65+,1
+2009,210,Próstata,Masculino,45-64,1
+2009,210,Próstata,Masculino,65+,10
+2009,211,Otros genitourinarios,Femenino,0-14,1
+2009,211,Otros genitourinarios,Femenino,15-44,1
+2009,211,Otros genitourinarios,Masculino,15-44,1
+2009,211,Otros genitourinarios,Masculino,65+,1
+2009,212,Leucemia,Masculino,15-44,1
+2009,212,Leucemia,Masculino,65+,2
+2009,213,Linfático y hematopoyético,Femenino,45-64,2
+2009,213,Linfático y hematopoyético,Femenino,65+,1
+2009,213,Linfático y hematopoyético,Masculino,45-64,1
+2009,213,Linfático y hematopoyético,Masculino,65+,1
+2009,214,Otras localizaciones,Femenino,0-14,1
+2009,214,Otras localizaciones,Femenino,15-44,2
+2009,214,Otras localizaciones,Femenino,45-64,1
+2009,214,Otras localizaciones,Femenino,65+,6
+2009,214,Otras localizaciones,Masculino,15-44,1
+2009,214,Otras localizaciones,Masculino,45-64,4
+2009,215,In situ / benignos / incierto,Femenino,45-64,1
+2009,215,In situ / benignos / incierto,Femenino,65+,3
+2009,215,In situ / benignos / incierto,Masculino,65+,1
+2010,201,Estómago,Femenino,15-44,1
+2010,201,Estómago,Femenino,45-64,1
+2010,201,Estómago,Femenino,65+,8
+2010,201,Estómago,Masculino,15-44,1
+2010,201,Estómago,Masculino,45-64,8
+2010,201,Estómago,Masculino,65+,10
+2010,202,Colon y recto,Femenino,45-64,1
+2010,202,Colon y recto,Femenino,65+,2
+2010,202,Colon y recto,Masculino,65+,3
+2010,203,Otros digestivos,Femenino,65+,10
+2010,203,Otros digestivos,Masculino,45-64,1
+2010,203,Otros digestivos,Masculino,65+,8
+2010,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2
+2010,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2010,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2
+2010,204,"Tráquea, bronquios y pulmón",Masculino,65+,4
+2010,206,Mama (mujer),Femenino,15-44,1
+2010,206,Mama (mujer),Femenino,45-64,3
+2010,206,Mama (mujer),Femenino,65+,1
+2010,207,Cuello uterino,Femenino,15-44,1
+2010,207,Cuello uterino,Femenino,45-64,6
+2010,208,Cuerpo del útero,Femenino,45-64,2
+2010,209,Útero no especificado,Femenino,45-64,1
+2010,209,Útero no especificado,Femenino,65+,1
+2010,210,Próstata,Masculino,65+,7
+2010,211,Otros genitourinarios,Femenino,45-64,2
+2010,211,Otros genitourinarios,Femenino,65+,4
+2010,211,Otros genitourinarios,Masculino,45-64,4
+2010,212,Leucemia,Femenino,0-14,1
+2010,212,Leucemia,Femenino,65+,1
+2010,212,Leucemia,Masculino,65+,2
+2010,213,Linfático y hematopoyético,Femenino,65+,2
+2010,213,Linfático y hematopoyético,Masculino,65+,1
+2010,214,Otras localizaciones,Femenino,45-64,3
+2010,214,Otras localizaciones,Femenino,65+,7
+2010,214,Otras localizaciones,Masculino,45-64,1
+2010,214,Otras localizaciones,Masculino,65+,5
+2010,215,In situ / benignos / incierto,Femenino,15-44,1
+2010,215,In situ / benignos / incierto,Femenino,45-64,1
+2010,215,In situ / benignos / incierto,Femenino,65+,1
+2010,215,In situ / benignos / incierto,Masculino,65+,4
+2011,201,Estómago,Femenino,45-64,1
+2011,201,Estómago,Femenino,65+,7
+2011,201,Estómago,Masculino,45-64,6
+2011,201,Estómago,Masculino,65+,8
+2011,202,Colon y recto,Femenino,45-64,1
+2011,202,Colon y recto,Femenino,65+,6
+2011,202,Colon y recto,Masculino,15-44,1
+2011,202,Colon y recto,Masculino,45-64,1
+2011,202,Colon y recto,Masculino,65+,1
+2011,203,Otros digestivos,Femenino,65+,5
+2011,203,Otros digestivos,Masculino,15-44,1
+2011,203,Otros digestivos,Masculino,45-64,3
+2011,203,Otros digestivos,Masculino,65+,4
+2011,204,"Tráquea, bronquios y pulmón",Femenino,45-64,3
+2011,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2011,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2
+2011,204,"Tráquea, bronquios y pulmón",Masculino,45-64,1
+2011,204,"Tráquea, bronquios y pulmón",Masculino,65+,6
+2011,205,Otros respiratorios,Masculino,0-14,1
+2011,205,Otros respiratorios,Masculino,45-64,2
+2011,205,Otros respiratorios,Masculino,65+,1
+2011,206,Mama (mujer),Femenino,15-44,2
+2011,206,Mama (mujer),Femenino,45-64,3
+2011,206,Mama (mujer),Femenino,65+,1
+2011,207,Cuello uterino,Femenino,45-64,3
+2011,207,Cuello uterino,Femenino,65+,2
+2011,209,Útero no especificado,Femenino,45-64,1
+2011,209,Útero no especificado,Femenino,65+,2
+2011,210,Próstata,Masculino,65+,9
+2011,211,Otros genitourinarios,Femenino,0-14,1
+2011,211,Otros genitourinarios,Femenino,65+,2
+2011,211,Otros genitourinarios,Masculino,15-44,1
+2011,211,Otros genitourinarios,Masculino,45-64,1
+2011,212,Leucemia,Femenino,0-14,1
+2011,212,Leucemia,Femenino,65+,1
+2011,212,Leucemia,Masculino,0-14,2
+2011,212,Leucemia,Masculino,15-44,1
+2011,212,Leucemia,Masculino,65+,2
+2011,213,Linfático y hematopoyético,Femenino,45-64,2
+2011,213,Linfático y hematopoyético,Masculino,45-64,1
+2011,214,Otras localizaciones,Femenino,15-44,1
+2011,214,Otras localizaciones,Femenino,45-64,2
+2011,214,Otras localizaciones,Femenino,65+,5
+2011,214,Otras localizaciones,Masculino,0-14,1
+2011,214,Otras localizaciones,Masculino,15-44,1
+2011,214,Otras localizaciones,Masculino,45-64,4
+2011,214,Otras localizaciones,Masculino,65+,2
+2011,215,In situ / benignos / incierto,Femenino,45-64,1
+2011,215,In situ / benignos / incierto,Masculino,45-64,1
+2011,215,In situ / benignos / incierto,Masculino,65+,1
+2012,201,Estómago,Femenino,45-64,2
+2012,201,Estómago,Femenino,65+,9
+2012,201,Estómago,Masculino,45-64,6
+2012,201,Estómago,Masculino,65+,8
+2012,202,Colon y recto,Femenino,15-44,1
+2012,202,Colon y recto,Femenino,45-64,3
+2012,202,Colon y recto,Femenino,65+,2
+2012,202,Colon y recto,Masculino,45-64,3
+2012,202,Colon y recto,Masculino,65+,1
+2012,203,Otros digestivos,Femenino,15-44,1
+2012,203,Otros digestivos,Femenino,45-64,1
+2012,203,Otros digestivos,Femenino,65+,1
+2012,203,Otros digestivos,Masculino,15-44,1
+2012,203,Otros digestivos,Masculino,45-64,2
+2012,203,Otros digestivos,Masculino,65+,5
+2012,204,"Tráquea, bronquios y pulmón",Femenino,45-64,1
+2012,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2012,204,"Tráquea, bronquios y pulmón",Masculino,65+,5
+2012,206,Mama (mujer),Femenino,15-44,1
+2012,206,Mama (mujer),Femenino,45-64,2
+2012,206,Mama (mujer),Femenino,65+,1
+2012,207,Cuello uterino,Femenino,65+,1
+2012,208,Cuerpo del útero,Femenino,45-64,1
+2012,209,Útero no especificado,Femenino,65+,1
+2012,210,Próstata,Masculino,65+,8
+2012,211,Otros genitourinarios,Femenino,15-44,1
+2012,211,Otros genitourinarios,Femenino,45-64,2
+2012,211,Otros genitourinarios,Femenino,65+,3
+2012,211,Otros genitourinarios,Masculino,15-44,2
+2012,211,Otros genitourinarios,Masculino,45-64,1
+2012,211,Otros genitourinarios,Masculino,65+,2
+2012,212,Leucemia,Femenino,0-14,1
+2012,212,Leucemia,Femenino,45-64,3
+2012,212,Leucemia,Femenino,65+,2
+2012,212,Leucemia,Masculino,0-14,2
+2012,212,Leucemia,Masculino,45-64,1
+2012,213,Linfático y hematopoyético,Femenino,45-64,1
+2012,213,Linfático y hematopoyético,Masculino,65+,2
+2012,214,Otras localizaciones,Femenino,15-44,1
+2012,214,Otras localizaciones,Femenino,45-64,3
+2012,214,Otras localizaciones,Femenino,65+,11
+2012,214,Otras localizaciones,Masculino,45-64,5
+2012,214,Otras localizaciones,Masculino,65+,4
+2012,215,In situ / benignos / incierto,Femenino,15-44,1
+2012,215,In situ / benignos / incierto,Femenino,45-64,3
+2012,215,In situ / benignos / incierto,Femenino,65+,2
+2012,215,In situ / benignos / incierto,Masculino,45-64,1
+2013,201,Estómago,Femenino,15-44,1
+2013,201,Estómago,Femenino,45-64,1
+2013,201,Estómago,Femenino,65+,5
+2013,201,Estómago,Masculino,15-44,1
+2013,201,Estómago,Masculino,45-64,7
+2013,201,Estómago,Masculino,65+,7
+2013,202,Colon y recto,Femenino,65+,1
+2013,202,Colon y recto,Masculino,45-64,3
+2013,202,Colon y recto,Masculino,65+,4
+2013,203,Otros digestivos,Femenino,45-64,2
+2013,203,Otros digestivos,Femenino,65+,6
+2013,203,Otros digestivos,Masculino,45-64,2
+2013,203,Otros digestivos,Masculino,65+,2
+2013,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2
+2013,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2013,204,"Tráquea, bronquios y pulmón",Masculino,15-44,3
+2013,205,Otros respiratorios,Masculino,15-44,1
+2013,205,Otros respiratorios,Masculino,65+,1
+2013,206,Mama (mujer),Femenino,15-44,1
+2013,206,Mama (mujer),Femenino,45-64,5
+2013,206,Mama (mujer),Femenino,65+,3
+2013,207,Cuello uterino,Femenino,15-44,1
+2013,207,Cuello uterino,Femenino,45-64,2
+2013,207,Cuello uterino,Femenino,65+,2
+2013,210,Próstata,Masculino,45-64,1
+2013,210,Próstata,Masculino,65+,8
+2013,211,Otros genitourinarios,Femenino,45-64,3
+2013,211,Otros genitourinarios,Femenino,65+,2
+2013,211,Otros genitourinarios,Masculino,0-14,1
+2013,211,Otros genitourinarios,Masculino,15-44,1
+2013,212,Leucemia,Femenino,0-14,1
+2013,212,Leucemia,Femenino,45-64,1
+2013,212,Leucemia,Femenino,65+,1
+2013,212,Leucemia,Masculino,15-44,2
+2013,213,Linfático y hematopoyético,Femenino,45-64,1
+2013,213,Linfático y hematopoyético,Femenino,65+,1
+2013,213,Linfático y hematopoyético,Masculino,45-64,4
+2013,214,Otras localizaciones,Femenino,15-44,2
+2013,214,Otras localizaciones,Femenino,45-64,2
+2013,214,Otras localizaciones,Femenino,65+,12
+2013,214,Otras localizaciones,Masculino,0-14,1
+2013,214,Otras localizaciones,Masculino,65+,6
+2013,215,In situ / benignos / incierto,Femenino,45-64,1
+2013,215,In situ / benignos / incierto,Femenino,65+,1
+2013,215,In situ / benignos / incierto,Masculino,45-64,4
+2013,215,In situ / benignos / incierto,Masculino,65+,1
+2014,201,Estómago,Femenino,15-44,1
+2014,201,Estómago,Femenino,45-64,2
+2014,201,Estómago,Femenino,65+,4
+2014,201,Estómago,Masculino,45-64,3
+2014,201,Estómago,Masculino,65+,8
+2014,202,Colon y recto,Femenino,45-64,2
+2014,202,Colon y recto,Femenino,65+,8
+2014,202,Colon y recto,Masculino,15-44,1
+2014,202,Colon y recto,Masculino,45-64,1
+2014,202,Colon y recto,Masculino,65+,3
+2014,203,Otros digestivos,Femenino,45-64,3
+2014,203,Otros digestivos,Femenino,65+,12
+2014,203,Otros digestivos,Masculino,45-64,6
+2014,203,Otros digestivos,Masculino,65+,9
+2014,204,"Tráquea, bronquios y pulmón",Femenino,45-64,1
+2014,204,"Tráquea, bronquios y pulmón",Femenino,65+,2
+2014,204,"Tráquea, bronquios y pulmón",Masculino,65+,1
+2014,205,Otros respiratorios,Femenino,45-64,1
+2014,205,Otros respiratorios,Masculino,65+,1
+2014,206,Mama (mujer),Femenino,45-64,6
+2014,206,Mama (mujer),Femenino,65+,1
+2014,207,Cuello uterino,Femenino,15-44,3
+2014,207,Cuello uterino,Femenino,45-64,4
+2014,207,Cuello uterino,Femenino,65+,1
+2014,208,Cuerpo del útero,Femenino,45-64,1
+2014,208,Cuerpo del útero,Femenino,65+,2
+2014,210,Próstata,Masculino,65+,10
+2014,211,Otros genitourinarios,Femenino,15-44,1
+2014,211,Otros genitourinarios,Femenino,65+,2
+2014,211,Otros genitourinarios,Masculino,65+,2
+2014,212,Leucemia,Femenino,15-44,1
+2014,212,Leucemia,Femenino,65+,1
+2014,212,Leucemia,Masculino,15-44,2
+2014,212,Leucemia,Masculino,45-64,1
+2014,213,Linfático y hematopoyético,Femenino,0-14,1
+2014,213,Linfático y hematopoyético,Femenino,65+,2
+2014,213,Linfático y hematopoyético,Masculino,45-64,1
+2014,213,Linfático y hematopoyético,Masculino,65+,6
+2014,214,Otras localizaciones,Femenino,45-64,4
+2014,214,Otras localizaciones,Femenino,65+,7
+2014,214,Otras localizaciones,Masculino,45-64,4
+2014,214,Otras localizaciones,Masculino,65+,8
+2014,215,In situ / benignos / incierto,Femenino,45-64,2
+2014,215,In situ / benignos / incierto,Femenino,65+,4
+2014,215,In situ / benignos / incierto,Masculino,65+,3
+2015,201,Estómago,Femenino,15-44,1
+2015,201,Estómago,Femenino,45-64,5
+2015,201,Estómago,Femenino,65+,4
+2015,201,Estómago,Masculino,45-64,4
+2015,201,Estómago,Masculino,65+,7
+2015,202,Colon y recto,Femenino,45-64,1
+2015,202,Colon y recto,Femenino,65+,5
+2015,202,Colon y recto,Masculino,45-64,1
+2015,202,Colon y recto,Masculino,65+,4
+2015,203,Otros digestivos,Femenino,45-64,7
+2015,203,Otros digestivos,Femenino,65+,10
+2015,203,Otros digestivos,Masculino,45-64,2
+2015,203,Otros digestivos,Masculino,65+,7
+2015,204,"Tráquea, bronquios y pulmón",Femenino,45-64,1
+2015,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2015,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2
+2015,204,"Tráquea, bronquios y pulmón",Masculino,45-64,1
+2015,204,"Tráquea, bronquios y pulmón",Masculino,65+,5
+2015,205,Otros respiratorios,Masculino,45-64,1
+2015,206,Mama (mujer),Femenino,45-64,2
+2015,206,Mama (mujer),Femenino,65+,4
+2015,208,Cuerpo del útero,Femenino,65+,1
+2015,210,Próstata,Masculino,65+,13
+2015,211,Otros genitourinarios,Femenino,45-64,3
+2015,211,Otros genitourinarios,Masculino,45-64,2
+2015,211,Otros genitourinarios,Masculino,65+,1
+2015,212,Leucemia,Femenino,45-64,1
+2015,212,Leucemia,Femenino,65+,2
+2015,212,Leucemia,Masculino,0-14,2
+2015,212,Leucemia,Masculino,15-44,1
+2015,212,Leucemia,Masculino,45-64,1
+2015,212,Leucemia,Masculino,65+,3
+2015,213,Linfático y hematopoyético,Femenino,65+,1
+2015,213,Linfático y hematopoyético,Masculino,45-64,3
+2015,213,Linfático y hematopoyético,Masculino,65+,2
+2015,214,Otras localizaciones,Femenino,65+,7
+2015,214,Otras localizaciones,Masculino,45-64,2
+2015,214,Otras localizaciones,Masculino,65+,3
+2015,215,In situ / benignos / incierto,Femenino,65+,6
+2015,215,In situ / benignos / incierto,Masculino,15-44,1
+2015,215,In situ / benignos / incierto,Masculino,45-64,1
+2015,215,In situ / benignos / incierto,Masculino,65+,4
+2016,201,Estómago,Femenino,15-44,2
+2016,201,Estómago,Femenino,45-64,1
+2016,201,Estómago,Femenino,65+,3
+2016,201,Estómago,Masculino,15-44,2
+2016,201,Estómago,Masculino,45-64,4
+2016,201,Estómago,Masculino,65+,12
+2016,202,Colon y recto,Femenino,45-64,2
+2016,202,Colon y recto,Femenino,65+,5
+2016,202,Colon y recto,Masculino,45-64,2
+2016,202,Colon y recto,Masculino,65+,4
+2016,203,Otros digestivos,Femenino,45-64,1
+2016,203,Otros digestivos,Femenino,65+,10
+2016,203,Otros digestivos,Masculino,45-64,5
+2016,203,Otros digestivos,Masculino,65+,11
+2016,204,"Tráquea, bronquios y pulmón",Femenino,45-64,1
+2016,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2016,204,"Tráquea, bronquios y pulmón",Masculino,45-64,1
+2016,204,"Tráquea, bronquios y pulmón",Masculino,65+,3
+2016,205,Otros respiratorios,Masculino,65+,1
+2016,206,Mama (mujer),Femenino,15-44,1
+2016,206,Mama (mujer),Femenino,45-64,6
+2016,206,Mama (mujer),Femenino,65+,8
+2016,207,Cuello uterino,Femenino,15-44,1
+2016,207,Cuello uterino,Femenino,45-64,2
+2016,208,Cuerpo del útero,Femenino,45-64,2
+2016,208,Cuerpo del útero,Femenino,65+,1
+2016,210,Próstata,Masculino,65+,10
+2016,211,Otros genitourinarios,Femenino,15-44,2
+2016,211,Otros genitourinarios,Femenino,45-64,1
+2016,211,Otros genitourinarios,Femenino,65+,5
+2016,211,Otros genitourinarios,Masculino,15-44,1
+2016,211,Otros genitourinarios,Masculino,65+,2
+2016,212,Leucemia,Femenino,15-44,1
+2016,212,Leucemia,Femenino,65+,1
+2016,212,Leucemia,Masculino,0-14,1
+2016,212,Leucemia,Masculino,15-44,1
+2016,212,Leucemia,Masculino,65+,2
+2016,213,Linfático y hematopoyético,Femenino,45-64,1
+2016,213,Linfático y hematopoyético,Masculino,15-44,1
+2016,213,Linfático y hematopoyético,Masculino,65+,1
+2016,214,Otras localizaciones,Femenino,15-44,2
+2016,214,Otras localizaciones,Femenino,45-64,4
+2016,214,Otras localizaciones,Femenino,65+,9
+2016,214,Otras localizaciones,Masculino,0-14,1
+2016,214,Otras localizaciones,Masculino,15-44,2
+2016,214,Otras localizaciones,Masculino,45-64,4
+2016,214,Otras localizaciones,Masculino,65+,3
+2016,215,In situ / benignos / incierto,Femenino,45-64,4
+2016,215,In situ / benignos / incierto,Femenino,65+,2
+2016,215,In situ / benignos / incierto,Masculino,0-14,1
+2016,215,In situ / benignos / incierto,Masculino,45-64,1
+2016,215,In situ / benignos / incierto,Masculino,65+,2
+2017,201,Estómago,Femenino,15-44,1
+2017,201,Estómago,Femenino,45-64,3
+2017,201,Estómago,Femenino,65+,1
+2017,201,Estómago,Masculino,15-44,1
+2017,201,Estómago,Masculino,45-64,4
+2017,201,Estómago,Masculino,65+,5
+2017,202,Colon y recto,Femenino,45-64,1
+2017,202,Colon y recto,Femenino,65+,4
+2017,202,Colon y recto,Masculino,45-64,2
+2017,202,Colon y recto,Masculino,65+,5
+2017,203,Otros digestivos,Femenino,15-44,1
+2017,203,Otros digestivos,Femenino,45-64,2
+2017,203,Otros digestivos,Femenino,65+,9
+2017,203,Otros digestivos,Masculino,45-64,3
+2017,203,Otros digestivos,Masculino,65+,5
+2017,204,"Tráquea, bronquios y pulmón",Femenino,65+,5
+2017,204,"Tráquea, bronquios y pulmón",Masculino,45-64,1
+2017,204,"Tráquea, bronquios y pulmón",Masculino,65+,4
+2017,206,Mama (mujer),Femenino,45-64,5
+2017,206,Mama (mujer),Femenino,65+,7
+2017,207,Cuello uterino,Femenino,15-44,1
+2017,207,Cuello uterino,Femenino,45-64,1
+2017,207,Cuello uterino,Femenino,65+,1
+2017,208,Cuerpo del útero,Femenino,65+,1
+2017,210,Próstata,Masculino,65+,13
+2017,211,Otros genitourinarios,Femenino,15-44,1
+2017,211,Otros genitourinarios,Femenino,45-64,1
+2017,211,Otros genitourinarios,Femenino,65+,1
+2017,211,Otros genitourinarios,Masculino,65+,2
+2017,212,Leucemia,Femenino,65+,3
+2017,212,Leucemia,Masculino,15-44,2
+2017,212,Leucemia,Masculino,65+,2
+2017,213,Linfático y hematopoyético,Femenino,45-64,1
+2017,213,Linfático y hematopoyético,Femenino,65+,4
+2017,213,Linfático y hematopoyético,Masculino,65+,1
+2017,214,Otras localizaciones,Femenino,15-44,1
+2017,214,Otras localizaciones,Femenino,45-64,6
+2017,214,Otras localizaciones,Femenino,65+,6
+2017,214,Otras localizaciones,Masculino,45-64,2
+2017,214,Otras localizaciones,Masculino,65+,4
+2017,215,In situ / benignos / incierto,Femenino,15-44,2
+2017,215,In situ / benignos / incierto,Femenino,45-64,2
+2017,215,In situ / benignos / incierto,Femenino,65+,1
+2017,215,In situ / benignos / incierto,Masculino,15-44,1
+2017,215,In situ / benignos / incierto,Masculino,45-64,1
+2018,201,Estómago,Femenino,15-44,2
+2018,201,Estómago,Femenino,45-64,1
+2018,201,Estómago,Femenino,65+,10
+2018,201,Estómago,Masculino,15-44,2
+2018,201,Estómago,Masculino,45-64,7
+2018,201,Estómago,Masculino,65+,12
+2018,202,Colon y recto,Femenino,45-64,1
+2018,202,Colon y recto,Femenino,65+,3
+2018,202,Colon y recto,Masculino,15-44,1
+2018,202,Colon y recto,Masculino,65+,3
+2018,203,Otros digestivos,Femenino,45-64,3
+2018,203,Otros digestivos,Femenino,65+,10
+2018,203,Otros digestivos,Masculino,45-64,3
+2018,203,Otros digestivos,Masculino,65+,8
+2018,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2
+2018,204,"Tráquea, bronquios y pulmón",Femenino,65+,4
+2018,204,"Tráquea, bronquios y pulmón",Masculino,65+,3
+2018,205,Otros respiratorios,Masculino,15-44,1
+2018,206,Mama (mujer),Femenino,15-44,5
+2018,206,Mama (mujer),Femenino,45-64,6
+2018,206,Mama (mujer),Femenino,65+,4
+2018,207,Cuello uterino,Femenino,15-44,1
+2018,207,Cuello uterino,Femenino,45-64,1
+2018,207,Cuello uterino,Femenino,65+,3
+2018,208,Cuerpo del útero,Femenino,45-64,1
+2018,208,Cuerpo del útero,Femenino,65+,1
+2018,209,Útero no especificado,Femenino,15-44,1
+2018,210,Próstata,Masculino,45-64,1
+2018,210,Próstata,Masculino,65+,6
+2018,211,Otros genitourinarios,Femenino,65+,3
+2018,211,Otros genitourinarios,Masculino,15-44,1
+2018,211,Otros genitourinarios,Masculino,45-64,1
+2018,211,Otros genitourinarios,Masculino,65+,1
+2018,212,Leucemia,Femenino,15-44,1
+2018,212,Leucemia,Femenino,45-64,1
+2018,212,Leucemia,Femenino,65+,1
+2018,212,Leucemia,Masculino,15-44,1
+2018,212,Leucemia,Masculino,65+,2
+2018,213,Linfático y hematopoyético,Femenino,45-64,2
+2018,213,Linfático y hematopoyético,Femenino,65+,1
+2018,213,Linfático y hematopoyético,Masculino,15-44,1
+2018,213,Linfático y hematopoyético,Masculino,45-64,1
+2018,213,Linfático y hematopoyético,Masculino,65+,2
+2018,214,Otras localizaciones,Femenino,15-44,2
+2018,214,Otras localizaciones,Femenino,45-64,2
+2018,214,Otras localizaciones,Femenino,65+,8
+2018,214,Otras localizaciones,Masculino,0-14,1
+2018,214,Otras localizaciones,Masculino,45-64,4
+2018,214,Otras localizaciones,Masculino,65+,6
+2018,215,In situ / benignos / incierto,Femenino,0-14,1
+2018,215,In situ / benignos / incierto,Femenino,45-64,1
+2018,215,In situ / benignos / incierto,Femenino,65+,5
+2018,215,In situ / benignos / incierto,Masculino,65+,1
+2019,201,Estómago,Femenino,15-44,1
+2019,201,Estómago,Femenino,45-64,1
+2019,201,Estómago,Femenino,65+,5
+2019,201,Estómago,Masculino,45-64,3
+2019,201,Estómago,Masculino,65+,6
+2019,202,Colon y recto,Femenino,45-64,4
+2019,202,Colon y recto,Femenino,65+,2
+2019,202,Colon y recto,Masculino,45-64,1
+2019,202,Colon y recto,Masculino,65+,4
+2019,203,Otros digestivos,Femenino,45-64,2
+2019,203,Otros digestivos,Femenino,65+,4
+2019,203,Otros digestivos,Masculino,15-44,2
+2019,203,Otros digestivos,Masculino,45-64,3
+2019,203,Otros digestivos,Masculino,65+,8
+2019,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2019,204,"Tráquea, bronquios y pulmón",Masculino,65+,1
+2019,205,Otros respiratorios,Femenino,45-64,1
+2019,206,Mama (mujer),Femenino,45-64,4
+2019,206,Mama (mujer),Femenino,65+,2
+2019,207,Cuello uterino,Femenino,45-64,2
+2019,207,Cuello uterino,Femenino,65+,2
+2019,208,Cuerpo del útero,Femenino,65+,1
+2019,210,Próstata,Masculino,45-64,1
+2019,210,Próstata,Masculino,65+,12
+2019,211,Otros genitourinarios,Femenino,45-64,3
+2019,211,Otros genitourinarios,Femenino,65+,6
+2019,211,Otros genitourinarios,Masculino,15-44,3
+2019,212,Leucemia,Femenino,45-64,1
+2019,212,Leucemia,Femenino,65+,3
+2019,212,Leucemia,Masculino,65+,4
+2019,213,Linfático y hematopoyético,Femenino,45-64,1
+2019,213,Linfático y hematopoyético,Femenino,65+,1
+2019,213,Linfático y hematopoyético,Masculino,45-64,1
+2019,213,Linfático y hematopoyético,Masculino,65+,2
+2019,214,Otras localizaciones,Femenino,45-64,2
+2019,214,Otras localizaciones,Femenino,65+,10
+2019,214,Otras localizaciones,Masculino,15-44,1
+2019,214,Otras localizaciones,Masculino,45-64,3
+2019,214,Otras localizaciones,Masculino,65+,4
+2019,215,In situ / benignos / incierto,Femenino,65+,5
+2020,201,Estómago,Femenino,45-64,4
+2020,201,Estómago,Femenino,65+,3
+2020,201,Estómago,Masculino,15-44,1
+2020,201,Estómago,Masculino,45-64,4
+2020,201,Estómago,Masculino,65+,6
+2020,202,Colon y recto,Femenino,15-44,1
+2020,202,Colon y recto,Femenino,45-64,4
+2020,202,Colon y recto,Femenino,65+,7
+2020,202,Colon y recto,Masculino,15-44,1
+2020,202,Colon y recto,Masculino,45-64,1
+2020,202,Colon y recto,Masculino,65+,3
+2020,203,Otros digestivos,Femenino,15-44,2
+2020,203,Otros digestivos,Femenino,45-64,6
+2020,203,Otros digestivos,Femenino,65+,12
+2020,203,Otros digestivos,Masculino,45-64,3
+2020,203,Otros digestivos,Masculino,65+,15
+2020,204,"Tráquea, bronquios y pulmón",Femenino,45-64,1
+2020,204,"Tráquea, bronquios y pulmón",Femenino,65+,5
+2020,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2
+2020,204,"Tráquea, bronquios y pulmón",Masculino,65+,3
+2020,205,Otros respiratorios,Masculino,45-64,1
+2020,205,Otros respiratorios,Masculino,65+,1
+2020,206,Mama (mujer),Femenino,15-44,3
+2020,206,Mama (mujer),Femenino,45-64,5
+2020,206,Mama (mujer),Femenino,65+,7
+2020,207,Cuello uterino,Femenino,15-44,1
+2020,207,Cuello uterino,Femenino,45-64,3
+2020,207,Cuello uterino,Femenino,65+,2
+2020,208,Cuerpo del útero,Femenino,65+,1
+2020,210,Próstata,Masculino,65+,5
+2020,211,Otros genitourinarios,Femenino,45-64,3
+2020,211,Otros genitourinarios,Femenino,65+,4
+2020,211,Otros genitourinarios,Masculino,45-64,1
+2020,211,Otros genitourinarios,Masculino,65+,4
+2020,212,Leucemia,Femenino,15-44,1
+2020,212,Leucemia,Masculino,0-14,1
+2020,212,Leucemia,Masculino,15-44,2
+2020,212,Leucemia,Masculino,45-64,1
+2020,213,Linfático y hematopoyético,Femenino,45-64,3
+2020,213,Linfático y hematopoyético,Femenino,65+,2
+2020,213,Linfático y hematopoyético,Masculino,45-64,2
+2020,213,Linfático y hematopoyético,Masculino,65+,2
+2020,214,Otras localizaciones,Femenino,45-64,1
+2020,214,Otras localizaciones,Femenino,65+,8
+2020,214,Otras localizaciones,Masculino,15-44,2
+2020,214,Otras localizaciones,Masculino,45-64,4
+2020,214,Otras localizaciones,Masculino,65+,8
+2020,215,In situ / benignos / incierto,Femenino,15-44,1
+2020,215,In situ / benignos / incierto,Femenino,65+,3
+2020,215,In situ / benignos / incierto,Masculino,15-44,1
+2020,215,In situ / benignos / incierto,Masculino,45-64,1
+2021,201,Estómago,Femenino,15-44,2
+2021,201,Estómago,Femenino,45-64,3
+2021,201,Estómago,Femenino,65+,7
+2021,201,Estómago,Masculino,45-64,5
+2021,201,Estómago,Masculino,65+,8
+2021,202,Colon y recto,Femenino,15-44,1
+2021,202,Colon y recto,Femenino,45-64,4
+2021,202,Colon y recto,Femenino,65+,5
+2021,202,Colon y recto,Masculino,15-44,1
+2021,202,Colon y recto,Masculino,65+,4
+2021,203,Otros digestivos,Femenino,45-64,2
+2021,203,Otros digestivos,Femenino,65+,11
+2021,203,Otros digestivos,Masculino,15-44,2
+2021,203,Otros digestivos,Masculino,45-64,6
+2021,203,Otros digestivos,Masculino,65+,11
+2021,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2
+2021,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2021,204,"Tráquea, bronquios y pulmón",Masculino,45-64,1
+2021,204,"Tráquea, bronquios y pulmón",Masculino,65+,1
+2021,205,Otros respiratorios,Femenino,45-64,1
+2021,205,Otros respiratorios,Masculino,65+,1
+2021,206,Mama (mujer),Femenino,45-64,3
+2021,206,Mama (mujer),Femenino,65+,7
+2021,207,Cuello uterino,Femenino,45-64,2
+2021,207,Cuello uterino,Femenino,65+,2
+2021,208,Cuerpo del útero,Femenino,15-44,1
+2021,208,Cuerpo del útero,Femenino,45-64,2
+2021,209,Útero no especificado,Femenino,45-64,1
+2021,210,Próstata,Masculino,15-44,1
+2021,210,Próstata,Masculino,65+,16
+2021,211,Otros genitourinarios,Femenino,45-64,3
+2021,211,Otros genitourinarios,Femenino,65+,7
+2021,211,Otros genitourinarios,Masculino,65+,2
+2021,212,Leucemia,Femenino,45-64,1
+2021,212,Leucemia,Femenino,65+,1
+2021,212,Leucemia,Masculino,65+,1
+2021,213,Linfático y hematopoyético,Femenino,65+,3
+2021,213,Linfático y hematopoyético,Masculino,45-64,1
+2021,214,Otras localizaciones,Femenino,15-44,1
+2021,214,Otras localizaciones,Femenino,45-64,2
+2021,214,Otras localizaciones,Femenino,65+,8
+2021,214,Otras localizaciones,Masculino,65+,5
+2021,215,In situ / benignos / incierto,Femenino,45-64,2
+2021,215,In situ / benignos / incierto,Femenino,65+,2
+2021,215,In situ / benignos / incierto,Masculino,45-64,1
+2021,215,In situ / benignos / incierto,Masculino,65+,1
+2022,201,Estómago,Femenino,15-44,3
+2022,201,Estómago,Femenino,45-64,4
+2022,201,Estómago,Femenino,65+,5
+2022,201,Estómago,Masculino,15-44,4
+2022,201,Estómago,Masculino,45-64,5
+2022,201,Estómago,Masculino,65+,4
+2022,202,Colon y recto,Femenino,65+,9
+2022,202,Colon y recto,Masculino,45-64,3
+2022,202,Colon y recto,Masculino,65+,4
+2022,203,Otros digestivos,Femenino,45-64,3
+2022,203,Otros digestivos,Femenino,65+,6
+2022,203,Otros digestivos,Masculino,15-44,1
+2022,203,Otros digestivos,Masculino,45-64,2
+2022,203,Otros digestivos,Masculino,65+,10
+2022,204,"Tráquea, bronquios y pulmón",Femenino,45-64,1
+2022,204,"Tráquea, bronquios y pulmón",Femenino,65+,1
+2022,204,"Tráquea, bronquios y pulmón",Masculino,15-44,1
+2022,204,"Tráquea, bronquios y pulmón",Masculino,45-64,1
+2022,204,"Tráquea, bronquios y pulmón",Masculino,65+,6
+2022,205,Otros respiratorios,Masculino,65+,1
+2022,206,Mama (mujer),Femenino,15-44,1
+2022,206,Mama (mujer),Femenino,45-64,6
+2022,206,Mama (mujer),Femenino,65+,2
+2022,207,Cuello uterino,Femenino,15-44,1
+2022,207,Cuello uterino,Femenino,45-64,2
+2022,207,Cuello uterino,Femenino,65+,3
+2022,208,Cuerpo del útero,Femenino,45-64,1
+2022,208,Cuerpo del útero,Femenino,65+,3
+2022,209,Útero no especificado,Femenino,45-64,1
+2022,209,Útero no especificado,Femenino,65+,4
+2022,210,Próstata,Masculino,45-64,1
+2022,210,Próstata,Masculino,65+,10
+2022,211,Otros genitourinarios,Femenino,0-14,1
+2022,211,Otros genitourinarios,Femenino,15-44,1
+2022,211,Otros genitourinarios,Femenino,45-64,1
+2022,211,Otros genitourinarios,Femenino,65+,8
+2022,211,Otros genitourinarios,Masculino,65+,1
+2022,212,Leucemia,Femenino,15-44,1
+2022,212,Leucemia,Femenino,45-64,1
+2022,212,Leucemia,Femenino,65+,1
+2022,212,Leucemia,Masculino,15-44,2
+2022,212,Leucemia,Masculino,45-64,2
+2022,212,Leucemia,Masculino,65+,1
+2022,213,Linfático y hematopoyético,Femenino,65+,1
+2022,213,Linfático y hematopoyético,Masculino,15-44,1
+2022,213,Linfático y hematopoyético,Masculino,65+,2
+2022,214,Otras localizaciones,Femenino,45-64,8
+2022,214,Otras localizaciones,Femenino,65+,8
+2022,214,Otras localizaciones,Masculino,65+,5
+2022,215,In situ / benignos / incierto,Femenino,45-64,1
+2022,215,In situ / benignos / incierto,Femenino,65+,2
+2022,215,In situ / benignos / incierto,Masculino,0-14,1
+2022,215,In situ / benignos / incierto,Masculino,65+,2
+2023,201,Estómago,Femenino,45-64,2
+2023,201,Estómago,Femenino,65+,10
+2023,201,Estómago,Masculino,15-44,2
+2023,201,Estómago,Masculino,45-64,5
+2023,201,Estómago,Masculino,65+,7
+2023,202,Colon y recto,Femenino,65+,3
+2023,202,Colon y recto,Masculino,45-64,3
+2023,202,Colon y recto,Masculino,65+,6
+2023,203,Otros digestivos,Femenino,15-44,1
+2023,203,Otros digestivos,Femenino,45-64,7
+2023,203,Otros digestivos,Femenino,65+,8
+2023,203,Otros digestivos,Masculino,45-64,5
+2023,203,Otros digestivos,Masculino,65+,5
+2023,204,"Tráquea, bronquios y pulmón",Femenino,65+,3
+2023,204,"Tráquea, bronquios y pulmón",Masculino,45-64,2
+2023,204,"Tráquea, bronquios y pulmón",Masculino,65+,1
+2023,205,Otros respiratorios,Masculino,65+,1
+2023,206,Mama (mujer),Femenino,45-64,6
+2023,206,Mama (mujer),Femenino,65+,3
+2023,207,Cuello uterino,Femenino,15-44,2
+2023,207,Cuello uterino,Femenino,45-64,2
+2023,207,Cuello uterino,Femenino,65+,4
+2023,209,Útero no especificado,Femenino,65+,1
+2023,210,Próstata,Masculino,45-64,1
+2023,210,Próstata,Masculino,65+,14
+2023,211,Otros genitourinarios,Femenino,15-44,1
+2023,211,Otros genitourinarios,Femenino,65+,3
+2023,211,Otros genitourinarios,Masculino,15-44,1
+2023,211,Otros genitourinarios,Masculino,65+,3
+2023,212,Leucemia,Femenino,15-44,3
+2023,212,Leucemia,Femenino,65+,3
+2023,213,Linfático y hematopoyético,Femenino,65+,1
+2023,213,Linfático y hematopoyético,Masculino,15-44,2
+2023,213,Linfático y hematopoyético,Masculino,45-64,2
+2023,213,Linfático y hematopoyético,Masculino,65+,2
+2023,214,Otras localizaciones,Femenino,45-64,3
+2023,214,Otras localizaciones,Femenino,65+,6
+2023,214,Otras localizaciones,Masculino,15-44,3
+2023,214,Otras localizaciones,Masculino,45-64,4
+2023,214,Otras localizaciones,Masculino,65+,5
+2023,215,In situ / benignos / incierto,Femenino,0-14,1
+2023,215,In situ / benignos / incierto,Femenino,45-64,3
+2023,215,In situ / benignos / incierto,Femenino,65+,3
+2023,215,In situ / benignos / incierto,Masculino,45-64,2
+2023,215,In situ / benignos / incierto,Masculino,65+,1
+2024,201,Estómago,Femenino,15-44,1
+2024,201,Estómago,Femenino,45-64,1
+2024,201,Estómago,Femenino,65+,9
+2024,201,Estómago,Masculino,45-64,1
+2024,201,Estómago,Masculino,65+,9
+2024,202,Colon y recto,Femenino,45-64,2
+2024,202,Colon y recto,Femenino,65+,4
+2024,202,Colon y recto,Masculino,15-44,2
+2024,202,Colon y recto,Masculino,45-64,1
+2024,202,Colon y recto,Masculino,65+,2
+2024,203,Otros digestivos,Femenino,15-44,1
+2024,203,Otros digestivos,Femenino,45-64,5
+2024,203,Otros digestivos,Femenino,65+,13
+2024,203,Otros digestivos,Masculino,45-64,5
+2024,203,Otros digestivos,Masculino,65+,10
+2024,204,"Tráquea, bronquios y pulmón",Femenino,45-64,2
+2024,204,"Tráquea, bronquios y pulmón",Femenino,65+,9
+2024,204,"Tráquea, bronquios y pulmón",Masculino,45-64,4
+2024,204,"Tráquea, bronquios y pulmón",Masculino,65+,5
+2024,205,Otros respiratorios,Masculino,65+,1
+2024,206,Mama (mujer),Femenino,15-44,1
+2024,206,Mama (mujer),Femenino,45-64,2
+2024,206,Mama (mujer),Femenino,65+,6
+2024,207,Cuello uterino,Femenino,15-44,2
+2024,207,Cuello uterino,Femenino,45-64,1
+2024,207,Cuello uterino,Femenino,65+,2
+2024,208,Cuerpo del útero,Femenino,45-64,2
+2024,209,Útero no especificado,Femenino,65+,1
+2024,210,Próstata,Masculino,65+,15
+2024,211,Otros genitourinarios,Femenino,15-44,2
+2024,211,Otros genitourinarios,Femenino,45-64,2
+2024,211,Otros genitourinarios,Femenino,65+,3
+2024,211,Otros genitourinarios,Masculino,65+,5
+2024,212,Leucemia,Femenino,45-64,1
+2024,212,Leucemia,Femenino,65+,2
+2024,212,Leucemia,Masculino,45-64,2
+2024,212,Leucemia,Masculino,65+,2
+2024,213,Linfático y hematopoyético,Femenino,45-64,2
+2024,213,Linfático y hematopoyético,Femenino,65+,3
+2024,213,Linfático y hematopoyético,Masculino,65+,4
+2024,214,Otras localizaciones,Femenino,45-64,2
+2024,214,Otras localizaciones,Femenino,65+,9
+2024,214,Otras localizaciones,Masculino,15-44,1
+2024,214,Otras localizaciones,Masculino,45-64,1
+2024,214,Otras localizaciones,Masculino,65+,6
+2024,215,In situ / benignos / incierto,Femenino,45-64,1
+2024,215,In situ / benignos / incierto,Femenino,65+,2
+2024,215,In situ / benignos / incierto,Masculino,15-44,1
+2024,215,In situ / benignos / incierto,Masculino,45-64,2
+2024,215,In situ / benignos / incierto,Masculino,65+,2
+2025,201,Estómago,Femenino,15-44,2
+2025,201,Estómago,Femenino,45-64,1
+2025,201,Estómago,Femenino,65+,6
+2025,201,Estómago,Masculino,45-64,5
+2025,201,Estómago,Masculino,65+,11
+2025,202,Colon y recto,Femenino,45-64,4
+2025,202,Colon y recto,Femenino,65+,9
+2025,202,Colon y recto,Masculino,45-64,2
+2025,202,Colon y recto,Masculino,65+,7
+2025,203,Otros digestivos,Femenino,15-44,1
+2025,203,Otros digestivos,Femenino,45-64,2
+2025,203,Otros digestivos,Femenino,65+,8
+2025,203,Otros digestivos,Masculino,15-44,2
+2025,203,Otros digestivos,Masculino,45-64,1
+2025,203,Otros digestivos,Masculino,65+,7
+2025,204,"Tráquea, bronquios y pulmón",Femenino,65+,5
+2025,204,"Tráquea, bronquios y pulmón",Masculino,15-44,2
+2025,204,"Tráquea, bronquios y pulmón",Masculino,45-64,4
+2025,204,"Tráquea, bronquios y pulmón",Masculino,65+,7
+2025,205,Otros respiratorios,Femenino,65+,1
+2025,205,Otros respiratorios,Masculino,65+,1
+2025,206,Mama (mujer),Femenino,15-44,1
+2025,206,Mama (mujer),Femenino,45-64,3
+2025,206,Mama (mujer),Femenino,65+,2
+2025,207,Cuello uterino,Femenino,15-44,1
+2025,207,Cuello uterino,Femenino,45-64,2
+2025,207,Cuello uterino,Femenino,65+,1
+2025,208,Cuerpo del útero,Femenino,15-44,1
+2025,208,Cuerpo del útero,Femenino,45-64,1
+2025,209,Útero no especificado,Femenino,65+,1
+2025,210,Próstata,Masculino,65+,16
+2025,211,Otros genitourinarios,Femenino,45-64,4
+2025,211,Otros genitourinarios,Femenino,65+,4
+2025,211,Otros genitourinarios,Masculino,15-44,2
+2025,211,Otros genitourinarios,Masculino,45-64,2
+2025,211,Otros genitourinarios,Masculino,65+,2
+2025,212,Leucemia,Femenino,15-44,1
+2025,212,Leucemia,Femenino,65+,1
+2025,212,Leucemia,Masculino,15-44,2
+2025,212,Leucemia,Masculino,65+,2
+2025,213,Linfático y hematopoyético,Femenino,65+,6
+2025,213,Linfático y hematopoyético,Masculino,15-44,1
+2025,213,Linfático y hematopoyético,Masculino,65+,2
+2025,214,Otras localizaciones,Femenino,0-14,2
+2025,214,Otras localizaciones,Femenino,15-44,3
+2025,214,Otras localizaciones,Femenino,45-64,6
+2025,214,Otras localizaciones,Femenino,65+,10
+2025,214,Otras localizaciones,Masculino,15-44,1
+2025,214,Otras localizaciones,Masculino,45-64,2
+2025,214,Otras localizaciones,Masculino,65+,8
+2025,215,In situ / benignos / incierto,Femenino,45-64,3
+2025,215,In situ / benignos / incierto,Femenino,65+,4
+2025,215,In situ / benignos / incierto,Masculino,45-64,1
+2025,215,In situ / benignos / incierto,Masculino,65+,3

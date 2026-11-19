@@ -1,0 +1,7 @@
+﻿modelo,MAE,RMSE,mejora_MAE_vs_base_%
+Poisson,1.1448,1.6426,0.221
+Línea base (prom. 3 años),1.1474,1.6465,0.0
+LSTM,1.1568,1.7008,-0.8228
+Binomial negativa,1.1597,1.7113,-1.0743
+Random Forest,1.1599,1.6698,-1.0941
+XGBoost,1.1676,1.6608,-1.7599
