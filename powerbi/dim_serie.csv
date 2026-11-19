@@ -1,26 +1,83 @@
-﻿serie_id,cod,tipo_cancer,sexo
-0,201,Estómago,Femenino
-1,201,Estómago,Masculino
-2,202,Colon y recto,Femenino
-3,202,Colon y recto,Masculino
-4,203,Otros digestivos,Femenino
-5,203,Otros digestivos,Masculino
-6,204,"Tráquea, bronquios y pulmón",Femenino
-7,204,"Tráquea, bronquios y pulmón",Masculino
-8,205,Otros respiratorios,Femenino
-9,205,Otros respiratorios,Masculino
-10,206,Mama (mujer),Femenino
-11,207,Cuello uterino,Femenino
-12,208,Cuerpo del útero,Femenino
-13,209,Útero no especificado,Femenino
-14,210,Próstata,Masculino
-15,211,Otros genitourinarios,Femenino
-16,211,Otros genitourinarios,Masculino
-17,212,Leucemia,Femenino
-18,212,Leucemia,Masculino
-19,213,Linfático y hematopoyético,Femenino
-20,213,Linfático y hematopoyético,Masculino
-21,214,Otras localizaciones,Femenino
-22,214,Otras localizaciones,Masculino
-23,215,In situ / benignos / incierto,Femenino
-24,215,In situ / benignos / incierto,Masculino
+﻿serie_id,cod,tipo_cancer,sexo,grupo_edad
+0,201,Estómago,Femenino,15-44
+1,201,Estómago,Femenino,45-64
+2,201,Estómago,Femenino,65+
+3,201,Estómago,Masculino,15-44
+4,201,Estómago,Masculino,45-64
+5,201,Estómago,Masculino,65+
+6,202,Colon y recto,Femenino,15-44
+7,202,Colon y recto,Femenino,45-64
+8,202,Colon y recto,Femenino,65+
+9,202,Colon y recto,Masculino,15-44
+10,202,Colon y recto,Masculino,45-64
+11,202,Colon y recto,Masculino,65+
+12,203,Otros digestivos,Femenino,15-44
+13,203,Otros digestivos,Femenino,45-64
+14,203,Otros digestivos,Femenino,65+
+15,203,Otros digestivos,Masculino,15-44
+16,203,Otros digestivos,Masculino,45-64
+17,203,Otros digestivos,Masculino,65+
+18,204,"Tráquea, bronquios y pulmón",Femenino,45-64
+19,204,"Tráquea, bronquios y pulmón",Femenino,65+
+20,204,"Tráquea, bronquios y pulmón",Masculino,15-44
+21,204,"Tráquea, bronquios y pulmón",Masculino,45-64
+22,204,"Tráquea, bronquios y pulmón",Masculino,65+
+23,205,Otros respiratorios,Femenino,45-64
+24,205,Otros respiratorios,Femenino,65+
+25,205,Otros respiratorios,Masculino,0-14
+26,205,Otros respiratorios,Masculino,15-44
+27,205,Otros respiratorios,Masculino,45-64
+28,205,Otros respiratorios,Masculino,65+
+29,206,Mama (mujer),Femenino,15-44
+30,206,Mama (mujer),Femenino,45-64
+31,206,Mama (mujer),Femenino,65+
+32,207,Cuello uterino,Femenino,15-44
+33,207,Cuello uterino,Femenino,45-64
+34,207,Cuello uterino,Femenino,65+
+35,208,Cuerpo del útero,Femenino,15-44
+36,208,Cuerpo del útero,Femenino,45-64
+37,208,Cuerpo del útero,Femenino,65+
+38,209,Útero no especificado,Femenino,15-44
+39,209,Útero no especificado,Femenino,45-64
+40,209,Útero no especificado,Femenino,65+
+41,210,Próstata,Masculino,15-44
+42,210,Próstata,Masculino,45-64
+43,210,Próstata,Masculino,65+
+44,211,Otros genitourinarios,Femenino,0-14
+45,211,Otros genitourinarios,Femenino,15-44
+46,211,Otros genitourinarios,Femenino,45-64
+47,211,Otros genitourinarios,Femenino,65+
+48,211,Otros genitourinarios,Masculino,0-14
+49,211,Otros genitourinarios,Masculino,15-44
+50,211,Otros genitourinarios,Masculino,45-64
+51,211,Otros genitourinarios,Masculino,65+
+52,212,Leucemia,Femenino,0-14
+53,212,Leucemia,Femenino,15-44
+54,212,Leucemia,Femenino,45-64
+55,212,Leucemia,Femenino,65+
+56,212,Leucemia,Masculino,0-14
+57,212,Leucemia,Masculino,15-44
+58,212,Leucemia,Masculino,45-64
+59,212,Leucemia,Masculino,65+
+60,213,Linfático y hematopoyético,Femenino,0-14
+61,213,Linfático y hematopoyético,Femenino,45-64
+62,213,Linfático y hematopoyético,Femenino,65+
+63,213,Linfático y hematopoyético,Masculino,15-44
+64,213,Linfático y hematopoyético,Masculino,45-64
+65,213,Linfático y hematopoyético,Masculino,65+
+66,214,Otras localizaciones,Femenino,0-14
+67,214,Otras localizaciones,Femenino,15-44
+68,214,Otras localizaciones,Femenino,45-64
+69,214,Otras localizaciones,Femenino,65+
+70,214,Otras localizaciones,Masculino,0-14
+71,214,Otras localizaciones,Masculino,15-44
+72,214,Otras localizaciones,Masculino,45-64
+73,214,Otras localizaciones,Masculino,65+
+74,215,In situ / benignos / incierto,Femenino,0-14
+75,215,In situ / benignos / incierto,Femenino,15-44
+76,215,In situ / benignos / incierto,Femenino,45-64
+77,215,In situ / benignos / incierto,Femenino,65+
+78,215,In situ / benignos / incierto,Masculino,0-14
+79,215,In situ / benignos / incierto,Masculino,15-44
+80,215,In situ / benignos / incierto,Masculino,45-64
+81,215,In situ / benignos / incierto,Masculino,65+

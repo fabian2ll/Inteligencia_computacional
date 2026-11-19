@@ -1,6 +1,6 @@
 # %% [markdown]
 # # 05 - Importancia de variables, error por serie y curva de aprendizaje (fase 5 de CRISP-DM)
-# Usa lo que guardó 04_modelado.py en /resultados. Genera:
+# Usa lo que guardó 04_modelado.py en /resultados (serie = tipo × sexo × grupo de edad). Genera:
 #   1) Coeficientes de Poisson como razones de tasa
 #   2) Importancia de XGBoost (valores SHAP) y de Random Forest / XGBoost / LSTM por permutación
 #   3) Error por tipo de cáncer y sexo: dónde el modelo ayuda y dónde no
@@ -34,6 +34,7 @@ except Exception:   # sin torch o instalación dañada: el script sigue sin el L
 
 warnings.filterwarnings("ignore")
 SEED = 42
+EDADES = ["0-14", "15-44", "45-64", "65+"]
 BASE = Path(__file__).resolve().parent
 PROC = BASE / "data" / "processed"
 RES = BASE / "resultados"
@@ -67,7 +68,7 @@ idx_test = d.index[d["conjunto"] == "test"]
 y_all = d["muertes"].values.astype(float)
 y_te = y_all[idx_test]
 COD = sorted(d["cod"].unique())
-FT = ["lag1", "lag2", "lag3", "mm3", "anio_idx", "atipico_covid", "sexo_masc", "cod"]
+FT = ["lag1", "lag2", "lag3", "mm3", "anio_idx", "atipico_covid", "sexo_masc", "cod", "edad_idx"]
 CONT = ["l1", "l2", "l3", "anio_idx"]
 RF_FIJOS = {"n_estimators": 300, "random_state": SEED, "n_jobs": -1}
 XGB_FIJOS = {"objective": "count:poisson", "tree_method": "hist", "random_state": SEED, "n_jobs": 1}
@@ -90,6 +91,8 @@ def x_glm(df):
                       "sexo_masc": df["sexo_masc"]}, index=df.index)
     for c in COD[1:]:
         X[f"cod_{c}"] = (df["cod"] == c).astype(float)
+    for e in EDADES[1:]:
+        X[f"edad_{e}"] = (df["grupo_edad"] == e).astype(float)
     return X.astype(float)
 
 
@@ -169,6 +172,8 @@ ETQ = {"l1": "Muertes 1 año antes (log)", "l2": "Muertes 2 años antes (log)", 
        "anio_idx": "Tendencia (año)", "atipico_covid": "Año atípico 2020-2022", "sexo_masc": "Sexo masculino"}
 for c in COD[1:]:
     ETQ[f"cod_{c}"] = f"Tipo: {SHORT.get(c, c)} (vs {SHORT.get(COD[0], COD[0])})"
+for e in EDADES[1:]:
+    ETQ[f"edad_{e}"] = f"Edad {e} (vs {EDADES[0]})"
 
 pois = finales["Poisson"]
 coef = pd.Series(pois["m"].coef_, index=pois["cols"])
@@ -242,8 +247,8 @@ print(imp.round(3).to_string())
 pr = pd.read_csv(RES / "predicciones_test.csv")
 pr["err"] = (pr["muertes"] - pr["prediccion"]).abs()
 BASE_N = "Línea base (prom. 3 años)"
-piv = pr.pivot_table(index=["tipo", "sexo"], columns="modelo", values="err", aggfunc="mean")
-tab = pd.DataFrame({"muertes_prom_anual": pr[pr["modelo"] == "Poisson"].groupby(["tipo", "sexo"])["muertes"].mean(),
+piv = pr.pivot_table(index=["tipo", "sexo", "grupo_edad"], columns="modelo", values="err", aggfunc="mean")
+tab = pd.DataFrame({"muertes_prom_anual": pr[pr["modelo"] == "Poisson"].groupby(["tipo", "sexo", "grupo_edad"])["muertes"].mean(),
                     "MAE_base": piv[BASE_N], "MAE_Poisson": piv["Poisson"]})
 tab["mejora_%"] = np.where(tab["MAE_base"] > 0, (1 - tab["MAE_Poisson"] / tab["MAE_base"]) * 100, np.nan)
 tab = tab.sort_values("muertes_prom_anual", ascending=False)
@@ -257,12 +262,12 @@ print(por_sexo.round(3).to_string())
 
 # %% [markdown]
 # ## 5. Curva de aprendizaje
-# Se entrena con los últimos k años antes de 2022 (k = 4, 6, ..., 14) y se mide el error en la prueba
-# 2022-2025 con los mismos hiperparámetros del 04. Si las curvas aún bajan en k = 14, más años ayudarían;
+# Se entrena con los últimos k años antes de 2022 (k = 3, 5, ..., 11) y se mide el error en la prueba
+# 2022-2025 con los mismos hiperparámetros del 04. Si las curvas aún bajan en k = 11, más años ayudarían;
 # si ya están planas, el límite es el ruido propio de los conteos. La línea base no depende de k.
 
 # %%
-KS = [4, 6, 8, 10, 12, 14]
+KS = [3, 5, 7, 9, 11]
 base_pred = d.loc[idx_test, "mm3"].values
 filas = []
 for k in KS:
@@ -303,7 +308,7 @@ guarda("fig8_curva_aprendizaje.png")
 # %%
 ETQ_ARB = {"lag1": "Muertes 1 año antes", "lag2": "Muertes 2 años antes", "lag3": "Muertes 3 años antes",
            "mm3": "Promedio 3 años", "anio_idx": "Tendencia (año)", "atipico_covid": "Año atípico",
-           "sexo_masc": "Sexo masculino", "cod": "Tipo de cáncer"}
+           "sexo_masc": "Sexo masculino", "cod": "Tipo de cáncer", "edad_idx": "Grupo de edad"}
 fig, axs = plt.subplots(1, 3, figsize=(15, 4.8))
 top = tab_pois.head(10).iloc[::-1]
 axs[0].barh(top["variable"], top["coeficiente"], color=np.where(top["coeficiente"] >= 0, "#1971c2", "#d6336c"))

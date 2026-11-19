@@ -1,6 +1,7 @@
-# Visual de Python en Power BI: real vs. predicho por año.
-# En "Valores" del visual arrastra: hechos_mortalidad[anio], [muertes], [prediccion] y [serie_id]
+# Visual de Python en Power BI: real vs. predicho por año (filtrable por grupo de edad).
+# En "Valores" arrastra: hechos_mortalidad[anio], [muertes], [prediccion] y [serie_id]
 # (serie_id evita que Power BI elimine filas repetidas). Marca muertes y prediccion como "No resumir".
+# Para ver una sola edad, arrastra hechos_mortalidad[grupo_edad] a "Filtros" del visual.
 import matplotlib.pyplot as plt
 
 d = dataset.groupby("anio", as_index=False)[["muertes", "prediccion"]].sum(min_count=1)

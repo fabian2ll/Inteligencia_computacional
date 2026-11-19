@@ -2,7 +2,8 @@
 # # 04 - Modelado y evaluación (fases 4 y 5 de CRISP-DM)
 # Entrena y compara: línea base (promedio de 3 años), Poisson, binomial negativa, Random Forest,
 # XGBoost y LSTM. Todos usan la misma regla: predecir un año con los valores REALES de los años previos.
-# - Ajuste de hiperparámetros: validación cruzada por años (ventana expansiva) SOLO dentro de 2008-2021.
+# La serie es tipo de cáncer × sexo × grupo de edad (microdatos DANE 2008-2025).
+# - Ajuste de hiperparámetros: validación cruzada por años (ventana expansiva) SOLO dentro de 2011-2021.
 # - Prueba: 2022-2025, se evalúa una única vez con los mejores hiperparámetros.
 # Requiere: pip install scikit-learn xgboost statsmodels torch joblib
 # Ejecuta cada celda (# %%) con Shift+Enter, o todo el archivo con el botón Run.
@@ -35,6 +36,7 @@ RES = BASE / "resultados"
 RES.mkdir(exist_ok=True)
 
 FOLDS = [2018, 2019, 2020, 2021]   # año de validación de cada pliegue; se entrena con los años anteriores
+EDADES = ["0-14", "15-44", "45-64", "65+"]
 
 # %% [markdown]
 # ## 1. Datos y funciones de apoyo
@@ -46,7 +48,7 @@ idx_train = d.index[d["conjunto"] == "train"]
 idx_test = d.index[d["conjunto"] == "test"]
 y_all = d["muertes"].values.astype(float)
 COD = sorted(d["cod"].unique())
-FT = ["lag1", "lag2", "lag3", "mm3", "anio_idx", "atipico_covid", "sexo_masc", "cod"]   # modelos de árboles
+FT = ["lag1", "lag2", "lag3", "mm3", "anio_idx", "atipico_covid", "sexo_masc", "cod", "edad_idx"]
 CONT = ["l1", "l2", "l3", "anio_idx"]                                                    # continuas de los GLM
 print(f"Filas del modelo: {len(d)} | entrenamiento {len(idx_train)} | prueba {len(idx_test)}")
 
@@ -86,7 +88,7 @@ def busca(nombre, rejilla, ajusta_predice):
 # %% [markdown]
 # ## 2. Línea base y modelos lineales (Poisson y binomial negativa)
 # Los GLM usan log(1 + rezagos) como predictores (mm3 se omite porque es combinación exacta de los rezagos)
-# y una variable indicadora por tipo de cáncer. Poisson lleva penalización L2 (alpha) y la binomial negativa
+# y variables indicadoras por tipo de cáncer y grupo de edad. Poisson lleva penalización L2 (alpha) y la binomial negativa
 # fija su parámetro de dispersión (disp) por validación cruzada.
 
 # %%
@@ -96,6 +98,8 @@ def x_glm(df):
                       "sexo_masc": df["sexo_masc"]}, index=df.index)
     for c in COD[1:]:
         X[f"cod_{c}"] = (df["cod"] == c).astype(float)
+    for e in EDADES[1:]:
+        X[f"edad_{e}"] = (df["grupo_edad"] == e).astype(float)
     return X.astype(float)
 
 
@@ -209,7 +213,7 @@ mejores["LSTM"] = busca("LSTM", rej_lstm, fp_lstm(2))
 
 # %% [markdown]
 # ## 5. Evaluación en la prueba 2022-2025
-# Se reentrena cada modelo con todo el entrenamiento (2008-2021) y sus mejores hiperparámetros.
+# Se reentrena cada modelo con todo el entrenamiento (2011-2021) y sus mejores hiperparámetros.
 
 # %%
 y_te = y_all[idx_test]
@@ -255,7 +259,7 @@ print(por_anio.round(3).to_string())
 # %%
 largo = []
 for nombre, p in preds.items():
-    sub = d.loc[idx_test, ["serie_id", "cod", "tipo", "sexo", "anio", "muertes"]].copy()
+    sub = d.loc[idx_test, ["serie_id", "cod", "tipo", "sexo", "grupo_edad", "anio", "muertes"]].copy()
     sub["modelo"], sub["prediccion"] = nombre, p
     largo.append(sub)
 pd.concat(largo).to_csv(RES / "predicciones_test.csv", index=False)

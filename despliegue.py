@@ -1,6 +1,7 @@
 # %% [markdown]
 # # 06 - Despliegue (fase 6 de CRISP-DM): exportar a Power BI
-# Lee lo que dejaron los pasos 01-05 (data/processed y resultados) y genera, en la carpeta /powerbi:
+# Lee lo que dejaron los pasos 01-05 (microdatos DANE 2008-2025, serie = tipo × sexo × grupo de edad)
+# y genera, en la carpeta /powerbi:
 #   - Tablas CSV listas para Power BI (hechos, predicciones, métricas, importancia, contexto)
 #   - cargar_en_powerbi.py: script para "Obtener datos > Script de Python" (ya trae tu ruta)
 #   - visual_real_vs_predicho.py: código de ejemplo para un visual de Python
@@ -31,6 +32,7 @@ BI.mkdir(exist_ok=True)
 MODELO_MANUAL = None      # por ejemplo "Poisson"; None = el de menor MAE en la prueba
 ANIO_PRON = 2026          # año a pronosticar (un año adelante con valores reales)
 BASE_N = "Línea base (prom. 3 años)"
+EDADES = ["0-14", "15-44", "45-64", "65+"]
 
 
 def guarda(df, nombre):
@@ -54,13 +56,13 @@ print(f"Modelo del tablero: {MODELO} (MAE prueba {met.loc[met['modelo'] == MODEL
 
 # %%
 tabla = pd.read_csv(PROC / "tabla_modelo.csv")
-series = (tabla[["serie_id", "cod", "tipo", "sexo"]].drop_duplicates()
+series = (tabla[["serie_id", "cod", "tipo", "sexo", "grupo_edad", "edad_idx"]].drop_duplicates()
           .rename(columns={"tipo": "tipo_cancer"}).sort_values("serie_id").reset_index(drop=True))
 pr = pd.read_csv(RES / "predicciones_test.csv")
 
-hechos = tabla[["serie_id", "cod", "tipo", "sexo", "anio", "muertes", "conjunto"]].rename(
+hechos = tabla[["serie_id", "cod", "tipo", "sexo", "grupo_edad", "anio", "muertes", "conjunto"]].rename(
     columns={"tipo": "tipo_cancer"})
-hechos["periodo"] = hechos["conjunto"].map({"sin_rezagos": "2005-2007 (solo rezagos)",
+hechos["periodo"] = hechos["conjunto"].map({"sin_rezagos": "2008-2010 (solo rezagos)",
                                             "train": "entrenamiento", "test": "prueba"})
 hechos = hechos.drop(columns="conjunto")
 sel = pr[pr["modelo"] == MODELO][["serie_id", "anio", "prediccion"]]
@@ -82,7 +84,7 @@ print(f"Control OK: MAE de {MODELO} recalculado = {mae_chk:.3f}")
 # %%
 COD = sorted(tabla["cod"].unique())
 CONT = ["l1", "l2", "l3", "anio_idx"]
-FT = ["lag1", "lag2", "lag3", "mm3", "anio_idx", "atipico_covid", "sexo_masc", "cod"]
+FT = ["lag1", "lag2", "lag3", "mm3", "anio_idx", "atipico_covid", "sexo_masc", "cod", "edad_idx"]
 
 
 def x_glm(df):
@@ -91,6 +93,8 @@ def x_glm(df):
                       "sexo_masc": df["sexo_masc"]}, index=df.index)
     for c in COD[1:]:
         X[f"cod_{c}"] = (df["cod"] == c).astype(float)
+    for e in EDADES[1:]:
+        X[f"edad_{e}"] = (df["grupo_edad"] == e).astype(float)
     return X.astype(float)
 
 
@@ -131,7 +135,7 @@ pron = pronostica(MODELO, mejores[MODELO], d_fit, nuevo)
 if pron is None:
     print(f"Aviso: el pronóstico de {MODELO} no está soportado en este script; se omite.")
 else:
-    fila = nuevo[["serie_id", "cod", "tipo", "sexo", "anio", "mm3"]].rename(
+    fila = nuevo[["serie_id", "cod", "tipo", "sexo", "grupo_edad", "anio", "mm3"]].rename(
         columns={"tipo": "tipo_cancer", "mm3": "prediccion_linea_base"})
     fila["muertes"], fila["prediccion"], fila["periodo"] = np.nan, pron, "pronóstico"
     hechos = pd.concat([hechos, fila], ignore_index=True)
@@ -147,9 +151,9 @@ hechos = hechos.sort_values(["serie_id", "anio"]).reset_index(drop=True)
 
 # %%
 print("\nTablas en", BI)
-guarda(hechos[["serie_id", "tipo_cancer", "cod", "sexo", "anio", "periodo", "muertes", "prediccion",
+guarda(hechos[["serie_id", "tipo_cancer", "cod", "sexo", "grupo_edad", "anio", "periodo", "muertes", "prediccion",
                "prediccion_linea_base", "modelo_seleccionado", "error_abs"]].round(3), "hechos_mortalidad.csv")
-guarda(series[["serie_id", "cod", "tipo_cancer", "sexo"]], "dim_serie.csv")
+guarda(series[["serie_id", "cod", "tipo_cancer", "sexo", "grupo_edad"]], "dim_serie.csv")
 
 pm = pr.rename(columns={"tipo": "tipo_cancer"}).copy()
 pm["error_abs"] = (pm["muertes"] - pm["prediccion"]).abs()
@@ -162,7 +166,7 @@ guarda(pd.read_csv(RES / "curva_aprendizaje.csv").round(4), "curva_aprendizaje.c
 # Importancia de variables en una sola tabla larga (modelo, método, variable, valor)
 ETQ_ARB = {"lag1": "Muertes 1 año antes", "lag2": "Muertes 2 años antes", "lag3": "Muertes 3 años antes",
            "mm3": "Promedio 3 años", "anio_idx": "Tendencia (año)", "atipico_covid": "Año atípico",
-           "sexo_masc": "Sexo masculino", "cod": "Tipo de cáncer"}
+           "sexo_masc": "Sexo masculino", "cod": "Tipo de cáncer", "edad_idx": "Grupo de edad"}
 imp = []
 p = pd.read_csv(RES / "importancia_poisson.csv")
 imp += [{"modelo": "Poisson", "metodo": "Coeficiente (escala log)", "variable": r.variable, "valor": r.coeficiente}
@@ -203,9 +207,10 @@ carga = ['# Power BI: Inicio > Obtener datos > Script de Python > pega este cód
 carga += [f'{t} = pd.read_csv(RUTA / "{t}.csv", encoding="utf-8-sig")' for t in TABLAS]
 (BI / "cargar_en_powerbi.py").write_text("\n".join(carga) + "\n", encoding="utf-8")
 
-visual = '''# Visual de Python en Power BI: real vs. predicho por año.
-# En "Valores" del visual arrastra: hechos_mortalidad[anio], [muertes], [prediccion] y [serie_id]
+visual = '''# Visual de Python en Power BI: real vs. predicho por año (filtrable por grupo de edad).
+# En "Valores" arrastra: hechos_mortalidad[anio], [muertes], [prediccion] y [serie_id]
 # (serie_id evita que Power BI elimine filas repetidas). Marca muertes y prediccion como "No resumir".
+# Para ver una sola edad, arrastra hechos_mortalidad[grupo_edad] a "Filtros" del visual.
 import matplotlib.pyplot as plt
 
 d = dataset.groupby("anio", as_index=False)[["muertes", "prediccion"]].sum(min_count=1)

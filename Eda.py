@@ -27,8 +27,9 @@ SHORT = {201: "Estómago", 202: "Colon y recto", 203: "Otros digestivos", 204: "
          213: "Linfático y hematopoyético", 214: "Otras localizaciones",
          215: "In situ / benignos / incierto"}
 
-m = pd.read_csv(PROC / "mortalidad_tipo_sexo_anio.csv")
-m["tipo"] = m["cod"].map(SHORT)
+EDADES = ["0-14", "15-44", "45-64", "65+"]
+
+m = pd.read_csv(PROC / "mortalidad_microdatos_edad.csv")
 g = pd.read_csv(PROC / "mortalidad_grandes_causas.csv")
 tam = pd.read_csv(PROC / "tamizacion_eps_anio.csv")
 fac = pd.read_csv(PROC / "factores_riesgo_grupo_edad.csv")
@@ -48,26 +49,27 @@ def guarda(nombre):
 total_anio = m.groupby("anio")["muertes"].sum()
 por_sexo = m.groupby(["anio", "sexo"])["muertes"].sum().unstack()
 tot = int(total_anio.sum())
-print(f"Muertes por cáncer 2005-2025: {tot}")
+print(f"Muertes por cáncer 2008-2025: {tot}")
 print("Por sexo:", m.groupby("sexo")["muertes"].sum().to_dict())
 print(f"Promedio anual: {total_anio.mean():.1f} | mínimo {total_anio.min()} ({total_anio.idxmin()}) "
       f"| máximo {total_anio.max()} ({total_anio.idxmax()})")
 
 pend, _ = np.polyfit(total_anio.index, total_anio.values, 1)
-ini, fin = total_anio.loc[2005:2009].mean(), total_anio.loc[2021:2025].mean()
+ini, fin = total_anio.loc[2008:2010].mean(), total_anio.loc[2021:2025].mean()
 print(f"Tendencia lineal: {pend:+.1f} muertes por año")
-print(f"Promedio 2005-2009: {ini:.1f} -> 2021-2025: {fin:.1f} ({(fin / ini - 1) * 100:+.0f} %)")
+print(f"Promedio 2008-2010: {ini:.1f} -> 2021-2025: {fin:.1f} ({(fin / ini - 1) * 100:+.0f} %)")
 pre, cov = total_anio.loc[2017:2019].mean(), total_anio.loc[2020:2022].mean()
 print(f"Promedio 2017-2019: {pre:.1f} vs 2020-2022: {cov:.1f} ({(cov / pre - 1) * 100:+.0f} %)")
 
-print("\nTop 6 tipos de cáncer (total 2005-2025):")
+print("\nTop 6 tipos de cáncer (total 2008-2025):")
 top = m.groupby("tipo")["muertes"].sum().sort_values(ascending=False)
 for t, v in top.head(6).items():
     print(f"  {t:35s} {v:4d}  ({v / tot * 100:4.1f} %)")
 
-print("\nDistribución de la variable a predecir (muertes por tipo-sexo-año):")
+print("\nDistribución de la variable a predecir (muertes por tipo-sexo-edad-año):")
+print("  Nota: el panel de microdatos solo registra celdas con muertes; los ceros se completan en 03_preparacion_modelo.py")
 print(f"  media {m['muertes'].mean():.2f} | máximo {m['muertes'].max()} | "
-      f"celdas en cero {(m['muertes'] == 0).mean() * 100:.0f} %")
+      f"celdas en cero {(m['muertes'] == 0).mean() * 100:.0f} % (en el panel observado)")
 print(f"  varianza/media = {m['muertes'].var() / m['muertes'].mean():.1f} (1 = Poisson puro; >1 = sobredispersión)")
 
 # %% [markdown]
@@ -81,8 +83,8 @@ ax.plot(por_sexo.index, por_sexo["Femenino"], color=COL_F, lw=1.8, marker="s", m
 ax.plot(por_sexo.index, por_sexo["Masculino"], color=COL_M, lw=1.8, marker="^", ms=4, label="Masculino")
 ax.plot(total_anio.index, np.polyval(np.polyfit(total_anio.index, total_anio.values, 1), total_anio.index),
         "--", color="gray", lw=1.2, label=f"Tendencia total ({pend:+.1f}/año)")
-ax.set(title="Muertes por cáncer en Sogamoso por año (2005-2025)", xlabel="Año", ylabel="Muertes")
-ax.set_xticks(range(2005, 2026, 2))
+ax.set(title="Muertes por cáncer en Sogamoso por año (2008-2025)", xlabel="Año", ylabel="Muertes")
+ax.set_xticks(range(2008, 2026, 2))
 ax.legend(ncol=3, fontsize=9, loc="upper left")
 guarda("fig1_muertes_por_anio.png")
 
@@ -97,7 +99,7 @@ ax.barh(piv.index, piv["Femenino"], color=COL_F, label="Femenino")
 ax.barh(piv.index, piv["Masculino"], left=piv["Femenino"], color=COL_M, label="Masculino")
 for i, (_, r) in enumerate(piv.iterrows()):
     ax.text(r.sum() + 5, i, int(r.sum()), va="center", fontsize=9)
-ax.set(title="Muertes acumuladas 2005-2025 por tipo de cáncer y sexo", xlabel="Muertes")
+ax.set(title="Muertes acumuladas 2008-2025 por tipo de cáncer y sexo", xlabel="Muertes")
 ax.legend(loc="lower right")
 guarda("fig2_tipos_cancer_sexo.png")
 
@@ -128,7 +130,7 @@ tot_g = g.groupby("anio")["muertes"].sum()
 neo = g[g["gran_causa"].str.contains("NEOPLASIAS")].set_index("anio")["muertes"]
 share = neo / tot_g * 100
 rank = g.groupby("gran_causa")["muertes"].sum().sort_values(ascending=False)
-print("\nGrandes causas de muerte 2005-2025 (total):")
+print("\nGrandes causas de muerte 2008-2025 (total):")
 for k, v in rank.items():
     print(f"  {k:62s} {v:6d}")
 print(f"Participación del cáncer en el total de muertes: {share.min():.1f} % - {share.max():.1f} %")
@@ -136,7 +138,7 @@ print(f"Participación del cáncer en el total de muertes: {share.min():.1f} % -
 fig, ax = plt.subplots(figsize=(10, 4))
 ax.plot(share.index, share.values, color="#862e9c", lw=2.5, marker="o")
 ax.set(title="Participación de las neoplasias en el total de muertes", xlabel="Año", ylabel="% del total")
-ax.set_xticks(range(2005, 2026, 2))
+ax.set_xticks(range(2008, 2026, 2))
 guarda("fig4_participacion_cancer.png")
 
 # %% [markdown]
@@ -195,5 +197,26 @@ fp.plot.barh(ax=ax, color=["#74c0fc", "#4263eb", "#364fc7"][:fp.shape[1]], width
 ax.invert_yaxis()
 ax.set(title="Factores de riesgo y protectores por grupo de edad", xlabel="% de la población evaluada", ylabel="")
 guarda("fig7_factores_riesgo.png")
+
+# %% [markdown]
+# ## 9. Figura 8: mortalidad por grupo de edad (microdatos)
+
+# %%
+por_edad = m.pivot_table(index="anio", columns="grupo_edad", values="muertes", aggfunc="sum").reindex(columns=EDADES)
+tot_edad = m.groupby("grupo_edad")["muertes"].sum().reindex(EDADES)
+print("\nMuertes por grupo de edad (2008-2025):")
+print(tot_edad.to_string())
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))
+for e in EDADES:
+    axes[0].plot(por_edad.index, por_edad[e], marker="o", lw=1.8, label=e)
+axes[0].set(title="Evolución por grupo de edad", xlabel="Año", ylabel="Muertes")
+axes[0].set_xticks(range(2008, 2026, 3))
+axes[0].legend(fontsize=9)
+axes[1].bar(EDADES, tot_edad.values, color=["#74c0fc", "#4dabf7", "#1971c2", "#364fc7"])
+axes[1].set(title="Acumulado 2008-2025", xlabel="Grupo de edad", ylabel="Muertes")
+for i, v in enumerate(tot_edad.values):
+    axes[1].text(i, v + 8, int(v), ha="center", fontsize=9)
+guarda("fig8_muertes_por_edad.png")
 
 print("\nListo. Revisa la carpeta:", FIG)

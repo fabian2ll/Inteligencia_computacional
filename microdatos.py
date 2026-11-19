@@ -2,6 +2,7 @@
 # # 00 -Microdatos DANE 2008-2025 -> panel por tipo, sexo, grupo de edad y año
 # Convierte los archivos individuales de defunciones no fetales a la misma
 # categorización CAUSA_667/666 (cod 201-215) que ya usa el proyecto.
+# Esta función es llamada por 01_limpieza.py; también puede ejecutarse sola.
 
 # %%
 from pathlib import Path
@@ -69,49 +70,43 @@ def normaliza(x, causa, anio):
 
 
 # %%
-partes = []
-for anio in ANIOS:
-    ruta, causa = archivo(anio)
-    crudo = pd.read_spss(ruta) if ruta.suffix == ".sav" else pd.read_csv(
-        ruta, usecols=lambda c: c.upper() in COLS, dtype=str, encoding="latin-1")
-    x = normaliza(crudo, causa, anio)
-    partes.append(x)
-    print(f"{anio}: {x['en_cancer'].sum():4d} muertes por cáncer en Sogamoso")
+def construye_panel():
+    partes = []
+    for anio in ANIOS:
+        ruta, causa = archivo(anio)
+        crudo = pd.read_spss(ruta) if ruta.suffix == ".sav" else pd.read_csv(
+            ruta, usecols=lambda c: c.upper() in COLS, dtype=str, encoding="latin-1")
+        x = normaliza(crudo, causa, anio)
+        partes.append(x)
+        print(f"{anio}: {x['en_cancer'].sum():4d} muertes por cáncer en Sogamoso")
 
-# Mapa CIE-10 -> cod aprendido de los años con CAUSA_667 (2012-2013 solo tenían CAUSA_666)
-csv = pd.concat([p for p in partes if p["fuente"].iloc[0] == "csv" and p["en_cancer"].any()])
-p = csv[["C_BAS1", "cod"]].dropna()
-p["pref"] = p["C_BAS1"].str[:3]
-mapa = p.groupby("C_BAS1")["cod"].agg(lambda s: int(s.value_counts().idxmax()))
-prefijo = p.groupby("pref")["cod"].agg(lambda s: int(s.value_counts().idxmax()))
+    csv = pd.concat([p for p in partes if p["fuente"].iloc[0] == "csv" and p["en_cancer"].any()])
+    p = csv[["C_BAS1", "cod"]].dropna()
+    p["pref"] = p["C_BAS1"].str[:3]
+    mapa = p.groupby("C_BAS1")["cod"].agg(lambda s: int(s.value_counts().idxmax()))
+    prefijo = p.groupby("pref")["cod"].agg(lambda s: int(s.value_counts().idxmax()))
 
-for i, x in enumerate(partes):
-    if x["fuente"].iloc[0] != "sav":
-        continue
-    cie = x["C_BAS1"]
-    cod = cie.map(mapa).fillna(cie.str[:3].map(prefijo)).fillna(cie.str[:2].map(prefijo))
-    cod = cod.where(~cie.str.startswith("D"), 215)
-    cod = cod.where(~cie.str.startswith("C11"), 205)
-    cod = cod.where(~cie.str.startswith("C37"), 214)
-    partes[i] = x.assign(cod=cod.where(x["en_cancer"]))
+    for i, x in enumerate(partes):
+        if x["fuente"].iloc[0] != "sav":
+            continue
+        cie = x["C_BAS1"]
+        cod = cie.map(mapa).fillna(cie.str[:3].map(prefijo)).fillna(cie.str[:2].map(prefijo))
+        cod = cod.where(~cie.str.startswith("D"), 215)
+        cod = cod.where(~cie.str.startswith("C11"), 205)
+        cod = cod.where(~cie.str.startswith("C37"), 214)
+        partes[i] = x.assign(cod=cod.where(x["en_cancer"]))
 
-micro = pd.concat(partes, ignore_index=True)
-micro = micro.dropna(subset=["cod"])
-micro["cod"] = micro["cod"].astype(int)
-micro["tipo"] = micro["cod"].map(SHORT)
-micro = (micro.groupby(["anio", "cod", "tipo", "sexo", "grupo_edad"])
-              .size().rename("muertes").reset_index())
-micro.to_csv(OUT / "mortalidad_microdatos_edad.csv", index=False)
+    micro = pd.concat(partes, ignore_index=True).dropna(subset=["cod"])
+    micro["cod"] = micro["cod"].astype(int)
+    micro["tipo"] = micro["cod"].map(SHORT)
+    micro = (micro.groupby(["anio", "cod", "tipo", "sexo", "grupo_edad"])
+                  .size().rename("muertes").reset_index())
+    micro.to_csv(OUT / "mortalidad_microdatos_edad.csv", index=False)
+    print(f"\nPanel: {len(micro)} filas | "
+          f"{micro[['cod','sexo','grupo_edad']].drop_duplicates().shape[0]} series tipo×sexo×edad")
+    return micro
 
-# %%
-vieja = pd.read_csv(OUT / "mortalidad_tipo_sexo_anio.csv")
-chk = (micro.groupby(["anio", "cod", "sexo"]).muertes.sum().rename("micro").reset_index()
-            .merge(vieja.groupby(["anio", "cod", "sexo"]).muertes.sum().rename("excel").reset_index(),
-                   on=["anio", "cod", "sexo"], how="outer").fillna(0))
-chk["dif"] = chk["micro"] - chk["excel"]
-chk = chk[chk["anio"] >= 2008]
-print("\nComparación contra la serie original 2008-2025 (solo diferencias):")
-print(chk[chk["dif"] != 0].to_string(index=False))
-print(f"\nFilas: {len(micro)} | series tipo×sexo×edad: "
-      f"{micro[['cod','sexo','grupo_edad']].drop_duplicates().shape[0]}")
-print("Guardado:", OUT / "mortalidad_microdatos_edad.csv")
+
+if __name__ == "__main__":
+    construye_panel()
+    print("Guardado:", OUT / "mortalidad_microdatos_edad.csv")

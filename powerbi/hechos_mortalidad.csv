@@ -1,551 +1,1559 @@
-﻿serie_id,tipo_cancer,cod,sexo,anio,periodo,muertes,prediccion,prediccion_linea_base,modelo_seleccionado,error_abs
-0,Estómago,201,Femenino,2005,2005-2007 (solo rezagos),6.0,,,Poisson,
-0,Estómago,201,Femenino,2006,2005-2007 (solo rezagos),17.0,,,Poisson,
-0,Estómago,201,Femenino,2007,2005-2007 (solo rezagos),8.0,,,Poisson,
-0,Estómago,201,Femenino,2008,entrenamiento,9.0,,,Poisson,
-0,Estómago,201,Femenino,2009,entrenamiento,16.0,,,Poisson,
-0,Estómago,201,Femenino,2010,entrenamiento,10.0,,,Poisson,
-0,Estómago,201,Femenino,2011,entrenamiento,8.0,,,Poisson,
-0,Estómago,201,Femenino,2012,entrenamiento,11.0,,,Poisson,
-0,Estómago,201,Femenino,2013,entrenamiento,7.0,,,Poisson,
-0,Estómago,201,Femenino,2014,entrenamiento,7.0,,,Poisson,
-0,Estómago,201,Femenino,2015,entrenamiento,10.0,,,Poisson,
-0,Estómago,201,Femenino,2016,entrenamiento,6.0,,,Poisson,
-0,Estómago,201,Femenino,2017,entrenamiento,5.0,,,Poisson,
-0,Estómago,201,Femenino,2018,entrenamiento,13.0,,,Poisson,
-0,Estómago,201,Femenino,2019,entrenamiento,7.0,,,Poisson,
-0,Estómago,201,Femenino,2020,entrenamiento,7.0,,,Poisson,
-0,Estómago,201,Femenino,2021,entrenamiento,12.0,,,Poisson,
-0,Estómago,201,Femenino,2022,prueba,12.0,12.337,8.667,Poisson,0.337
-0,Estómago,201,Femenino,2023,prueba,12.0,12.799,10.333,Poisson,0.799
-0,Estómago,201,Femenino,2024,prueba,11.0,13.054,12.0,Poisson,2.054
-0,Estómago,201,Femenino,2025,prueba,9.0,13.145,11.667,Poisson,4.145
-0,Estómago,201,Femenino,2026,pronóstico,,13.62,10.667,Poisson,
-1,Estómago,201,Masculino,2005,2005-2007 (solo rezagos),17.0,,,Poisson,
-1,Estómago,201,Masculino,2006,2005-2007 (solo rezagos),12.0,,,Poisson,
-1,Estómago,201,Masculino,2007,2005-2007 (solo rezagos),17.0,,,Poisson,
-1,Estómago,201,Masculino,2008,entrenamiento,13.0,,,Poisson,
-1,Estómago,201,Masculino,2009,entrenamiento,14.0,,,Poisson,
-1,Estómago,201,Masculino,2010,entrenamiento,19.0,,,Poisson,
-1,Estómago,201,Masculino,2011,entrenamiento,14.0,,,Poisson,
-1,Estómago,201,Masculino,2012,entrenamiento,14.0,,,Poisson,
-1,Estómago,201,Masculino,2013,entrenamiento,15.0,,,Poisson,
-1,Estómago,201,Masculino,2014,entrenamiento,11.0,,,Poisson,
-1,Estómago,201,Masculino,2015,entrenamiento,11.0,,,Poisson,
-1,Estómago,201,Masculino,2016,entrenamiento,18.0,,,Poisson,
-1,Estómago,201,Masculino,2017,entrenamiento,10.0,,,Poisson,
-1,Estómago,201,Masculino,2018,entrenamiento,21.0,,,Poisson,
-1,Estómago,201,Masculino,2019,entrenamiento,9.0,,,Poisson,
-1,Estómago,201,Masculino,2020,entrenamiento,11.0,,,Poisson,
-1,Estómago,201,Masculino,2021,entrenamiento,13.0,,,Poisson,
-1,Estómago,201,Masculino,2022,prueba,13.0,13.462,11.0,Poisson,0.462
-1,Estómago,201,Masculino,2023,prueba,14.0,12.953,12.333,Poisson,1.047
-1,Estómago,201,Masculino,2024,prueba,10.0,13.229,13.333,Poisson,3.229
-1,Estómago,201,Masculino,2025,prueba,16.0,13.287,12.333,Poisson,2.713
-1,Estómago,201,Masculino,2026,pronóstico,,13.825,13.333,Poisson,
-2,Colon y recto,202,Femenino,2005,2005-2007 (solo rezagos),6.0,,,Poisson,
-2,Colon y recto,202,Femenino,2006,2005-2007 (solo rezagos),3.0,,,Poisson,
-2,Colon y recto,202,Femenino,2007,2005-2007 (solo rezagos),7.0,,,Poisson,
-2,Colon y recto,202,Femenino,2008,entrenamiento,3.0,,,Poisson,
-2,Colon y recto,202,Femenino,2009,entrenamiento,4.0,,,Poisson,
-2,Colon y recto,202,Femenino,2010,entrenamiento,3.0,,,Poisson,
-2,Colon y recto,202,Femenino,2011,entrenamiento,7.0,,,Poisson,
-2,Colon y recto,202,Femenino,2012,entrenamiento,6.0,,,Poisson,
-2,Colon y recto,202,Femenino,2013,entrenamiento,1.0,,,Poisson,
-2,Colon y recto,202,Femenino,2014,entrenamiento,10.0,,,Poisson,
-2,Colon y recto,202,Femenino,2015,entrenamiento,6.0,,,Poisson,
-2,Colon y recto,202,Femenino,2016,entrenamiento,7.0,,,Poisson,
-2,Colon y recto,202,Femenino,2017,entrenamiento,5.0,,,Poisson,
-2,Colon y recto,202,Femenino,2018,entrenamiento,4.0,,,Poisson,
-2,Colon y recto,202,Femenino,2019,entrenamiento,6.0,,,Poisson,
-2,Colon y recto,202,Femenino,2020,entrenamiento,12.0,,,Poisson,
-2,Colon y recto,202,Femenino,2021,entrenamiento,10.0,,,Poisson,
-2,Colon y recto,202,Femenino,2022,prueba,9.0,8.213,9.333,Poisson,0.787
-2,Colon y recto,202,Femenino,2023,prueba,3.0,7.313,10.333,Poisson,4.313
-2,Colon y recto,202,Femenino,2024,prueba,6.0,6.712,7.333,Poisson,0.712
-2,Colon y recto,202,Femenino,2025,prueba,13.0,5.738,6.0,Poisson,7.262
-2,Colon y recto,202,Femenino,2026,pronóstico,,7.449,7.333,Poisson,
-3,Colon y recto,202,Masculino,2005,2005-2007 (solo rezagos),4.0,,,Poisson,
-3,Colon y recto,202,Masculino,2006,2005-2007 (solo rezagos),3.0,,,Poisson,
-3,Colon y recto,202,Masculino,2007,2005-2007 (solo rezagos),2.0,,,Poisson,
-3,Colon y recto,202,Masculino,2008,entrenamiento,2.0,,,Poisson,
-3,Colon y recto,202,Masculino,2009,entrenamiento,2.0,,,Poisson,
-3,Colon y recto,202,Masculino,2010,entrenamiento,3.0,,,Poisson,
-3,Colon y recto,202,Masculino,2011,entrenamiento,3.0,,,Poisson,
-3,Colon y recto,202,Masculino,2012,entrenamiento,4.0,,,Poisson,
-3,Colon y recto,202,Masculino,2013,entrenamiento,7.0,,,Poisson,
-3,Colon y recto,202,Masculino,2014,entrenamiento,5.0,,,Poisson,
-3,Colon y recto,202,Masculino,2015,entrenamiento,5.0,,,Poisson,
-3,Colon y recto,202,Masculino,2016,entrenamiento,6.0,,,Poisson,
-3,Colon y recto,202,Masculino,2017,entrenamiento,7.0,,,Poisson,
-3,Colon y recto,202,Masculino,2018,entrenamiento,4.0,,,Poisson,
-3,Colon y recto,202,Masculino,2019,entrenamiento,5.0,,,Poisson,
-3,Colon y recto,202,Masculino,2020,entrenamiento,5.0,,,Poisson,
-3,Colon y recto,202,Masculino,2021,entrenamiento,5.0,,,Poisson,
-3,Colon y recto,202,Masculino,2022,prueba,7.0,6.401,5.0,Poisson,0.599
-3,Colon y recto,202,Masculino,2023,prueba,9.0,6.067,5.667,Poisson,2.933
-3,Colon y recto,202,Masculino,2024,prueba,5.0,6.699,7.0,Poisson,1.699
-3,Colon y recto,202,Masculino,2025,prueba,9.0,6.888,7.0,Poisson,2.112
-3,Colon y recto,202,Masculino,2026,pronóstico,,7.293,7.667,Poisson,
-4,Otros digestivos,203,Femenino,2005,2005-2007 (solo rezagos),6.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2006,2005-2007 (solo rezagos),7.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2007,2005-2007 (solo rezagos),6.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2008,entrenamiento,10.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2009,entrenamiento,14.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2010,entrenamiento,10.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2011,entrenamiento,5.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2012,entrenamiento,3.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2013,entrenamiento,8.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2014,entrenamiento,15.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2015,entrenamiento,17.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2016,entrenamiento,11.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2017,entrenamiento,12.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2018,entrenamiento,13.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2019,entrenamiento,6.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2020,entrenamiento,20.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2021,entrenamiento,13.0,,,Poisson,
-4,Otros digestivos,203,Femenino,2022,prueba,9.0,16.07,13.0,Poisson,7.07
-4,Otros digestivos,203,Femenino,2023,prueba,16.0,13.35,14.0,Poisson,2.65
-4,Otros digestivos,203,Femenino,2024,prueba,19.0,12.992,12.667,Poisson,6.008
-4,Otros digestivos,203,Femenino,2025,prueba,11.0,15.046,14.667,Poisson,4.046
-4,Otros digestivos,203,Femenino,2026,pronóstico,,15.385,15.333,Poisson,
-5,Otros digestivos,203,Masculino,2005,2005-2007 (solo rezagos),7.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2006,2005-2007 (solo rezagos),8.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2007,2005-2007 (solo rezagos),7.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2008,entrenamiento,10.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2009,entrenamiento,6.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2010,entrenamiento,9.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2011,entrenamiento,8.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2012,entrenamiento,8.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2013,entrenamiento,4.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2014,entrenamiento,15.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2015,entrenamiento,9.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2016,entrenamiento,16.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2017,entrenamiento,8.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2018,entrenamiento,11.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2019,entrenamiento,13.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2020,entrenamiento,18.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2021,entrenamiento,19.0,,,Poisson,
-5,Otros digestivos,203,Masculino,2022,prueba,13.0,16.037,16.667,Poisson,3.037
-5,Otros digestivos,203,Masculino,2023,prueba,10.0,14.653,16.667,Poisson,4.653
-5,Otros digestivos,203,Masculino,2024,prueba,15.0,13.404,14.0,Poisson,1.596
-5,Otros digestivos,203,Masculino,2025,prueba,10.0,13.178,12.667,Poisson,3.178
-5,Otros digestivos,203,Masculino,2026,pronóstico,,14.089,11.667,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2005,2005-2007 (solo rezagos),1.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2006,2005-2007 (solo rezagos),6.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2007,2005-2007 (solo rezagos),1.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2008,entrenamiento,4.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2009,entrenamiento,5.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2010,entrenamiento,3.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2011,entrenamiento,4.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2012,entrenamiento,2.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2013,entrenamiento,3.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2014,entrenamiento,3.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2015,entrenamiento,2.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2016,entrenamiento,2.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2017,entrenamiento,5.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2018,entrenamiento,6.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2019,entrenamiento,1.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2020,entrenamiento,6.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2021,entrenamiento,3.0,,,Poisson,
-6,"Tráquea, bronquios y pulmón",204,Femenino,2022,prueba,2.0,5.232,3.333,Poisson,3.232
-6,"Tráquea, bronquios y pulmón",204,Femenino,2023,prueba,3.0,4.218,3.667,Poisson,1.218
-6,"Tráquea, bronquios y pulmón",204,Femenino,2024,prueba,11.0,4.062,2.667,Poisson,6.938
-6,"Tráquea, bronquios y pulmón",204,Femenino,2025,prueba,4.0,4.8,5.333,Poisson,0.8
-6,"Tráquea, bronquios y pulmón",204,Femenino,2026,pronóstico,,6.314,6.0,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2005,2005-2007 (solo rezagos),4.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2006,2005-2007 (solo rezagos),5.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2007,2005-2007 (solo rezagos),3.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2008,entrenamiento,2.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2009,entrenamiento,9.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2010,entrenamiento,6.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2011,entrenamiento,9.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2012,entrenamiento,5.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2013,entrenamiento,3.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2014,entrenamiento,1.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2015,entrenamiento,8.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2016,entrenamiento,4.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2017,entrenamiento,5.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2018,entrenamiento,3.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2019,entrenamiento,1.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2020,entrenamiento,5.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2021,entrenamiento,2.0,,,Poisson,
-7,"Tráquea, bronquios y pulmón",204,Masculino,2022,prueba,8.0,4.848,2.667,Poisson,3.152
-7,"Tráquea, bronquios y pulmón",204,Masculino,2023,prueba,3.0,4.233,5.0,Poisson,1.233
-7,"Tráquea, bronquios y pulmón",204,Masculino,2024,prueba,9.0,5.149,4.333,Poisson,3.851
-7,"Tráquea, bronquios y pulmón",204,Masculino,2025,prueba,13.0,4.717,6.667,Poisson,8.283
-7,"Tráquea, bronquios y pulmón",204,Masculino,2026,pronóstico,,6.538,8.333,Poisson,
-8,Otros respiratorios,205,Femenino,2005,2005-2007 (solo rezagos),0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2006,2005-2007 (solo rezagos),0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2007,2005-2007 (solo rezagos),0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2008,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2009,entrenamiento,2.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2010,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2011,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2012,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2013,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2014,entrenamiento,1.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2015,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2016,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2017,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2018,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2019,entrenamiento,1.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2020,entrenamiento,0.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2021,entrenamiento,1.0,,,Poisson,
-8,Otros respiratorios,205,Femenino,2022,prueba,0.0,0.795,0.667,Poisson,0.795
-8,Otros respiratorios,205,Femenino,2023,prueba,0.0,0.811,0.333,Poisson,0.811
-8,Otros respiratorios,205,Femenino,2024,prueba,0.0,0.705,0.333,Poisson,0.705
-8,Otros respiratorios,205,Femenino,2025,prueba,1.0,0.709,0.0,Poisson,0.291
-8,Otros respiratorios,205,Femenino,2026,pronóstico,,0.792,0.333,Poisson,
-9,Otros respiratorios,205,Masculino,2005,2005-2007 (solo rezagos),0.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2006,2005-2007 (solo rezagos),1.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2007,2005-2007 (solo rezagos),2.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2008,entrenamiento,0.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2009,entrenamiento,1.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2010,entrenamiento,0.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2011,entrenamiento,4.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2012,entrenamiento,0.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2013,entrenamiento,2.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2014,entrenamiento,1.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2015,entrenamiento,1.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2016,entrenamiento,1.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2017,entrenamiento,0.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2018,entrenamiento,1.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2019,entrenamiento,0.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2020,entrenamiento,2.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2021,entrenamiento,1.0,,,Poisson,
-9,Otros respiratorios,205,Masculino,2022,prueba,1.0,1.003,1.0,Poisson,0.003
-9,Otros respiratorios,205,Masculino,2023,prueba,1.0,0.856,1.333,Poisson,0.144
-9,Otros respiratorios,205,Masculino,2024,prueba,1.0,0.863,1.0,Poisson,0.137
-9,Otros respiratorios,205,Masculino,2025,prueba,1.0,0.875,1.0,Poisson,0.125
-9,Otros respiratorios,205,Masculino,2026,pronóstico,,0.884,1.0,Poisson,
-10,Mama (mujer),206,Femenino,2005,2005-2007 (solo rezagos),8.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2006,2005-2007 (solo rezagos),7.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2007,2005-2007 (solo rezagos),9.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2008,entrenamiento,5.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2009,entrenamiento,5.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2010,entrenamiento,5.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2011,entrenamiento,6.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2012,entrenamiento,4.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2013,entrenamiento,9.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2014,entrenamiento,7.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2015,entrenamiento,6.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2016,entrenamiento,15.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2017,entrenamiento,12.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2018,entrenamiento,15.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2019,entrenamiento,6.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2020,entrenamiento,15.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2021,entrenamiento,10.0,,,Poisson,
-10,Mama (mujer),206,Femenino,2022,prueba,9.0,11.989,10.333,Poisson,2.989
-10,Mama (mujer),206,Femenino,2023,prueba,9.0,10.196,11.333,Poisson,1.196
-10,Mama (mujer),206,Femenino,2024,prueba,9.0,10.058,9.333,Poisson,1.058
-10,Mama (mujer),206,Femenino,2025,prueba,6.0,10.182,9.0,Poisson,4.182
-10,Mama (mujer),206,Femenino,2026,pronóstico,,10.04,8.0,Poisson,
-11,Cuello uterino,207,Femenino,2005,2005-2007 (solo rezagos),1.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2006,2005-2007 (solo rezagos),1.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2007,2005-2007 (solo rezagos),3.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2008,entrenamiento,2.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2009,entrenamiento,5.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2010,entrenamiento,7.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2011,entrenamiento,5.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2012,entrenamiento,1.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2013,entrenamiento,5.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2014,entrenamiento,8.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2015,entrenamiento,0.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2016,entrenamiento,3.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2017,entrenamiento,3.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2018,entrenamiento,5.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2019,entrenamiento,4.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2020,entrenamiento,6.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2021,entrenamiento,4.0,,,Poisson,
-11,Cuello uterino,207,Femenino,2022,prueba,6.0,5.635,4.667,Poisson,0.365
-11,Cuello uterino,207,Femenino,2023,prueba,8.0,4.978,5.333,Poisson,3.022
-11,Cuello uterino,207,Femenino,2024,prueba,5.0,5.548,6.0,Poisson,0.548
-11,Cuello uterino,207,Femenino,2025,prueba,4.0,5.796,6.333,Poisson,1.796
-11,Cuello uterino,207,Femenino,2026,pronóstico,,5.781,5.667,Poisson,
-12,Cuerpo del útero,208,Femenino,2005,2005-2007 (solo rezagos),1.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2006,2005-2007 (solo rezagos),1.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2007,2005-2007 (solo rezagos),0.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2008,entrenamiento,1.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2009,entrenamiento,2.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2010,entrenamiento,2.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2011,entrenamiento,0.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2012,entrenamiento,1.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2013,entrenamiento,0.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2014,entrenamiento,3.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2015,entrenamiento,1.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2016,entrenamiento,3.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2017,entrenamiento,1.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2018,entrenamiento,2.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2019,entrenamiento,1.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2020,entrenamiento,1.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2021,entrenamiento,3.0,,,Poisson,
-12,Cuerpo del útero,208,Femenino,2022,prueba,4.0,1.898,1.667,Poisson,2.102
-12,Cuerpo del útero,208,Femenino,2023,prueba,0.0,2.105,2.667,Poisson,2.105
-12,Cuerpo del útero,208,Femenino,2024,prueba,2.0,1.989,2.333,Poisson,0.011
-12,Cuerpo del útero,208,Femenino,2025,prueba,2.0,1.517,2.0,Poisson,0.483
-12,Cuerpo del útero,208,Femenino,2026,pronóstico,,1.992,1.333,Poisson,
-13,Útero no especificado,209,Femenino,2005,2005-2007 (solo rezagos),1.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2006,2005-2007 (solo rezagos),1.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2007,2005-2007 (solo rezagos),0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2008,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2009,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2010,entrenamiento,2.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2011,entrenamiento,3.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2012,entrenamiento,1.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2013,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2014,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2015,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2016,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2017,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2018,entrenamiento,1.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2019,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2020,entrenamiento,0.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2021,entrenamiento,1.0,,,Poisson,
-13,Útero no especificado,209,Femenino,2022,prueba,5.0,0.707,0.333,Poisson,4.293
-13,Útero no especificado,209,Femenino,2023,prueba,1.0,0.842,2.0,Poisson,0.158
-13,Útero no especificado,209,Femenino,2024,prueba,1.0,1.018,2.333,Poisson,0.018
-13,Útero no especificado,209,Femenino,2025,prueba,1.0,0.809,2.333,Poisson,0.191
-13,Útero no especificado,209,Femenino,2026,pronóstico,,1.189,1.0,Poisson,
-14,Próstata,210,Masculino,2005,2005-2007 (solo rezagos),6.0,,,Poisson,
-14,Próstata,210,Masculino,2006,2005-2007 (solo rezagos),8.0,,,Poisson,
-14,Próstata,210,Masculino,2007,2005-2007 (solo rezagos),10.0,,,Poisson,
-14,Próstata,210,Masculino,2008,entrenamiento,9.0,,,Poisson,
-14,Próstata,210,Masculino,2009,entrenamiento,11.0,,,Poisson,
-14,Próstata,210,Masculino,2010,entrenamiento,7.0,,,Poisson,
-14,Próstata,210,Masculino,2011,entrenamiento,9.0,,,Poisson,
-14,Próstata,210,Masculino,2012,entrenamiento,8.0,,,Poisson,
-14,Próstata,210,Masculino,2013,entrenamiento,9.0,,,Poisson,
-14,Próstata,210,Masculino,2014,entrenamiento,10.0,,,Poisson,
-14,Próstata,210,Masculino,2015,entrenamiento,13.0,,,Poisson,
-14,Próstata,210,Masculino,2016,entrenamiento,10.0,,,Poisson,
-14,Próstata,210,Masculino,2017,entrenamiento,13.0,,,Poisson,
-14,Próstata,210,Masculino,2018,entrenamiento,7.0,,,Poisson,
-14,Próstata,210,Masculino,2019,entrenamiento,13.0,,,Poisson,
-14,Próstata,210,Masculino,2020,entrenamiento,5.0,,,Poisson,
-14,Próstata,210,Masculino,2021,entrenamiento,17.0,,,Poisson,
-14,Próstata,210,Masculino,2022,prueba,11.0,11.03,11.667,Poisson,0.03
-14,Próstata,210,Masculino,2023,prueba,15.0,12.642,11.0,Poisson,2.358
-14,Próstata,210,Masculino,2024,prueba,15.0,12.099,14.333,Poisson,2.901
-14,Próstata,210,Masculino,2025,prueba,16.0,13.051,13.667,Poisson,2.949
-14,Próstata,210,Masculino,2026,pronóstico,,14.58,15.333,Poisson,
-15,Otros genitourinarios,211,Femenino,2005,2005-2007 (solo rezagos),10.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2006,2005-2007 (solo rezagos),9.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2007,2005-2007 (solo rezagos),4.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2008,entrenamiento,6.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2009,entrenamiento,2.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2010,entrenamiento,6.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2011,entrenamiento,3.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2012,entrenamiento,6.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2013,entrenamiento,5.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2014,entrenamiento,3.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2015,entrenamiento,3.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2016,entrenamiento,8.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2017,entrenamiento,3.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2018,entrenamiento,3.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2019,entrenamiento,9.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2020,entrenamiento,7.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2021,entrenamiento,10.0,,,Poisson,
-15,Otros genitourinarios,211,Femenino,2022,prueba,11.0,6.115,8.667,Poisson,4.885
-15,Otros genitourinarios,211,Femenino,2023,prueba,4.0,6.126,9.333,Poisson,2.126
-15,Otros genitourinarios,211,Femenino,2024,prueba,7.0,5.924,8.333,Poisson,1.076
-15,Otros genitourinarios,211,Femenino,2025,prueba,8.0,5.088,7.333,Poisson,2.912
-15,Otros genitourinarios,211,Femenino,2026,pronóstico,,6.086,6.333,Poisson,
-16,Otros genitourinarios,211,Masculino,2005,2005-2007 (solo rezagos),2.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2006,2005-2007 (solo rezagos),3.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2007,2005-2007 (solo rezagos),0.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2008,entrenamiento,2.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2009,entrenamiento,2.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2010,entrenamiento,4.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2011,entrenamiento,2.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2012,entrenamiento,5.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2013,entrenamiento,2.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2014,entrenamiento,2.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2015,entrenamiento,3.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2016,entrenamiento,3.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2017,entrenamiento,2.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2018,entrenamiento,3.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2019,entrenamiento,3.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2020,entrenamiento,5.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2021,entrenamiento,2.0,,,Poisson,
-16,Otros genitourinarios,211,Masculino,2022,prueba,1.0,4.997,3.333,Poisson,3.997
-16,Otros genitourinarios,211,Masculino,2023,prueba,4.0,3.825,2.667,Poisson,0.175
-16,Otros genitourinarios,211,Masculino,2024,prueba,5.0,3.766,2.333,Poisson,1.234
-16,Otros genitourinarios,211,Masculino,2025,prueba,6.0,4.777,3.333,Poisson,1.223
-16,Otros genitourinarios,211,Masculino,2026,pronóstico,,5.589,5.0,Poisson,
-17,Leucemia,212,Femenino,2005,2005-2007 (solo rezagos),2.0,,,Poisson,
-17,Leucemia,212,Femenino,2006,2005-2007 (solo rezagos),2.0,,,Poisson,
-17,Leucemia,212,Femenino,2007,2005-2007 (solo rezagos),4.0,,,Poisson,
-17,Leucemia,212,Femenino,2008,entrenamiento,1.0,,,Poisson,
-17,Leucemia,212,Femenino,2009,entrenamiento,0.0,,,Poisson,
-17,Leucemia,212,Femenino,2010,entrenamiento,2.0,,,Poisson,
-17,Leucemia,212,Femenino,2011,entrenamiento,2.0,,,Poisson,
-17,Leucemia,212,Femenino,2012,entrenamiento,6.0,,,Poisson,
-17,Leucemia,212,Femenino,2013,entrenamiento,3.0,,,Poisson,
-17,Leucemia,212,Femenino,2014,entrenamiento,2.0,,,Poisson,
-17,Leucemia,212,Femenino,2015,entrenamiento,3.0,,,Poisson,
-17,Leucemia,212,Femenino,2016,entrenamiento,2.0,,,Poisson,
-17,Leucemia,212,Femenino,2017,entrenamiento,3.0,,,Poisson,
-17,Leucemia,212,Femenino,2018,entrenamiento,3.0,,,Poisson,
-17,Leucemia,212,Femenino,2019,entrenamiento,4.0,,,Poisson,
-17,Leucemia,212,Femenino,2020,entrenamiento,1.0,,,Poisson,
-17,Leucemia,212,Femenino,2021,entrenamiento,2.0,,,Poisson,
-17,Leucemia,212,Femenino,2022,prueba,3.0,2.92,2.333,Poisson,0.08
-17,Leucemia,212,Femenino,2023,prueba,6.0,3.008,2.0,Poisson,2.992
-17,Leucemia,212,Femenino,2024,prueba,3.0,3.432,3.667,Poisson,0.432
-17,Leucemia,212,Femenino,2025,prueba,1.0,3.803,4.0,Poisson,2.803
-17,Leucemia,212,Femenino,2026,pronóstico,,3.562,3.333,Poisson,
-18,Leucemia,212,Masculino,2005,2005-2007 (solo rezagos),1.0,,,Poisson,
-18,Leucemia,212,Masculino,2006,2005-2007 (solo rezagos),2.0,,,Poisson,
-18,Leucemia,212,Masculino,2007,2005-2007 (solo rezagos),4.0,,,Poisson,
-18,Leucemia,212,Masculino,2008,entrenamiento,1.0,,,Poisson,
-18,Leucemia,212,Masculino,2009,entrenamiento,3.0,,,Poisson,
-18,Leucemia,212,Masculino,2010,entrenamiento,2.0,,,Poisson,
-18,Leucemia,212,Masculino,2011,entrenamiento,5.0,,,Poisson,
-18,Leucemia,212,Masculino,2012,entrenamiento,3.0,,,Poisson,
-18,Leucemia,212,Masculino,2013,entrenamiento,2.0,,,Poisson,
-18,Leucemia,212,Masculino,2014,entrenamiento,3.0,,,Poisson,
-18,Leucemia,212,Masculino,2015,entrenamiento,7.0,,,Poisson,
-18,Leucemia,212,Masculino,2016,entrenamiento,4.0,,,Poisson,
-18,Leucemia,212,Masculino,2017,entrenamiento,4.0,,,Poisson,
-18,Leucemia,212,Masculino,2018,entrenamiento,3.0,,,Poisson,
-18,Leucemia,212,Masculino,2019,entrenamiento,4.0,,,Poisson,
-18,Leucemia,212,Masculino,2020,entrenamiento,4.0,,,Poisson,
-18,Leucemia,212,Masculino,2021,entrenamiento,1.0,,,Poisson,
-18,Leucemia,212,Masculino,2022,prueba,5.0,3.444,3.0,Poisson,1.556
-18,Leucemia,212,Masculino,2023,prueba,0.0,2.814,3.333,Poisson,2.814
-18,Leucemia,212,Masculino,2024,prueba,4.0,3.15,2.0,Poisson,0.85
-18,Leucemia,212,Masculino,2025,prueba,4.0,2.427,3.0,Poisson,1.573
-18,Leucemia,212,Masculino,2026,pronóstico,,3.451,2.667,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2005,2005-2007 (solo rezagos),2.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2006,2005-2007 (solo rezagos),1.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2007,2005-2007 (solo rezagos),2.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2008,entrenamiento,2.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2009,entrenamiento,3.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2010,entrenamiento,2.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2011,entrenamiento,2.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2012,entrenamiento,1.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2013,entrenamiento,2.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2014,entrenamiento,3.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2015,entrenamiento,1.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2016,entrenamiento,1.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2017,entrenamiento,5.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2018,entrenamiento,3.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2019,entrenamiento,2.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2020,entrenamiento,5.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2021,entrenamiento,3.0,,,Poisson,
-19,Linfático y hematopoyético,213,Femenino,2022,prueba,1.0,3.721,3.333,Poisson,2.721
-19,Linfático y hematopoyético,213,Femenino,2023,prueba,1.0,2.987,3.0,Poisson,1.987
-19,Linfático y hematopoyético,213,Femenino,2024,prueba,5.0,2.56,1.667,Poisson,2.44
-19,Linfático y hematopoyético,213,Femenino,2025,prueba,6.0,2.814,2.333,Poisson,3.186
-19,Linfático y hematopoyético,213,Femenino,2026,pronóstico,,3.86,4.0,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2005,2005-2007 (solo rezagos),2.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2006,2005-2007 (solo rezagos),2.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2007,2005-2007 (solo rezagos),2.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2008,entrenamiento,2.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2009,entrenamiento,2.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2010,entrenamiento,1.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2011,entrenamiento,1.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2012,entrenamiento,2.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2013,entrenamiento,4.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2014,entrenamiento,7.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2015,entrenamiento,5.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2016,entrenamiento,2.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2017,entrenamiento,1.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2018,entrenamiento,4.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2019,entrenamiento,3.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2020,entrenamiento,4.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2021,entrenamiento,1.0,,,Poisson,
-20,Linfático y hematopoyético,213,Masculino,2022,prueba,3.0,3.326,2.667,Poisson,0.326
-20,Linfático y hematopoyético,213,Masculino,2023,prueba,6.0,2.636,2.667,Poisson,3.364
-20,Linfático y hematopoyético,213,Masculino,2024,prueba,4.0,3.252,3.333,Poisson,0.748
-20,Linfático y hematopoyético,213,Masculino,2025,prueba,3.0,3.689,4.333,Poisson,0.689
-20,Linfático y hematopoyético,213,Masculino,2026,pronóstico,,3.768,4.333,Poisson,
-21,Otras localizaciones,214,Femenino,2005,2005-2007 (solo rezagos),13.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2006,2005-2007 (solo rezagos),9.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2007,2005-2007 (solo rezagos),7.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2008,entrenamiento,5.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2009,entrenamiento,10.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2010,entrenamiento,10.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2011,entrenamiento,8.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2012,entrenamiento,15.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2013,entrenamiento,16.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2014,entrenamiento,11.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2015,entrenamiento,7.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2016,entrenamiento,15.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2017,entrenamiento,13.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2018,entrenamiento,12.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2019,entrenamiento,12.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2020,entrenamiento,9.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2021,entrenamiento,11.0,,,Poisson,
-21,Otras localizaciones,214,Femenino,2022,prueba,16.0,11.785,10.667,Poisson,4.215
-21,Otras localizaciones,214,Femenino,2023,prueba,9.0,11.677,12.0,Poisson,2.677
-21,Otras localizaciones,214,Femenino,2024,prueba,11.0,12.326,12.0,Poisson,1.326
-21,Otras localizaciones,214,Femenino,2025,prueba,21.0,11.249,12.0,Poisson,9.751
-21,Otras localizaciones,214,Femenino,2026,pronóstico,,13.262,13.667,Poisson,
-22,Otras localizaciones,214,Masculino,2005,2005-2007 (solo rezagos),4.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2006,2005-2007 (solo rezagos),8.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2007,2005-2007 (solo rezagos),7.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2008,entrenamiento,11.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2009,entrenamiento,5.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2010,entrenamiento,6.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2011,entrenamiento,8.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2012,entrenamiento,9.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2013,entrenamiento,7.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2014,entrenamiento,12.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2015,entrenamiento,5.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2016,entrenamiento,10.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2017,entrenamiento,6.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2018,entrenamiento,11.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2019,entrenamiento,8.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2020,entrenamiento,14.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2021,entrenamiento,5.0,,,Poisson,
-22,Otras localizaciones,214,Masculino,2022,prueba,5.0,11.987,9.0,Poisson,6.987
-22,Otras localizaciones,214,Masculino,2023,prueba,12.0,9.013,8.0,Poisson,2.987
-22,Otras localizaciones,214,Masculino,2024,prueba,8.0,9.617,7.333,Poisson,1.617
-22,Otras localizaciones,214,Masculino,2025,prueba,11.0,11.339,8.333,Poisson,0.339
-22,Otras localizaciones,214,Masculino,2026,pronóstico,,12.006,10.333,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2005,2005-2007 (solo rezagos),2.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2006,2005-2007 (solo rezagos),4.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2007,2005-2007 (solo rezagos),8.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2008,entrenamiento,1.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2009,entrenamiento,4.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2010,entrenamiento,3.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2011,entrenamiento,1.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2012,entrenamiento,6.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2013,entrenamiento,2.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2014,entrenamiento,6.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2015,entrenamiento,6.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2016,entrenamiento,6.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2017,entrenamiento,5.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2018,entrenamiento,7.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2019,entrenamiento,5.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2020,entrenamiento,4.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2021,entrenamiento,4.0,,,Poisson,
-23,In situ / benignos / incierto,215,Femenino,2022,prueba,3.0,4.347,4.333,Poisson,1.347
-23,In situ / benignos / incierto,215,Femenino,2023,prueba,7.0,3.943,3.667,Poisson,3.057
-23,In situ / benignos / incierto,215,Femenino,2024,prueba,3.0,4.014,4.667,Poisson,1.014
-23,In situ / benignos / incierto,215,Femenino,2025,prueba,8.0,4.51,4.333,Poisson,3.49
-23,In situ / benignos / incierto,215,Femenino,2026,pronóstico,,4.798,6.0,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2005,2005-2007 (solo rezagos),2.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2006,2005-2007 (solo rezagos),5.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2007,2005-2007 (solo rezagos),2.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2008,entrenamiento,2.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2009,entrenamiento,1.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2010,entrenamiento,4.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2011,entrenamiento,2.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2012,entrenamiento,1.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2013,entrenamiento,5.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2014,entrenamiento,3.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2015,entrenamiento,6.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2016,entrenamiento,4.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2017,entrenamiento,2.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2018,entrenamiento,1.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2019,entrenamiento,0.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2020,entrenamiento,2.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2021,entrenamiento,2.0,,,Poisson,
-24,In situ / benignos / incierto,215,Masculino,2022,prueba,3.0,3.556,1.333,Poisson,0.556
-24,In situ / benignos / incierto,215,Masculino,2023,prueba,3.0,3.418,2.333,Poisson,0.418
-24,In situ / benignos / incierto,215,Masculino,2024,prueba,5.0,3.706,2.667,Poisson,1.294
-24,In situ / benignos / incierto,215,Masculino,2025,prueba,3.0,3.897,3.667,Poisson,0.897
-24,In situ / benignos / incierto,215,Masculino,2026,pronóstico,,4.442,3.667,Poisson,
+﻿serie_id,tipo_cancer,cod,sexo,grupo_edad,anio,periodo,muertes,prediccion,prediccion_linea_base,modelo_seleccionado,error_abs
+0,Estómago,201,Femenino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2012,entrenamiento,0.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2013,entrenamiento,1.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2014,entrenamiento,1.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2015,entrenamiento,1.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2016,entrenamiento,2.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2017,entrenamiento,1.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2018,entrenamiento,2.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2019,entrenamiento,1.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2020,entrenamiento,0.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2021,entrenamiento,2.0,,,Poisson,
+0,Estómago,201,Femenino,15-44,2022,prueba,3.0,0.864,1.0,Poisson,2.136
+0,Estómago,201,Femenino,15-44,2023,prueba,0.0,0.998,1.667,Poisson,0.998
+0,Estómago,201,Femenino,15-44,2024,prueba,1.0,0.99,1.667,Poisson,0.01
+0,Estómago,201,Femenino,15-44,2025,prueba,2.0,0.784,1.333,Poisson,1.216
+0,Estómago,201,Femenino,15-44,2026,pronóstico,,1.043,1.0,Poisson,
+1,Estómago,201,Femenino,45-64,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2009,2008-2010 (solo rezagos),4.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2011,entrenamiento,1.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2012,entrenamiento,2.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2013,entrenamiento,1.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2014,entrenamiento,2.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2015,entrenamiento,5.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2016,entrenamiento,1.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2017,entrenamiento,3.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2018,entrenamiento,1.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2019,entrenamiento,1.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2020,entrenamiento,4.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2021,entrenamiento,3.0,,,Poisson,
+1,Estómago,201,Femenino,45-64,2022,prueba,4.0,3.26,2.667,Poisson,0.74
+1,Estómago,201,Femenino,45-64,2023,prueba,2.0,3.244,3.667,Poisson,1.244
+1,Estómago,201,Femenino,45-64,2024,prueba,1.0,3.028,3.0,Poisson,2.028
+1,Estómago,201,Femenino,45-64,2025,prueba,1.0,2.489,2.333,Poisson,1.489
+1,Estómago,201,Femenino,45-64,2026,pronóstico,,2.467,1.333,Poisson,
+2,Estómago,201,Femenino,65+,2008,2008-2010 (solo rezagos),8.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2009,2008-2010 (solo rezagos),11.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2010,2008-2010 (solo rezagos),8.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2011,entrenamiento,7.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2012,entrenamiento,9.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2013,entrenamiento,5.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2014,entrenamiento,4.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2015,entrenamiento,4.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2016,entrenamiento,3.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2017,entrenamiento,1.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2018,entrenamiento,10.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2019,entrenamiento,5.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2020,entrenamiento,3.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2021,entrenamiento,7.0,,,Poisson,
+2,Estómago,201,Femenino,65+,2022,prueba,5.0,6.135,5.0,Poisson,1.135
+2,Estómago,201,Femenino,65+,2023,prueba,10.0,5.876,5.0,Poisson,4.124
+2,Estómago,201,Femenino,65+,2024,prueba,9.0,6.785,7.333,Poisson,2.215
+2,Estómago,201,Femenino,65+,2025,prueba,6.0,7.625,8.0,Poisson,1.625
+2,Estómago,201,Femenino,65+,2026,pronóstico,,8.933,8.333,Poisson,
+3,Estómago,201,Masculino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2011,entrenamiento,0.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2013,entrenamiento,1.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2015,entrenamiento,0.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2016,entrenamiento,2.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2017,entrenamiento,1.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2018,entrenamiento,2.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2019,entrenamiento,0.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2020,entrenamiento,1.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2021,entrenamiento,0.0,,,Poisson,
+3,Estómago,201,Masculino,15-44,2022,prueba,4.0,0.756,0.333,Poisson,3.244
+3,Estómago,201,Masculino,15-44,2023,prueba,2.0,0.826,1.667,Poisson,1.174
+3,Estómago,201,Masculino,15-44,2024,prueba,0.0,1.083,2.0,Poisson,1.083
+3,Estómago,201,Masculino,15-44,2025,prueba,0.0,0.972,2.0,Poisson,0.972
+3,Estómago,201,Masculino,15-44,2026,pronóstico,,0.858,0.667,Poisson,
+4,Estómago,201,Masculino,45-64,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2009,2008-2010 (solo rezagos),6.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2010,2008-2010 (solo rezagos),8.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2011,entrenamiento,6.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2012,entrenamiento,6.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2013,entrenamiento,7.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2014,entrenamiento,3.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2015,entrenamiento,4.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2016,entrenamiento,4.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2017,entrenamiento,4.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2018,entrenamiento,7.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2019,entrenamiento,3.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2020,entrenamiento,4.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2021,entrenamiento,5.0,,,Poisson,
+4,Estómago,201,Masculino,45-64,2022,prueba,5.0,3.886,4.0,Poisson,1.114
+4,Estómago,201,Masculino,45-64,2023,prueba,5.0,3.738,4.667,Poisson,1.262
+4,Estómago,201,Masculino,45-64,2024,prueba,1.0,3.85,5.0,Poisson,2.85
+4,Estómago,201,Masculino,45-64,2025,prueba,5.0,3.107,3.667,Poisson,1.893
+4,Estómago,201,Masculino,45-64,2026,pronóstico,,3.448,3.667,Poisson,
+5,Estómago,201,Masculino,65+,2008,2008-2010 (solo rezagos),11.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2009,2008-2010 (solo rezagos),8.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2010,2008-2010 (solo rezagos),10.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2011,entrenamiento,8.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2012,entrenamiento,8.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2013,entrenamiento,7.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2014,entrenamiento,8.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2015,entrenamiento,7.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2016,entrenamiento,12.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2017,entrenamiento,5.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2018,entrenamiento,12.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2019,entrenamiento,6.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2020,entrenamiento,6.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2021,entrenamiento,8.0,,,Poisson,
+5,Estómago,201,Masculino,65+,2022,prueba,4.0,7.496,6.667,Poisson,3.496
+5,Estómago,201,Masculino,65+,2023,prueba,7.0,6.332,6.0,Poisson,0.668
+5,Estómago,201,Masculino,65+,2024,prueba,9.0,6.06,6.333,Poisson,2.94
+5,Estómago,201,Masculino,65+,2025,prueba,11.0,6.63,6.667,Poisson,4.37
+5,Estómago,201,Masculino,65+,2026,pronóstico,,9.224,9.0,Poisson,
+6,Colon y recto,202,Femenino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2012,entrenamiento,1.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2013,entrenamiento,0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2014,entrenamiento,0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2016,entrenamiento,0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2017,entrenamiento,0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2018,entrenamiento,0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2020,entrenamiento,1.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2021,entrenamiento,1.0,,,Poisson,
+6,Colon y recto,202,Femenino,15-44,2022,prueba,0.0,0.715,0.667,Poisson,0.715
+6,Colon y recto,202,Femenino,15-44,2023,prueba,0.0,0.613,0.667,Poisson,0.613
+6,Colon y recto,202,Femenino,15-44,2024,prueba,0.0,0.498,0.333,Poisson,0.498
+6,Colon y recto,202,Femenino,15-44,2025,prueba,0.0,0.446,0.0,Poisson,0.446
+6,Colon y recto,202,Femenino,15-44,2026,pronóstico,,0.561,0.0,Poisson,
+7,Colon y recto,202,Femenino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2011,entrenamiento,1.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2012,entrenamiento,3.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2013,entrenamiento,0.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2014,entrenamiento,2.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2015,entrenamiento,1.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2016,entrenamiento,2.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2017,entrenamiento,1.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2018,entrenamiento,1.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2019,entrenamiento,4.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2020,entrenamiento,4.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2021,entrenamiento,4.0,,,Poisson,
+7,Colon y recto,202,Femenino,45-64,2022,prueba,0.0,3.21,4.0,Poisson,3.21
+7,Colon y recto,202,Femenino,45-64,2023,prueba,0.0,2.06,2.667,Poisson,2.06
+7,Colon y recto,202,Femenino,45-64,2024,prueba,2.0,1.272,1.333,Poisson,0.728
+7,Colon y recto,202,Femenino,45-64,2025,prueba,4.0,1.217,0.667,Poisson,2.783
+7,Colon y recto,202,Femenino,45-64,2026,pronóstico,,2.08,2.0,Poisson,
+8,Colon y recto,202,Femenino,65+,2008,2008-2010 (solo rezagos),3.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2010,2008-2010 (solo rezagos),2.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2011,entrenamiento,6.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2012,entrenamiento,2.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2013,entrenamiento,1.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2014,entrenamiento,8.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2015,entrenamiento,5.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2016,entrenamiento,5.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2017,entrenamiento,4.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2018,entrenamiento,3.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2019,entrenamiento,2.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2020,entrenamiento,7.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2021,entrenamiento,5.0,,,Poisson,
+8,Colon y recto,202,Femenino,65+,2022,prueba,9.0,5.193,4.667,Poisson,3.807
+8,Colon y recto,202,Femenino,65+,2023,prueba,3.0,5.416,7.0,Poisson,2.416
+8,Colon y recto,202,Femenino,65+,2024,prueba,4.0,5.039,5.667,Poisson,1.039
+8,Colon y recto,202,Femenino,65+,2025,prueba,9.0,4.344,5.333,Poisson,4.656
+8,Colon y recto,202,Femenino,65+,2026,pronóstico,,5.405,5.333,Poisson,
+9,Colon y recto,202,Masculino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2011,entrenamiento,1.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2013,entrenamiento,0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2014,entrenamiento,1.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2015,entrenamiento,0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2016,entrenamiento,0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2017,entrenamiento,0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2018,entrenamiento,1.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2019,entrenamiento,0.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2020,entrenamiento,1.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2021,entrenamiento,1.0,,,Poisson,
+9,Colon y recto,202,Masculino,15-44,2022,prueba,0.0,0.704,0.667,Poisson,0.704
+9,Colon y recto,202,Masculino,15-44,2023,prueba,0.0,0.604,0.667,Poisson,0.604
+9,Colon y recto,202,Masculino,15-44,2024,prueba,2.0,0.491,0.333,Poisson,1.509
+9,Colon y recto,202,Masculino,15-44,2025,prueba,0.0,0.544,0.667,Poisson,0.544
+9,Colon y recto,202,Masculino,15-44,2026,pronóstico,,0.691,0.667,Poisson,
+10,Colon y recto,202,Masculino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2011,entrenamiento,1.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2012,entrenamiento,3.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2013,entrenamiento,3.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2014,entrenamiento,1.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2015,entrenamiento,1.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2016,entrenamiento,2.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2017,entrenamiento,2.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2018,entrenamiento,0.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2019,entrenamiento,1.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2020,entrenamiento,1.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2021,entrenamiento,0.0,,,Poisson,
+10,Colon y recto,202,Masculino,45-64,2022,prueba,3.0,1.514,0.667,Poisson,1.486
+10,Colon y recto,202,Masculino,45-64,2023,prueba,3.0,1.417,1.333,Poisson,1.583
+10,Colon y recto,202,Masculino,45-64,2024,prueba,1.0,1.92,2.0,Poisson,0.92
+10,Colon y recto,202,Masculino,45-64,2025,prueba,2.0,2.096,2.333,Poisson,0.096
+10,Colon y recto,202,Masculino,45-64,2026,pronóstico,,2.167,2.0,Poisson,
+11,Colon y recto,202,Masculino,65+,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2010,2008-2010 (solo rezagos),3.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2011,entrenamiento,1.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2012,entrenamiento,1.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2013,entrenamiento,4.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2014,entrenamiento,3.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2015,entrenamiento,4.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2016,entrenamiento,4.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2017,entrenamiento,5.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2018,entrenamiento,3.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2019,entrenamiento,4.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2020,entrenamiento,3.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2021,entrenamiento,4.0,,,Poisson,
+11,Colon y recto,202,Masculino,65+,2022,prueba,4.0,4.354,3.667,Poisson,0.354
+11,Colon y recto,202,Masculino,65+,2023,prueba,6.0,3.946,3.667,Poisson,2.054
+11,Colon y recto,202,Masculino,65+,2024,prueba,2.0,4.368,4.667,Poisson,2.368
+11,Colon y recto,202,Masculino,65+,2025,prueba,7.0,4.095,4.0,Poisson,2.905
+11,Colon y recto,202,Masculino,65+,2026,pronóstico,,5.024,5.0,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2012,entrenamiento,1.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2013,entrenamiento,0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2014,entrenamiento,0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2016,entrenamiento,0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2017,entrenamiento,1.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2018,entrenamiento,0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2020,entrenamiento,2.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2021,entrenamiento,0.0,,,Poisson,
+12,Otros digestivos,203,Femenino,15-44,2022,prueba,0.0,0.96,0.667,Poisson,0.96
+12,Otros digestivos,203,Femenino,15-44,2023,prueba,1.0,0.724,0.667,Poisson,0.276
+12,Otros digestivos,203,Femenino,15-44,2024,prueba,1.0,0.695,0.333,Poisson,0.305
+12,Otros digestivos,203,Femenino,15-44,2025,prueba,1.0,0.855,0.667,Poisson,0.145
+12,Otros digestivos,203,Femenino,15-44,2026,pronóstico,,1.136,1.0,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2008,2008-2010 (solo rezagos),3.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2011,entrenamiento,0.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2012,entrenamiento,1.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2013,entrenamiento,2.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2014,entrenamiento,3.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2015,entrenamiento,7.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2016,entrenamiento,1.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2017,entrenamiento,2.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2018,entrenamiento,3.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2019,entrenamiento,2.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2020,entrenamiento,6.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2021,entrenamiento,2.0,,,Poisson,
+13,Otros digestivos,203,Femenino,45-64,2022,prueba,3.0,4.03,3.333,Poisson,1.03
+13,Otros digestivos,203,Femenino,45-64,2023,prueba,7.0,3.331,3.667,Poisson,3.669
+13,Otros digestivos,203,Femenino,45-64,2024,prueba,5.0,3.627,4.0,Poisson,1.373
+13,Otros digestivos,203,Femenino,45-64,2025,prueba,2.0,4.421,5.0,Poisson,2.421
+13,Otros digestivos,203,Femenino,45-64,2026,pronóstico,,4.227,4.667,Poisson,
+14,Otros digestivos,203,Femenino,65+,2008,2008-2010 (solo rezagos),6.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2009,2008-2010 (solo rezagos),10.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2010,2008-2010 (solo rezagos),10.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2011,entrenamiento,5.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2012,entrenamiento,1.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2013,entrenamiento,6.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2014,entrenamiento,12.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2015,entrenamiento,10.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2016,entrenamiento,10.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2017,entrenamiento,9.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2018,entrenamiento,10.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2019,entrenamiento,4.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2020,entrenamiento,12.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2021,entrenamiento,11.0,,,Poisson,
+14,Otros digestivos,203,Femenino,65+,2022,prueba,6.0,10.166,9.0,Poisson,4.166
+14,Otros digestivos,203,Femenino,65+,2023,prueba,8.0,9.156,9.667,Poisson,1.156
+14,Otros digestivos,203,Femenino,65+,2024,prueba,13.0,8.078,8.333,Poisson,4.922
+14,Otros digestivos,203,Femenino,65+,2025,prueba,8.0,8.706,9.0,Poisson,0.706
+14,Otros digestivos,203,Femenino,65+,2026,pronóstico,,10.165,9.667,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2011,entrenamiento,1.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2012,entrenamiento,1.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2013,entrenamiento,0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2015,entrenamiento,0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2016,entrenamiento,0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2017,entrenamiento,0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2018,entrenamiento,0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2019,entrenamiento,2.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2020,entrenamiento,0.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2021,entrenamiento,2.0,,,Poisson,
+15,Otros digestivos,203,Masculino,15-44,2022,prueba,1.0,1.006,1.333,Poisson,0.006
+15,Otros digestivos,203,Masculino,15-44,2023,prueba,0.0,0.951,1.0,Poisson,0.951
+15,Otros digestivos,203,Masculino,15-44,2024,prueba,0.0,0.878,1.0,Poisson,0.878
+15,Otros digestivos,203,Masculino,15-44,2025,prueba,2.0,0.668,0.333,Poisson,1.332
+15,Otros digestivos,203,Masculino,15-44,2026,pronóstico,,0.92,0.667,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2008,2008-2010 (solo rezagos),3.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2011,entrenamiento,3.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2012,entrenamiento,2.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2013,entrenamiento,2.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2014,entrenamiento,6.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2015,entrenamiento,2.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2016,entrenamiento,5.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2017,entrenamiento,3.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2018,entrenamiento,3.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2019,entrenamiento,3.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2020,entrenamiento,3.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2021,entrenamiento,6.0,,,Poisson,
+16,Otros digestivos,203,Masculino,45-64,2022,prueba,2.0,4.149,4.0,Poisson,2.149
+16,Otros digestivos,203,Masculino,45-64,2023,prueba,5.0,3.654,3.667,Poisson,1.346
+16,Otros digestivos,203,Masculino,45-64,2024,prueba,5.0,3.552,4.333,Poisson,1.448
+16,Otros digestivos,203,Masculino,45-64,2025,prueba,1.0,3.814,4.0,Poisson,2.814
+16,Otros digestivos,203,Masculino,45-64,2026,pronóstico,,3.604,3.667,Poisson,
+17,Otros digestivos,203,Masculino,65+,2008,2008-2010 (solo rezagos),6.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2009,2008-2010 (solo rezagos),5.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2010,2008-2010 (solo rezagos),8.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2011,entrenamiento,4.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2012,entrenamiento,5.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2013,entrenamiento,2.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2014,entrenamiento,9.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2015,entrenamiento,7.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2016,entrenamiento,11.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2017,entrenamiento,5.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2018,entrenamiento,8.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2019,entrenamiento,8.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2020,entrenamiento,15.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2021,entrenamiento,11.0,,,Poisson,
+17,Otros digestivos,203,Masculino,65+,2022,prueba,10.0,11.714,11.333,Poisson,1.714
+17,Otros digestivos,203,Masculino,65+,2023,prueba,5.0,10.185,12.0,Poisson,5.185
+17,Otros digestivos,203,Masculino,65+,2024,prueba,10.0,8.417,8.667,Poisson,1.583
+17,Otros digestivos,203,Masculino,65+,2025,prueba,7.0,7.792,8.333,Poisson,0.792
+17,Otros digestivos,203,Masculino,65+,2026,pronóstico,,8.561,7.333,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2010,2008-2010 (solo rezagos),2.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2011,entrenamiento,3.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2012,entrenamiento,1.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2013,entrenamiento,2.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2014,entrenamiento,1.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2015,entrenamiento,1.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2016,entrenamiento,1.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2017,entrenamiento,0.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2018,entrenamiento,2.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2019,entrenamiento,0.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2020,entrenamiento,1.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2021,entrenamiento,2.0,,,Poisson,
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2022,prueba,1.0,1.272,1.0,Poisson,0.272
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2023,prueba,0.0,1.304,1.333,Poisson,1.304
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2024,prueba,2.0,1.077,1.0,Poisson,0.923
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2025,prueba,0.0,1.016,1.0,Poisson,1.016
+18,"Tráquea, bronquios y pulmón",204,Femenino,45-64,2026,pronóstico,,1.294,0.667,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2008,2008-2010 (solo rezagos),3.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2009,2008-2010 (solo rezagos),5.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2011,entrenamiento,1.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2012,entrenamiento,1.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2013,entrenamiento,1.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2014,entrenamiento,2.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2015,entrenamiento,1.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2016,entrenamiento,1.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2017,entrenamiento,5.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2018,entrenamiento,4.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2019,entrenamiento,1.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2020,entrenamiento,5.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2021,entrenamiento,1.0,,,Poisson,
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2022,prueba,1.0,2.689,2.333,Poisson,1.689
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2023,prueba,3.0,2.029,2.333,Poisson,0.971
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2024,prueba,9.0,1.947,1.667,Poisson,7.053
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2025,prueba,5.0,2.865,4.333,Poisson,2.135
+19,"Tráquea, bronquios y pulmón",204,Femenino,65+,2026,pronóstico,,4.893,5.667,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2011,entrenamiento,2.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2013,entrenamiento,3.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2015,entrenamiento,2.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2016,entrenamiento,0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2017,entrenamiento,0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2018,entrenamiento,0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2019,entrenamiento,0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2020,entrenamiento,0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2021,entrenamiento,0.0,,,Poisson,
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2022,prueba,1.0,0.373,0.0,Poisson,0.627
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2023,prueba,0.0,0.375,0.333,Poisson,0.375
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2024,prueba,0.0,0.403,0.333,Poisson,0.403
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2025,prueba,2.0,0.366,0.333,Poisson,1.634
+20,"Tráquea, bronquios y pulmón",204,Masculino,15-44,2026,pronóstico,,0.6,0.667,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2009,2008-2010 (solo rezagos),3.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2010,2008-2010 (solo rezagos),2.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2011,entrenamiento,1.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2012,entrenamiento,0.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2013,entrenamiento,0.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2014,entrenamiento,0.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2015,entrenamiento,1.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2016,entrenamiento,1.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2017,entrenamiento,1.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2018,entrenamiento,0.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2019,entrenamiento,0.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2020,entrenamiento,2.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2021,entrenamiento,1.0,,,Poisson,
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2022,prueba,1.0,1.307,1.0,Poisson,0.307
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2023,prueba,2.0,1.214,1.333,Poisson,0.786
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2024,prueba,4.0,1.231,1.333,Poisson,2.769
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2025,prueba,4.0,1.536,2.333,Poisson,2.464
+21,"Tráquea, bronquios y pulmón",204,Masculino,45-64,2026,pronóstico,,2.413,3.333,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2009,2008-2010 (solo rezagos),5.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2010,2008-2010 (solo rezagos),4.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2011,entrenamiento,6.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2012,entrenamiento,5.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2013,entrenamiento,0.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2014,entrenamiento,1.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2015,entrenamiento,5.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2016,entrenamiento,3.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2017,entrenamiento,4.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2018,entrenamiento,3.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2019,entrenamiento,1.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2020,entrenamiento,3.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2021,entrenamiento,1.0,,,Poisson,
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2022,prueba,6.0,2.346,1.667,Poisson,3.654
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2023,prueba,1.0,2.391,3.333,Poisson,1.391
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2024,prueba,5.0,2.437,2.667,Poisson,2.563
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2025,prueba,7.0,2.539,4.0,Poisson,4.461
+22,"Tráquea, bronquios y pulmón",204,Masculino,65+,2026,pronóstico,,4.02,4.333,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2011,entrenamiento,0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2012,entrenamiento,0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2013,entrenamiento,0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2014,entrenamiento,1.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2015,entrenamiento,0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2016,entrenamiento,0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2017,entrenamiento,0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2018,entrenamiento,0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2019,entrenamiento,1.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2020,entrenamiento,0.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2021,entrenamiento,1.0,,,Poisson,
+23,Otros respiratorios,205,Femenino,45-64,2022,prueba,0.0,0.334,0.667,Poisson,0.334
+23,Otros respiratorios,205,Femenino,45-64,2023,prueba,0.0,0.282,0.333,Poisson,0.282
+23,Otros respiratorios,205,Femenino,45-64,2024,prueba,0.0,0.257,0.333,Poisson,0.257
+23,Otros respiratorios,205,Femenino,45-64,2025,prueba,0.0,0.23,0.0,Poisson,0.23
+23,Otros respiratorios,205,Femenino,45-64,2026,pronóstico,,0.244,0.0,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2011,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2012,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2013,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2014,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2015,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2016,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2017,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2018,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2019,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2020,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2021,entrenamiento,0.0,,,Poisson,
+24,Otros respiratorios,205,Femenino,65+,2022,prueba,0.0,0.385,0.0,Poisson,0.385
+24,Otros respiratorios,205,Femenino,65+,2023,prueba,0.0,0.338,0.0,Poisson,0.338
+24,Otros respiratorios,205,Femenino,65+,2024,prueba,0.0,0.338,0.0,Poisson,0.338
+24,Otros respiratorios,205,Femenino,65+,2025,prueba,1.0,0.338,0.0,Poisson,0.662
+24,Otros respiratorios,205,Femenino,65+,2026,pronóstico,,0.441,0.333,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2011,entrenamiento,1.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2012,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2013,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2014,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2015,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2016,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2017,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2018,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2019,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2020,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2021,entrenamiento,0.0,,,Poisson,
+25,Otros respiratorios,205,Masculino,0-14,2022,prueba,0.0,0.058,0.0,Poisson,0.058
+25,Otros respiratorios,205,Masculino,0-14,2023,prueba,0.0,0.051,0.0,Poisson,0.051
+25,Otros respiratorios,205,Masculino,0-14,2024,prueba,0.0,0.051,0.0,Poisson,0.051
+25,Otros respiratorios,205,Masculino,0-14,2025,prueba,0.0,0.051,0.0,Poisson,0.051
+25,Otros respiratorios,205,Masculino,0-14,2026,pronóstico,,0.048,0.0,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2011,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2013,entrenamiento,1.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2015,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2016,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2017,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2018,entrenamiento,1.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2019,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2020,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2021,entrenamiento,0.0,,,Poisson,
+26,Otros respiratorios,205,Masculino,15-44,2022,prueba,0.0,0.117,0.0,Poisson,0.117
+26,Otros respiratorios,205,Masculino,15-44,2023,prueba,0.0,0.103,0.0,Poisson,0.103
+26,Otros respiratorios,205,Masculino,15-44,2024,prueba,0.0,0.103,0.0,Poisson,0.103
+26,Otros respiratorios,205,Masculino,15-44,2025,prueba,0.0,0.103,0.0,Poisson,0.103
+26,Otros respiratorios,205,Masculino,15-44,2026,pronóstico,,0.113,0.0,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2011,entrenamiento,2.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2012,entrenamiento,0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2013,entrenamiento,0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2014,entrenamiento,0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2015,entrenamiento,1.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2016,entrenamiento,0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2017,entrenamiento,0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2018,entrenamiento,0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2019,entrenamiento,0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2020,entrenamiento,1.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2021,entrenamiento,0.0,,,Poisson,
+27,Otros respiratorios,205,Masculino,45-64,2022,prueba,0.0,0.317,0.333,Poisson,0.317
+27,Otros respiratorios,205,Masculino,45-64,2023,prueba,0.0,0.253,0.333,Poisson,0.253
+27,Otros respiratorios,205,Masculino,45-64,2024,prueba,0.0,0.226,0.0,Poisson,0.226
+27,Otros respiratorios,205,Masculino,45-64,2025,prueba,0.0,0.226,0.0,Poisson,0.226
+27,Otros respiratorios,205,Masculino,45-64,2026,pronóstico,,0.239,0.0,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2011,entrenamiento,1.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2012,entrenamiento,0.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2013,entrenamiento,1.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2014,entrenamiento,1.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2015,entrenamiento,0.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2016,entrenamiento,1.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2017,entrenamiento,0.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2018,entrenamiento,0.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2019,entrenamiento,0.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2020,entrenamiento,1.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2021,entrenamiento,1.0,,,Poisson,
+28,Otros respiratorios,205,Masculino,65+,2022,prueba,1.0,0.534,0.667,Poisson,0.466
+28,Otros respiratorios,205,Masculino,65+,2023,prueba,1.0,0.524,1.0,Poisson,0.476
+28,Otros respiratorios,205,Masculino,65+,2024,prueba,1.0,0.524,1.0,Poisson,0.476
+28,Otros respiratorios,205,Masculino,65+,2025,prueba,1.0,0.525,1.0,Poisson,0.475
+28,Otros respiratorios,205,Masculino,65+,2026,pronóstico,,0.567,1.0,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2011,entrenamiento,2.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2012,entrenamiento,1.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2013,entrenamiento,1.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2014,entrenamiento,0.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2016,entrenamiento,1.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2017,entrenamiento,0.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2018,entrenamiento,5.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2020,entrenamiento,3.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2021,entrenamiento,0.0,,,Poisson,
+29,Mama (mujer),206,Femenino,15-44,2022,prueba,1.0,1.032,1.0,Poisson,0.032
+29,Mama (mujer),206,Femenino,15-44,2023,prueba,0.0,0.857,1.333,Poisson,0.857
+29,Mama (mujer),206,Femenino,15-44,2024,prueba,1.0,0.737,0.333,Poisson,0.263
+29,Mama (mujer),206,Femenino,15-44,2025,prueba,1.0,0.767,0.667,Poisson,0.233
+29,Mama (mujer),206,Femenino,15-44,2026,pronóstico,,0.925,0.667,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2008,2008-2010 (solo rezagos),3.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2009,2008-2010 (solo rezagos),3.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2010,2008-2010 (solo rezagos),3.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2011,entrenamiento,3.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2012,entrenamiento,2.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2013,entrenamiento,5.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2014,entrenamiento,6.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2015,entrenamiento,2.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2016,entrenamiento,6.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2017,entrenamiento,5.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2018,entrenamiento,6.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2019,entrenamiento,4.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2020,entrenamiento,5.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2021,entrenamiento,3.0,,,Poisson,
+30,Mama (mujer),206,Femenino,45-64,2022,prueba,6.0,4.362,4.0,Poisson,1.638
+30,Mama (mujer),206,Femenino,45-64,2023,prueba,6.0,3.899,4.667,Poisson,2.101
+30,Mama (mujer),206,Femenino,45-64,2024,prueba,2.0,4.319,5.0,Poisson,2.319
+30,Mama (mujer),206,Femenino,45-64,2025,prueba,3.0,4.006,4.667,Poisson,1.006
+30,Mama (mujer),206,Femenino,45-64,2026,pronóstico,,3.502,3.667,Poisson,
+31,Mama (mujer),206,Femenino,65+,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2011,entrenamiento,1.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2012,entrenamiento,1.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2013,entrenamiento,3.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2014,entrenamiento,1.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2015,entrenamiento,4.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2016,entrenamiento,8.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2017,entrenamiento,7.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2018,entrenamiento,4.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2019,entrenamiento,2.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2020,entrenamiento,7.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2021,entrenamiento,7.0,,,Poisson,
+31,Mama (mujer),206,Femenino,65+,2022,prueba,2.0,7.382,5.333,Poisson,5.382
+31,Mama (mujer),206,Femenino,65+,2023,prueba,3.0,6.272,5.333,Poisson,3.272
+31,Mama (mujer),206,Femenino,65+,2024,prueba,6.0,4.946,4.0,Poisson,1.054
+31,Mama (mujer),206,Femenino,65+,2025,prueba,2.0,5.135,3.667,Poisson,3.135
+31,Mama (mujer),206,Femenino,65+,2026,pronóstico,,5.567,3.667,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2012,entrenamiento,0.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2013,entrenamiento,1.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2014,entrenamiento,3.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2016,entrenamiento,1.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2017,entrenamiento,1.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2018,entrenamiento,1.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2020,entrenamiento,1.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2021,entrenamiento,0.0,,,Poisson,
+32,Cuello uterino,207,Femenino,15-44,2022,prueba,1.0,0.502,0.333,Poisson,0.498
+32,Cuello uterino,207,Femenino,15-44,2023,prueba,2.0,0.458,0.667,Poisson,1.542
+32,Cuello uterino,207,Femenino,15-44,2024,prueba,2.0,0.546,1.0,Poisson,1.454
+32,Cuello uterino,207,Femenino,15-44,2025,prueba,1.0,0.69,1.667,Poisson,0.31
+32,Cuello uterino,207,Femenino,15-44,2026,pronóstico,,0.808,1.667,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2010,2008-2010 (solo rezagos),6.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2011,entrenamiento,3.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2012,entrenamiento,0.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2013,entrenamiento,2.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2014,entrenamiento,4.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2015,entrenamiento,0.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2016,entrenamiento,2.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2017,entrenamiento,1.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2018,entrenamiento,1.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2019,entrenamiento,2.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2020,entrenamiento,3.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2021,entrenamiento,2.0,,,Poisson,
+33,Cuello uterino,207,Femenino,45-64,2022,prueba,2.0,2.012,2.333,Poisson,0.012
+33,Cuello uterino,207,Femenino,45-64,2023,prueba,2.0,1.699,2.333,Poisson,0.301
+33,Cuello uterino,207,Femenino,45-64,2024,prueba,1.0,1.622,2.0,Poisson,0.622
+33,Cuello uterino,207,Femenino,45-64,2025,prueba,2.0,1.499,1.667,Poisson,0.501
+33,Cuello uterino,207,Femenino,45-64,2026,pronóstico,,1.701,1.667,Poisson,
+34,Cuello uterino,207,Femenino,65+,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2011,entrenamiento,2.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2012,entrenamiento,1.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2013,entrenamiento,2.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2014,entrenamiento,1.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2015,entrenamiento,0.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2016,entrenamiento,0.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2017,entrenamiento,1.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2018,entrenamiento,3.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2019,entrenamiento,2.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2020,entrenamiento,2.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2021,entrenamiento,2.0,,,Poisson,
+34,Cuello uterino,207,Femenino,65+,2022,prueba,3.0,2.718,2.0,Poisson,0.282
+34,Cuello uterino,207,Femenino,65+,2023,prueba,4.0,2.526,2.333,Poisson,1.474
+34,Cuello uterino,207,Femenino,65+,2024,prueba,2.0,2.876,3.0,Poisson,0.876
+34,Cuello uterino,207,Femenino,65+,2025,prueba,1.0,2.915,3.0,Poisson,1.915
+34,Cuello uterino,207,Femenino,65+,2026,pronóstico,,2.927,2.333,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2012,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2013,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2014,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2016,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2017,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2018,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2020,entrenamiento,0.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2021,entrenamiento,1.0,,,Poisson,
+35,Cuerpo del útero,208,Femenino,15-44,2022,prueba,0.0,0.222,0.333,Poisson,0.222
+35,Cuerpo del útero,208,Femenino,15-44,2023,prueba,0.0,0.21,0.333,Poisson,0.21
+35,Cuerpo del útero,208,Femenino,15-44,2024,prueba,0.0,0.191,0.333,Poisson,0.191
+35,Cuerpo del útero,208,Femenino,15-44,2025,prueba,1.0,0.171,0.0,Poisson,0.829
+35,Cuerpo del útero,208,Femenino,15-44,2026,pronóstico,,0.251,0.333,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2010,2008-2010 (solo rezagos),2.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2011,entrenamiento,0.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2012,entrenamiento,1.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2013,entrenamiento,0.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2014,entrenamiento,1.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2015,entrenamiento,0.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2016,entrenamiento,2.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2017,entrenamiento,0.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2018,entrenamiento,1.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2019,entrenamiento,0.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2020,entrenamiento,0.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2021,entrenamiento,2.0,,,Poisson,
+36,Cuerpo del útero,208,Femenino,45-64,2022,prueba,1.0,0.53,0.667,Poisson,0.47
+36,Cuerpo del útero,208,Femenino,45-64,2023,prueba,0.0,0.598,1.0,Poisson,0.598
+36,Cuerpo del útero,208,Femenino,45-64,2024,prueba,2.0,0.552,1.0,Poisson,1.448
+36,Cuerpo del útero,208,Femenino,45-64,2025,prueba,1.0,0.521,1.0,Poisson,0.479
+36,Cuerpo del útero,208,Femenino,45-64,2026,pronóstico,,0.665,1.0,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2011,entrenamiento,0.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2012,entrenamiento,0.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2013,entrenamiento,0.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2014,entrenamiento,2.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2015,entrenamiento,1.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2016,entrenamiento,1.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2017,entrenamiento,1.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2018,entrenamiento,1.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2019,entrenamiento,1.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2020,entrenamiento,1.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2021,entrenamiento,0.0,,,Poisson,
+37,Cuerpo del útero,208,Femenino,65+,2022,prueba,3.0,0.867,0.667,Poisson,2.133
+37,Cuerpo del útero,208,Femenino,65+,2023,prueba,0.0,0.811,1.333,Poisson,0.811
+37,Cuerpo del útero,208,Femenino,65+,2024,prueba,0.0,0.838,1.0,Poisson,0.838
+37,Cuerpo del útero,208,Femenino,65+,2025,prueba,0.0,0.692,1.0,Poisson,0.692
+37,Cuerpo del útero,208,Femenino,65+,2026,pronóstico,,0.715,0.0,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2012,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2013,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2014,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2016,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2017,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2018,entrenamiento,1.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2020,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2021,entrenamiento,0.0,,,Poisson,
+38,Útero no especificado,209,Femenino,15-44,2022,prueba,0.0,0.085,0.0,Poisson,0.085
+38,Útero no especificado,209,Femenino,15-44,2023,prueba,0.0,0.075,0.0,Poisson,0.075
+38,Útero no especificado,209,Femenino,15-44,2024,prueba,0.0,0.075,0.0,Poisson,0.075
+38,Útero no especificado,209,Femenino,15-44,2025,prueba,0.0,0.075,0.0,Poisson,0.075
+38,Útero no especificado,209,Femenino,15-44,2026,pronóstico,,0.142,0.0,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2011,entrenamiento,1.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2012,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2013,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2014,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2015,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2016,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2017,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2018,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2019,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2020,entrenamiento,0.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2021,entrenamiento,1.0,,,Poisson,
+39,Útero no especificado,209,Femenino,45-64,2022,prueba,1.0,0.215,0.333,Poisson,0.785
+39,Útero no especificado,209,Femenino,45-64,2023,prueba,0.0,0.233,0.667,Poisson,0.233
+39,Útero no especificado,209,Femenino,45-64,2024,prueba,0.0,0.227,0.667,Poisson,0.227
+39,Útero no especificado,209,Femenino,45-64,2025,prueba,0.0,0.185,0.333,Poisson,0.185
+39,Útero no especificado,209,Femenino,45-64,2026,pronóstico,,0.298,0.0,Poisson,
+40,Útero no especificado,209,Femenino,65+,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2011,entrenamiento,2.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2012,entrenamiento,1.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2013,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2014,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2015,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2016,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2017,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2018,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2019,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2020,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2021,entrenamiento,0.0,,,Poisson,
+40,Útero no especificado,209,Femenino,65+,2022,prueba,4.0,0.277,0.0,Poisson,3.723
+40,Útero no especificado,209,Femenino,65+,2023,prueba,1.0,0.333,1.333,Poisson,0.667
+40,Útero no especificado,209,Femenino,65+,2024,prueba,1.0,0.451,1.667,Poisson,0.549
+40,Útero no especificado,209,Femenino,65+,2025,prueba,1.0,0.444,2.0,Poisson,0.556
+40,Útero no especificado,209,Femenino,65+,2026,pronóstico,,0.709,1.0,Poisson,
+41,Próstata,210,Masculino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2011,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2013,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2015,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2016,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2017,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2018,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2019,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2020,entrenamiento,0.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2021,entrenamiento,1.0,,,Poisson,
+41,Próstata,210,Masculino,15-44,2022,prueba,0.0,0.715,0.333,Poisson,0.715
+41,Próstata,210,Masculino,15-44,2023,prueba,0.0,0.675,0.333,Poisson,0.675
+41,Próstata,210,Masculino,15-44,2024,prueba,0.0,0.613,0.333,Poisson,0.613
+41,Próstata,210,Masculino,15-44,2025,prueba,0.0,0.549,0.0,Poisson,0.549
+41,Próstata,210,Masculino,15-44,2026,pronóstico,,0.734,0.0,Poisson,
+42,Próstata,210,Masculino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2011,entrenamiento,0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2012,entrenamiento,0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2013,entrenamiento,1.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2014,entrenamiento,0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2015,entrenamiento,0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2016,entrenamiento,0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2017,entrenamiento,0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2018,entrenamiento,1.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2019,entrenamiento,1.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2020,entrenamiento,0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2021,entrenamiento,0.0,,,Poisson,
+42,Próstata,210,Masculino,45-64,2022,prueba,1.0,1.538,0.333,Poisson,0.538
+42,Próstata,210,Masculino,45-64,2023,prueba,1.0,1.384,0.333,Poisson,0.384
+42,Próstata,210,Masculino,45-64,2024,prueba,0.0,1.703,0.667,Poisson,1.703
+42,Próstata,210,Masculino,45-64,2025,prueba,0.0,1.663,0.667,Poisson,1.663
+42,Próstata,210,Masculino,45-64,2026,pronóstico,,1.755,0.333,Poisson,
+43,Próstata,210,Masculino,65+,2008,2008-2010 (solo rezagos),9.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2009,2008-2010 (solo rezagos),10.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2010,2008-2010 (solo rezagos),7.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2011,entrenamiento,9.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2012,entrenamiento,8.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2013,entrenamiento,8.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2014,entrenamiento,10.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2015,entrenamiento,13.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2016,entrenamiento,10.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2017,entrenamiento,13.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2018,entrenamiento,6.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2019,entrenamiento,12.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2020,entrenamiento,5.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2021,entrenamiento,16.0,,,Poisson,
+43,Próstata,210,Masculino,65+,2022,prueba,10.0,9.102,11.0,Poisson,0.898
+43,Próstata,210,Masculino,65+,2023,prueba,14.0,8.861,10.333,Poisson,5.139
+43,Próstata,210,Masculino,65+,2024,prueba,15.0,9.772,13.333,Poisson,5.228
+43,Próstata,210,Masculino,65+,2025,prueba,16.0,10.125,13.0,Poisson,5.875
+43,Próstata,210,Masculino,65+,2026,pronóstico,,12.871,15.0,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2011,entrenamiento,1.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2012,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2013,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2014,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2015,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2016,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2017,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2018,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2019,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2020,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2021,entrenamiento,0.0,,,Poisson,
+44,Otros genitourinarios,211,Femenino,0-14,2022,prueba,1.0,0.209,0.0,Poisson,0.791
+44,Otros genitourinarios,211,Femenino,0-14,2023,prueba,0.0,0.21,0.333,Poisson,0.21
+44,Otros genitourinarios,211,Femenino,0-14,2024,prueba,0.0,0.226,0.333,Poisson,0.226
+44,Otros genitourinarios,211,Femenino,0-14,2025,prueba,0.0,0.205,0.333,Poisson,0.205
+44,Otros genitourinarios,211,Femenino,0-14,2026,pronóstico,,0.194,0.0,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2012,entrenamiento,1.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2013,entrenamiento,0.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2014,entrenamiento,1.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2016,entrenamiento,2.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2017,entrenamiento,1.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2018,entrenamiento,0.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2020,entrenamiento,0.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2021,entrenamiento,0.0,,,Poisson,
+45,Otros genitourinarios,211,Femenino,15-44,2022,prueba,1.0,0.42,0.0,Poisson,0.58
+45,Otros genitourinarios,211,Femenino,15-44,2023,prueba,1.0,0.423,0.333,Poisson,0.577
+45,Otros genitourinarios,211,Femenino,15-44,2024,prueba,2.0,0.52,0.667,Poisson,1.48
+45,Otros genitourinarios,211,Femenino,15-44,2025,prueba,0.0,0.63,1.333,Poisson,0.63
+45,Otros genitourinarios,211,Femenino,15-44,2026,pronóstico,,0.658,1.0,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2010,2008-2010 (solo rezagos),2.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2011,entrenamiento,0.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2012,entrenamiento,2.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2013,entrenamiento,3.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2014,entrenamiento,0.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2015,entrenamiento,3.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2016,entrenamiento,1.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2017,entrenamiento,1.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2018,entrenamiento,0.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2019,entrenamiento,3.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2020,entrenamiento,3.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2021,entrenamiento,3.0,,,Poisson,
+46,Otros genitourinarios,211,Femenino,45-64,2022,prueba,1.0,2.297,3.0,Poisson,1.297
+46,Otros genitourinarios,211,Femenino,45-64,2023,prueba,0.0,1.763,2.333,Poisson,1.763
+46,Otros genitourinarios,211,Femenino,45-64,2024,prueba,2.0,1.251,1.333,Poisson,0.749
+46,Otros genitourinarios,211,Femenino,45-64,2025,prueba,4.0,1.127,1.0,Poisson,2.873
+46,Otros genitourinarios,211,Femenino,45-64,2026,pronóstico,,1.707,2.0,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2008,2008-2010 (solo rezagos),3.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2010,2008-2010 (solo rezagos),4.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2011,entrenamiento,2.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2012,entrenamiento,3.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2013,entrenamiento,2.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2014,entrenamiento,2.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2015,entrenamiento,0.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2016,entrenamiento,5.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2017,entrenamiento,1.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2018,entrenamiento,3.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2019,entrenamiento,6.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2020,entrenamiento,4.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2021,entrenamiento,7.0,,,Poisson,
+47,Otros genitourinarios,211,Femenino,65+,2022,prueba,8.0,4.531,5.667,Poisson,3.469
+47,Otros genitourinarios,211,Femenino,65+,2023,prueba,3.0,4.443,6.333,Poisson,1.443
+47,Otros genitourinarios,211,Femenino,65+,2024,prueba,3.0,4.238,6.0,Poisson,1.238
+47,Otros genitourinarios,211,Femenino,65+,2025,prueba,4.0,3.388,4.667,Poisson,0.612
+47,Otros genitourinarios,211,Femenino,65+,2026,pronóstico,,3.662,3.333,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2011,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2012,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2013,entrenamiento,1.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2014,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2015,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2016,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2017,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2018,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2019,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2020,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2021,entrenamiento,0.0,,,Poisson,
+48,Otros genitourinarios,211,Masculino,0-14,2022,prueba,0.0,0.206,0.0,Poisson,0.206
+48,Otros genitourinarios,211,Masculino,0-14,2023,prueba,0.0,0.181,0.0,Poisson,0.181
+48,Otros genitourinarios,211,Masculino,0-14,2024,prueba,0.0,0.181,0.0,Poisson,0.181
+48,Otros genitourinarios,211,Masculino,0-14,2025,prueba,0.0,0.181,0.0,Poisson,0.181
+48,Otros genitourinarios,211,Masculino,0-14,2026,pronóstico,,0.19,0.0,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2011,entrenamiento,1.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2012,entrenamiento,2.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2013,entrenamiento,1.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2015,entrenamiento,0.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2016,entrenamiento,1.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2017,entrenamiento,0.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2018,entrenamiento,1.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2019,entrenamiento,3.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2020,entrenamiento,0.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2021,entrenamiento,0.0,,,Poisson,
+49,Otros genitourinarios,211,Masculino,15-44,2022,prueba,0.0,0.517,1.0,Poisson,0.517
+49,Otros genitourinarios,211,Masculino,15-44,2023,prueba,1.0,0.364,0.0,Poisson,0.636
+49,Otros genitourinarios,211,Masculino,15-44,2024,prueba,0.0,0.416,0.333,Poisson,0.416
+49,Otros genitourinarios,211,Masculino,15-44,2025,prueba,2.0,0.448,0.333,Poisson,1.552
+49,Otros genitourinarios,211,Masculino,15-44,2026,pronóstico,,0.643,1.0,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2010,2008-2010 (solo rezagos),4.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2011,entrenamiento,1.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2012,entrenamiento,1.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2013,entrenamiento,0.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2014,entrenamiento,0.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2015,entrenamiento,2.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2016,entrenamiento,0.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2017,entrenamiento,0.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2018,entrenamiento,1.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2019,entrenamiento,0.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2020,entrenamiento,1.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2021,entrenamiento,0.0,,,Poisson,
+50,Otros genitourinarios,211,Masculino,45-64,2022,prueba,0.0,1.122,0.333,Poisson,1.122
+50,Otros genitourinarios,211,Masculino,45-64,2023,prueba,0.0,0.896,0.333,Poisson,0.896
+50,Otros genitourinarios,211,Masculino,45-64,2024,prueba,0.0,0.801,0.0,Poisson,0.801
+50,Otros genitourinarios,211,Masculino,45-64,2025,prueba,2.0,0.801,0.0,Poisson,1.199
+50,Otros genitourinarios,211,Masculino,45-64,2026,pronóstico,,1.191,0.667,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2011,entrenamiento,0.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2012,entrenamiento,2.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2013,entrenamiento,0.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2014,entrenamiento,2.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2015,entrenamiento,1.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2016,entrenamiento,2.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2017,entrenamiento,2.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2018,entrenamiento,1.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2019,entrenamiento,0.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2020,entrenamiento,4.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2021,entrenamiento,2.0,,,Poisson,
+51,Otros genitourinarios,211,Masculino,65+,2022,prueba,1.0,2.694,2.0,Poisson,1.694
+51,Otros genitourinarios,211,Masculino,65+,2023,prueba,3.0,2.432,2.333,Poisson,0.568
+51,Otros genitourinarios,211,Masculino,65+,2024,prueba,5.0,2.271,2.0,Poisson,2.729
+51,Otros genitourinarios,211,Masculino,65+,2025,prueba,2.0,2.835,3.0,Poisson,0.835
+51,Otros genitourinarios,211,Masculino,65+,2026,pronóstico,,3.506,3.333,Poisson,
+52,Leucemia,212,Femenino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2011,entrenamiento,1.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2012,entrenamiento,1.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2013,entrenamiento,1.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2014,entrenamiento,0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2015,entrenamiento,0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2016,entrenamiento,0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2017,entrenamiento,0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2018,entrenamiento,0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2019,entrenamiento,0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2020,entrenamiento,0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2021,entrenamiento,0.0,,,Poisson,
+52,Leucemia,212,Femenino,0-14,2022,prueba,0.0,0.175,0.0,Poisson,0.175
+52,Leucemia,212,Femenino,0-14,2023,prueba,0.0,0.153,0.0,Poisson,0.153
+52,Leucemia,212,Femenino,0-14,2024,prueba,0.0,0.153,0.0,Poisson,0.153
+52,Leucemia,212,Femenino,0-14,2025,prueba,0.0,0.153,0.0,Poisson,0.153
+52,Leucemia,212,Femenino,0-14,2026,pronóstico,,0.159,0.0,Poisson,
+53,Leucemia,212,Femenino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2012,entrenamiento,0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2013,entrenamiento,0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2014,entrenamiento,1.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2016,entrenamiento,1.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2017,entrenamiento,0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2018,entrenamiento,1.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2020,entrenamiento,1.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2021,entrenamiento,0.0,,,Poisson,
+53,Leucemia,212,Femenino,15-44,2022,prueba,1.0,0.432,0.333,Poisson,0.568
+53,Leucemia,212,Femenino,15-44,2023,prueba,3.0,0.395,0.667,Poisson,2.605
+53,Leucemia,212,Femenino,15-44,2024,prueba,0.0,0.498,1.333,Poisson,0.498
+53,Leucemia,212,Femenino,15-44,2025,prueba,1.0,0.523,1.333,Poisson,0.477
+53,Leucemia,212,Femenino,15-44,2026,pronóstico,,0.563,1.333,Poisson,
+54,Leucemia,212,Femenino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2011,entrenamiento,0.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2012,entrenamiento,3.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2013,entrenamiento,1.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2014,entrenamiento,0.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2015,entrenamiento,1.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2016,entrenamiento,0.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2017,entrenamiento,0.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2018,entrenamiento,1.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2019,entrenamiento,1.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2020,entrenamiento,0.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2021,entrenamiento,1.0,,,Poisson,
+54,Leucemia,212,Femenino,45-64,2022,prueba,1.0,0.99,0.667,Poisson,0.01
+54,Leucemia,212,Femenino,45-64,2023,prueba,0.0,0.958,0.667,Poisson,0.958
+54,Leucemia,212,Femenino,45-64,2024,prueba,1.0,0.936,0.667,Poisson,0.064
+54,Leucemia,212,Femenino,45-64,2025,prueba,0.0,0.87,0.667,Poisson,0.87
+54,Leucemia,212,Femenino,45-64,2026,pronóstico,,0.92,0.333,Poisson,
+55,Leucemia,212,Femenino,65+,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2011,entrenamiento,1.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2012,entrenamiento,2.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2013,entrenamiento,1.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2014,entrenamiento,1.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2015,entrenamiento,2.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2016,entrenamiento,1.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2017,entrenamiento,3.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2018,entrenamiento,1.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2019,entrenamiento,3.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2020,entrenamiento,0.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2021,entrenamiento,1.0,,,Poisson,
+55,Leucemia,212,Femenino,65+,2022,prueba,1.0,1.63,1.333,Poisson,0.63
+55,Leucemia,212,Femenino,65+,2023,prueba,3.0,1.41,0.667,Poisson,1.59
+55,Leucemia,212,Femenino,65+,2024,prueba,2.0,1.806,1.667,Poisson,0.194
+55,Leucemia,212,Femenino,65+,2025,prueba,1.0,2.101,2.0,Poisson,1.101
+55,Leucemia,212,Femenino,65+,2026,pronóstico,,2.338,2.0,Poisson,
+56,Leucemia,212,Masculino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2011,entrenamiento,2.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2012,entrenamiento,2.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2013,entrenamiento,0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2014,entrenamiento,0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2015,entrenamiento,2.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2016,entrenamiento,1.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2017,entrenamiento,0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2018,entrenamiento,0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2019,entrenamiento,0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2020,entrenamiento,1.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2021,entrenamiento,0.0,,,Poisson,
+56,Leucemia,212,Masculino,0-14,2022,prueba,0.0,0.212,0.333,Poisson,0.212
+56,Leucemia,212,Masculino,0-14,2023,prueba,0.0,0.169,0.333,Poisson,0.169
+56,Leucemia,212,Masculino,0-14,2024,prueba,0.0,0.151,0.0,Poisson,0.151
+56,Leucemia,212,Masculino,0-14,2025,prueba,0.0,0.151,0.0,Poisson,0.151
+56,Leucemia,212,Masculino,0-14,2026,pronóstico,,0.156,0.0,Poisson,
+57,Leucemia,212,Masculino,15-44,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2011,entrenamiento,1.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2013,entrenamiento,2.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2014,entrenamiento,2.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2015,entrenamiento,1.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2016,entrenamiento,1.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2017,entrenamiento,2.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2018,entrenamiento,1.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2019,entrenamiento,0.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2020,entrenamiento,2.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2021,entrenamiento,0.0,,,Poisson,
+57,Leucemia,212,Masculino,15-44,2022,prueba,2.0,0.481,0.667,Poisson,1.519
+57,Leucemia,212,Masculino,15-44,2023,prueba,0.0,0.449,1.333,Poisson,0.449
+57,Leucemia,212,Masculino,15-44,2024,prueba,0.0,0.422,0.667,Poisson,0.422
+57,Leucemia,212,Masculino,15-44,2025,prueba,2.0,0.363,0.667,Poisson,1.637
+57,Leucemia,212,Masculino,15-44,2026,pronóstico,,0.465,0.667,Poisson,
+58,Leucemia,212,Masculino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2011,entrenamiento,0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2012,entrenamiento,1.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2013,entrenamiento,0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2014,entrenamiento,1.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2015,entrenamiento,1.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2016,entrenamiento,0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2017,entrenamiento,0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2018,entrenamiento,0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2019,entrenamiento,0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2020,entrenamiento,1.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2021,entrenamiento,0.0,,,Poisson,
+58,Leucemia,212,Masculino,45-64,2022,prueba,2.0,0.938,0.333,Poisson,1.062
+58,Leucemia,212,Masculino,45-64,2023,prueba,0.0,0.928,1.0,Poisson,0.928
+58,Leucemia,212,Masculino,45-64,2024,prueba,2.0,0.931,0.667,Poisson,1.069
+58,Leucemia,212,Masculino,45-64,2025,prueba,0.0,0.99,1.333,Poisson,0.99
+58,Leucemia,212,Masculino,45-64,2026,pronóstico,,0.98,0.667,Poisson,
+59,Leucemia,212,Masculino,65+,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2010,2008-2010 (solo rezagos),2.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2011,entrenamiento,2.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2012,entrenamiento,0.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2013,entrenamiento,0.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2014,entrenamiento,0.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2015,entrenamiento,3.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2016,entrenamiento,2.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2017,entrenamiento,2.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2018,entrenamiento,2.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2019,entrenamiento,4.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2020,entrenamiento,0.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2021,entrenamiento,1.0,,,Poisson,
+59,Leucemia,212,Masculino,65+,2022,prueba,1.0,1.665,1.667,Poisson,0.665
+59,Leucemia,212,Masculino,65+,2023,prueba,0.0,1.389,0.667,Poisson,1.389
+59,Leucemia,212,Masculino,65+,2024,prueba,2.0,1.357,0.667,Poisson,0.643
+59,Leucemia,212,Masculino,65+,2025,prueba,2.0,1.366,1.0,Poisson,0.634
+59,Leucemia,212,Masculino,65+,2026,pronóstico,,1.929,1.333,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2011,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2012,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2013,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2014,entrenamiento,1.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2015,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2016,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2017,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2018,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2019,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2020,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2021,entrenamiento,0.0,,,Poisson,
+60,Linfático y hematopoyético,213,Femenino,0-14,2022,prueba,0.0,0.165,0.0,Poisson,0.165
+60,Linfático y hematopoyético,213,Femenino,0-14,2023,prueba,0.0,0.145,0.0,Poisson,0.145
+60,Linfático y hematopoyético,213,Femenino,0-14,2024,prueba,0.0,0.145,0.0,Poisson,0.145
+60,Linfático y hematopoyético,213,Femenino,0-14,2025,prueba,0.0,0.145,0.0,Poisson,0.145
+60,Linfático y hematopoyético,213,Femenino,0-14,2026,pronóstico,,0.157,0.0,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2011,entrenamiento,2.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2012,entrenamiento,1.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2013,entrenamiento,1.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2014,entrenamiento,0.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2015,entrenamiento,0.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2016,entrenamiento,1.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2017,entrenamiento,1.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2018,entrenamiento,2.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2019,entrenamiento,1.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2020,entrenamiento,3.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2021,entrenamiento,0.0,,,Poisson,
+61,Linfático y hematopoyético,213,Femenino,45-64,2022,prueba,0.0,1.235,1.333,Poisson,1.235
+61,Linfático y hematopoyético,213,Femenino,45-64,2023,prueba,0.0,0.801,1.0,Poisson,0.801
+61,Linfático y hematopoyético,213,Femenino,45-64,2024,prueba,2.0,0.641,0.0,Poisson,1.359
+61,Linfático y hematopoyético,213,Femenino,45-64,2025,prueba,0.0,0.794,0.667,Poisson,0.794
+61,Linfático y hematopoyético,213,Femenino,45-64,2026,pronóstico,,0.985,0.667,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2010,2008-2010 (solo rezagos),2.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2011,entrenamiento,0.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2012,entrenamiento,0.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2013,entrenamiento,1.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2014,entrenamiento,2.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2015,entrenamiento,1.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2016,entrenamiento,0.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2017,entrenamiento,4.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2018,entrenamiento,1.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2019,entrenamiento,1.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2020,entrenamiento,2.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2021,entrenamiento,3.0,,,Poisson,
+62,Linfático y hematopoyético,213,Femenino,65+,2022,prueba,1.0,2.187,2.0,Poisson,1.187
+62,Linfático y hematopoyético,213,Femenino,65+,2023,prueba,1.0,1.953,2.0,Poisson,0.953
+62,Linfático y hematopoyético,213,Femenino,65+,2024,prueba,3.0,1.662,1.667,Poisson,1.338
+62,Linfático y hematopoyético,213,Femenino,65+,2025,prueba,6.0,1.702,1.667,Poisson,4.298
+62,Linfático y hematopoyético,213,Femenino,65+,2026,pronóstico,,2.794,3.333,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2011,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2013,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2015,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2016,entrenamiento,1.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2017,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2018,entrenamiento,1.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2019,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2020,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2021,entrenamiento,0.0,,,Poisson,
+63,Linfático y hematopoyético,213,Masculino,15-44,2022,prueba,1.0,0.326,0.0,Poisson,0.674
+63,Linfático y hematopoyético,213,Masculino,15-44,2023,prueba,2.0,0.328,0.333,Poisson,1.672
+63,Linfático y hematopoyético,213,Masculino,15-44,2024,prueba,0.0,0.437,1.0,Poisson,0.437
+63,Linfático y hematopoyético,213,Masculino,15-44,2025,prueba,1.0,0.445,1.0,Poisson,0.555
+63,Linfático y hematopoyético,213,Masculino,15-44,2026,pronóstico,,0.514,1.0,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2011,entrenamiento,1.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2012,entrenamiento,0.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2013,entrenamiento,4.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2014,entrenamiento,1.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2015,entrenamiento,3.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2016,entrenamiento,0.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2017,entrenamiento,0.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2018,entrenamiento,1.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2019,entrenamiento,1.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2020,entrenamiento,2.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2021,entrenamiento,1.0,,,Poisson,
+64,Linfático y hematopoyético,213,Masculino,45-64,2022,prueba,0.0,1.278,1.333,Poisson,1.278
+64,Linfático y hematopoyético,213,Masculino,45-64,2023,prueba,2.0,0.927,1.0,Poisson,1.073
+64,Linfático y hematopoyético,213,Masculino,45-64,2024,prueba,0.0,0.874,1.0,Poisson,0.874
+64,Linfático y hematopoyético,213,Masculino,45-64,2025,prueba,0.0,0.877,0.667,Poisson,0.877
+64,Linfático y hematopoyético,213,Masculino,45-64,2026,pronóstico,,0.936,0.667,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2011,entrenamiento,0.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2012,entrenamiento,2.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2013,entrenamiento,0.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2014,entrenamiento,6.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2015,entrenamiento,2.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2016,entrenamiento,1.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2017,entrenamiento,1.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2018,entrenamiento,2.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2019,entrenamiento,2.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2020,entrenamiento,2.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2021,entrenamiento,0.0,,,Poisson,
+65,Linfático y hematopoyético,213,Masculino,65+,2022,prueba,2.0,1.754,1.333,Poisson,0.246
+65,Linfático y hematopoyético,213,Masculino,65+,2023,prueba,2.0,1.374,1.333,Poisson,0.626
+65,Linfático y hematopoyético,213,Masculino,65+,2024,prueba,4.0,1.6,1.333,Poisson,2.4
+65,Linfático y hematopoyético,213,Masculino,65+,2025,prueba,2.0,2.11,2.667,Poisson,0.11
+65,Linfático y hematopoyético,213,Masculino,65+,2026,pronóstico,,2.586,2.667,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2011,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2012,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2013,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2014,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2015,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2016,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2017,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2018,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2019,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2020,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2021,entrenamiento,0.0,,,Poisson,
+66,Otras localizaciones,214,Femenino,0-14,2022,prueba,0.0,0.31,0.0,Poisson,0.31
+66,Otras localizaciones,214,Femenino,0-14,2023,prueba,0.0,0.273,0.0,Poisson,0.273
+66,Otras localizaciones,214,Femenino,0-14,2024,prueba,0.0,0.273,0.0,Poisson,0.273
+66,Otras localizaciones,214,Femenino,0-14,2025,prueba,2.0,0.273,0.0,Poisson,1.727
+66,Otras localizaciones,214,Femenino,0-14,2026,pronóstico,,0.377,0.667,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2009,2008-2010 (solo rezagos),2.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2011,entrenamiento,1.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2012,entrenamiento,1.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2013,entrenamiento,2.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2014,entrenamiento,0.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2016,entrenamiento,2.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2017,entrenamiento,1.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2018,entrenamiento,2.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2020,entrenamiento,0.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2021,entrenamiento,1.0,,,Poisson,
+67,Otras localizaciones,214,Femenino,15-44,2022,prueba,0.0,0.715,0.333,Poisson,0.715
+67,Otras localizaciones,214,Femenino,15-44,2023,prueba,0.0,0.675,0.333,Poisson,0.675
+67,Otras localizaciones,214,Femenino,15-44,2024,prueba,0.0,0.613,0.333,Poisson,0.613
+67,Otras localizaciones,214,Femenino,15-44,2025,prueba,3.0,0.549,0.0,Poisson,2.451
+67,Otras localizaciones,214,Femenino,15-44,2026,pronóstico,,0.95,1.0,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2010,2008-2010 (solo rezagos),3.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2011,entrenamiento,2.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2012,entrenamiento,3.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2013,entrenamiento,2.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2014,entrenamiento,4.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2015,entrenamiento,0.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2016,entrenamiento,4.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2017,entrenamiento,6.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2018,entrenamiento,2.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2019,entrenamiento,2.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2020,entrenamiento,1.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2021,entrenamiento,2.0,,,Poisson,
+68,Otras localizaciones,214,Femenino,45-64,2022,prueba,8.0,2.503,1.667,Poisson,5.497
+68,Otras localizaciones,214,Femenino,45-64,2023,prueba,3.0,2.883,3.667,Poisson,0.117
+68,Otras localizaciones,214,Femenino,45-64,2024,prueba,2.0,3.651,4.333,Poisson,1.651
+68,Otras localizaciones,214,Femenino,45-64,2025,prueba,6.0,3.232,4.333,Poisson,2.768
+68,Otras localizaciones,214,Femenino,45-64,2026,pronóstico,,3.652,3.667,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2008,2008-2010 (solo rezagos),3.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2009,2008-2010 (solo rezagos),6.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2010,2008-2010 (solo rezagos),7.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2011,entrenamiento,5.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2012,entrenamiento,11.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2013,entrenamiento,12.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2014,entrenamiento,7.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2015,entrenamiento,7.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2016,entrenamiento,9.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2017,entrenamiento,6.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2018,entrenamiento,8.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2019,entrenamiento,10.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2020,entrenamiento,8.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2021,entrenamiento,8.0,,,Poisson,
+69,Otras localizaciones,214,Femenino,65+,2022,prueba,8.0,8.835,8.667,Poisson,0.835
+69,Otras localizaciones,214,Femenino,65+,2023,prueba,6.0,7.517,8.0,Poisson,1.517
+69,Otras localizaciones,214,Femenino,65+,2024,prueba,9.0,7.157,7.333,Poisson,1.843
+69,Otras localizaciones,214,Femenino,65+,2025,prueba,10.0,7.117,7.667,Poisson,2.883
+69,Otras localizaciones,214,Femenino,65+,2026,pronóstico,,8.97,8.333,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2011,entrenamiento,1.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2012,entrenamiento,0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2013,entrenamiento,1.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2014,entrenamiento,0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2015,entrenamiento,0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2016,entrenamiento,1.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2017,entrenamiento,0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2018,entrenamiento,1.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2019,entrenamiento,0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2020,entrenamiento,0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2021,entrenamiento,0.0,,,Poisson,
+70,Otras localizaciones,214,Masculino,0-14,2022,prueba,0.0,0.306,0.0,Poisson,0.306
+70,Otras localizaciones,214,Masculino,0-14,2023,prueba,0.0,0.269,0.0,Poisson,0.269
+70,Otras localizaciones,214,Masculino,0-14,2024,prueba,0.0,0.269,0.0,Poisson,0.269
+70,Otras localizaciones,214,Masculino,0-14,2025,prueba,0.0,0.269,0.0,Poisson,0.269
+70,Otras localizaciones,214,Masculino,0-14,2026,pronóstico,,0.294,0.0,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2011,entrenamiento,1.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2013,entrenamiento,0.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2015,entrenamiento,0.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2016,entrenamiento,2.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2017,entrenamiento,0.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2018,entrenamiento,0.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2019,entrenamiento,1.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2020,entrenamiento,2.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2021,entrenamiento,0.0,,,Poisson,
+71,Otras localizaciones,214,Masculino,15-44,2022,prueba,0.0,0.955,1.0,Poisson,0.955
+71,Otras localizaciones,214,Masculino,15-44,2023,prueba,3.0,0.645,0.667,Poisson,2.355
+71,Otras localizaciones,214,Masculino,15-44,2024,prueba,1.0,0.708,1.0,Poisson,0.292
+71,Otras localizaciones,214,Masculino,15-44,2025,prueba,1.0,0.937,1.333,Poisson,0.063
+71,Otras localizaciones,214,Masculino,15-44,2026,pronóstico,,1.2,1.667,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2009,2008-2010 (solo rezagos),4.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2011,entrenamiento,4.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2012,entrenamiento,5.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2013,entrenamiento,0.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2014,entrenamiento,4.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2015,entrenamiento,2.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2016,entrenamiento,4.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2017,entrenamiento,2.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2018,entrenamiento,4.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2019,entrenamiento,3.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2020,entrenamiento,4.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2021,entrenamiento,0.0,,,Poisson,
+72,Otras localizaciones,214,Masculino,45-64,2022,prueba,0.0,2.742,2.333,Poisson,2.742
+72,Otras localizaciones,214,Masculino,45-64,2023,prueba,4.0,1.542,1.333,Poisson,2.458
+72,Otras localizaciones,214,Masculino,45-64,2024,prueba,1.0,1.63,1.333,Poisson,0.63
+72,Otras localizaciones,214,Masculino,45-64,2025,prueba,2.0,2.207,1.667,Poisson,0.207
+72,Otras localizaciones,214,Masculino,45-64,2026,pronóstico,,2.864,2.333,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2008,2008-2010 (solo rezagos),7.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2010,2008-2010 (solo rezagos),5.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2011,entrenamiento,2.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2012,entrenamiento,4.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2013,entrenamiento,6.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2014,entrenamiento,8.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2015,entrenamiento,3.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2016,entrenamiento,3.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2017,entrenamiento,4.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2018,entrenamiento,6.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2019,entrenamiento,4.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2020,entrenamiento,8.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2021,entrenamiento,5.0,,,Poisson,
+73,Otras localizaciones,214,Masculino,65+,2022,prueba,5.0,7.082,5.667,Poisson,2.082
+73,Otras localizaciones,214,Masculino,65+,2023,prueba,5.0,6.058,6.0,Poisson,1.058
+73,Otras localizaciones,214,Masculino,65+,2024,prueba,6.0,5.676,5.0,Poisson,0.324
+73,Otras localizaciones,214,Masculino,65+,2025,prueba,8.0,5.849,5.333,Poisson,2.151
+73,Otras localizaciones,214,Masculino,65+,2026,pronóstico,,7.589,6.333,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2011,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2012,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2013,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2014,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2015,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2016,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2017,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2018,entrenamiento,1.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2019,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2020,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2021,entrenamiento,0.0,,,Poisson,
+74,In situ / benignos / incierto,215,Femenino,0-14,2022,prueba,0.0,0.178,0.0,Poisson,0.178
+74,In situ / benignos / incierto,215,Femenino,0-14,2023,prueba,1.0,0.157,0.0,Poisson,0.843
+74,In situ / benignos / incierto,215,Femenino,0-14,2024,prueba,0.0,0.179,0.333,Poisson,0.179
+74,In situ / benignos / incierto,215,Femenino,0-14,2025,prueba,0.0,0.193,0.333,Poisson,0.193
+74,In situ / benignos / incierto,215,Femenino,0-14,2026,pronóstico,,0.193,0.333,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2011,entrenamiento,0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2012,entrenamiento,1.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2013,entrenamiento,0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2014,entrenamiento,0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2015,entrenamiento,0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2016,entrenamiento,0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2017,entrenamiento,2.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2018,entrenamiento,0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2019,entrenamiento,0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2020,entrenamiento,1.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2021,entrenamiento,0.0,,,Poisson,
+75,In situ / benignos / incierto,215,Femenino,15-44,2022,prueba,0.0,0.441,0.333,Poisson,0.441
+75,In situ / benignos / incierto,215,Femenino,15-44,2023,prueba,0.0,0.352,0.333,Poisson,0.352
+75,In situ / benignos / incierto,215,Femenino,15-44,2024,prueba,0.0,0.315,0.0,Poisson,0.315
+75,In situ / benignos / incierto,215,Femenino,15-44,2025,prueba,0.0,0.315,0.0,Poisson,0.315
+75,In situ / benignos / incierto,215,Femenino,15-44,2026,pronóstico,,0.402,0.0,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2011,entrenamiento,1.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2012,entrenamiento,3.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2013,entrenamiento,1.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2014,entrenamiento,2.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2015,entrenamiento,0.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2016,entrenamiento,4.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2017,entrenamiento,2.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2018,entrenamiento,1.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2019,entrenamiento,0.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2020,entrenamiento,0.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2021,entrenamiento,2.0,,,Poisson,
+76,In situ / benignos / incierto,215,Femenino,45-64,2022,prueba,1.0,0.978,0.667,Poisson,0.022
+76,In situ / benignos / incierto,215,Femenino,45-64,2023,prueba,3.0,1.104,1.0,Poisson,1.896
+76,In situ / benignos / incierto,215,Femenino,45-64,2024,prueba,1.0,1.336,2.0,Poisson,0.336
+76,In situ / benignos / incierto,215,Femenino,45-64,2025,prueba,3.0,1.345,1.667,Poisson,1.655
+76,In situ / benignos / incierto,215,Femenino,45-64,2026,pronóstico,,1.687,2.333,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2008,2008-2010 (solo rezagos),1.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2009,2008-2010 (solo rezagos),3.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2010,2008-2010 (solo rezagos),1.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2011,entrenamiento,0.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2012,entrenamiento,2.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2013,entrenamiento,1.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2014,entrenamiento,4.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2015,entrenamiento,6.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2016,entrenamiento,2.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2017,entrenamiento,1.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2018,entrenamiento,5.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2019,entrenamiento,5.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2020,entrenamiento,3.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2021,entrenamiento,2.0,,,Poisson,
+77,In situ / benignos / incierto,215,Femenino,65+,2022,prueba,2.0,2.911,3.333,Poisson,0.911
+77,In situ / benignos / incierto,215,Femenino,65+,2023,prueba,3.0,2.199,2.333,Poisson,0.801
+77,In situ / benignos / incierto,215,Femenino,65+,2024,prueba,2.0,2.221,2.333,Poisson,0.221
+77,In situ / benignos / incierto,215,Femenino,65+,2025,prueba,4.0,2.288,2.333,Poisson,1.712
+77,In situ / benignos / incierto,215,Femenino,65+,2026,pronóstico,,3.014,3.0,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2011,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2012,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2013,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2014,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2015,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2016,entrenamiento,1.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2017,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2018,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2019,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2020,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2021,entrenamiento,0.0,,,Poisson,
+78,In situ / benignos / incierto,215,Masculino,0-14,2022,prueba,1.0,0.176,0.0,Poisson,0.824
+78,In situ / benignos / incierto,215,Masculino,0-14,2023,prueba,0.0,0.177,0.333,Poisson,0.177
+78,In situ / benignos / incierto,215,Masculino,0-14,2024,prueba,0.0,0.19,0.333,Poisson,0.19
+78,In situ / benignos / incierto,215,Masculino,0-14,2025,prueba,0.0,0.172,0.333,Poisson,0.172
+78,In situ / benignos / incierto,215,Masculino,0-14,2026,pronóstico,,0.166,0.0,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2011,entrenamiento,0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2012,entrenamiento,0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2013,entrenamiento,0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2014,entrenamiento,0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2015,entrenamiento,1.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2016,entrenamiento,0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2017,entrenamiento,1.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2018,entrenamiento,0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2019,entrenamiento,0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2020,entrenamiento,1.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2021,entrenamiento,0.0,,,Poisson,
+79,In situ / benignos / incierto,215,Masculino,15-44,2022,prueba,0.0,0.434,0.333,Poisson,0.434
+79,In situ / benignos / incierto,215,Masculino,15-44,2023,prueba,0.0,0.347,0.333,Poisson,0.347
+79,In situ / benignos / incierto,215,Masculino,15-44,2024,prueba,1.0,0.31,0.0,Poisson,0.69
+79,In situ / benignos / incierto,215,Masculino,15-44,2025,prueba,0.0,0.355,0.333,Poisson,0.355
+79,In situ / benignos / incierto,215,Masculino,15-44,2026,pronóstico,,0.455,0.333,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2008,2008-2010 (solo rezagos),0.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2009,2008-2010 (solo rezagos),0.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2010,2008-2010 (solo rezagos),0.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2011,entrenamiento,1.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2012,entrenamiento,1.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2013,entrenamiento,4.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2014,entrenamiento,0.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2015,entrenamiento,1.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2016,entrenamiento,1.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2017,entrenamiento,1.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2018,entrenamiento,0.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2019,entrenamiento,0.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2020,entrenamiento,1.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2021,entrenamiento,1.0,,,Poisson,
+80,In situ / benignos / incierto,215,Masculino,45-64,2022,prueba,0.0,1.096,0.667,Poisson,1.096
+80,In situ / benignos / incierto,215,Masculino,45-64,2023,prueba,2.0,0.94,0.667,Poisson,1.06
+80,In situ / benignos / incierto,215,Masculino,45-64,2024,prueba,2.0,0.947,1.0,Poisson,1.053
+80,In situ / benignos / incierto,215,Masculino,45-64,2025,prueba,1.0,1.177,1.333,Poisson,0.177
+80,In situ / benignos / incierto,215,Masculino,45-64,2026,pronóstico,,1.475,1.667,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2008,2008-2010 (solo rezagos),2.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2009,2008-2010 (solo rezagos),1.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2010,2008-2010 (solo rezagos),4.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2011,entrenamiento,1.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2012,entrenamiento,0.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2013,entrenamiento,1.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2014,entrenamiento,3.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2015,entrenamiento,4.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2016,entrenamiento,2.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2017,entrenamiento,0.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2018,entrenamiento,1.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2019,entrenamiento,0.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2020,entrenamiento,0.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2021,entrenamiento,1.0,,,Poisson,
+81,In situ / benignos / incierto,215,Masculino,65+,2022,prueba,2.0,1.311,0.333,Poisson,0.689
+81,In situ / benignos / incierto,215,Masculino,65+,2023,prueba,1.0,1.534,1.0,Poisson,0.534
+81,In situ / benignos / incierto,215,Masculino,65+,2024,prueba,2.0,1.79,1.333,Poisson,0.21
+81,In situ / benignos / incierto,215,Masculino,65+,2025,prueba,3.0,1.831,1.667,Poisson,1.169
+81,In situ / benignos / incierto,215,Masculino,65+,2026,pronóstico,,2.478,2.0,Poisson,
